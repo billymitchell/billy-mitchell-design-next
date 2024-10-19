@@ -2,12 +2,13 @@
 
 import React, { useState, useEffect } from 'react';
 import { fetchPortfolioButtons } from "./fetchPortfolioButtons";
+import PortfolioContent from "./PortfolioContent";
 import { useRouter } from 'next/navigation';
 import { useSearchParams } from 'next/navigation';
 
 
-// Portfolio Work
-import PortfolioContent from "../../components/portfolio/featured/creative-disciplines-featured/PortfolioContent";
+
+
 
 const Portfolio = () => {
     const router = useRouter();
@@ -17,9 +18,8 @@ const Portfolio = () => {
 
 
     const search = searchParams.get('search');
-    //const [discipline, setDiscipline] = useState("");
     const [buttons, setButtons] = useState([]);
-    const [featuredData, setFeaturedData] = useState([]);
+    const [selectedDiscipline, setSelectedDiscipline] = useState("Featured");
 
     useEffect(() => {
         const fetchButtons = async () => {
@@ -30,9 +30,9 @@ const Portfolio = () => {
     }, []);
 
     const onButtonClick = (event) => {
-        const selectedDiscipline = event.target.getAttribute('discipline');
+        const clickedDiscipline = event.target.getAttribute('discipline');
         if (selectedDiscipline) {
-            setDiscipline(selectedDiscipline); // Fixed here
+            setSelectedDiscipline(clickedDiscipline);
         }
     };
 
@@ -124,7 +124,7 @@ const Portfolio = () => {
             </div>
             <div className="outer-container">
                 <div className="inner-width-full">
-                    <PortfolioContent discipline={discipline} />
+                    <PortfolioContent selectedDiscipline={selectedDiscipline} />
                     <div className="text-center padding-top-15 padding-bottom-15">
                         <a href="/portfolio/all">View All Other Published Portfolio Work</a>
                     </div>

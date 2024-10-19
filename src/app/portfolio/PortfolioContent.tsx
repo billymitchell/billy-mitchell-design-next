@@ -1,16 +1,16 @@
 'use client';
 
-import React from 'react';
-import ClientMasonry from "../../../utilities/clientMasonry";
-import InViewAnimationTwo from "../../../utilities/InViewAnimationTwo";
+import React, { useState, useEffect } from 'react';
+import ClientMasonry from "../../components/utilities/clientMasonry";
+import InViewAnimationTwo from "../../components/utilities/InViewAnimationTwo";
 import Link from 'next/link';
-import { fetchPortfolioData } from "../../../../components/utilities/fetchPortfolioData"
+import { fetchPortfolioData } from "../../components/utilities/fetchPortfolioData"
 
 
 
 
-const sortItemsByDate = (itemsArray) => {
-  return itemsArray.sort((firstObject, secondObject) => {
+const sortItemsByDate = (selectedPortfolioContent) => {
+  return selectedPortfolioContent.sort((firstObject, secondObject) => {
     let dateA = firstObject['End Date'] ? new Date(firstObject['End Date']) : null;
     let dateB = secondObject['End Date'] ? new Date(secondObject['End Date']) : null;
 
@@ -54,8 +54,8 @@ const IfFeaturedImage = (portfolioItem) => {
   }
 };
 
-const renderPortfolioContent = (discipline) => {
-  return discipline.map((portfolioItem, index) => {
+const renderPortfolioContent = (selectedPortfolioContent) => {
+  return selectedPortfolioContent.map((portfolioItem, index) => {
     const projectTitle = portfolioItem["Project Title"] || "Untitled Project";
 
     return (
@@ -75,12 +75,40 @@ const renderPortfolioContent = (discipline) => {
   });
 };
 
-const PortfolioContent = ({ discipline = [] }) => {
-  if (!Array.isArray(discipline)) {
-    discipline = [];
-  }
+const PortfolioContent = ({ selectedDiscipline = [] }) => {
 
-  sortItemsByDate(discipline);
+  const [portfolioData, setPortfolioData] = useState([]);
+
+  useEffect(() => {
+    const fetchPortfolio = async () => {
+      const portfolioData = await fetchPortfolioData();
+      setPortfolioData(portfolioData);
+    };
+    fetchPortfolio();
+  }, []);
+
+
+  let selectedPortfolioContent = []
+
+  portfolioData.forEach(portfolioItem => {
+
+
+    if (portfolioItem.Published) {
+
+      if (selectedDiscipline === "Featured") {
+        if (portfolioItem.Featured) {
+          selectedPortfolioContent.push(portfolioItem)
+        }
+
+      } else {
+        if (portfolioItem["Creative Discipline"].includes(selectedDiscipline)) {
+          selectedPortfolioContent.push(portfolioItem)
+        }
+      }
+    }
+  });
+
+  sortItemsByDate(selectedPortfolioContent);
 
   const breakpointCols = {
     default: 3,
@@ -96,7 +124,7 @@ const PortfolioContent = ({ discipline = [] }) => {
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column"
       >
-        {renderPortfolioContent(discipline)}
+        {renderPortfolioContent(selectedPortfolioContent)}
       </ClientMasonry>
     </div>
   );
