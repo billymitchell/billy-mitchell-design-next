@@ -1,0 +1,313 @@
+$brand-gradient: linear-gradient(90deg,
+  hsla(141, 76%, 38%, 1) 0%,
+  hsla(201, 95%, 39%, 1) 100%);
+
+$blue-dark-9:hsla(203, 13%, 12%, 1);
+$blue-dark-8:hsla(206, 20%, 16%, 1);
+$blue-dark-7:hsla(205, 24%, 20%, 1);
+$blue-dark-6:hsla(206, 29%, 24%, 1);
+$blue-dark-5:hsla(206, 35%, 28%, 1);
+$blue-dark-4:hsla(206, 40%, 31%, 1);
+$blue-dark-3:hsla(206, 46%, 35%, 1);
+$blue-dark-2:hsla(205, 55%, 38%, 1);
+$blue-dark-1: hsla(204, 66%, 40%, 1);
+$blue: hsla(201, 95%, 39%, 1);
+$blue-light-1: hsla(205, 58%, 53%, 1);
+$blue-light-2: hsla(206, 57%, 61%, 1);
+$blue-light-3: hsla(204, 59%, 68%, 1);
+$blue-light-4: hsla(200, 60%, 75%, 1);
+
+$brand-dark-9: hsla(156, 11%, 9%, 1);
+$brand-dark-8:hsla(156, 18%, 11%, 1);
+$brand-dark-7:hsla(156, 23%, 13%, 1);
+$brand-dark-6:hsla(154, 29%, 14%, 1);
+$brand-dark-5:hsla(156, 34%, 15%, 1);
+$brand-dark-4:hsla(154, 41%, 17%, 1);
+$brand-dark-3:hsla(156, 48%, 17%, 1);
+$brand-dark-2:hsla(157, 58%, 18%, 1);
+$brand-dark-1:hsla(158, 72%, 18%, 1);
+$brand: hsla(161, 98%, 17%, 1);
+$brand-light-1: hsla(167, 80%, 25%, 1);
+$brand-light-2: hsla(170, 51%, 37%, 1);
+$brand-light-3: hsla(172, 34%, 54%, 1);
+$brand-light-4: hsla(172, 35%, 75%, 1);
+
+$green-dark-9:hsla(137, 12%, 12%, 1);
+$green-dark-8:hsla(140, 19%, 15%, 1);
+$green-dark-7:hsla(138, 24%, 19%, 1);
+$green-dark-6:hsla(136, 29%, 23%, 1);
+$green-dark-5:hsla(135, 33%, 26%, 1);
+$green-dark-4:hsla(135, 38%, 29%, 1);
+$green-dark-3:hsla(135, 43%, 33%, 1);
+$green-dark-2:hsla(135, 50%, 35%, 1);
+$green-dark-1:hsla(137, 59%, 37%, 1);
+$green: hsla(141, 76%, 38%, 1);
+$green-light-1: hsla(141, 45%, 50%, 1);
+$green-light-2: hsla(141, 41%, 62%, 1);
+$green-light-3: hsla(140, 38%, 75%, 1);
+$green-light-4: hsla(138, 36%, 87%, 1);
+
+$black: hsla(0, 0%, 6%, 1);
+$gray-1: hsla(20, 3%, 20%, 1);
+$gray-2: hsla(0, 2%, 34%, 1);
+$gray-3: hsla(0, 2%, 50%, 1);
+$gray-4: hsla(340, 2%, 70%, 1);
+$white: hsla(0, 0%, 97%, 1);
+
+$transparent: hsla(0, 0%, 0%, 0);
+
+
+.service {
+  background-color: $brand;
+}
+
+
+.bg-transparent {
+  background: $transparent;
+}
+
+//Set text color based on bg color
+@function set-text-color($bg-color) {
+
+  //if bg is lighter then 69%
+  @if (lightness($bg-color) > 69) {
+    //Set to black
+    @return $black;
+  }
+
+  @else {
+    //Set to white
+    @return $white;
+  }
+}
+
+//Set link hover color
+@function set-link-toggle($bg-color) {
+
+  //if bg color is lighter then 19%
+  @if (lightness($bg-color) > 19) {
+    //bring color closer to max dark by - 50%
+    @return scale-color($bg-color, $lightness: -50%);
+  }
+
+  @else {
+    //bring color closer to max light by - 25%
+    @return scale-color($bg-color, $lightness: 25%);
+  }
+}
+
+//Set bg color, text color and link hover
+@mixin set-background($bg-color) {
+  background: $bg-color;
+  color: set-text-color($bg-color);
+
+  & a {
+    color: set-text-color($bg-color);
+  }
+
+  & a:hover {
+    color: set-link-toggle($bg-color);
+  }
+}
+
+
+.bg-gradient {
+  background: $brand-gradient
+}
+
+
+//Blue Color
+.bg-blue-dark-9 {
+  @include set-background($blue-dark-9);
+}
+
+.bg-blue-dark-8 {
+  @include set-background($blue-dark-8);
+}
+
+.bg-blue-dark-7 {
+  @include set-background($blue-dark-7);
+}
+
+.bg-blue-dark-6 {
+  @include set-background($blue-dark-6);
+}
+
+.bg-blue-dark-5 {
+  @include set-background($blue-dark-5);
+}
+
+.bg-blue-dark-4 {
+  @include set-background($blue-dark-4);
+}
+
+.bg-blue-dark-3 {
+  @include set-background($blue-dark-3);
+}
+
+.bg-blue-dark-2 {
+  @include set-background($blue-dark-2);
+}
+
+.bg-blue-dark-1 {
+  @include set-background($blue-dark-1);
+}
+
+.bg-blue {
+  @include set-background($blue);
+}
+
+.bg-blue-light-1 {
+  @include set-background($blue-light-1);
+}
+
+.bg-blue-light-2 {
+  @include set-background($blue-light-2);
+}
+
+.bg-blue-light-3 {
+  @include set-background($blue-light-3);
+}
+
+.bg-blue-light-4 {
+  @include set-background($blue-light-4);
+}
+
+//Brand Color
+.bg-brand-dark-9 {
+  @include set-background($brand-dark-9);
+}
+
+.bg-brand-dark-8 {
+  @include set-background($brand-dark-8);
+}
+
+.bg-brand-dark-7 {
+  @include set-background($brand-dark-7);
+}
+
+.bg-brand-dark-6 {
+  @include set-background($brand-dark-6);
+}
+
+.bg-brand-dark-5 {
+  @include set-background($brand-dark-5);
+}
+
+.bg-brand-dark-4 {
+  @include set-background($brand-dark-4);
+}
+
+.bg-brand-dark-3 {
+  @include set-background($brand-dark-3);
+}
+
+.bg-brand-dark-2 {
+  @include set-background($brand-dark-2);
+}
+
+.bg-brand-dark-1 {
+  @include set-background($brand-dark-1);
+}
+
+.bg-brand {
+  @include set-background($brand);
+}
+
+.bg-brand-light-1 {
+  @include set-background($brand-light-1);
+}
+
+.bg-brand-light-2 {
+  @include set-background($brand-light-2);
+}
+
+.bg-brand-light-3 {
+  @include set-background($brand-light-3);
+}
+
+.bg-brand-light-4 {
+  @include set-background($brand-light-4);
+}
+
+//Greens
+.bg-green-dark9 {
+  @include set-background($green-dark-9);
+}
+
+.bg-green-dark-8 {
+  @include set-background($green-dark-8);
+}
+
+.bg-green-dark-7 {
+  @include set-background($green-dark-7);
+}
+
+.bg-green-dark-6 {
+  @include set-background($green-dark-6);
+}
+
+.bg-green-dark-5 {
+  @include set-background($green-dark-5);
+}
+
+.bg-green-dark-4 {
+  @include set-background($green-dark-4);
+}
+
+.bg-green-dark-3 {
+  @include set-background($green-dark-3);
+}
+
+.bg-green-dark-2 {
+  @include set-background($green-dark-2);
+}
+
+.bg-green-dark-1 {
+  @include set-background($green-dark-1);
+}
+
+.bg-green {
+  @include set-background($green);
+}
+
+.bg-green-light-1 {
+  @include set-background($green-light-1);
+}
+
+.bg-green-light-2 {
+  @include set-background($green-light-2);
+}
+
+.bg-green-light-3 {
+  @include set-background($green-light-3);
+}
+
+.bg-green-light-4 {
+  @include set-background($green-light-4);
+}
+
+//Nutrals
+.bg-black {
+  @include set-background($black);
+}
+
+.bg-gray-1 {
+  @include set-background($gray-1);
+}
+
+.bg-gray-2 {
+  @include set-background($gray-2);
+}
+
+.bg-gray-3 {
+  @include set-background($gray-3);
+}
+
+.bg-gray-4 {
+  @include set-background($gray-4);
+}
+
+.bg-white {
+  @include set-background($white);
+}

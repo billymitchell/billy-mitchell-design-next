@@ -1,0 +1,164 @@
+@import "../styles/typography";
+
+$units: (
+  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+    29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53
+    54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78
+    79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100
+);
+
+//$spacer is a unit from typography
+
+@each $spacer in $units {
+  .margin-#{$spacer} {
+    margin: #{$spacer}px;
+  }
+
+  .margin-top-#{$spacer} {
+    margin-top: calc(#{$spacer} * 1px);
+  }
+
+  .margin-left-#{$spacer} {
+    margin-left: calc(#{$spacer} * 1px);
+  }
+
+  .margin-right-#{$spacer} {
+    margin-right: calc(#{$spacer} * 1px);
+  }
+
+  .margin-bottom-#{$spacer} {
+    margin-bottom: calc(#{$spacer} * 1px);
+  }
+
+  .padding-#{$spacer} {
+    padding: calc(#{$spacer} * 1px);
+  }
+
+  .padding-top-#{$spacer} {
+    padding-top: calc(#{$spacer} * 1px);
+  }
+
+  .padding-left-#{$spacer} {
+    padding-left: calc(#{$spacer} * 1px);
+  }
+
+  .padding-right-#{$spacer} {
+    padding-right: calc(#{$spacer} * 1px);
+  }
+
+  .padding-bottom-#{$spacer} {
+    padding-bottom: calc(#{$spacer} * 1px);
+  }
+
+  // width
+
+  .w-#{$spacer} {
+    width: #{$spacer}px;
+  }
+
+  .max-width-#{$spacer}px {
+    max-width: calc((#{$spacer} * 1px));
+  }
+
+  .max-width-#{$spacer}vw {
+    max-width: calc((#{$spacer} * 1vw));
+  }
+
+  // Col Gap
+
+  .col-gap-#{$spacer} {
+    gap: #{$spacer}px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .midsize-margin-#{$spacer} {
+      margin: #{$spacer}px !important;
+    }
+
+    .midsize-margin-top-#{$spacer} {
+      margin-top: calc(#{$spacer} * 1px) !important;
+    }
+
+    .midsize-margin-left-#{$spacer} {
+      margin-left: calc(#{$spacer} * 1px) !important;
+    }
+
+    .midsize-margin-right-#{$spacer} {
+      margin-right: calc(#{$spacer} * 1px) !important;
+    }
+
+    .midsize-margin-bottom-#{$spacer} {
+      margin-bottom: calc(#{$spacer} * 1px) !important;
+    }
+
+    .midsize-padding-#{$spacer} {
+      padding: calc(#{$spacer} * 1px) !important;
+    }
+
+    .midsize-padding-top-#{$spacer} {
+      padding-top: calc(#{$spacer} * 1px) !important;
+    }
+
+    .midsize-padding-left-#{$spacer} {
+      padding-left: calc(#{$spacer} * 1px) !important;
+    }
+
+    .midsize-padding-right-#{$spacer} {
+      padding-right: calc(#{$spacer} * 1px) !important;
+    }
+
+    .midsize-padding-bottom-#{$spacer} {
+      padding-bottom: calc(#{$spacer} * 1px) !important;
+    }
+
+    .midsize-col-gap-#{$spacer} {
+      gap: #{$spacer}px !important;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .small-margin-#{$spacer} {
+      margin: #{$spacer}px !important;
+    }
+
+    .small-margin-top-#{$spacer} {
+      margin-top: calc(#{$spacer} * 1px) !important;
+    }
+
+    .small-margin-left-#{$spacer} {
+      margin-left: calc(#{$spacer} * 1px) !important;
+    }
+
+    .small-margin-right-#{$spacer} {
+      margin-right: calc(#{$spacer} * 1px) !important;
+    }
+
+    .small-margin-bottom-#{$spacer} {
+      margin-bottom: calc(#{$spacer} * 1px) !important;
+    }
+
+    .small-padding-#{$spacer} {
+      padding: calc(#{$spacer} * 1px) !important;
+    }
+
+    .small-padding-top-#{$spacer} {
+      padding-top: calc(#{$spacer} * 1px) !important;
+    }
+
+    .small-padding-left-#{$spacer} {
+      padding-left: calc(#{$spacer} * 1px) !important;
+    }
+
+    .small-padding-right-#{$spacer} {
+      padding-right: calc(#{$spacer} * 1px) !important;
+    }
+
+    .small-padding-bottom-#{$spacer} {
+      padding-bottom: calc(#{$spacer} * 1px) !important;
+    }
+
+    .small-col-gap-#{$spacer} {
+      gap: #{$spacer}px !important;
+    }
+  }
+}

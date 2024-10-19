@@ -1,0 +1,47 @@
+@import "../styles/colors";
+
+button, a.button {
+  padding: 10px 15px;
+  background-color: $transparent;
+  color: $white;
+  border-radius: 5px;
+  border: 1px solid $white;
+  font-size: 15px;
+  box-sizing: content-box;
+  transition: all 0.25s ease-in-out;
+  text-transform: uppercase;
+  font-variation-settings: "wght"600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: $gray-1;
+    color: $white;
+    cursor: pointer;
+  }
+}
+
+button.primary, a.button-primary {
+  background-color: $brand;
+  border: 1px solid $white;
+
+  &:hover {
+    background-color: $brand-dark-5;
+    color: $white;
+  }
+}
+
+button.small {
+  padding: 3px 10px;
+  font-size: 6px;
+}
+
+button a {
+  text-decoration: none;
+}
+

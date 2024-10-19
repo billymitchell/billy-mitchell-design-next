@@ -1,0 +1,197 @@
+@import "../styles/reset";
+@import "../styles/colors";
+@import "../styles/typography";
+@import "../styles/button";
+@import "../styles/forms";
+@import "../styles/layout";
+@import "../styles/scroll";
+@import "../styles/animations";
+@import "../styles/video";
+@import "../styles/images";
+@import "../styles/spacing";
+@import "../styles/header";
+@import "../styles/portfolio";
+@import "../styles/responsive";
+@import "../styles/borders";
+@import "../styles/full-stack";
+@import "../styles/scrollbar";
+@import "../styles/blog";
+@import "../styles/home-splash";
+
+//Removes Scrollebar
+// ::-webkit-scrollbar {
+//   display: none;
+// }
+
+// * {
+//    outline: 1px solid red;
+// }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.text-center {
+  text-align: center;
+}
+
+body {
+  min-width: 100%;
+  overflow-x: hidden;
+  background-color: $black;
+}
+
+#home {
+  overflow-x: hidden;
+}
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+footer .external-social-links {
+  font-size: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer .external-social-links a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+footer .primary-contact-info a {
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+footer .primary-contact-info .fas {
+  padding-right: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+section {
+  padding-top: $space;
+  padding-bottom: $space;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.disable-mouse-events {
+  pointer-events: none;
+}
+
+.home-page-section {
+  display: flex;
+  flex-direction: row;
+  // 100vh - height of top + bottom separator
+  height: 88vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+section {
+  //Called Mixin function in _colors
+  @include set-background($black);
+}
+
+.gradient-top {
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  height: 4px;
+  width: 100%;
+  overflow-x: hidden;
+  background: $brand-gradient;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+//   #skewed {
+//     position: absolute;
+//     top: -6vh;
+//     height: 12vh;
+//     width: 100%;
+//     transform: skewY(-2deg);
+//     transform-origin: center center;
+//   }
+
+//   @media only screen and (max-width: 1500px) {
+//     #skewed {
+//       top: -4vh;
+//       height: 8vh;
+//     }
+//   }
+
+.separator-top {
+  clip-path: polygon(100% 100%, 100% 0, 0 100%);
+  // Overlap the bottom separator
+  margin-top: -12vh;
+  // Removes Chrome Bug Showing white line
+  margin-bottom: -1px;
+}
+
+.separator-bottom {
+  // Removes Chrome Bug Showing white line
+  margin-top: -1px;
+}
+
+.separator-top,
+.separator-bottom {
+  display: block;
+  height: 12vh;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  // On small screens, reduce the size of the angel
+  .separator-top {
+    height: 6vh;
+    margin-top: -6vh;
+  }
+
+  .separator-bottom {
+    height: 6vh;
+  }
+
+  // Make each section as tall as its content
+  .home-page-section {
+    display: block;
+    height: auto;
+  }
+}
+
+// When parallax item goes outside its container
+.parallax-outer {
+  overflow-y: visible;
+}
+
+#companies {
+  overflow: visible;
+}
+
+.companies {
+  filter: grayscale(100%) contrast(200%);
+  opacity: 0.8;
+  transition: all 0.5s ease-in-out;
+}
+
+.companies:hover {
+  filter: grayscale(0%) contrast(100%);
+  opacity: 1;
+}
+
+.american-express {
+  max-width: 80%;
+}

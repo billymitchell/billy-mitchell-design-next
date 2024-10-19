@@ -1,0 +1,162 @@
+@import "../styles/animations";
+@import "../styles/colors";
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -15px;
+  /* gutter size offset */
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 15px;
+  /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column .portfolio-item {
+  /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 15px;
+}
+
+.portfolio-item {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  a {
+    &:hover .title {
+      color: $white;
+    }
+  }
+
+  .title {
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% - 15px);
+    text-align: center;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: $brand-gradient;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    img {
+      transition: all 0.5s cubic-bezier(0.33, 1, 0.68, 1);
+    }
+
+    .title {
+      animation: fade-in-up-absolute-center 0.5s cubic-bezier(0.33, 1, 0.68, 1);
+      animation-fill-mode: forwards;
+      animation-delay: 0.25s;
+      display: inline;
+    }
+
+    &::before {
+      animation: fade-in-90 0.75s cubic-bezier(0.33, 1, 0.68, 1);
+      animation-fill-mode: forwards;
+    }
+  }
+}
+
+.button-container {
+  margin-bottom: 15px;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+  grid-gap: 10px;
+}
+
+/*Portfolio Page*/
+.portfolio-header-container {
+  height: 25vh;
+  position: relative;
+  overflow: hidden;
+
+  .portfolio-header,
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h2 {
+    margin: 0;
+    color: $white;
+  }
+
+  .portfolio-header {
+    width: 100%;
+    object-fit: cover;
+    filter: blur(3px) grayscale(50%) brightness(50%);
+    height: 25vh;
+  }
+}
+
+.image-container {
+  height: 25vh;
+  position: relative;
+  transform: scale(1.25);
+}
+
+.portfolio-meta-data {
+  display: flex;
+  flex-direction: column;
+  color: $white;
+}
+
+.company {
+  padding-right: 15px;
+}
+
+.imported-text {
+  color: $white;
+}
+
+.customHTML {
+  width: 100%;
+  padding: 15px;
+}
+
+.title-no-featured-image {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, .16);
+  height: 75px;
+}
+
+// Remove Feature Button 
+button#featured {
+  display: none;
+}
+
+.intro-text {
+  margin-bottom: 21.6px;
+}

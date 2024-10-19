@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,577;1,577&display=swap");
+
+/*Values from
+https://www.layoutgridcalculator.com/typographic-scale/
+// http://spencermortensen.com/articles/typographic-scale/
+// https://type-scale.com/
+Base: 13pt = 17px
+Increment Ratio: The "Classic Ratio" 1:2
+No. of sizes in the scale: Pentatonic Scale (x5)
+Presets: Fibonacci Series
+"Line-Height": 1.35
+*/
+
+//https://sass-lang.com/documentation/modules/math
+
+
+$base-font-size: 16px;
+$space: 1.35 * $base-font-size;
+
+* {
+  font-family: "Muli", sans-serif;
+  font-synthesis: none !important;
+}
+
+//Font Sizeing
+$h1-font-size: $base-font-size * 5.7292;
+$h2-font-size: $base-font-size * 2.875;
+$h3-font-size: $base-font-size * 1.8958;
+$h4-font-size: $base-font-size * 1.4375;
+$h5-font-size: $base-font-size * 1.25;
+$h6-font-size: $base-font-size * 1.0833;
+$peragraph-font-size: $base-font-size * 0.9583;
+$blockquote-font-size: $base-font-size * 0.9583;
+$caption-font-size: $base-font-size * 0.8333;
+$endnote-font-size: $base-font-size * 0.8333;
+$footnote-font-size: $base-font-size * 0.7292;
+$sup-font-size: $base-font-size * 0.7292;
+$small-font-size: $base-font-size * 0.7292;
+
+//Mobile Font Sizes
+$h1-mobile-font-size: $h1-font-size * 0.5;
+$h2-mobile-font-size: $h2-font-size * 0.55;
+$h3-mobile-font-size: $h3-font-size * 0.6;
+$h4-mobile-font-size: $h4-font-size * 0.65;
+$h5-mobile-font-size: $h5-font-size * 0.75;
+$h6-mobile-font-size: $h6-font-size * 0.8;
+
+//Line Height
+$h1-line-height: $h1-font-size * 0.95;
+$h2-line-height: $h2-font-size * 1;
+$h3-line-height: $h3-font-size * 1.05;
+$h4-line-height: $h4-font-size * 1.1;
+$h5-line-height: $h5-font-size * 1.15;
+$h6-line-height: $h6-font-size * 1.2;
+$peragraph-line-height: $peragraph-font-size * 1.25;
+$blockquote-line-height: $blockquote-font-size * 1.25;
+$caption-line-height: $caption-font-size * 1.25;
+$endnote-line-height: $endnote-font-size * 1.25;
+$footnote-line-height: $footnote-font-size * 1.25;
+$sup-line-height: $sup-font-size * 1.25;
+$small-line-height: $small-font-size * 1.25;
+
+//Mobile Line Height
+$h1-mobile-line-height: $h1-mobile-font-size * 0.95;
+$h2-mobile-line-height: $h2-mobile-font-size * 1;
+$h3-mobile-line-height: $h3-mobile-font-size * 1.05;
+$h4-mobile-line-height: $h4-mobile-font-size * 1.1;
+$h5-mobile-line-height: $h5-mobile-font-size * 1.15;
+$h6-mobile-line-height: $h6-mobile-font-size * 1.2;
+
+/*Smaller Line-height As Fontsize Increases*/
+/*Incrimenting by .05*/
+/*Larger Line-height As Fontsize Decresses*/
+
+h1 {
+  font-size: $h1-font-size;
+  line-height: $h1-line-height;
+  margin-top: $space;
+  margin-bottom: $space;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  line-height: $h2-line-height;
+  margin-top: $space;
+  margin-bottom: $space;
+}
+
+h3 {
+  font-size: $h3-font-size;
+  line-height: $h3-line-height;
+  margin-top: $space;
+  margin-bottom: $space;
+}
+
+h4 {
+  font-size: $h4-font-size;
+  line-height: $h4-line-height;
+  margin-top: $space;
+  margin-bottom: $space;
+}
+
+h5 {
+  font-size: $h5-font-size;
+  line-height: $h5-line-height;
+  margin-top: $space;
+  margin-bottom: $space;
+}
+
+h6 {
+  font-size: $h6-font-size;
+  line-height: $h6-line-height;
+  margin-top: $space;
+  margin-bottom: $space;
+}
+
+p {
+  font-size: $peragraph-font-size;
+  line-height: $peragraph-line-height;
+  margin-top: $space;
+  margin-bottom: $space;
+}
+
+div {
+  font-size: $peragraph-font-size;
+  line-height: $peragraph-line-height;
+}
+
+li {
+  font-size: $peragraph-font-size;
+  line-height: $peragraph-line-height;
+}
+
+blockquote {
+  font-size: $blockquote-font-size;
+  line-height: $blockquote-line-height;
+  margin: $space;
+}
+
+figcaption {
+  text-align: center;
+  display: block;
+  font-size: $caption-font-size;
+  line-height: $caption-line-height;
+  margin-top: $caption-line-height * 0.5;
+  margin-bottom: $caption-line-height * 0.5;
+}
+
+.endnote {
+  font-size: $endnote-font-size;
+  line-height: $endnote-line-height;
+  margin-top: $space;
+  margin-bottom: $space;
+}
+
+.footnote {
+  font-size: $footnote-font-size;
+  line-height: $footnote-line-height;
+  margin-top: $space;
+  margin-bottom: $space;
+}
+
+sup {
+  font-size: $sup-font-size;
+  line-height: $sup-line-height;
+  margin-top: $space;
+  margin-bottom: $space;
+}
+
+small {
+  font-size: $small-font-size;
+  line-height: $small-line-height;
+  margin-top: $space * .5;
+  margin-bottom: $space * .5;
+}
+
+
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+// Definitions
+
+body {
+  font-family: "Muli", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-variation-settings: "wght"800;
+}
+
+footer,
+footer small {
+  font-variation-settings: "wght"400;
+}
+
+p,
+blockquote {
+  font-variation-settings: "wght"400;
+  letter-spacing: 0.25px;
+}
+
+//Deleated or subtracted text
+del,
+s {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+//Inserted text
+ins {
+  font-variation-settings: "wght"800;
+}
+
+//Stong, Bold, Emphisise
+strong,
+b {
+  font-variation-settings: "wght"800;
+}
+
+blockquote {
+  font-variation-settings: "ital"1;
+}
+
+//Inline quote
+q {
+  font-variation-settings: "ital"1;
+}
+
+ul,
+ol {
+  list-style-position: outside;
+  padding-left: 0.75em;
+  margin-left: 0.55em;
+  padding-bottom: $space;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+i,
+em {
+  font-variation-settings: "ital"1;
+}
+
+code {}
+
+//Heighlight
+mark {
+  //TBD
+}
+
+cite {
+  //TBD
+}
+
+time {
+  //TBD
+}
+
+address {
+  //TBD
+}
+
+//Links
+a {
+  font-variation-settings: "wght"800;
+  transition: all ease-in-out 0.3s;
+  text-decoration-line: underline;
+  text-decoration-skip-ink: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: $h1-mobile-font-size;
+    line-height: $h1-mobile-line-height;
+  }
+
+  h2 {
+    font-size: $h2-mobile-font-size;
+    line-height: $h2-mobile-line-height;
+  }
+
+  h3 {
+    font-size: $h3-mobile-font-size;
+    line-height: $h3-mobile-line-height;
+  }
+
+  h4 {
+    font-size: $h4-mobile-font-size;
+    line-height: $h4-mobile-line-height;
+  }
+
+  h5 {
+    font-size: $h5-mobile-font-size;
+    line-height: $h5-mobile-line-height;
+  }
+
+  h6 {
+    font-size: $h6-mobile-font-size;
+    line-height: $h6-mobile-line-height;
+  }
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}

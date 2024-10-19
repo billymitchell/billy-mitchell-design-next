@@ -1,0 +1,20 @@
+@import "../styles/colors";
+@import "../styles/typography";
+
+$border-radius: 10px;
+
+.blog-item {
+  background-color: $white;
+  padding: 5px;
+  border-radius: $border-radius;
+  margin-bottom: $space;
+}
+
+.blog-image-container img {
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+}
+
+.blog-item .info {
+  padding: 5px;
+}

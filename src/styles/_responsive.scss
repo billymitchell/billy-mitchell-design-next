@@ -1,0 +1,30 @@
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 650px) {
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile-height-fluid {
+    height: auto !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .v-h-center-100vh {
+    height: auto !important;
+  }
+}
+
+
+// inner width content fix  
+#contact .parallax-outer,
+#contact .inner-text-width {
+  width: 100%;
+}

@@ -1,0 +1,146 @@
+@import "../styles/typography";
+
+.block {
+  display: block;
+}
+
+
+.outer-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-container {
+  flex-grow: 1;
+  //padding-bottom: 15px;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.outer-container-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner-width-full {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: auto;
+}
+
+.inner-width-1200,
+.inner-width {
+  max-width: 1200px;
+  // width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: auto;
+  // Span full width minus padding
+  width: calc(100% - 30px);
+}
+
+.inner-width-1000 {
+  max-width: 1000px;
+  // width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: auto;
+  width: calc(100% - 30px);
+}
+
+.inner-width-800 {
+  max-width: 800px;
+  // width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: auto;
+  width: calc(100% - 30px);
+}
+
+.inner-width-700,
+.inner-text-width {
+  max-width: 700px;
+  // width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: auto;
+  width: calc(100% - 30px);
+}
+
+.inner-width-600 {
+  max-width: 600px;
+  // width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: auto;
+  width: calc(100% - 30px);
+}
+
+
+
+.grid-container {
+  display: grid;
+}
+
+.col-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col-4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.col-5 {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.col-6 {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.col-7 {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.col-1-2 {
+  grid-template-columns: 1fr 2fr;
+}
+
+@media only screen and (max-width: 650px) {
+  .small-col-1 {
+    grid-template-columns: 1fr !important;
+  }
+
+  .small-col-2 {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .small-col-3 {
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+
+  .small-col-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  }
+
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.justify-self-center {
+  justify-self: center;
+}

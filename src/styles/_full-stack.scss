@@ -1,0 +1,157 @@
+@import "../styles/animations";
+
+// Static Styling
+.fullstack-container h4 {
+  margin-top: 0;
+}
+
+.fullstack-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0px;
+  position: relative;
+}
+
+.fullstack-container>div {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+// Dots
+.ux::after,
+.ui::after,
+.front-end-dev::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #307842;
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+}
+
+
+// Bars
+.front-end-dev .b-bar {
+  background-color: rgba(0, 0, 0, 0%);
+  border-bottom: 1px #307842;
+  border-bottom-style: dashed;
+  max-width: 50%;
+}
+
+.l-bar {
+  width: 1px;
+  position: absolute;
+  background-color: #307842;
+  left: 0;
+  bottom: 0;
+}
+
+.b-bar {
+  height: 1px;
+  position: absolute;
+  background-color: #307842;
+  bottom: 0;
+  left: 0;
+}
+
+// Arrow
+.front-end-dev .l-bar::after,
+.front-end-dev .b-bar::after {
+  content: "";
+  position: absolute;
+}
+
+.front-end-dev .b-bar::after {
+  bottom: -10px;
+  right: -1px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid #307842;
+}
+
+// Arrow Animation
+.front-end-dev .l-bar::after,
+.front-end-dev .b-bar::after {
+  // initial state
+  opacity: 0;
+  // Animation Props
+  animation-name: fade-in;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+.front-end-dev .b-bar::after {
+  animation-duration: 2s;
+}
+
+.front-end-dev .l-bar::after {
+  animation-duration: 1s;
+}
+
+// Mobile Styling
+
+@media only screen and (max-width: 650px) {
+  .fullstack-container h4 {
+    margin-top: revert;
+  }
+
+  .fullstack-container {
+    grid-template-columns: 1fr;
+  }
+
+  .l-bar {
+    bottom: unset;
+    top: 0;
+  }
+
+  .ux::after,
+  .ui::after,
+  .front-end-dev::after {
+    top: -10px;
+    bottom: unset;
+  }
+
+  .b-bar {
+    bottom: unset;
+    top: 0;
+    left: 0;
+  }
+
+  .front-end-dev .b-bar {
+    background-color: #307842;
+    border: none;
+  }
+
+  .b-bar::after {
+    display: none;
+  }
+
+  .front-end-dev .b-bar,
+  .b-bar {
+    max-width: 85%;
+  }
+
+  .front-end-dev .l-bar {
+    background-color: rgba(0, 0, 0, 0%);
+    border-left-width: 1px;
+    border-left-color: #307842;
+    border-left-style: dashed;
+
+  }
+
+  // Arrow
+  .front-end-dev .l-bar::after {
+    bottom: -1px;
+    right: -9px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #307842;
+  }
+}
