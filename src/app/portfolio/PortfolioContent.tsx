@@ -56,7 +56,8 @@ const IfFeaturedImage = (portfolioItem) => {
 
 const renderPortfolioContent = (selectedPortfolioContent) => {
   return selectedPortfolioContent.map((portfolioItem, index) => {
-    const projectTitle = portfolioItem["Project Title"] || "Untitled Project";
+    let projectTitle = portfolioItem["Project Title"] || "Untitled Project";
+    let portfolioID = portfolioItem["id"] || "1234"
 
     return (
       <InViewAnimationTwo
@@ -66,7 +67,10 @@ const renderPortfolioContent = (selectedPortfolioContent) => {
         className="init-invisible"
       >
         <div id={portfolioItem.id} className="portfolio-item">
-          <Link href={`/portfolio/${projectTitle.toLowerCase().replace('&', 'and').replace(/\s/gi, '-').replace("/", "").replace(" / ", "")}`}>
+          <Link href={{
+            pathname: `/portfolio/${projectTitle.toLowerCase().replace('&', 'and').replace(/\s/gi, '-').replace("/", "").replace(" / ", "")}`,
+            query: { id: `${portfolioID}` },
+          }}>
             {IfFeaturedImage(portfolioItem)}
           </Link>
         </div>

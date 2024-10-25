@@ -9,7 +9,6 @@ export async function fetchPortfolioButtons() {
         return [];
     }
 
-    console.log('API Token:', api_token);
 
     const response = await fetch(`${airtable_base_api_URL}/${airtable_base_id}/${portfolio_table_id}`, {
         method: "GET",
