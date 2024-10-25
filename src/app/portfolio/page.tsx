@@ -1,25 +1,23 @@
 'use client';
-
 import React, { useState, useEffect } from 'react';
 import { fetchPortfolioButtons } from "./fetchPortfolioButtons";
 import PortfolioContent from "./PortfolioContent";
 import { useRouter } from 'next/navigation';
 import { useSearchParams } from 'next/navigation';
-
-
-
+import { useGlobalState } from '../context/fetchPortfolioData';
 
 
 const Portfolio = () => {
     const router = useRouter();
-
     const searchParams = useSearchParams();
     const discipline = searchParams.get('discipline')
-
-
     const search = searchParams.get('search');
+    //const { globalState, setGlobalState } = useGlobalState();
     const [buttons, setButtons] = useState([]);
     const [selectedDiscipline, setSelectedDiscipline] = useState("Featured");
+    const { globalState } = useGlobalState();
+    console.log("globalState", globalState);
+
 
     useEffect(() => {
         const fetchButtons = async () => {
@@ -35,16 +33,6 @@ const Portfolio = () => {
             setSelectedDiscipline(clickedDiscipline);
         }
     };
-
-    // useEffect(() => {
-
-    //     const fetchFeaturedData = async () => {
-    //         const portfolioData = await fetchPortfolioData(); // get data
-    //         setFeaturedData(portfolioData);
-    //     };
-
-    //     fetchFeaturedData();
-    // }, []);
 
     // useEffect(() => {
     //     if (!search) {
@@ -67,40 +55,6 @@ const Portfolio = () => {
     //         setDiscipline("Mural Art");
     //     }
     // }, [search]);
-
-
-
-    // const renderPortfolio = () => {
-    //     if (discipline === "Branding") {
-    //         return <PortfolioContent discipline="Branding" />;
-    //     }
-    //     if (discipline === "UI Design") {
-    //         return <PortfolioContent discipline="UI Design" />;
-    //     }
-    //     if (discipline === "UX Design") {
-    //         return <PortfolioContent discipline="UX Design" />;
-    //     }
-    //     if (discipline === "Web Development") {
-    //         return <PortfolioContent discipline="Web Development" />;
-    //     }
-    //     if (discipline === "Print Design") {
-    //         return <PortfolioContent discipline="Print Design" />;
-    //     }
-    //     if (discipline === "Motion Design") {
-    //         return <PortfolioContent discipline="Motion Design" />;
-    //     }
-    //     if (discipline === "Illustration") {
-    //         return <PortfolioContent discipline="Illustration" />;
-    //     }
-    //     if (discipline === "Mural Art") {
-    //         return <PortfolioContent discipline="Mural Art" />;
-    //     }
-    //     if (discipline === "") {
-    //         return <PortfolioContent discipline="Featured" />;
-    //     }
-
-    //     return <PortfolioContent discipline="Featured" />; // Default case
-    // };
 
     return (
         <div id="portfolio" className="bg-black">

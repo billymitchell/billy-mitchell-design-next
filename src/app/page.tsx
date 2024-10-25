@@ -16,8 +16,10 @@ import Companies from "../components/home/Companies";
 import FetchCompanies from "@/components/home/FetchCompanies"
 
 
+
 export default function Home() {
   return (
+
     <ParallaxProviderWrapper>
       <div id="home">
         <Homesplash />
@@ -30,5 +32,6 @@ export default function Home() {
         {/* <ContactSection /> */}
       </div>
     </ParallaxProviderWrapper>
+
   )
 }

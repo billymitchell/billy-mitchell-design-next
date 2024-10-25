@@ -69,7 +69,7 @@ const renderPortfolioContent = (selectedPortfolioContent) => {
         <div id={portfolioItem.id} className="portfolio-item">
           <Link href={{
             pathname: `/portfolio/${projectTitle.toLowerCase().replace('&', 'and').replace(/\s/gi, '-').replace("/", "").replace(" / ", "")}`,
-            query: { id: `${portfolioID}` },
+            query: { id: `${index}` },
           }}>
             {IfFeaturedImage(portfolioItem)}
           </Link>
@@ -91,6 +91,7 @@ const PortfolioContent = ({ selectedDiscipline = [] }) => {
     fetchPortfolio();
   }, []);
 
+  console.log(portfolioData)
 
   let selectedPortfolioContent = []
 

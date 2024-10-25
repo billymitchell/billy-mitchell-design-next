@@ -4,6 +4,8 @@ import '../styles/global.scss'
 import Script from 'next/script'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
+import { GlobalStateProvider } from './context/fetchPortfolioData';
+
 
 
 // export const metadata: Metadata = {
@@ -25,13 +27,15 @@ export default function RootLayout({
       {/* Icons */}
       <Script src="https://kit.fontawesome.com/da815149ed.js" />
       <body>
-        <div className="outer-wrapper">
-          <div className="main-container">
-            <Header />
-            {children}
+        <GlobalStateProvider>
+          <div className="outer-wrapper">
+            <div className="main-container">
+              <Header />
+              {children}
+            </div>
           </div>
-        </div>
-        <Footer />
+          <Footer />
+        </GlobalStateProvider>
       </body>
     </html>
   )

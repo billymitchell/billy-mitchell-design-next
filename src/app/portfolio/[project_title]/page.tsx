@@ -121,43 +121,13 @@ const ifIntroText = function (data) {
 //   ))}
 // }
 
-export const query = graphql`
-query ($Project_Title: String) {
-  allAirtable (filter: {table: {eq: "Project"}, data: {Project_Title: {eq: $Project_Title}}}) {
-    nodes {
-      data {
-        Project_Title
-        End_Date(formatString: "MMMM DD, YYYY")
-        Live_Web_Project_URL
-        GitHub_URL
-        Creative_Discipline
-        Job_Type
-        Made_For {
-          recordId
-          data {
-            Company_Name
-          }
-        }
-        Position_on_Project
-        Featured_Image_URL
-        Body_Text
-        Custom_HTML
-        Hide_Featured_Image_In_Body
-        Made_With
-        Intro_Text
-      }
-    }
-  }
-}
-`
+export default function Portfolio({ searchParams }) {
+    const { id } = searchParams;
 
-
-
-const Portfolio = ({ selected_portfolio_item }) => (
     <>
         {/* {checkData(data)} */}
         <div id="portfolio" className="bg-black">
-            <MetaData
+            {/* <MetaData
                 title={data.allAirtable.nodes[0].data.Project_Title}
                 description={data.allAirtable.nodes[0].data.Made_For.map(item => (
                     <>
@@ -167,7 +137,7 @@ const Portfolio = ({ selected_portfolio_item }) => (
                 url={`/portfolio/project/${data.allAirtable.nodes[0].data.slug}`}
                 // To Do: Add Fallback Meta Image If No Featured Image
                 socialimg={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data.allAirtable.nodes[0].data.Featured_Image_URL}`}
-            />
+            /> */}
             <Layout>
                 <div className="portfolio-header-container">
                     {/* To Do: Add Fallback Header If No Featured Image*/}
@@ -246,6 +216,5 @@ const Portfolio = ({ selected_portfolio_item }) => (
             </Layout>
         </div>
     </>
-)
+}
 
-export default Portfolio
