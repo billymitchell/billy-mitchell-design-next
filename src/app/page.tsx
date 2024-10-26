@@ -10,10 +10,10 @@ import TechStack from "../components/home/techstack"
 //import Companies from "../components/home/companies"
 import About from "../components/home/about"
 import Services from "../components/home/Services"
-import FetchServices from "../components/home/FetchServices"
+import FetchServices from "../components/home/getServices"
 import ContactSection from "../components/home/contact-section"
 import Companies from "../components/home/Companies";
-import FetchCompanies from "@/components/home/FetchCompanies"
+import FetchCompanies from "@/components/home/getCompanies"
 
 
 
