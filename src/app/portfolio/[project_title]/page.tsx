@@ -1,220 +1,199 @@
-import React from "react"
-import Layout from "../../layout"
-//import MetaData from "../components/layout/header/mettadata"
+// src/app/portfolio/[project_title]/page.tsx
 
-const IfLiveURL = function (data) {
-    if (data.allAirtable.nodes[0].data.Live_Web_Project_URL !== null) {
+import { airtableData } from "@/components/utilities/getAirtableData"; // Import the Airtable data
+
+// Function to generate static paths for all projects
+export async function generateStaticParams() {
+    const { projectsData } = airtableData;
+    return projectsData.map((project) => ({
+        project_title: project.fields["Project Title"].toLowerCase().replace(/[\s&/]/g, "-"),
+    }));
+}
+
+// Helper functions
+const IfLiveURL = (data: any) => {
+    if (data["Live Web Project URL"]) {
         return (
             <>
                 <span>
                     <b>Live Project URL:</b>{" "}
                 </span>
-                <a target="_blank" rel="noreferrer" href={data.allAirtable.nodes[0].data.Live_Web_Project_URL}>
-                    {data.allAirtable.nodes[0].data.Live_Web_Project_URL}
+                <a target="_blank" rel="noreferrer" href={data["Live Web Project URL"]}>
+                    {data["Live Web Project URL"]}
                 </a>
                 <br />
             </>
-        )
-    } else {
-        return (<></>)
+        );
     }
-}
+    return null;
+};
 
-const IfGitHubURL = function (data) {
-    if (data.allAirtable.nodes[0].data.Github_URL !== null) {
+const IfGitHubURL = (data: any) => {
+    if (data["Github URL"]) {
         return (
             <>
-                <span><b>GitHub Code Repository:</b>{" "}
+                <span>
+                    <b>GitHub Code Repository:</b>{" "}
                 </span>
-                <a target="_blank" rel="noreferrer" href={data.allAirtable.nodes[0].data.GitHub_URL}>
-                    {data.allAirtable.nodes[0].data.GitHub_URL}
+                <a target="_blank" rel="noreferrer" href={data["Github URL"]}>
+                    {data["Github URL"]}
                 </a>
                 <br />
             </>
-        )
-    } else {
-        return (<></>)
+        );
     }
-}
+    return null;
+};
 
-const IfPosition = function (data) {
-    if (data.allAirtable.nodes[0].data.Position_on_Project !== null) {
+const IfPosition = (data: any) => {
+    if (data["Position on Project"]) {
         return (
             <>
                 <span>
                     <b>Position:</b>{" "}
                 </span>
-                <span>
-                    {data.allAirtable.nodes[0].data.Position_on_Project}
-                </span>
+                <span>{data["Position on Project"]}</span>
                 <br />
             </>
-        )
+        );
     }
-}
+    return null;
+};
 
-const renderHeader = function (data) {
-    console.log(data.allAirtable.nodes[0].data.Hide_Featured_Image_In_Body)
-    // If  custom html header, show header
-    if (data.allAirtable.nodes[0].data.Custom_HTML) {
+const renderHeader = (data: any) => {
+    if (data["Custom HTML"]) {
         return (
             <div
                 dangerouslySetInnerHTML={{
-                    __html: data.allAirtable.nodes[0].data.Custom_HTML,
+                    __html: data["Custom HTML"],
                 }}
             ></div>
-        )
-    } else if (
-        // if no html header & hide featured image is true
-        data.allAirtable.nodes[0].data.Hide_Featured_Image_In_Body === true
-    ) {
-        // Don't show anything
-        return <></>
+        );
+    } else if (data["Hide Featured Image In Body"] === true) {
+        return null;
     } else {
-        // if condition 1 & 2 are false
-        // Show featured image
         return (
-            <>
-                <img
-                    className="fetched-header"
-                    src={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:best/portfolio/${data.allAirtable.nodes[0].data.Featured_Image_URL}`}
-                    alt={data.allAirtable.nodes[0].data.Project_Title}
-                ></img>
-            </>
-        )
+            <img
+                className="fetched-header"
+                src={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:best/portfolio/${data["Featured Image URL"]}`}
+                alt={data["Project Title"]}
+            />
+        );
     }
-}
+};
 
-const ifCustomBodyHTML = function (data) {
-    if (data.allAirtable.nodes[0].data.Body_Text) {
+const ifCustomBodyHTML = (data: any) => {
+    if (data["Body Text"]) {
         return (
             <div
                 dangerouslySetInnerHTML={{
-                    __html: data.allAirtable.nodes[0].data.Body_Text,
+                    __html: data["Body Text"],
                 }}
             ></div>
-        )
-    } else {
-        return (<></>)
+        );
     }
-}
+    return null;
+};
 
-
-const ifIntroText = function (data) {
-    if (data.allAirtable.nodes[0].data.Intro_Text) {
+const ifIntroText = (data: any) => {
+    if (data["Intro Text"]) {
         return (
             <div
                 dangerouslySetInnerHTML={{
-                    __html: data.allAirtable.nodes[0].data.Intro_Text,
+                    __html: data["Intro Text"],
                 }}
             ></div>
-        )
-    } else {
-        return (<></>)
+        );
     }
-}
+    return null;
+};
 
-// const checkData = function (data) {
-//   console.log(data)
-//   {data.allAirtable.nodes[0].data.Creative_Discipline.map(Creative_Discipline => (
-//     console.log({Creative_Discipline})
-//   ))}
-// }
+// Server Component to render the project page
+export default function PortfolioContent({ params }: { params: { project_title: string } }) {
+    const { projectsData, companiesData } = airtableData;
 
-export default function Portfolio({ searchParams }) {
-    const { id } = searchParams;
+    // Format the project title from params to match the data
+    const projectTitle = params.project_title.replace(/-/g, " ").toLowerCase().trim();
 
-    <>
-        {/* {checkData(data)} */}
+    // Use a more robust comparison to match the project title
+    const project = projectsData.find(
+        (item) => item.fields["Project Title"].toLowerCase().trim() === projectTitle
+    );
+
+    if (!project) {
+        return <p>Project not found.</p>;
+    }
+
+    const data = project.fields;
+
+    // Find company names for the "Made For" field
+    const companyNames = data["Made For"]?.map((companyId: string) => {
+        const company = companiesData.find((item) => item.id === companyId);
+        return company ? company.fields["Company Name"] : "Unknown Company";
+    });
+
+    return (
         <div id="portfolio" className="bg-black">
-            {/* <MetaData
-                title={data.allAirtable.nodes[0].data.Project_Title}
-                description={data.allAirtable.nodes[0].data.Made_For.map(item => (
-                    <>
-                        <span className="Company"> | {item.data.Company_Name}</span>
-                    </>
-                ))}
-                url={`/portfolio/project/${data.allAirtable.nodes[0].data.slug}`}
-                // To Do: Add Fallback Meta Image If No Featured Image
-                socialimg={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data.allAirtable.nodes[0].data.Featured_Image_URL}`}
-            /> */}
-            <Layout>
-                <div className="portfolio-header-container">
-                    {/* To Do: Add Fallback Header If No Featured Image*/}
-                    <div className="image-container">
-
-                        <img
-                            className="portfolio-header"
-                            src={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data.allAirtable.nodes[0].data.Featured_Image_URL}`}
-                            alt={data.allAirtable.nodes[0].data.Project_Title}
-                        ></img>
-
-                    </div>
-                    <h2>{data.allAirtable.nodes[0].data.Project_Title}</h2>
+            <div className="portfolio-header-container">
+                <div className="image-container">
+                    <img
+                        suppressHydrationWarning
+                        className="portfolio-header"
+                        src={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data["Featured Image URL"]}`}
+                        alt={data["Project Title"]}
+                    />
                 </div>
-                <div className="outer-container-body">
-                    <div className="inner-text-width">
-                        <div className="portfolio-meta-data">
-                            <p>
-                                <span>
-                                    <b>Completed:</b> {data.allAirtable.nodes[0].data.End_Date}
-                                </span><br />
-                                {IfLiveURL(data)}
-                                <span>
-                                    {IfGitHubURL(data)}
-                                </span>
-                                <span>
-                                    <b>Creative Discipline:</b>{" "}
-
-
-                                    {data.allAirtable.nodes[0].data.Creative_Discipline.map(Creative_Discipline => (
-
-                                        <span>
-                                            {" "}
-                                            | {Creative_Discipline}
-                                        </span>
-
-                                    ))}
-                                </span><br />
-                                <span>
-                                    <b>Job Type:</b> {data.allAirtable.nodes[0].data.Job_Type}
-                                </span><br />
-                                <span>
-                                    <b>Made for:</b>{" "}
-                                    {data.allAirtable.nodes[0].data.Made_For.map(item => (
-
-                                        <span className="Company">
-                                            {" "}
-                                            | {item.data.Company_Name}
-                                        </span>
-
-                                    ))}
-                                </span><br />
-                                {IfPosition(data)}
-                                <span>
-                                    <b>Made With:</b>{" "}
-                                    {data.allAirtable.nodes[0].data.Made_With.map(Made_With => (
-
-                                        <span className="Company">
-                                            {" "}
-                                            | {Made_With}
-                                        </span>
-
-                                    ))}
-                                </span><br />
-                            </p>
-                        </div>
-                        <div className="intro-text">
-                            {ifIntroText(data)}
-                        </div>
+                <h2>{data["Project Title"]}</h2>
+            </div>
+            <div className="outer-container-body">
+                <div className="inner-text-width">
+                    <div className="portfolio-meta-data">
+                        <p>
+                            <span>
+                                <b>Completed:</b> {data["End Date"]}
+                            </span>
+                            <br />
+                            {IfLiveURL(data)}
+                            {IfGitHubURL(data)}
+                            <span>
+                                <b>Creative Discipline:</b>{" "}
+                                {data["Creative Discipline"]?.map((discipline: string, index: number) => (
+                                    <span key={index}> | {discipline}</span>
+                                ))}
+                            </span>
+                            <br />
+                            <span>
+                                <b>Job Type:</b> {data["Job Type"]}
+                            </span>
+                            <br />
+                            <span>
+                                <b>Made for:</b>{" "}
+                                {companyNames?.map((name: string, index: number) => (
+                                    <span key={index} className="Company">
+                                        {" "}
+                                        | {name}
+                                    </span>
+                                ))}
+                            </span>
+                            <br />
+                            {IfPosition(data)}
+                            <span>
+                                <b>Made With:</b>{" "}
+                                {data["Made With"]?.map((tech: string, index: number) => (
+                                    <span key={index} className="Company">
+                                        {" "}
+                                        | {tech}
+                                    </span>
+                                ))}
+                            </span>
+                            <br />
+                        </p>
                     </div>
-                    <div className="inner-width">{renderHeader(data)}</div>
-                    <div className="inner-text-width imported-text">
-                        {ifCustomBodyHTML(data)}
-                    </div>
+                    <div className="intro-text">{ifIntroText(data)}</div>
                 </div>
-            </Layout>
+                <div className="inner-width">{renderHeader(data)}</div>
+                <div className="inner-text-width imported-text">{ifCustomBodyHTML(data)}</div>
+            </div>
         </div>
-    </>
+    );
 }
-

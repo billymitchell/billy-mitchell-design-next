@@ -1,14 +1,13 @@
 // src/components/home/FetchCompanies.tsx
-'use client';
 
-import { useGlobalState } from "@/app/context/setGlobalState";
+// Import the pre-fetched Airtable data
+import { airtableData } from '../utilities/getAirtableData';
 
 const FetchCompanies = function () {
-  // Access companies data from global state
-  const { globalState } = useGlobalState();
-  const companiesData = globalState.companiesData;
+  // Access companies data from airtableData
+  const { companiesData } = airtableData;
 
-  // Filter for featured companies (checking fields.Feature or _rawJson.fields.Feature)
+  // Filter for featured companies (checking fields.Feature)
   const featuredCompanies = companiesData.filter(
     (company) => company.fields?.Feature === true
   );

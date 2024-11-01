@@ -1,11 +1,10 @@
-// app/portfolio/PortfolioContent.tsx
-'use client';
+// src/app/portfolio/PortfolioContent.tsx
 
 import React from 'react';
 import ClientMasonry from "../../components/utilities/clientMasonry";
 import InViewAnimationTwo from "../../components/utilities/InViewAnimationTwo";
 import Link from 'next/link';
-import { useGlobalState } from "../context/setGlobalState";
+import { airtableData } from '@/components/utilities/getAirtableData'; // Import the Airtable data
 
 const sortItemsByDate = (selectedPortfolioContent) => {
   return selectedPortfolioContent.sort((firstObject, secondObject) => {
@@ -44,43 +43,43 @@ const IfFeaturedImage = (portfolioItem) => {
   }
 };
 
-const renderPortfolioContent = (selectedPortfolioContent) => {
-  return selectedPortfolioContent.map((portfolioItem, index) => (
-    <InViewAnimationTwo
-      key={portfolioItem.id}
-      rootMargin="-8% 0%"
-      animationdelay={`delay-${((index * 50) + 200)}ms`}
-      className="init-invisible"
-    >
-      <div id={portfolioItem.id} className="portfolio-item">
-        <Link href={{
-          pathname: `/portfolio/${portfolioItem.fields["Project Title"]
-            .toLowerCase()
-            .replace('&', 'and')
-            .replace(/\s/gi, '-')
-            .replace("/", "")
-            .replace(" / ", "")
-            }`,
-          query: { id: `${index}` },
-        }}>
-          {IfFeaturedImage(portfolioItem)}
-        </Link>
-      </div>
-    </InViewAnimationTwo>
-  ));
-};
-
 const PortfolioContent = ({ selectedDiscipline = "Featured" }) => {
-  const { globalState } = useGlobalState();
-  console.log("Global State:", globalState); // Debugging line
+  // Access projects data from airtableData
+  const { projectsData } = airtableData;
+  console.log("projectsData", projectsData);
 
-  const portfolioData = globalState.projectsData || []; // Corrected to globalState.projectsData
-  console.log("Portfolio Data:", portfolioData); // Debugging line
+  const handleLinkClick = (item) => {
+    // Handle link click logic if needed
+    console.log("Portfolio item clicked:", item);
+  };
+
+  const renderPortfolioContent = (selectedPortfolioContent) => {
+    return selectedPortfolioContent.map((portfolioItem, index) => (
+      <InViewAnimationTwo
+        key={portfolioItem.id}
+        rootMargin="-8% 0%"
+        animationdelay={`delay-${((index * 50) + 200)}ms`}
+        className="init-invisible"
+      >
+        <div id={portfolioItem.id} className="portfolio-item">
+          <Link href={{
+            pathname: `/portfolio/${portfolioItem.fields["Project Title"]
+              .toLowerCase()
+              .replace('&', 'and')
+              .replace(/\s/gi, '-')
+              .replace("/", "")
+              .replace(" / ", "")
+              }`
+          }} onClick={() => handleLinkClick(portfolioItem)}>
+            {IfFeaturedImage(portfolioItem)}
+          </Link>
+        </div>
+      </InViewAnimationTwo>
+    ));
+  };
 
   // Filter projects based on selectedDiscipline
-  const selectedPortfolioContent = portfolioData.filter(portfolioItem => {
-    console.log("Portfolio Item:", JSON.stringify(portfolioItem)); // Debugging line
-
+  const selectedPortfolioContent = projectsData.filter(portfolioItem => {
     if (!portfolioItem.fields.Published) return false;
     if (selectedDiscipline === "Featured") return portfolioItem.fields.Featured;
     return portfolioItem.fields["Creative Discipline"]?.includes(selectedDiscipline);
@@ -95,9 +94,6 @@ const PortfolioContent = ({ selectedDiscipline = "Featured" }) => {
     700: 2,
     500: 1,
   };
-
-  // Check if filtered content is empty
-  console.log("Selected Portfolio Content:", selectedPortfolioContent); // Debugging line
 
   return (
     <div className="portfolio-item-container">

@@ -1,15 +1,12 @@
 // src/components/home/FetchServices.tsx
-'use client';
 
+// Importing the main function to fetch all data
+import { airtableData } from '../utilities/getAirtableData';
 import InViewAnimationTwo from "../utilities/InViewAnimationTwo";
-import { useGlobalState } from "@/app/context/setGlobalState";
 
 const FetchServices = function () {
-  // Access services data from global state
-  const { globalState } = useGlobalState();
-  const servicesData = globalState.servicesData;
+  const { servicesData } = airtableData;
 
-  // Render service data
   return (
     <>
       {servicesData.map((service, index) => (

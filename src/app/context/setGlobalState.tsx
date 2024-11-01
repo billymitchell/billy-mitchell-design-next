@@ -9,6 +9,7 @@ interface GlobalState {
     projectsData: AirtableRecord[];
     companiesData: AirtableRecord[];
     servicesData: AirtableRecord[];
+    selectedPortfolioItem: string | null; // Add this line
 }
 
 interface GlobalStateContextType {
@@ -28,6 +29,7 @@ export const GlobalStateProvider = ({ children }: GlobalStateProviderProps) => {
         projectsData: [],
         companiesData: [],
         servicesData: [],
+        selectedPortfolioItem: null, // Initialize with null
     });
 
     useEffect(() => {
@@ -46,10 +48,10 @@ export const GlobalStateProvider = ({ children }: GlobalStateProviderProps) => {
     );
 };
 
-export const useGlobalState = () => {
+export const useGlobalState = (): GlobalStateContextType => {
     const context = useContext(GlobalStateContext);
     if (!context) {
-        throw new Error("useGlobalState must be used within a GlobalStateProvider");
+        throw new Error('useGlobalState must be used within a GlobalStateProvider');
     }
     return context;
 };

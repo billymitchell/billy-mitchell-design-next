@@ -25,7 +25,6 @@ export default function Home() {
         <Homesplash />
         <FullStack />
         <TechStack />
-        {/* <Companies /> */}
         <Services><FetchServices /></Services>
         <Companies><FetchCompanies /></Companies>
         <About />
