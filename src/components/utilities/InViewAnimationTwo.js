@@ -43,7 +43,7 @@ const InViewAnimation = ({
       as="div"
       // Animation Props
       className={className}
-      animation={animation}
+      animation={animation}e
       duration={duration}
       animationdelay={animationdelay}
       fillmode={fillmode}

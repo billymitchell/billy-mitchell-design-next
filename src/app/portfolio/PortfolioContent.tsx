@@ -6,7 +6,7 @@ import InViewAnimationTwo from "../../components/utilities/InViewAnimationTwo";
 import Link from 'next/link';
 import { airtableData } from '@/components/utilities/getAirtableData';
 
-const IfFeaturedImage = (portfolioItem) => {
+const IfFeaturedImage = (portfolioItem: PortfolioItem) => {
   if (portfolioItem.fields["Featured Image URL"]) {
     return (
       <>
@@ -52,8 +52,7 @@ const PortfolioContent: React.FC<PortfolioContentProps> = ({ selectedDiscipline 
       <InViewAnimationTwo
         key={portfolioItem.id}
         animationdelay={`delay-${((index * 50) + 200)}ms`}
-        className="init-invisible"
-      >
+        className="init-invisible" animation={undefined} duration={undefined} fillmode={undefined} easing={undefined} iteration={undefined} rootMargin={undefined} threshold={undefined}      >
         <div id={portfolioItem.id} className="portfolio-item">
           <Link href={{
             pathname: `/portfolio/${portfolioItem.fields["Project Title"]
