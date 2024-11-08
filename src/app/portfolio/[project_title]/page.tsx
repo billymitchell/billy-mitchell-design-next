@@ -6,7 +6,7 @@ import { airtableData } from "@/components/utilities/getAirtableData"; // Import
 export async function generateStaticParams() {
     const { projectsData } = airtableData;
     return projectsData.map((project) => ({
-        project_title: project.fields["Project Title"].toLowerCase().replace(/[\s&/]/g, "-"),
+        project_title: String(project.fields["Project Title"]).toLowerCase().replace(/[\s&/]/g, "-"),
     }));
 }
 
@@ -76,7 +76,7 @@ const renderHeader = (data: any) => {
             <img
                 className="fetched-header"
                 src={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:best/portfolio/${data["Featured Image URL"]}`}
-                alt={data["Project Title"]}
+                alt={String(data["Project Title"])}
             />
         );
     }
@@ -117,7 +117,7 @@ export default function PortfolioContent({ params }: { params: { project_title: 
 
     // Use a more robust comparison to match the project title
     const project = projectsData.find(
-        (item) => item.fields["Project Title"].toLowerCase().trim() === projectTitle
+        (item) => typeof item.fields["Project Title"] === 'string' && item.fields["Project Title"].toLowerCase().trim() === projectTitle
     );
 
     if (!project) {
@@ -127,10 +127,10 @@ export default function PortfolioContent({ params }: { params: { project_title: 
     const data = project.fields;
 
     // Find company names for the "Made For" field
-    const companyNames = data["Made For"]?.map((companyId: string) => {
+    const companyNames = Array.isArray(data["Made For"]) ? data["Made For"].map((companyId: string) => {
         const company = companiesData.find((item) => item.id === companyId);
         return company ? company.fields["Company Name"] : "Unknown Company";
-    });
+    }) : [];
 
     return (
         <div id="portfolio" className="bg-black">
@@ -140,35 +140,35 @@ export default function PortfolioContent({ params }: { params: { project_title: 
                         suppressHydrationWarning
                         className="portfolio-header"
                         src={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data["Featured Image URL"]}`}
-                        alt={data["Project Title"]}
+                        alt={String(data["Project Title"])}
                     />
                 </div>
-                <h2>{data["Project Title"]}</h2>
+                <h2>{String(data["Project Title"])}</h2>
             </div>
             <div className="outer-container-body">
                 <div className="inner-text-width">
                     <div className="portfolio-meta-data">
                         <p>
                             <span>
-                                <b>Completed:</b> {data["End Date"]}
+                                <b>Completed:</b> {String(data["End Date"])}
                             </span>
                             <br />
                             {IfLiveURL(data)}
                             {IfGitHubURL(data)}
                             <span>
                                 <b>Creative Discipline:</b>{" "}
-                                {data["Creative Discipline"]?.map((discipline: string, index: number) => (
+                                {Array.isArray(data["Creative Discipline"]) && data["Creative Discipline"].filter((discipline): discipline is string => typeof discipline === 'string').map((discipline: string, index: number) => (
                                     <span key={index}> | {discipline}</span>
                                 ))}
                             </span>
                             <br />
                             <span>
-                                <b>Job Type:</b> {data["Job Type"]}
+                                <b>Job Type:</b> {String(data["Job Type"])}
                             </span>
                             <br />
                             <span>
                                 <b>Made for:</b>{" "}
-                                {companyNames?.map((name: string, index: number) => (
+                                {companyNames.filter((name): name is string => typeof name === 'string').map((name: string, index: number) => (
                                     <span key={index} className="Company">
                                         {" "}
                                         | {name}
@@ -179,7 +179,7 @@ export default function PortfolioContent({ params }: { params: { project_title: 
                             {IfPosition(data)}
                             <span>
                                 <b>Made With:</b>{" "}
-                                {data["Made With"]?.map((tech: string, index: number) => (
+                                {Array.isArray(data["Made With"]) && data["Made With"].filter((tech): tech is string => typeof tech === 'string').map((tech: string, index: number) => (
                                     <span key={index} className="Company">
                                         {" "}
                                         | {tech}

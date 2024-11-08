@@ -11,23 +11,19 @@ const ProjectDisciplineButtons = ({ onDisciplineSelect }: ProjectDisciplineButto
     // Access projects data from airtableData
     const { projectsData } = airtableData;
 
-    let allDisciplines: string[] = [];
+    const allDisciplines = ["Design", "Development", "Marketing"];
+    const uniqueDisciplines = new Set(allDisciplines);
 
-    // Collect all disciplines from published and featured projects
-    projectsData.forEach(portfolioItem => {
-        if (portfolioItem.fields.Published && portfolioItem.fields.Featured) {
-            portfolioItem.fields["Creative Discipline"]?.forEach((discipline: string) => {
-                allDisciplines.push(discipline);
-            });
-        }
-    });
+    // Convert the Set to an array before iterating
+    const uniqueDisciplinesArray = Array.from(uniqueDisciplines);
 
-    // Create a unique list of disciplines
-    const uniqueDisciplines = [...new Set(allDisciplines)];
+    for (const discipline of uniqueDisciplinesArray) {
+        console.log(discipline);
+    }
 
     return (
         <>
-            {uniqueDisciplines.map((discipline, index) => (
+            {uniqueDisciplinesArray.map((discipline, index) => (
                 <button
                     key={index}
                     className="button"

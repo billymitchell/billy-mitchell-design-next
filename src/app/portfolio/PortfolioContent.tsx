@@ -6,20 +6,32 @@ import InViewAnimationTwo from "../../components/utilities/InViewAnimationTwo";
 import Link from 'next/link';
 import { airtableData } from '@/components/utilities/getAirtableData'; // Import the Airtable data
 
-const sortItemsByDate = (selectedPortfolioContent) => {
+interface PortfolioItem {
+  id: string;
+  fields: {
+    "Project Title": string;
+    [key: string]: any; // To allow other fields
+  };
+}
+
+interface PortfolioContentProps {
+  selectedDiscipline?: string;
+}
+
+const sortItemsByDate = (selectedPortfolioContent: PortfolioItem[]) => {
   return selectedPortfolioContent.sort((firstObject, secondObject) => {
     const dateA = firstObject.fields['End Date'] ? new Date(firstObject.fields['End Date']) : null;
     const dateB = secondObject.fields['End Date'] ? new Date(secondObject.fields['End Date']) : null;
 
     if (dateA === null && dateB !== null) return -1;
     if (dateA !== null && dateB === null) return 1;
-    if (dateA !== null && dateB !== null) return dateB - dateA;
+    if (dateA !== null && dateB !== null) return dateB.getTime() - dateA.getTime();
 
     return 0;
   });
 };
 
-const IfFeaturedImage = (portfolioItem) => {
+const IfFeaturedImage = (portfolioItem: PortfolioItem) => {
   if (portfolioItem.fields["Featured Image URL"]) {
     return (
       <>
@@ -43,22 +55,28 @@ const IfFeaturedImage = (portfolioItem) => {
   }
 };
 
-const PortfolioContent = ({ selectedDiscipline = "Featured" }) => {
+const PortfolioContent: React.FC<PortfolioContentProps> = ({ selectedDiscipline = "Featured" }) => {
   // Access projects data from airtableData
   const { projectsData } = airtableData;
   console.log("projectsData", projectsData);
 
-  const handleLinkClick = (item) => {
+  const handleLinkClick = (item: PortfolioItem) => {
     // Handle link click logic if needed
     console.log("Portfolio item clicked:", item);
   };
 
-  const renderPortfolioContent = (selectedPortfolioContent) => {
+  const renderPortfolioContent = (selectedPortfolioContent: PortfolioItem[]) => {
     return selectedPortfolioContent.map((portfolioItem, index) => (
       <InViewAnimationTwo
         key={portfolioItem.id}
         rootMargin="-8% 0%"
+        animation="fadeIn"
+        duration="1s"
         animationdelay={`delay-${((index * 50) + 200)}ms`}
+        fillmode="forwards"
+        easing="ease-in-out"
+        iteration="1"
+        threshold="0.5"
         className="init-invisible"
       >
         <div id={portfolioItem.id} className="portfolio-item">
@@ -79,10 +97,10 @@ const PortfolioContent = ({ selectedDiscipline = "Featured" }) => {
   };
 
   // Filter projects based on selectedDiscipline
-  const selectedPortfolioContent = projectsData.filter(portfolioItem => {
-    if (!portfolioItem.fields.Published) return false;
-    if (selectedDiscipline === "Featured") return portfolioItem.fields.Featured;
-    return portfolioItem.fields["Creative Discipline"]?.includes(selectedDiscipline);
+  const selectedPortfolioContent = (projectsData as unknown as PortfolioItem[]).filter((item: PortfolioItem) => {
+    if (!item.fields.Published) return false;
+    if (selectedDiscipline === "Featured") return item.fields.Featured;
+    return item.fields["Creative Discipline"]?.includes(selectedDiscipline);
   });
 
   // Sort items by date
