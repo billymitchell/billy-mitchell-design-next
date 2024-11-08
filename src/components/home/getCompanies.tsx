@@ -18,12 +18,12 @@ const FetchCompanies = function () {
       {featuredCompanies.map((portfolio_item) => (
         <img
           key={portfolio_item.id}
-          className={`companies fluid justify-self-center align-self-center ${portfolio_item.fields['Company Name']
-            .toLowerCase()
+          className={`companies fluid justify-self-center align-self-center ${portfolio_item.fields?.['Company Name']
+            ?.toString().toLowerCase()
             .replace('&', 'and')
             .replace(/\s/gi, '-')}`}
           src={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/${portfolio_item.fields['Company Logo']}`}
-          alt={portfolio_item.fields['Company Name']}
+          alt={portfolio_item.fields['Company Name']?.toString()}
         />
       ))}
     </div>

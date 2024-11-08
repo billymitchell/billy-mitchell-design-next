@@ -1,34 +1,36 @@
 // src/app/portfolio/ProjectDisciplineButtons.tsx
 
-// Import the pre-fetched Airtable data
-import { airtableData } from '@/components/utilities/getAirtableData';
+import React from 'react';
+import { airtableData } from "@/components/utilities/getAirtableData"; // Import the Airtable data
 
 interface ProjectDisciplineButtonsProps {
     onDisciplineSelect: (discipline: string) => void;
 }
 
-const ProjectDisciplineButtons = ({ onDisciplineSelect }: ProjectDisciplineButtonsProps) => {
+const ProjectDisciplineButtons: React.FC<ProjectDisciplineButtonsProps> = ({ onDisciplineSelect }) => {
     // Access projects data from airtableData
     const { projectsData } = airtableData;
 
-    const allDisciplines = ["Design", "Development", "Marketing"];
-    const uniqueDisciplines = new Set(allDisciplines);
+    // Step 1: Extract the 'Creative Discipline' field from each project that is published and featured, and add them to an array
+    const allDisciplines: string[] = [];
+    projectsData.forEach((project) => {
+        if (project.fields.Published && project.fields.Featured) { // Check if the project is published and featured
+            const disciplines = project.fields["Creative Discipline"];
+            if (Array.isArray(disciplines)) {
+                disciplines.forEach((discipline) => {
+                    allDisciplines.push(discipline);
+                });
+            }
+        }
+    });
 
-    // Convert the Set to an array before iterating
-    const uniqueDisciplinesArray = Array.from(uniqueDisciplines);
-
-    for (const discipline of uniqueDisciplinesArray) {
-        console.log(discipline);
-    }
+    // Step 2: Create a unique array of disciplines using a Set
+    const uniqueDisciplinesArray = Array.from(new Set(allDisciplines));
 
     return (
         <>
             {uniqueDisciplinesArray.map((discipline, index) => (
-                <button
-                    key={index}
-                    className="button"
-                    onClick={() => onDisciplineSelect(discipline)}
-                >
+                <button key={index} onClick={() => onDisciplineSelect(discipline)}>
                     {discipline}
                 </button>
             ))}

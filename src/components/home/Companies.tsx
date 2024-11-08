@@ -1,6 +1,5 @@
 "use client"
-import { useEffect, useState, ReactElement, JSXElementConstructor, ReactNode, ReactPortal, PromiseLikeOfReactNode, Children } from "react"
-import InViewAnimationTwo from "../utilities/InViewAnimationTwo"
+import InViewAnimationTwo from "../utilities/InViewAnimationTwo";
 //import { Parallax } from "react-scroll-parallax"
 import SeparatorTop from "../separator-top"
 import SeparatorBottom from "../separator-bottom"

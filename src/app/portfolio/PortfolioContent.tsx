@@ -4,7 +4,27 @@ import React from 'react';
 import ClientMasonry from "../../components/utilities/clientMasonry";
 import InViewAnimationTwo from "../../components/utilities/InViewAnimationTwo";
 import Link from 'next/link';
-import { airtableData } from '@/components/utilities/getAirtableData'; // Import the Airtable data
+import { airtableData } from '@/components/utilities/getAirtableData';
+
+const IfFeaturedImage = (portfolioItem) => {
+  if (portfolioItem.fields["Featured Image URL"]) {
+    return (
+      <>
+        <img
+          className="fluid"
+          id={portfolioItem.id}
+          src={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:good/portfolio/${portfolioItem.fields["Featured Image URL"]}`}
+          alt={portfolioItem.fields["Project Title"]}
+        />
+        <p className="title">
+          <strong>{portfolioItem.fields["Project Title"]}</strong>
+        </p>
+      </>
+    );
+  } else {
+    return null;
+  }
+};
 
 interface PortfolioItem {
   id: string;
@@ -18,47 +38,9 @@ interface PortfolioContentProps {
   selectedDiscipline?: string;
 }
 
-const sortItemsByDate = (selectedPortfolioContent: PortfolioItem[]) => {
-  return selectedPortfolioContent.sort((firstObject, secondObject) => {
-    const dateA = firstObject.fields['End Date'] ? new Date(firstObject.fields['End Date']) : null;
-    const dateB = secondObject.fields['End Date'] ? new Date(secondObject.fields['End Date']) : null;
-
-    if (dateA === null && dateB !== null) return -1;
-    if (dateA !== null && dateB === null) return 1;
-    if (dateA !== null && dateB !== null) return dateB.getTime() - dateA.getTime();
-
-    return 0;
-  });
-};
-
-const IfFeaturedImage = (portfolioItem: PortfolioItem) => {
-  if (portfolioItem.fields["Featured Image URL"]) {
-    return (
-      <>
-        <img
-          className="fluid"
-          id={portfolioItem.id}
-          src={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:good/portfolio/${portfolioItem.fields["Featured Image URL"]}`}
-          alt={portfolioItem.fields["Project Title"] || "Untitled Project"}
-        />
-        <p className="title">
-          <strong>{portfolioItem.fields["Project Title"] || "Untitled Project"}</strong>
-        </p>
-      </>
-    );
-  } else {
-    return (
-      <p className="title-no-featured-image">
-        <strong>{portfolioItem.fields["Project Title"] || "Untitled Project"}</strong>
-      </p>
-    );
-  }
-};
-
 const PortfolioContent: React.FC<PortfolioContentProps> = ({ selectedDiscipline = "Featured" }) => {
   // Access projects data from airtableData
   const { projectsData } = airtableData;
-  console.log("projectsData", projectsData);
 
   const handleLinkClick = (item: PortfolioItem) => {
     // Handle link click logic if needed
@@ -69,14 +51,7 @@ const PortfolioContent: React.FC<PortfolioContentProps> = ({ selectedDiscipline 
     return selectedPortfolioContent.map((portfolioItem, index) => (
       <InViewAnimationTwo
         key={portfolioItem.id}
-        rootMargin="-8% 0%"
-        animation="fadeIn"
-        duration="1s"
         animationdelay={`delay-${((index * 50) + 200)}ms`}
-        fillmode="forwards"
-        easing="ease-in-out"
-        iteration="1"
-        threshold="0.5"
         className="init-invisible"
       >
         <div id={portfolioItem.id} className="portfolio-item">
@@ -92,7 +67,7 @@ const PortfolioContent: React.FC<PortfolioContentProps> = ({ selectedDiscipline 
             {IfFeaturedImage(portfolioItem)}
           </Link>
         </div>
-      </InViewAnimationTwo>
+      </InViewAnimationTwo >
     ));
   };
 
@@ -104,7 +79,11 @@ const PortfolioContent: React.FC<PortfolioContentProps> = ({ selectedDiscipline 
   });
 
   // Sort items by date
-  sortItemsByDate(selectedPortfolioContent);
+  const sortedPortfolioItems = selectedPortfolioContent.sort((a, b) => {
+    const dateA = new Date(a.fields["End Date"]);
+    const dateB = new Date(b.fields["End Date"]);
+    return dateB.getTime() - dateA.getTime(); // Sort in descending order
+  });
 
   const breakpointCols = {
     default: 3,
@@ -115,7 +94,7 @@ const PortfolioContent: React.FC<PortfolioContentProps> = ({ selectedDiscipline 
 
   return (
     <div className="portfolio-item-container">
-      {selectedPortfolioContent.length === 0 ? (
+      {sortedPortfolioItems.length === 0 ? (
         <p>No projects available.</p>
       ) : (
         <ClientMasonry
@@ -123,7 +102,7 @@ const PortfolioContent: React.FC<PortfolioContentProps> = ({ selectedDiscipline 
           className="my-masonry-grid"
           columnClassName="my-masonry-grid_column"
         >
-          {renderPortfolioContent(selectedPortfolioContent)}
+          {renderPortfolioContent(sortedPortfolioItems)}
         </ClientMasonry>
       )}
     </div>

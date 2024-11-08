@@ -13,6 +13,13 @@ const Defaults = {
   iteration: "loop-1",
 }
 
+// Helper function to add multiple classes
+function addClasses(element, classes) {
+  classes.split(' ').forEach(cls => {
+    element.classList.add(cls);
+  });
+}
+
 const InViewAnimation = ({
   className,
   // 6 Animation Attributes
@@ -51,31 +58,29 @@ const InViewAnimation = ({
         if (inView === true) {
           // if animation value
           if (entry.target.attributes["animation"] !== undefined) {
-            // add if animation value to class 
-            entry.target.classList.add(entry.target.attributes["animation"].value)
+            addClasses(entry.target, entry.target.attributes["animation"].value);
           } else {
-            // else add default values to class
-            entry.target.classList.add(Defaults["animation"])
+            addClasses(entry.target, Defaults["animation"]);
           }
           if (entry.target.attributes["duration"] !== undefined) {
-            entry.target.classList.add(entry.target.attributes["duration"].value)
+            addClasses(entry.target, entry.target.attributes["duration"].value);
           } else {
-            entry.target.classList.add(Defaults["duration"])
+            addClasses(entry.target, Defaults["duration"]);
           }
           if (entry.target.attributes["animationdelay"] !== undefined) {
-            entry.target.classList.add(entry.target.attributes["animationdelay"].value)
+            addClasses(entry.target, entry.target.attributes["animationdelay"].value);
           } else {
-            entry.target.classList.add(Defaults["animationdelay"])
+            addClasses(entry.target, Defaults["animationdelay"]);
           }
           if (entry.target.attributes["fillmode"] !== undefined) {
-            entry.target.classList.add(entry.target.attributes["fillmode"].value)
+            addClasses(entry.target, entry.target.attributes["fillmode"].value);
           } else {
-            entry.target.classList.add(Defaults["fillmode"])
+            addClasses(entry.target, Defaults["fillmode"]);
           }
           if (entry.target.attributes["easing"] !== undefined) {
-            entry.target.classList.add(entry.target.attributes["easing"].value)
+            addClasses(entry.target, entry.target.attributes["easing"].value);
           } else {
-            entry.target.classList.add(Defaults["easing"])
+            addClasses(entry.target, Defaults["easing"]);
           }
           if (entry.target.attributes["iteration"] !== undefined) {
             entry.target.classList.add(entry.target.attributes["iteration"].value)
