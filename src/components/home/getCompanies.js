@@ -1,13 +1,10 @@
 // src/components/home/FetchCompanies.tsx
 
 // Import the pre-fetched Airtable data
-import { airtableData } from '../utilities/getAirtableData';
+import companiesData from '../utilities/data/companiesData.json';
 
 const FetchCompanies = function () {
-  // Access companies data from airtableData
-  const { companiesData } = airtableData;
-
-  // Filter for featured companies (checking fields.Feature)
+  //Filter for featured companies (checking fields.Feature)
   const featuredCompanies = companiesData.filter(
     (company) => company.fields?.Feature === true
   );
@@ -18,8 +15,11 @@ const FetchCompanies = function () {
       {featuredCompanies.map((portfolio_item) => (
         <img
           key={portfolio_item.id}
-          className={`companies fluid justify-self-center align-self-center ${portfolio_item.fields?.['Company Name']
-            ?.toString().toLowerCase()
+          className={`companies fluid justify-self-center align-self-center ${portfolio_item.fields?.[
+            'Company Name'
+          ]
+            ?.toString()
+            .toLowerCase()
             .replace('&', 'and')
             .replace(/\s/gi, '-')}`}
           src={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/${portfolio_item.fields['Company Logo']}`}

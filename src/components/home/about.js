@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useState } from "react"
-import InViewAnimationTwo from "../utilities/InViewAnimationTwo"
+import InViewAnimationTwo from "../utilities/InViewAnimationTwo.js"
 import { Parallax } from "react-scroll-parallax"
 import { Tilt } from 'react-tilt'
 // https://github.com/jonathandion/react-tilt

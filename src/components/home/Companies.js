@@ -1,14 +1,10 @@
 "use client"
-import InViewAnimationTwo from "../utilities/InViewAnimationTwo";
+import InViewAnimationTwo from "../utilities/InViewAnimationTwo.js";
 //import { Parallax } from "react-scroll-parallax"
 import SeparatorTop from "../separator-top"
 import SeparatorBottom from "../separator-bottom"
 
-export default function Companies({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function Companies({ children }) {
   return (
     <>
       <SeparatorTop className="bg-blue" />

@@ -1,4 +1,4 @@
-import GetCurrentDate from "../components/utilities/getcurrentdate"
+import GetCurrentDate from "./utilities/getcurrentdate"
 import Link from 'next/link'
 
 const Footer = () => {

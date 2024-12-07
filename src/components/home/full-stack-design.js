@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useState } from "react"
-import InViewAnimationTwo from "../utilities/InViewAnimationTwo"
+import InViewAnimationTwo from "../utilities/InViewAnimationTwo.js"
 // import InViewAnimationThree from "../utilities/InViewAnimationThree"
 import { Parallax } from "react-scroll-parallax"
 import SeparatorBottom from "../../components/separator-bottom"

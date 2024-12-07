@@ -1,5 +1,5 @@
 'use client';
-import InViewAnimationTwo from "../utilities/InViewAnimationTwo"
+import InViewAnimationTwo from "../utilities/InViewAnimationTwo.js"
 
 const Homesplash = () => {
   return (

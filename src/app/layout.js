@@ -1,20 +1,14 @@
-// app/layout.tsx
-"use client";
+'use client';
 import '../styles/global.scss';
 import Script from 'next/script';
-import Header from '@/components/header';
-import Footer from '@/components/footer';
+import Header from '../components/header';
+import Footer from '../components/footer';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        {/* Metadata and additional head elements can go here */}
-      </head>
+      <head>{/* Metadata and additional head elements can go here */}</head>
       <body>
         {/* External scripts */}
         <Script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js" />
@@ -24,7 +18,7 @@ export default function RootLayout({
         <div className="outer-wrapper">
           <div className="main-container">
             <Header />
-            {children}
+            <ParallaxProvider>{children}</ParallaxProvider>
           </div>
         </div>
         <Footer />
