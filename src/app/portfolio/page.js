@@ -8,9 +8,9 @@ import ProjectDisciplineButtons from './ProjectDisciplineButtons'; // Updated im
 
 const Portfolio = () => {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const discipline = searchParams.get('discipline');
-  const search = searchParams.get('search');
+  //const searchParams = useSearchParams();
+  //const discipline = searchParams.get('discipline');
+  //const search = searchParams.get('search');
 
   const [selectedDiscipline, setSelectedDiscipline] = useState('Featured');
 
