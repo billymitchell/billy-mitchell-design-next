@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/components/home/Services.js",
+    "src/components/home/getCompanies.js",
+    "src/components/home/Companies.js",
+    "src/app/portfolio/PortfolioContent.js",
+    "src/app/portfolio/page.js",
+    "src/app/portfolio/[project_title]/page.js",
+    "src/components/utilities/getAirtableData.js",
+    "src/components/home/getServices.js",
+    "src/app/layout.js",
+    "src/app/portfolio/ProjectDisciplineButtons.js",
+    "src/app/page.js",
+    "src/components/utilities/InViewAnimationTwo.js",
+    "src/components/footer.js",
+    "src/components/utilities/ParallaxProviderWrapper.js",
+    "src/components/header.js",
+    "src/app/portfolio/all/[project_title]/page.js",
+    "src/app/portfolio/all/page.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
