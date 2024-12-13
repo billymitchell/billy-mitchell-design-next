@@ -2,6 +2,70 @@
 import projectsData from '../../../components/utilities/data/projectsData.json';
 import companiesData from '../../../components/utilities/data/companiesData.json';
 
+// Generate metadata dynamically and pass project data
+export async function generateMetadata({ params }) {
+  const projectTitle = params.project_title
+    .replace(/-/g, ' ')
+    .toLowerCase()
+    .trim();
+
+  // Find the project
+  const project = projectsData.find(
+    (item) =>
+      typeof item.fields['Project Title'] === 'string' &&
+      item.fields['Project Title'].toLowerCase().trim() === projectTitle
+  );
+
+  if (!project) {
+    return {
+      title: 'Project Not Found - Billy Mitchell Portfolio',
+      description: 'The requested project could not be found.',
+    };
+  }
+
+  const data = project.fields;
+
+  return {
+    title: `${data['Project Title']} - Billy Mitchell Portfolio`,
+    description: `Explore the details of ${data['Project Title']}, a ${data['Job Type'].join(
+      ', '
+    )} project led by Billy Mitchell. Focused on ${data['Creative Discipline'].join(
+      ', '
+    )}, built using ${data['Made With'].join(', ')}.`,
+    openGraph: {
+      title: `${data['Project Title']} - Billy Mitchell Portfolio`,
+      description: `A showcase of ${data['Project Title']}, built using ${data['Made With'].join(
+        ', '
+      )}.`,
+      url: data['Live Web Project URL'] || 'https://billymitchell.design',
+      siteName: 'Billy Mitchell Portfolio',
+      images: [
+        {
+          url: `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data['Featured Image URL']}`,
+          width: 1200,
+          height: 630,
+          alt: `${data['Project Title']} featured image`,
+        },
+      ],
+      locale: 'en_US',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${data['Project Title']} - Billy Mitchell Portfolio`,
+      description: `A creative project built with ${data['Made With'].join(
+        ', '
+      )}. Focused on ${data['Creative Discipline'].join(', ')}.`,
+      images: [
+        `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data['Featured Image URL']}`,
+      ],
+    },
+    icons: {
+      icon: '/files/favicon.ico', // Path to your favicon
+    },
+  };
+}
+
 // Function to generate static paths for all projects
 export async function generateStaticParams() {
   return projectsData.map((project) => ({
@@ -129,7 +193,7 @@ export default function PortfolioContent({ params }) {
   }
 
   const data = project.fields;
-
+  
   // Find company names for the "Made For" field
   const companyNames = Array.isArray(data['Made For'])
     ? data['Made For'].map((companyId) => {

@@ -51,7 +51,7 @@ const TechStack = () => {
               </InViewAnimationTwo>
               <InViewAnimationTwo
                 rootMargin="-25% 0%"
-                animationdelay="delay-250ms"
+                delay="delay-250ms"
                 className="init-invisible"
               >
                 <p>
@@ -63,7 +63,7 @@ const TechStack = () => {
               <div className="teck-stack-container grid-container col-7 col-gap-30 small-col-4 small-col-gap-20">
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  animationdelay="delay-500ms"
+                  delay="delay-500ms"
                   className="init-invisible"
                 >
                   <img
@@ -74,7 +74,7 @@ const TechStack = () => {
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  animationdelay="delay-550ms"
+                  delay="delay-550ms"
                   className="init-invisible"
                 >
                   <img
@@ -85,7 +85,7 @@ const TechStack = () => {
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  animationdelay="delay-600ms"
+                  delay="delay-600ms"
                   className="init-invisible"
                 >
                   <img
@@ -96,7 +96,7 @@ const TechStack = () => {
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  animationdelay="delay-650ms"
+                  delay="delay-650ms"
                   className="init-invisible"
                 >
                   <img
@@ -107,7 +107,7 @@ const TechStack = () => {
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  animationdelay="delay-700ms"
+                  delay="delay-700ms"
                   className="init-invisible"
                 >
                   <img
@@ -118,7 +118,7 @@ const TechStack = () => {
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  animationdelay="delay-750ms"
+                  delay="delay-750ms"
                   className="init-invisible"
                 >
                   <img
@@ -129,7 +129,7 @@ const TechStack = () => {
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  animationdelay="delay-800ms"
+                  delay="delay-800ms"
                   className="init-invisible"
                 >
                   <img
@@ -140,7 +140,7 @@ const TechStack = () => {
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  animationdelay="delay-850ms"
+                  delay="delay-850ms"
                   className="init-invisible"
                 >
                   <img
@@ -151,7 +151,7 @@ const TechStack = () => {
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  animationdelay="delay-900ms"
+                  delay="delay-900ms"
                   className="init-invisible"
                 >
                   <img
@@ -162,7 +162,7 @@ const TechStack = () => {
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  animationdelay="delay-950ms"
+                  delay="delay-950ms"
                   className="init-invisible"
                 >
                   <img
@@ -173,7 +173,7 @@ const TechStack = () => {
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  animationdelay="delay-1000ms"
+                  delay="delay-1000ms"
                   className="init-invisible"
                 >
 
@@ -185,7 +185,7 @@ const TechStack = () => {
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  animationdelay="delay-1050ms"
+                  delay="delay-1050ms"
                   className="init-invisible"
                 >
                   <img
@@ -196,7 +196,7 @@ const TechStack = () => {
                 <InViewAnimationTwo
 
                   rootMargin="-25% 0%"
-                  animationdelay="delay-1100ms"
+                  delay="delay-1100ms"
                   className="init-invisible"
                 >
                   <img
@@ -208,7 +208,7 @@ const TechStack = () => {
                 <InViewAnimationTwo
                   // 
                   rootMargin="-25% 0%"
-                  animationdelay="delay-1150ms"
+                  delay="delay-1150ms"
                   className="init-invisible"
                 >
                   <img

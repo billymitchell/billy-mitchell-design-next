@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Header = () => {
     return (
@@ -39,9 +40,9 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/Billy-Mitchell-Resume-2022.pdf">
+                                <a href="/files/Billy-Mitchell-Resume-2024-one-page.pdf" target='_blank'>
                                     <small>Resume</small>
-                                </Link>
+                                </a>
                             </li>
                             <li className="hidden">
                                 <Link href="/blog">

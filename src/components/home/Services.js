@@ -45,7 +45,7 @@ export default function Services({ children }) {
             <ParallaxWrapper disabled={parallaxDisabledState} y={[-30, 30]} x={[0, 0]}>
               <InViewAnimationTwo
                 rootMargin="-25% 0%"
-                animationdelay="delay-0ms"
+                delay="delay-0ms"
                 className="init-invisible"
               >
                 <h3>Services Offered</h3>

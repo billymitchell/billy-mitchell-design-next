@@ -48,7 +48,7 @@ const FullStack = () => {
                 className="init-invisible"
                 animation="fade-in-up-small"
                 duration="time-1000ms"
-                animationdelay="delay-0ms"
+                delay="delay-0ms"
               >
                 <h3>My Specialty</h3>
               </InViewAnimationTwo>
@@ -57,7 +57,7 @@ const FullStack = () => {
                 className="init-invisible"
                 animation="fade-in-up-small"
                 duration="time-1000ms"
-                animationdelay="delay-0ms"
+                delay="delay-0ms"
               >
                 <p>
                 I have a breadth of design skills in many areas with a depth of skills in User Experience Design, User Interface Design, and Frontend Development. I also enjoy taking on projects in Branding, Illustration, Photography, and Motion Graphics. 
@@ -71,7 +71,7 @@ const FullStack = () => {
                     className="init-height-none l-bar"
                     animation="grow-height"
                     duration="time-1500ms"
-                    animationdelay="delay-0ms"
+                    delay="delay-0ms"
                   >
                   </InViewAnimationTwo>
                   <InViewAnimationTwo
@@ -79,7 +79,7 @@ const FullStack = () => {
                     className="init-invisible"
                     animation="fade-in-up-small"
                     duration="time-1000ms"
-                    animationdelay="delay-0ms"
+                    delay="delay-0ms"
                   >
                     <h4>
                       UX Design
@@ -90,7 +90,7 @@ const FullStack = () => {
                     className="init-invisible"
                     animation="fade-in-up-small"
                     duration="time-1000ms"
-                    animationdelay="delay-250ms"
+                    delay="delay-250ms"
                   >
                     <p>
                       Strategy<br />
@@ -103,7 +103,7 @@ const FullStack = () => {
                     className="init-width-none b-bar"
                     animation="grow-width"
                     duration="time-2000ms"
-                    animationdelay="delay-0ms"
+                    delay="delay-0ms"
                   >
                   </InViewAnimationTwo>
                 </div>
@@ -113,7 +113,7 @@ const FullStack = () => {
                     className="init-height-none l-bar"
                     animation="grow-height"
                     duration="time-1500ms"
-                    animationdelay="delay-1000ms"
+                    delay="delay-1000ms"
                   >
                   </InViewAnimationTwo>
                   <InViewAnimationTwo
@@ -121,7 +121,7 @@ const FullStack = () => {
                     className="init-invisible"
                     animation="fade-in-up-small"
                     duration="time-1000ms"
-                    animationdelay="delay-1000ms"
+                    delay="delay-1000ms"
                   >
                     <h4>
                       UI Design
@@ -132,7 +132,7 @@ const FullStack = () => {
                     className="init-invisible"
                     animation="fade-in-up-small"
                     duration="time-1000ms"
-                    animationdelay="delay-1250ms"
+                    delay="delay-1250ms"
                   >
                     <p>
                       Visuals<br />
@@ -145,7 +145,7 @@ const FullStack = () => {
                     className="init-width-none b-bar"
                     animation="grow-width"
                     duration="time-2000ms"
-                    animationdelay="delay-1000ms"
+                    delay="delay-1000ms"
                   >
                   </InViewAnimationTwo>
                 </div>
@@ -155,7 +155,7 @@ const FullStack = () => {
                     className="init-height-none l-bar"
                     animation="grow-height"
                     duration="time-1500ms"
-                    animationdelay="delay-2000ms"
+                    delay="delay-2000ms"
                   >
                   </InViewAnimationTwo>
                   <InViewAnimationTwo
@@ -163,7 +163,7 @@ const FullStack = () => {
                     className="init-invisible"
                     animation="fade-in-up-small"
                     duration="time-1000ms"
-                    animationdelay="delay-2000ms"
+                    delay="delay-2000ms"
                   >
                     <h4>
                       Frontend Development
@@ -174,7 +174,7 @@ const FullStack = () => {
                     className="init-invisible"
                     animation="fade-in-up-small"
                     duration="time-1000ms"
-                    animationdelay="delay-2250ms"
+                    delay="delay-2250ms"
                   >
                     <p>
                       HTML<br />
@@ -187,7 +187,7 @@ const FullStack = () => {
                     className="init-width-none b-bar"
                     animation="grow-width"
                     duration="time-2000ms"
-                    animationdelay="delay-2000ms"
+                    delay="delay-2000ms"
                   >
                   </InViewAnimationTwo>
                 </div>

@@ -72,7 +72,7 @@ const PortfolioContent = ({ selectedDiscipline = 'Featured' }) => {
           {sortedPortfolioItems.map((portfolioItem, index) => (
             <InViewAnimationTwo
               key={portfolioItem.id}
-              animationdelay={`delay-${index * 50 + 200}ms`}
+              delay={`delay-${index * 50 + 200}ms`}
               className="init-invisible"
             >
               <div id={portfolioItem.id} className="portfolio-item">

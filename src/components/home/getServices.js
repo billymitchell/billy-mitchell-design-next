@@ -7,7 +7,7 @@ export default function FetchServices() {
     <div key={service.fields['Services Order']}>
       <InViewAnimationTwo
         rootMargin="-25% 0%"
-        animationdelay={`delay-${index * 50 + 200}ms`}
+        delay={`delay-${index * 50 + 200}ms`}
         className="init-invisible"
       >
         <div className="block service padding-top-30 padding-bottom-30 padding-left-20 padding-right-20 border border-solid border-width-1 border-color-white bg-green-dark-4 small-padding-top-20 mall-padding-bottom-20 small-padding-left-18 small-padding-right-18">

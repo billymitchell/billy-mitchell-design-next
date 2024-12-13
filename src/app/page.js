@@ -8,17 +8,51 @@ import FetchServices from '../components/home/getServices';
 import Companies from '../components/home/Companies';
 import FetchCompanies from '../components/home/getCompanies';
 import ParallaxProviderWrapper from '../components/utilities/ParallaxProviderWrapper';
+// app/page.js
+
+
+export async function generateMetadata() {
+  return {
+    title: 'Billy Mitchell Design & Development',
+    description: 'Creative web design, development, and digital solutions by Billy Mitchell. Specializing in front-end development, e-commerce, and graphic design.',
+    keywords: ['Billy Mitchell', 'Web Design', 'Web Development', 'E-commerce', 'Front-end Development', 'Graphic Design', 'Next.js'],
+    authors: [
+      { name: 'Billy Mitchell', url: 'https://billymitchell.design' },
+    ],
+    openGraph: {
+      title: 'Billy Mitchell Design & Development',
+      description: 'Explore creative web design and development solutions by Billy Mitchell. Specializing in front-end development, e-commerce platforms, and more.',
+      url: 'https://billymitchell.design',
+      siteName: 'Billy Mitchell Design & Development',
+      images: [
+        {
+          url: '/files/open-graph.png', // Replace with your actual Open Graph image URL
+          width: 1200,
+          height: 630,
+          alt: 'Billy Mitchell Design & Development Open Graph Image',
+        },
+      ],
+      locale: 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Billy Mitchell Design & Development',
+      description: 'Creative web design, development, and digital solutions by Billy Mitchell.',
+      images: ['/files/open-graph.png'], // Replace with your actual Twitter card image URL
+    },
+    icons: {
+      icon: '/files/favicon.ico', // Path to your favicon
+    },
+  };
+}
 
 // to do:
 
 // IMPORTANT
-// get animation delays working
-// get specialty animation bars working
-// update resume document
-// rework metadata and seo
-// refactor and simplify code
 // add/remove featured portfolio content
 // move sub domains to vercel
+// refactor and simplify code
 
 // NICE TO HAVE
 // evaluate use of 3rd party image hosting

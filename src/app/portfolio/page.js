@@ -1,48 +1,54 @@
-// app/portfolio/page.tsx
-'use client';
+// app/portfolio/page.tsx (Server Component)
 
-import React, { useState } from 'react';
-import PortfolioContent from './PortfolioContent';
-import { useRouter, useSearchParams } from 'next/navigation';
-import ProjectDisciplineButtons from './ProjectDisciplineButtons'; // Updated import
+import Portfolio from '../portfolio/portfolio.js';
 
-const Portfolio = () => {
-  const router = useRouter();
-  //const searchParams = useSearchParams();
-  //const discipline = searchParams.get('discipline');
-  //const search = searchParams.get('search');
-
-  const [selectedDiscipline, setSelectedDiscipline] = useState('Featured');
-
-  // Handle discipline button click
-  const handleDisciplineSelect = (discipline) => {
-    setSelectedDiscipline(discipline);
+export async function generateMetadata() {
+  return {
+    title: 'Billy Mitchell Portfolio - Design & Development',
+    description: 'Explore the creative portfolio of Billy Mitchell, featuring work in Motion Design, UI Design, Web Development, UX Design, Branding, and Print Design.',
+    keywords: [
+      'Billy Mitchell',
+      'Portfolio',
+      'Motion Design',
+      'UI Design',
+      'Web Development',
+      'UX Design',
+      'Branding',
+      'Print Design',
+      'Graphic Design',
+      'Creative Solutions',
+    ],
+    authors: [
+      { name: 'Billy Mitchell', url: 'https://billymitchell.design' },
+    ],
+    openGraph: {
+      title: 'Billy Mitchell Portfolio - Design & Development',
+      description: 'Dive into the portfolio of Billy Mitchell, showcasing expertise in Motion Design, UI/UX Design, Web Development, Branding, and Print Design.',
+      url: 'https://billymitchell.design/portfolio',
+      siteName: 'Billy Mitchell Portfolio',
+      images: [
+        {
+          url: '/files/open-graph.png', // Replace with actual image URL
+          width: 1200,
+          height: 630,
+          alt: 'Billy Mitchell Portfolio Open Graph Image',
+        },
+      ],
+      locale: 'en_US',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Billy Mitchell Portfolio - Design & Development',
+      description: 'A creative portfolio featuring Motion Design, UI Design, Web Development, UX Design, Branding, and Print Design by Billy Mitchell.',
+      images: ['/files/open-graph.png'], // Replace with actual image URL
+    },
+    icons: {
+      icon: '/files/favicon.ico', // Path to your favicon
+    },
   };
+}
 
-  return (
-    <div id="portfolio" className="bg-black">
-      <div className="outer-container">
-        <div className="inner-width">
-          <h1>Featured Work</h1>
-          <div className="button-container">
-            {/* Render discipline buttons from ProjectDisciplineButtons component */}
-            <ProjectDisciplineButtons
-              onDisciplineSelect={handleDisciplineSelect}
-            />
-          </div>
-        </div>
-      </div>
-      <div className="outer-container">
-        <div className="inner-width-full">
-          {/* PortfolioContent now handles filtering based on selectedDiscipline */}
-          <PortfolioContent selectedDiscipline={selectedDiscipline} />
-          <div className="text-center padding-top-15 padding-bottom-15">
-            <a href="/portfolio/all">View All Other Published Portfolio Work</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Portfolio;
+export default function PortfolioPage() {
+  return <Portfolio />;
+}
