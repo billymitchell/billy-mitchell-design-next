@@ -244,7 +244,7 @@
           "UI Design",
           "Web Development"
         ],
-        "Date Modified": "2024-09-06T18:17:29.000Z"
+        "Date Modified": "2024-12-27T22:12:50.000Z"
       }
     },
     "fields": {
@@ -280,72 +280,7 @@
         "UI Design",
         "Web Development"
       ],
-      "Date Modified": "2024-09-06T18:17:29.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "rec1xl9bxa67Uo3iK",
-    "_rawJson": {
-      "id": "rec1xl9bxa67Uo3iK",
-      "createdTime": "2020-09-30T19:44:19.000Z",
-      "fields": {
-        "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/8iWYNz7Y2uQ' frameborder='0' allowfullscreen></iframe></div>",
-        "End Date": "2017-01-01",
-        "Featured Image URL": "snac/Screen_Shot_2020-10-01_at_1.31.01_PM_v6qfvb",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Hide Featured Image In Body": true,
-        "Made For": [
-          "recqEijWi3qLzyhe5",
-          "rec3YSzCNkb5JVUdN"
-        ],
-        "Published": true,
-        "Made With": [
-          "After Effects"
-        ],
-        "Project Title": "SNAC Holiday Animation",
-        "Creative Discipline": [
-          "Motion Design"
-        ],
-        "Date Modified": "2020-12-31T21:25:32.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/8iWYNz7Y2uQ' frameborder='0' allowfullscreen></iframe></div>",
-      "End Date": "2017-01-01",
-      "Featured Image URL": "snac/Screen_Shot_2020-10-01_at_1.31.01_PM_v6qfvb",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Hide Featured Image In Body": true,
-      "Made For": [
-        "recqEijWi3qLzyhe5",
-        "rec3YSzCNkb5JVUdN"
-      ],
-      "Published": true,
-      "Made With": [
-        "After Effects"
-      ],
-      "Project Title": "SNAC Holiday Animation",
-      "Creative Discipline": [
-        "Motion Design"
-      ],
-      "Date Modified": "2020-12-31T21:25:32.000Z"
+      "Date Modified": "2024-12-27T22:12:50.000Z"
     }
   },
   {
@@ -598,12 +533,12 @@
           "Indesign"
         ],
         "Project Title": "World Spice Recipe Collection ",
+        "Featured": true,
         "Creative Discipline": [
           "Print Design"
         ],
         "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards_edhbch\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards2_ozjmdd\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards3_dcu5h9\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards4_uqmvxd\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards5_ioswvg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards6_faf0w0\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards7_znfhxx\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards8_mayauh\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards9_rirpqc\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards10_lwodj1\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards11_l2kbtz\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards12_l7swoq\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards13_cmsmqo\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards14_orgzgc\"\n/>\n",
-        "Date Modified": "2024-12-13T20:43:48.000Z",
-        "Featured": true
+        "Date Modified": "2024-12-13T20:43:48.000Z"
       }
     },
     "fields": {
@@ -626,343 +561,12 @@
         "Indesign"
       ],
       "Project Title": "World Spice Recipe Collection ",
+      "Featured": true,
       "Creative Discipline": [
         "Print Design"
       ],
       "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards_edhbch\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards2_ozjmdd\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards3_dcu5h9\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards4_uqmvxd\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards5_ioswvg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards6_faf0w0\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards7_znfhxx\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards8_mayauh\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards9_rirpqc\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards10_lwodj1\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards11_l2kbtz\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards12_l7swoq\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards13_cmsmqo\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards14_orgzgc\"\n/>\n",
-      "Date Modified": "2024-12-13T20:43:48.000Z",
-      "Featured": true
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "rec5j4U00GqAi1Vxa",
-    "_rawJson": {
-      "id": "rec5j4U00GqAi1Vxa",
-      "createdTime": "2020-08-16T18:57:14.000Z",
-      "fields": {
-        "Custom HTML": "<style>\n      @media only screen and (max-width: 816px) {\n        /* RCI Map */\n        #experience-5c6afc1315282 {\n          padding: 0px 0px 171.43% !important;\n        }\n      }\n    </style>\n    <div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 64.84%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5c6afc1315282\"\n      data-aspectRatio=\"1.54216867\"\n      data-mobile-aspectRatio=\"0.58333333\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/rci-map\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"Destinations Map - Desktop\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-        "End Date": "2020-12-01",
-        "Featured Image URL": "my-royal-adventure/017cb4b3",
-        "Position on Project": [
-          "Maintenance ",
-          "Asistent"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Live Web Project URL": "https://www.myroyaladventure.com/",
-        "Made For": [
-          "recwezBDstyLcFx9Q",
-          "recnRzPHJH487g2DC"
-        ],
-        "Intro Text": "I refined and expanded this site's content significantly. I set up mobile responsive, streamlined promotional pages that frequently rotated and published engaging blog content.",
-        "Published": true,
-        "Made With": [
-          "Photoshop",
-          "HTML",
-          "CSS",
-          "Wordpress"
-        ],
-        "Project Title": "My Royal Adventure",
-        "Creative Discipline": [
-          "UI Design",
-          "Web Development"
-        ],
-        "Date Modified": "2021-02-02T17:06:00.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>\n      @media only screen and (max-width: 816px) {\n        /* RCI Map */\n        #experience-5c6afc1315282 {\n          padding: 0px 0px 171.43% !important;\n        }\n      }\n    </style>\n    <div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 64.84%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5c6afc1315282\"\n      data-aspectRatio=\"1.54216867\"\n      data-mobile-aspectRatio=\"0.58333333\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/rci-map\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"Destinations Map - Desktop\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-      "End Date": "2020-12-01",
-      "Featured Image URL": "my-royal-adventure/017cb4b3",
-      "Position on Project": [
-        "Maintenance ",
-        "Asistent"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Live Web Project URL": "https://www.myroyaladventure.com/",
-      "Made For": [
-        "recwezBDstyLcFx9Q",
-        "recnRzPHJH487g2DC"
-      ],
-      "Intro Text": "I refined and expanded this site's content significantly. I set up mobile responsive, streamlined promotional pages that frequently rotated and published engaging blog content.",
-      "Published": true,
-      "Made With": [
-        "Photoshop",
-        "HTML",
-        "CSS",
-        "Wordpress"
-      ],
-      "Project Title": "My Royal Adventure",
-      "Creative Discipline": [
-        "UI Design",
-        "Web Development"
-      ],
-      "Date Modified": "2021-02-02T17:06:00.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "rec694UxTv7qNDhEm",
-    "_rawJson": {
-      "id": "rec694UxTv7qNDhEm",
-      "createdTime": "2020-08-24T23:32:35.000Z",
-      "fields": {
-        "Custom HTML": "<div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 60%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5d9f758b623e6\"\n      data-aspectRatio=\"1.66666667\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/hilton-quiz\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"193590 - Hilton Quiz\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-        "End Date": "2020-12-01",
-        "Featured Image URL": "hilton-quiz/e44ad5e7",
-        "Position on Project": [
-          "Asistent"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Made For": [
-          "recwezBDstyLcFx9Q",
-          "recqb4ca8EMJFLfJf",
-          "recajXOXbm3QpuwP7"
-        ],
-        "Published": true,
-        "Made With": [
-          "Ceros"
-        ],
-        "Project Title": "Hilton Agent Quiz",
-        "Creative Discipline": [
-          "UI Design"
-        ],
-        "Date Modified": "2021-01-24T18:51:15.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 60%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5d9f758b623e6\"\n      data-aspectRatio=\"1.66666667\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/hilton-quiz\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"193590 - Hilton Quiz\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-      "End Date": "2020-12-01",
-      "Featured Image URL": "hilton-quiz/e44ad5e7",
-      "Position on Project": [
-        "Asistent"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Made For": [
-        "recwezBDstyLcFx9Q",
-        "recqb4ca8EMJFLfJf",
-        "recajXOXbm3QpuwP7"
-      ],
-      "Published": true,
-      "Made With": [
-        "Ceros"
-      ],
-      "Project Title": "Hilton Agent Quiz",
-      "Creative Discipline": [
-        "UI Design"
-      ],
-      "Date Modified": "2021-01-24T18:51:15.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "rec6cjvnEeR2l4wIg",
-    "_rawJson": {
-      "id": "rec6cjvnEeR2l4wIg",
-      "createdTime": "2020-08-13T19:49:04.000Z",
-      "fields": {
-        "End Date": "2014-12-01",
-        "Featured Image URL": "giometric-nudes/IMG_0899_web",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Educational"
-        ],
-        "Hide Featured Image In Body": true,
-        "Made For": [
-          "rec0QNfGozYGRt1Jm"
-        ],
-        "Made With": [
-          "Photoshop",
-          "Illustrator",
-          "Screen Printing "
-        ],
-        "Project Title": "Geometric Nudes",
-        "Creative Discipline": [
-          "Print Design"
-        ],
-        "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/1-Top2_web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0899_web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0933_web.min_\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/admendment/giometric-nudes/IMG_0902_web\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0956_crop_web1\n  \"\n/>\n\n",
-        "Date Modified": "2024-12-13T20:45:18.000Z",
-        "Featured": true
-      }
-    },
-    "fields": {
-      "End Date": "2014-12-01",
-      "Featured Image URL": "giometric-nudes/IMG_0899_web",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Educational"
-      ],
-      "Hide Featured Image In Body": true,
-      "Made For": [
-        "rec0QNfGozYGRt1Jm"
-      ],
-      "Made With": [
-        "Photoshop",
-        "Illustrator",
-        "Screen Printing "
-      ],
-      "Project Title": "Geometric Nudes",
-      "Creative Discipline": [
-        "Print Design"
-      ],
-      "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/1-Top2_web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0899_web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0933_web.min_\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/admendment/giometric-nudes/IMG_0902_web\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0956_crop_web1\n  \"\n/>\n\n",
-      "Date Modified": "2024-12-13T20:45:18.000Z",
-      "Featured": true
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "rec7fXv0bqFh3NHGM",
-    "_rawJson": {
-      "id": "rec7fXv0bqFh3NHGM",
-      "createdTime": "2020-08-13T18:01:41.000Z",
-      "fields": {
-        "End Date": "2017-02-01",
-        "Featured Image URL": "self/Drawingself",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Personal"
-        ],
-        "Made For": [
-          "rec9Yv6ZVghvkMpJB"
-        ],
-        "Made With": [
-          "Illustration"
-        ],
-        "Project Title": "Self Portrait Digital Illustration ",
-        "Creative Discipline": [
-          "Illustration"
-        ],
-        "Date Modified": "2021-01-24T22:47:57.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2017-02-01",
-      "Featured Image URL": "self/Drawingself",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Personal"
-      ],
-      "Made For": [
-        "rec9Yv6ZVghvkMpJB"
-      ],
-      "Made With": [
-        "Illustration"
-      ],
-      "Project Title": "Self Portrait Digital Illustration ",
-      "Creative Discipline": [
-        "Illustration"
-      ],
-      "Date Modified": "2021-01-24T22:47:57.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "rec9gHdpVrVJqHWTD",
-    "_rawJson": {
-      "id": "rec9gHdpVrVJqHWTD",
-      "createdTime": "2020-08-13T19:52:24.000Z",
-      "fields": {
-        "End Date": "2017-12-31",
-        "Featured Image URL": "michael-owen-mural-asistent/August2007_Issue-web",
-        "Position on Project": [
-          "Asistent"
-        ],
-        "Job Type": [
-          "Contract"
-        ],
-        "Hide Featured Image In Body": true,
-        "Made For": [
-          "recMkiAO7djp9JSWP"
-        ],
-        "Intro Text": "I first started working with Michel Owen in highschool. This working relationship continued just past college where I assisted him in painting many murals he designed.",
-        "Made With": [
-          "Painting"
-        ],
-        "Project Title": "Mural Assistant With Michael Owen",
-        "Creative Discipline": [
-          "Mural Art"
-        ],
-        "Body Text": "<img  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/August2007_Issue-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/Template-rectangle-image-templatestPaulspk-copy\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/9\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/101\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/1095114_10151815431597223_68485522_n\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/10665644_704399012970332_1398493242_n\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/10653463_10154525453250315_782541788479725010_n\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/10557070_10154716111810315_2406068067523547663_o\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/IMG_1656\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/IMG_0389\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/17832_96_z\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/IMG_0001\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/IMG_1498\"\n/>\n",
-        "Date Modified": "2024-12-13T20:45:22.000Z",
-        "Featured": true
-      }
-    },
-    "fields": {
-      "End Date": "2017-12-31",
-      "Featured Image URL": "michael-owen-mural-asistent/August2007_Issue-web",
-      "Position on Project": [
-        "Asistent"
-      ],
-      "Job Type": [
-        "Contract"
-      ],
-      "Hide Featured Image In Body": true,
-      "Made For": [
-        "recMkiAO7djp9JSWP"
-      ],
-      "Intro Text": "I first started working with Michel Owen in highschool. This working relationship continued just past college where I assisted him in painting many murals he designed.",
-      "Made With": [
-        "Painting"
-      ],
-      "Project Title": "Mural Assistant With Michael Owen",
-      "Creative Discipline": [
-        "Mural Art"
-      ],
-      "Body Text": "<img  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/August2007_Issue-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/Template-rectangle-image-templatestPaulspk-copy\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/9\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/101\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/1095114_10151815431597223_68485522_n\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/10665644_704399012970332_1398493242_n\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/10653463_10154525453250315_782541788479725010_n\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/10557070_10154716111810315_2406068067523547663_o\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/IMG_1656\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/IMG_0389\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/17832_96_z\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/IMG_0001\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/michael-owen-mural-asistent/IMG_1498\"\n/>\n",
-      "Date Modified": "2024-12-13T20:45:22.000Z",
-      "Featured": true
+      "Date Modified": "2024-12-13T20:43:48.000Z"
     }
   },
   {
@@ -1174,132 +778,6 @@
         "Web Development"
       ],
       "Date Modified": "2021-01-24T18:50:38.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recDff6ElCCVspKQN",
-    "_rawJson": {
-      "id": "recDff6ElCCVspKQN",
-      "createdTime": "2020-08-18T15:32:36.000Z",
-      "fields": {
-        "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Y-EcnH0_73w' frameborder='0' allowfullscreen></iframe></div>",
-        "End Date": "2018-10-01",
-        "Featured Image URL": "american-composite-manufacturing/f0eb31ad",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Made For": [
-          "recyEKK0e6ih1gvDH",
-          "rec3YSzCNkb5JVUdN"
-        ],
-        "Made With": [
-          "After Effects"
-        ],
-        "Project Title": "American Composite Manufacturing",
-        "Creative Discipline": [
-          "Motion Design"
-        ],
-        "Date Modified": "2021-01-24T22:43:57.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Y-EcnH0_73w' frameborder='0' allowfullscreen></iframe></div>",
-      "End Date": "2018-10-01",
-      "Featured Image URL": "american-composite-manufacturing/f0eb31ad",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Made For": [
-        "recyEKK0e6ih1gvDH",
-        "rec3YSzCNkb5JVUdN"
-      ],
-      "Made With": [
-        "After Effects"
-      ],
-      "Project Title": "American Composite Manufacturing",
-      "Creative Discipline": [
-        "Motion Design"
-      ],
-      "Date Modified": "2021-01-24T22:43:57.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recFin4W0pbgDrg4G",
-    "_rawJson": {
-      "id": "recFin4W0pbgDrg4G",
-      "createdTime": "2020-08-13T20:29:18.000Z",
-      "fields": {
-        "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/XnDcnmAqdx0' frameborder='0' allowfullscreen></iframe></div>",
-        "End Date": "2014-01-01",
-        "Featured Image URL": "caramore-in-the-garden-of-sonic-delights/ea83f7ea_mmiy12",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Educational",
-          "Contract"
-        ],
-        "Made For": [
-          "reczYq9ELVXaDUyvj"
-        ],
-        "Intro Text": "This project was part of a classroom competition. The client chose and paid the student with the best animation. My project was chosen as the winner of the competition.",
-        "Made With": [
-          "After Effects"
-        ],
-        "Project Title": "In The Garden Of Sonic Delights",
-        "Creative Discipline": [
-          "Motion Design"
-        ],
-        "Date Modified": "2024-12-13T20:45:03.000Z",
-        "Featured": true
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/XnDcnmAqdx0' frameborder='0' allowfullscreen></iframe></div>",
-      "End Date": "2014-01-01",
-      "Featured Image URL": "caramore-in-the-garden-of-sonic-delights/ea83f7ea_mmiy12",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Educational",
-        "Contract"
-      ],
-      "Made For": [
-        "reczYq9ELVXaDUyvj"
-      ],
-      "Intro Text": "This project was part of a classroom competition. The client chose and paid the student with the best animation. My project was chosen as the winner of the competition.",
-      "Made With": [
-        "After Effects"
-      ],
-      "Project Title": "In The Garden Of Sonic Delights",
-      "Creative Discipline": [
-        "Motion Design"
-      ],
-      "Date Modified": "2024-12-13T20:45:03.000Z",
-      "Featured": true
     }
   },
   {
@@ -1532,136 +1010,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "recHSK1wIxNvKS1qE",
-    "_rawJson": {
-      "id": "recHSK1wIxNvKS1qE",
-      "createdTime": "2020-09-30T19:41:00.000Z",
-      "fields": {
-        "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/t_zMeQK-U3I' frameborder='0' allowfullscreen></iframe></div>",
-        "End Date": "2018-08-27",
-        "Featured Image URL": "maui-jacks/Screen_Shot_2020-10-01_at_1.59.36_PM_q2pcea",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Hide Featured Image In Body": true,
-        "Made For": [
-          "rec3YSzCNkb5JVUdN",
-          "recDVnTDxc4L2eoyU"
-        ],
-        "Published": true,
-        "Made With": [
-          "After Effects"
-        ],
-        "Project Title": "Maui Jack's Waterpark",
-        "Creative Discipline": [
-          "Motion Design"
-        ],
-        "Date Modified": "2020-12-31T21:25:01.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/t_zMeQK-U3I' frameborder='0' allowfullscreen></iframe></div>",
-      "End Date": "2018-08-27",
-      "Featured Image URL": "maui-jacks/Screen_Shot_2020-10-01_at_1.59.36_PM_q2pcea",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Hide Featured Image In Body": true,
-      "Made For": [
-        "rec3YSzCNkb5JVUdN",
-        "recDVnTDxc4L2eoyU"
-      ],
-      "Published": true,
-      "Made With": [
-        "After Effects"
-      ],
-      "Project Title": "Maui Jack's Waterpark",
-      "Creative Discipline": [
-        "Motion Design"
-      ],
-      "Date Modified": "2020-12-31T21:25:01.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recK933n8CGrCmTzt",
-    "_rawJson": {
-      "id": "recK933n8CGrCmTzt",
-      "createdTime": "2020-09-02T23:50:37.000Z",
-      "fields": {
-        "Custom HTML": "<style>\n      @media only screen and (max-width: 816px) {\n        /* AMA */\n        #experience-5e56b41f4cb08 {\n          padding: 0px 0px 172.53% !important;\n        }\n      }\n    </style>\n    <div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 62.5%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5e56b41f4cb08\"\n      data-aspectRatio=\"1.6\"\n      data-mobile-aspectRatio=\"0.57959815\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/ama\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"5263 AMA Interactive CA\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-        "End Date": "2020-01-01",
-        "Featured Image URL": "ama-waterways-interactive/1da8b4ab",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Made For": [
-          "recyThM1vdKxzjIpr",
-          "recwezBDstyLcFx9Q",
-          "recqb4ca8EMJFLfJf"
-        ],
-        "Published": true,
-        "Made With": [
-          "Ceros"
-        ],
-        "Project Title": "AMA Waterways Interactive ",
-        "Creative Discipline": [
-          "UI Design"
-        ],
-        "Date Modified": "2021-01-24T18:49:12.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>\n      @media only screen and (max-width: 816px) {\n        /* AMA */\n        #experience-5e56b41f4cb08 {\n          padding: 0px 0px 172.53% !important;\n        }\n      }\n    </style>\n    <div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 62.5%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5e56b41f4cb08\"\n      data-aspectRatio=\"1.6\"\n      data-mobile-aspectRatio=\"0.57959815\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/ama\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"5263 AMA Interactive CA\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-      "End Date": "2020-01-01",
-      "Featured Image URL": "ama-waterways-interactive/1da8b4ab",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Made For": [
-        "recyThM1vdKxzjIpr",
-        "recwezBDstyLcFx9Q",
-        "recqb4ca8EMJFLfJf"
-      ],
-      "Published": true,
-      "Made With": [
-        "Ceros"
-      ],
-      "Project Title": "AMA Waterways Interactive ",
-      "Creative Discipline": [
-        "UI Design"
-      ],
-      "Date Modified": "2021-01-24T18:49:12.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "recKPuLq2WzOYPddL",
     "_rawJson": {
       "id": "recKPuLq2WzOYPddL",
@@ -1685,12 +1033,12 @@
           "Screen Printing "
         ],
         "Project Title": "CMYK Glitch",
+        "Featured": true,
         "Creative Discipline": [
           "Print Design"
         ],
         "Body Text": "<p>When Photoshop glitches, print it anyway.</p>\n<p>Original Glitch</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/Glitch_digitalcolor_full-web-large-min\n  \"\n/>\n<p>Screenprinted Artwork</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/CMYK-Glitch\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/photo-3-web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/photo-14\n  \"\n/>\n",
-        "Date Modified": "2024-12-13T20:43:45.000Z",
-        "Featured": true
+        "Date Modified": "2024-12-13T20:43:45.000Z"
       }
     },
     "fields": {
@@ -1712,71 +1060,12 @@
         "Screen Printing "
       ],
       "Project Title": "CMYK Glitch",
+      "Featured": true,
       "Creative Discipline": [
         "Print Design"
       ],
       "Body Text": "<p>When Photoshop glitches, print it anyway.</p>\n<p>Original Glitch</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/Glitch_digitalcolor_full-web-large-min\n  \"\n/>\n<p>Screenprinted Artwork</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/CMYK-Glitch\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/photo-3-web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/photo-14\n  \"\n/>\n",
-      "Date Modified": "2024-12-13T20:43:45.000Z",
-      "Featured": true
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recLLMArXaVOCsbEi",
-    "_rawJson": {
-      "id": "recLLMArXaVOCsbEi",
-      "createdTime": "2020-06-24T20:35:46.000Z",
-      "fields": {
-        "End Date": "2017-02-01",
-        "Featured Image URL": "basquiat/a113b9b2e830577cc847b5cd06ed68d5",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Personal"
-        ],
-        "Made For": [
-          "rec9Yv6ZVghvkMpJB"
-        ],
-        "Made With": [
-          "Illustration"
-        ],
-        "Project Title": "John Michel Basquiat",
-        "Creative Discipline": [
-          "Illustration"
-        ],
-        "Date Modified": "2024-12-13T20:44:50.000Z",
-        "Featured": true
-      }
-    },
-    "fields": {
-      "End Date": "2017-02-01",
-      "Featured Image URL": "basquiat/a113b9b2e830577cc847b5cd06ed68d5",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Personal"
-      ],
-      "Made For": [
-        "rec9Yv6ZVghvkMpJB"
-      ],
-      "Made With": [
-        "Illustration"
-      ],
-      "Project Title": "John Michel Basquiat",
-      "Creative Discipline": [
-        "Illustration"
-      ],
-      "Date Modified": "2024-12-13T20:44:50.000Z",
-      "Featured": true
+      "Date Modified": "2024-12-13T20:43:45.000Z"
     }
   },
   {
@@ -1811,12 +1100,12 @@
           "Illustrator"
         ],
         "Project Title": "Billy Mode Stencils",
+        "Featured": true,
         "Creative Discipline": [
           "Illustration"
         ],
         "Body Text": "<p>Original Drawing</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/billy-mode/Billy-Mode-LOVE0001\n  \"\n/>\n<p>Digital Illustration (outline)</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/billy-mode/Screen-Shot-2015-01-17-at-4.48.46-PM.png\n  \"\n/>\n<p>Digital Illustration (filled)</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/40\n  \"\n/>\n\n<p>Stencils Produced</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_2055web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_2052web\n  \"\n/>\n<p>Production Art</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_1947\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_1952\"\n/>\n\n<p>Final Work</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_7530\n  \"\n/>\n<p>Additional Example (Mom & Dad)</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/Mom-dad-mockup.jpg\n  \"\n/>\n",
-        "Date Modified": "2024-12-13T20:43:30.000Z",
-        "Featured": true
+        "Date Modified": "2024-12-13T20:43:30.000Z"
       }
     },
     "fields": {
@@ -1838,12 +1127,12 @@
         "Illustrator"
       ],
       "Project Title": "Billy Mode Stencils",
+      "Featured": true,
       "Creative Discipline": [
         "Illustration"
       ],
       "Body Text": "<p>Original Drawing</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/billy-mode/Billy-Mode-LOVE0001\n  \"\n/>\n<p>Digital Illustration (outline)</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/billy-mode/Screen-Shot-2015-01-17-at-4.48.46-PM.png\n  \"\n/>\n<p>Digital Illustration (filled)</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/40\n  \"\n/>\n\n<p>Stencils Produced</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_2055web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_2052web\n  \"\n/>\n<p>Production Art</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_1947\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_1952\"\n/>\n\n<p>Final Work</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_7530\n  \"\n/>\n<p>Additional Example (Mom & Dad)</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/Mom-dad-mockup.jpg\n  \"\n/>\n",
-      "Date Modified": "2024-12-13T20:43:30.000Z",
-      "Featured": true
+      "Date Modified": "2024-12-13T20:43:30.000Z"
     }
   },
   {
@@ -1997,73 +1286,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "recQch6kyHX4nnhTg",
-    "_rawJson": {
-      "id": "recQch6kyHX4nnhTg",
-      "createdTime": "2020-10-02T21:57:34.000Z",
-      "fields": {
-        "End Date": "2020-11-30",
-        "Featured Image URL": "gio-locate/gio-locate",
-        "GitHub URL": "https://github.com/billymitchell/geolocate-season",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Educational"
-        ],
-        "Live Web Project URL": "https://giolocate-weather.billymitchell.design/",
-        "Made For": [
-          "recDv0lrxfKlbejws"
-        ],
-        "Made With": [
-          "HTML",
-          "CSS",
-          "Javascript",
-          "React"
-        ],
-        "Project Title": "Geolocate Weather",
-        "Creative Discipline": [
-          "Web Development"
-        ],
-        "Date Modified": "2021-02-15T19:24:29.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2020-11-30",
-      "Featured Image URL": "gio-locate/gio-locate",
-      "GitHub URL": "https://github.com/billymitchell/geolocate-season",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Educational"
-      ],
-      "Live Web Project URL": "https://giolocate-weather.billymitchell.design/",
-      "Made For": [
-        "recDv0lrxfKlbejws"
-      ],
-      "Made With": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "React"
-      ],
-      "Project Title": "Geolocate Weather",
-      "Creative Discipline": [
-        "Web Development"
-      ],
-      "Date Modified": "2021-02-15T19:24:29.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "recQuNMnhjROT6dlh",
     "_rawJson": {
       "id": "recQuNMnhjROT6dlh",
@@ -2131,73 +1353,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "recT02UwBAVeKtkLI",
-    "_rawJson": {
-      "id": "recT02UwBAVeKtkLI",
-      "createdTime": "2020-08-25T00:02:20.000Z",
-      "fields": {
-        "Custom HTML": "<style>\n      @media only screen and (max-width: 816px) {\n        /* RCI Showing */\n        #experience-5e1f3ba2bfcf1 {\n          padding: 0px 0px 895.19% !important;\n        }\n      }\n    </style>\n    <div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 286.29%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5e1f3ba2bfcf1\"\n      data-aspectRatio=\"0.34929356\"\n      data-mobile-aspectRatio=\"0.11170873\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/rci-showing\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"RCI 5212 Interactive\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-        "End Date": "2020-12-01",
-        "Featured Image URL": "royal-caribbean-interactive/df224e95",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Made For": [
-          "recwezBDstyLcFx9Q",
-          "recqb4ca8EMJFLfJf",
-          "recnRzPHJH487g2DC"
-        ],
-        "Published": true,
-        "Made With": [
-          "Ceros",
-          "Premiere Pro"
-        ],
-        "Project Title": "Royal Caribbean Promo Page Interactive",
-        "Creative Discipline": [
-          "UI Design"
-        ],
-        "Date Modified": "2021-01-24T18:55:26.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>\n      @media only screen and (max-width: 816px) {\n        /* RCI Showing */\n        #experience-5e1f3ba2bfcf1 {\n          padding: 0px 0px 895.19% !important;\n        }\n      }\n    </style>\n    <div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 286.29%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5e1f3ba2bfcf1\"\n      data-aspectRatio=\"0.34929356\"\n      data-mobile-aspectRatio=\"0.11170873\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/rci-showing\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"RCI 5212 Interactive\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-      "End Date": "2020-12-01",
-      "Featured Image URL": "royal-caribbean-interactive/df224e95",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Made For": [
-        "recwezBDstyLcFx9Q",
-        "recqb4ca8EMJFLfJf",
-        "recnRzPHJH487g2DC"
-      ],
-      "Published": true,
-      "Made With": [
-        "Ceros",
-        "Premiere Pro"
-      ],
-      "Project Title": "Royal Caribbean Promo Page Interactive",
-      "Creative Discipline": [
-        "UI Design"
-      ],
-      "Date Modified": "2021-01-24T18:55:26.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "recT1GzsXgLLsS3Xy",
     "_rawJson": {
       "id": "recT1GzsXgLLsS3Xy",
@@ -2250,73 +1405,6 @@
       ],
       "Body Text": "<p>Initial Client Requested Concept</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/IntalExample-02\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/IntalExample-01\n  \"\n/>\n\n<p>Concept Reinterpretation</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/2edlogo_Goldfoil_Web\n  \"\n/>\n<p>Final Concepts</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-01\n  \"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-02\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-03\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-04\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-05\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-06\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-07\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-08\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-09\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-10\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-11\n\n\"\n/>\n",
       "Date Modified": "2020-12-31T21:24:26.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recTA7q2nL6lb6Xbx",
-    "_rawJson": {
-      "id": "recTA7q2nL6lb6Xbx",
-      "createdTime": "2020-09-30T19:51:19.000Z",
-      "fields": {
-        "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 100%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/v-wARpGth8Q' frameborder='0' allowfullscreen></iframe></div>",
-        "End Date": "2017-08-07",
-        "Featured Image URL": "queen-annes-county-library/Screen_Shot_2020-10-01_at_1.38.36_PM_xbrjec",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Hide Featured Image In Body": true,
-        "Made For": [
-          "recRHXV7Ce4ODzTwh",
-          "rec3YSzCNkb5JVUdN"
-        ],
-        "Published": true,
-        "Made With": [
-          "After Effects"
-        ],
-        "Project Title": "Queen Anne's County Library",
-        "Creative Discipline": [
-          "Motion Design"
-        ],
-        "Body Text": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/v-wARpGth8Q' frameborder='0' allowfullscreen></iframe></div>",
-        "Date Modified": "2020-12-31T21:25:16.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 100%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/v-wARpGth8Q' frameborder='0' allowfullscreen></iframe></div>",
-      "End Date": "2017-08-07",
-      "Featured Image URL": "queen-annes-county-library/Screen_Shot_2020-10-01_at_1.38.36_PM_xbrjec",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Hide Featured Image In Body": true,
-      "Made For": [
-        "recRHXV7Ce4ODzTwh",
-        "rec3YSzCNkb5JVUdN"
-      ],
-      "Published": true,
-      "Made With": [
-        "After Effects"
-      ],
-      "Project Title": "Queen Anne's County Library",
-      "Creative Discipline": [
-        "Motion Design"
-      ],
-      "Body Text": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/v-wARpGth8Q' frameborder='0' allowfullscreen></iframe></div>",
-      "Date Modified": "2020-12-31T21:25:16.000Z"
     }
   },
   {
@@ -2403,97 +1491,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "recVPk5TDt9F6jsht",
-    "_rawJson": {
-      "id": "recVPk5TDt9F6jsht",
-      "createdTime": "2020-12-31T20:47:34.000Z",
-      "fields": {
-        "End Date": "2020-10-30",
-        "Featured Image URL": "billy-mitchell-website/billy-mitchell-website",
-        "GitHub URL": "https://github.com/billymitchell/main-website",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Part-Time"
-        ],
-        "Live Web Project URL": "https://billymitchell.design/",
-        "Hide Featured Image In Body": true,
-        "Made For": [
-          "rec4UvnGnKwCs9agu"
-        ],
-        "Intro Text": "<h3>Goals</h3>\nMove personal website from inflexible WordPress CMS to custom-designed and developed React-based Gatsby site using a headless CMS.<br>\n<h3>Contributions</h3>\nWork on this project was produced independently. This resulted from multiple development classes and working in a framework with good documentation and support. <br>\n<h3>Outcomes</h3>\nLeveraged platforms to reduce hosting costs to $0. Faster website rendering and image delivery. Complete controls over design and functionality. Beter project metadata and more refined publishing controls.",
-        "Published": true,
-        "Made With": [
-          "HTML",
-          "CSS",
-          "Javascript",
-          "SASS",
-          "Illustrator",
-          "Photoshop",
-          "Premiere Pro",
-          "After Effects",
-          "React",
-          "Gatsby.js"
-        ],
-        "Project Title": "Billy Mitchell Design",
-        "Creative Discipline": [
-          "UI Design",
-          "UX Design",
-          "Web Development",
-          "Motion Design"
-        ],
-        "Date Modified": "2024-12-13T20:44:18.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2020-10-30",
-      "Featured Image URL": "billy-mitchell-website/billy-mitchell-website",
-      "GitHub URL": "https://github.com/billymitchell/main-website",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Part-Time"
-      ],
-      "Live Web Project URL": "https://billymitchell.design/",
-      "Hide Featured Image In Body": true,
-      "Made For": [
-        "rec4UvnGnKwCs9agu"
-      ],
-      "Intro Text": "<h3>Goals</h3>\nMove personal website from inflexible WordPress CMS to custom-designed and developed React-based Gatsby site using a headless CMS.<br>\n<h3>Contributions</h3>\nWork on this project was produced independently. This resulted from multiple development classes and working in a framework with good documentation and support. <br>\n<h3>Outcomes</h3>\nLeveraged platforms to reduce hosting costs to $0. Faster website rendering and image delivery. Complete controls over design and functionality. Beter project metadata and more refined publishing controls.",
-      "Published": true,
-      "Made With": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "SASS",
-        "Illustrator",
-        "Photoshop",
-        "Premiere Pro",
-        "After Effects",
-        "React",
-        "Gatsby.js"
-      ],
-      "Project Title": "Billy Mitchell Design",
-      "Creative Discipline": [
-        "UI Design",
-        "UX Design",
-        "Web Development",
-        "Motion Design"
-      ],
-      "Date Modified": "2024-12-13T20:44:18.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "recWTFpFTI9FxZu4d",
     "_rawJson": {
       "id": "recWTFpFTI9FxZu4d",
@@ -2567,201 +1564,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "recYVdCFSbah6tJck",
-    "_rawJson": {
-      "id": "recYVdCFSbah6tJck",
-      "createdTime": "2020-08-16T19:05:49.000Z",
-      "fields": {
-        "End Date": "2020-12-01",
-        "Featured Image URL": "tln-website/30e95fa0",
-        "Position on Project": [
-          "Asistent"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Live Web Project URL": "https://www.travelleadersnetwork.com/",
-        "Made For": [
-          "recwezBDstyLcFx9Q",
-          "recqb4ca8EMJFLfJf"
-        ],
-        "Made With": [
-          "HTML",
-          "CSS",
-          "Wordpress",
-          "Photoshop"
-        ],
-        "Project Title": "Travel Leaders Network Website",
-        "Creative Discipline": [
-          "UI Design",
-          "Web Development"
-        ],
-        "Date Modified": "2021-01-24T18:58:33.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2020-12-01",
-      "Featured Image URL": "tln-website/30e95fa0",
-      "Position on Project": [
-        "Asistent"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Live Web Project URL": "https://www.travelleadersnetwork.com/",
-      "Made For": [
-        "recwezBDstyLcFx9Q",
-        "recqb4ca8EMJFLfJf"
-      ],
-      "Made With": [
-        "HTML",
-        "CSS",
-        "Wordpress",
-        "Photoshop"
-      ],
-      "Project Title": "Travel Leaders Network Website",
-      "Creative Discipline": [
-        "UI Design",
-        "Web Development"
-      ],
-      "Date Modified": "2021-01-24T18:58:33.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recaBUxW3eNROwbn9",
-    "_rawJson": {
-      "id": "recaBUxW3eNROwbn9",
-      "createdTime": "2020-08-18T15:23:57.000Z",
-      "fields": {
-        "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/ZQ45MMLUntI' frameborder='0' allowfullscreen></iframe></div>",
-        "End Date": "2018-06-30",
-        "Featured Image URL": "taylor-bank-ads/TAYLOR_11196_Spring2018_Landing-giff_i1r3uc",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Hide Featured Image In Body": true,
-        "Made For": [
-          "recaUyv7SDVzBS3VX",
-          "rec3YSzCNkb5JVUdN"
-        ],
-        "Intro Text": "Various digital advertising served through google and social platforms. While I did not concept these marketing campaigns, I implemented them in multiple sizes and formats.",
-        "Made With": [
-          "After Effects"
-        ],
-        "Project Title": "Taylor Bank Digital Ads",
-        "Creative Discipline": [
-          "Motion Design"
-        ],
-        "Body Text": "\n1\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAYLOR_11196_Spring2018_Delaware_resize-160x600_e1xrjl\"\n/>\n2\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAYLOR_11196_Spring2018_Delaware_resize_300x50_ob5jy5\"\n/>\n\n3\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAYLOR_11196_Spring2018_Delaware_resize-300x250_oo3lpe\"\n/>\n\n4\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAYLOR_11196_Spring2018_Delaware_resize-112_ssaeep\"\n/>\n\n5\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAYLOR_11196_Spring2018_Delaware_resize-320x50_w3lqw9\"\n/>\n\n6\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAYLOR_11196_Spring2018_Delaware_resize-300x600_ptzhcw\"\n/>\n7\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/Layout_160x600_Fallback_af8eix\"\n/>\n8\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/Layout_300x600_Fallback_wn76vg.jpg\"\n/>\n9\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/Desktop_728x90_Fallback_vsdiuf.jpg\"\n/>\n10\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/Layout_160x600_Fallback_an0ilr\"\n/>\n11\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/Layout_300x600_Fallback_qjthp4\"\n/>\n12\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/LargeRectangle_300x250_Fallback_qkiwnn\"\n/>\n13\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/Facebook_1200x628_t8tyu1\"\n/>\n14\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAY_10834_All_Locations_500x500_eigv6t\"\n/>\n\n15\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAY_10834_All_Locations_300x600_qmemrh\"\n/>\n\n16\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAY_10834_All_Locations_300x250_ma3fm1\"\n/>\n\n17\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1601409553/portfolio/taylor-bank-ads/TAY_10834_All_Locations_160x600_sbragj\"\n/>\n\n18\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1601409538/portfolio/taylor-bank-ads/TAY_10834_All_Locations_1200x628_irrlb4\"\n/>\n\n19\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/1031a868\"\n/>\n",
-        "Date Modified": "2021-02-02T17:03:52.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/ZQ45MMLUntI' frameborder='0' allowfullscreen></iframe></div>",
-      "End Date": "2018-06-30",
-      "Featured Image URL": "taylor-bank-ads/TAYLOR_11196_Spring2018_Landing-giff_i1r3uc",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Hide Featured Image In Body": true,
-      "Made For": [
-        "recaUyv7SDVzBS3VX",
-        "rec3YSzCNkb5JVUdN"
-      ],
-      "Intro Text": "Various digital advertising served through google and social platforms. While I did not concept these marketing campaigns, I implemented them in multiple sizes and formats.",
-      "Made With": [
-        "After Effects"
-      ],
-      "Project Title": "Taylor Bank Digital Ads",
-      "Creative Discipline": [
-        "Motion Design"
-      ],
-      "Body Text": "\n1\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAYLOR_11196_Spring2018_Delaware_resize-160x600_e1xrjl\"\n/>\n2\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAYLOR_11196_Spring2018_Delaware_resize_300x50_ob5jy5\"\n/>\n\n3\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAYLOR_11196_Spring2018_Delaware_resize-300x250_oo3lpe\"\n/>\n\n4\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAYLOR_11196_Spring2018_Delaware_resize-112_ssaeep\"\n/>\n\n5\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAYLOR_11196_Spring2018_Delaware_resize-320x50_w3lqw9\"\n/>\n\n6\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAYLOR_11196_Spring2018_Delaware_resize-300x600_ptzhcw\"\n/>\n7\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/Layout_160x600_Fallback_af8eix\"\n/>\n8\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/Layout_300x600_Fallback_wn76vg.jpg\"\n/>\n9\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/Desktop_728x90_Fallback_vsdiuf.jpg\"\n/>\n10\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/Layout_160x600_Fallback_an0ilr\"\n/>\n11\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/Layout_300x600_Fallback_qjthp4\"\n/>\n12\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/LargeRectangle_300x250_Fallback_qkiwnn\"\n/>\n13\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/Facebook_1200x628_t8tyu1\"\n/>\n14\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAY_10834_All_Locations_500x500_eigv6t\"\n/>\n\n15\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAY_10834_All_Locations_300x600_qmemrh\"\n/>\n\n16\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/TAY_10834_All_Locations_300x250_ma3fm1\"\n/>\n\n17\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1601409553/portfolio/taylor-bank-ads/TAY_10834_All_Locations_160x600_sbragj\"\n/>\n\n18\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1601409538/portfolio/taylor-bank-ads/TAY_10834_All_Locations_1200x628_irrlb4\"\n/>\n\n19\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-ads/1031a868\"\n/>\n",
-      "Date Modified": "2021-02-02T17:03:52.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recaIPo9P807ovC5H",
-    "_rawJson": {
-      "id": "recaIPo9P807ovC5H",
-      "createdTime": "2020-08-25T00:01:12.000Z",
-      "fields": {
-        "End Date": "2020-12-01",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Made For": [
-          "recwezBDstyLcFx9Q",
-          "recqb4ca8EMJFLfJf",
-          "recYdNrH7DhOS2uO6"
-        ],
-        "Made With": [
-          "Ceros"
-        ],
-        "Project Title": "Globus Promo Page Interactives",
-        "Creative Discipline": [
-          "UI Design"
-        ],
-        "Date Modified": "2021-01-24T18:56:48.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2020-12-01",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Made For": [
-        "recwezBDstyLcFx9Q",
-        "recqb4ca8EMJFLfJf",
-        "recYdNrH7DhOS2uO6"
-      ],
-      "Made With": [
-        "Ceros"
-      ],
-      "Project Title": "Globus Promo Page Interactives",
-      "Creative Discipline": [
-        "UI Design"
-      ],
-      "Date Modified": "2021-01-24T18:56:48.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "recaLRzbE4pzedXmI",
     "_rawJson": {
       "id": "recaLRzbE4pzedXmI",
@@ -2794,7 +1596,7 @@
           "Web Development"
         ],
         "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/ama-waterways-email/desktop_rtpu89\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/ama-waterways-email/mobile_hdxpsp\"\n/>\n",
-        "Date Modified": "2021-02-15T17:44:20.000Z"
+        "Date Modified": "2024-12-27T22:21:44.000Z"
       }
     },
     "fields": {
@@ -2825,66 +1627,7 @@
         "Web Development"
       ],
       "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/ama-waterways-email/desktop_rtpu89\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/ama-waterways-email/mobile_hdxpsp\"\n/>\n",
-      "Date Modified": "2021-02-15T17:44:20.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recaMg4iKiJ1k02rq",
-    "_rawJson": {
-      "id": "recaMg4iKiJ1k02rq",
-      "createdTime": "2020-08-18T15:27:10.000Z",
-      "fields": {
-        "End Date": "2018-06-30",
-        "Featured Image URL": "pinnacle-advisory/Pin-Landingpage-Webdesign-Galerryimage-2",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Made For": [
-          "recpkFWEhnIGAJNOZ",
-          "rec3YSzCNkb5JVUdN"
-        ],
-        "Made With": [
-          "Photoshop"
-        ],
-        "Project Title": "Pinnacle Financial Digital Ads ",
-        "Creative Discipline": [
-          "UX Design"
-        ],
-        "Date Modified": "2021-01-24T18:57:27.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2018-06-30",
-      "Featured Image URL": "pinnacle-advisory/Pin-Landingpage-Webdesign-Galerryimage-2",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Made For": [
-        "recpkFWEhnIGAJNOZ",
-        "rec3YSzCNkb5JVUdN"
-      ],
-      "Made With": [
-        "Photoshop"
-      ],
-      "Project Title": "Pinnacle Financial Digital Ads ",
-      "Creative Discipline": [
-        "UX Design"
-      ],
-      "Date Modified": "2021-01-24T18:57:27.000Z"
+      "Date Modified": "2024-12-27T22:21:44.000Z"
     }
   },
   {
@@ -2920,12 +1663,12 @@
           "Screen Printing "
         ],
         "Project Title": "Urban Arts Festival",
+        "Featured": true,
         "Creative Discipline": [
           "Illustration"
         ],
         "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/Screen-Shot-2015-02-08-at-11.17.04-AM\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/IMG_1855-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/MG_1859-web-spread\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/DSC_0032-web\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/001-web-620x827\"\n/>\n<p>Custom Spray-painted Version</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/DSC_0014-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/1-web\"\n/>\n<p>Inspiration was drawn from \"Afro Punk Style\" & Arabic Graffiti Lettering</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/insperation-copy\"\n/>\n",
-        "Date Modified": "2024-12-13T20:43:24.000Z",
-        "Featured": true
+        "Date Modified": "2024-12-13T20:43:24.000Z"
       }
     },
     "fields": {
@@ -2948,12 +1691,12 @@
         "Screen Printing "
       ],
       "Project Title": "Urban Arts Festival",
+      "Featured": true,
       "Creative Discipline": [
         "Illustration"
       ],
       "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/Screen-Shot-2015-02-08-at-11.17.04-AM\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/IMG_1855-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/MG_1859-web-spread\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/DSC_0032-web\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/001-web-620x827\"\n/>\n<p>Custom Spray-painted Version</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/DSC_0014-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/1-web\"\n/>\n<p>Inspiration was drawn from \"Afro Punk Style\" & Arabic Graffiti Lettering</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/insperation-copy\"\n/>\n",
-      "Date Modified": "2024-12-13T20:43:24.000Z",
-      "Featured": true
+      "Date Modified": "2024-12-13T20:43:24.000Z"
     }
   },
   {
@@ -3027,132 +1770,6 @@
         "Web Development"
       ],
       "Date Modified": "2021-02-02T17:05:35.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recbPwGq9ne9CC8cz",
-    "_rawJson": {
-      "id": "recbPwGq9ne9CC8cz",
-      "createdTime": "2020-08-24T23:59:21.000Z",
-      "fields": {
-        "Custom HTML": "<style>\n      @media only screen and (max-width: 816px) {\n        /* Princess Quiz */\n        #experience-5e42d2079d80d {\n          padding: 0px 0px 162.96% !important;\n        }\n      }\n    </style>\n    <div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 62.5%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5e42d2079d80d\"\n      data-aspectRatio=\"1.6\"\n      data-mobile-aspectRatio=\"0.61363636\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/princess-alaska\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"5210-Princess-Alaska-Interactive\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-        "End Date": "2019-08-30",
-        "Featured Image URL": "princess-cruises/7ebb52d9",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Made For": [
-          "recZtHXNgE8HPwECH",
-          "recwezBDstyLcFx9Q",
-          "recqb4ca8EMJFLfJf"
-        ],
-        "Intro Text": "<h3>Goals</h3> \nCreate an interactive presentation of Princess Cruises Alaska offerings for use on a travelleaders.com promotional page.<br> \n<br>\n<h3>Contributions</h3> \nWith help from project managers, I was able to organize content into a compelling interactive presentation. I used an interactive design tool (ceros.com) to generate this content.<br> \n<br>\n<h3>Outcomes</h3> \nThis work was effective in creating leads for agents. It served as a foundational templet for use in sales for other vacation providers and destinations.<br>\n",
-        "Published": true,
-        "Made With": [
-          "Ceros"
-        ],
-        "Project Title": "Princess Cruises Promo Page Interactive",
-        "Featured": true,
-        "Creative Discipline": [
-          "UI Design"
-        ],
-        "Date Modified": "2024-09-06T18:17:34.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>\n      @media only screen and (max-width: 816px) {\n        /* Princess Quiz */\n        #experience-5e42d2079d80d {\n          padding: 0px 0px 162.96% !important;\n        }\n      }\n    </style>\n    <div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 62.5%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5e42d2079d80d\"\n      data-aspectRatio=\"1.6\"\n      data-mobile-aspectRatio=\"0.61363636\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/princess-alaska\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"5210-Princess-Alaska-Interactive\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-      "End Date": "2019-08-30",
-      "Featured Image URL": "princess-cruises/7ebb52d9",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Made For": [
-        "recZtHXNgE8HPwECH",
-        "recwezBDstyLcFx9Q",
-        "recqb4ca8EMJFLfJf"
-      ],
-      "Intro Text": "<h3>Goals</h3> \nCreate an interactive presentation of Princess Cruises Alaska offerings for use on a travelleaders.com promotional page.<br> \n<br>\n<h3>Contributions</h3> \nWith help from project managers, I was able to organize content into a compelling interactive presentation. I used an interactive design tool (ceros.com) to generate this content.<br> \n<br>\n<h3>Outcomes</h3> \nThis work was effective in creating leads for agents. It served as a foundational templet for use in sales for other vacation providers and destinations.<br>\n",
-      "Published": true,
-      "Made With": [
-        "Ceros"
-      ],
-      "Project Title": "Princess Cruises Promo Page Interactive",
-      "Featured": true,
-      "Creative Discipline": [
-        "UI Design"
-      ],
-      "Date Modified": "2024-09-06T18:17:34.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recbSGFwN8GZQVTNO",
-    "_rawJson": {
-      "id": "recbSGFwN8GZQVTNO",
-      "createdTime": "2020-08-13T18:05:19.000Z",
-      "fields": {
-        "End Date": "2016-08-01",
-        "Featured Image URL": "gypso/Gypso-Recovered_crop",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Personal"
-        ],
-        "Made For": [
-          "rec4UvnGnKwCs9agu"
-        ],
-        "Made With": [
-          "Illustration"
-        ],
-        "Project Title": "Gypso",
-        "Creative Discipline": [
-          "Illustration"
-        ],
-        "Date Modified": "2021-01-24T22:48:02.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2016-08-01",
-      "Featured Image URL": "gypso/Gypso-Recovered_crop",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Personal"
-      ],
-      "Made For": [
-        "rec4UvnGnKwCs9agu"
-      ],
-      "Made With": [
-        "Illustration"
-      ],
-      "Project Title": "Gypso",
-      "Creative Discipline": [
-        "Illustration"
-      ],
-      "Date Modified": "2021-01-24T22:48:02.000Z"
     }
   },
   {
@@ -3304,75 +1921,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "recdOFhOCgc9NpEnc",
-    "_rawJson": {
-      "id": "recdOFhOCgc9NpEnc",
-      "createdTime": "2020-08-23T16:50:44.000Z",
-      "fields": {
-        "Custom HTML": "<style>\n      @media only screen and (max-width: 816px) {\n        /* Member Incentive Pack */\n        #experience-5c5c4a148d0c6 {\n          padding: 0px 0px 177.78% !important;\n        }\n      }\n    </style>\n    <div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 66.67%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5c5c4a148d0c6\"\n      data-aspectRatio=\"1.5\"\n      data-mobile-aspectRatio=\"0.5625\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/mip\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"2019 MIP #1-Desktop\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-        "End Date": "2019-08-01",
-        "Featured Image URL": "member-incentive-pack/41133852",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Made For": [
-          "recqb4ca8EMJFLfJf",
-          "recwezBDstyLcFx9Q"
-        ],
-        "Intro Text": "<h3>Goals</h3>\nCreate a digital interactive that communicates incentives for travel agents to sell particular packages and join particular programs.<br>\n<h3>Contributions</h3>\nI created this in a visual-based design and interactive program using a provided branding/style concept.<br>\n<h3>Outcomes</h3>\nThis interactive gained prase within the company for its effectiveness and quality.",
-        "Published": true,
-        "Made With": [
-          "Photoshop",
-          "Ceros"
-        ],
-        "Project Title": "TL Agent Member Incentive Pack Interactive",
-        "Featured": true,
-        "Creative Discipline": [
-          "UI Design"
-        ],
-        "Date Modified": "2024-09-06T18:17:33.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>\n      @media only screen and (max-width: 816px) {\n        /* Member Incentive Pack */\n        #experience-5c5c4a148d0c6 {\n          padding: 0px 0px 177.78% !important;\n        }\n      }\n    </style>\n    <div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 66.67%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5c5c4a148d0c6\"\n      data-aspectRatio=\"1.5\"\n      data-mobile-aspectRatio=\"0.5625\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/mip\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"2019 MIP #1-Desktop\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-      "End Date": "2019-08-01",
-      "Featured Image URL": "member-incentive-pack/41133852",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Made For": [
-        "recqb4ca8EMJFLfJf",
-        "recwezBDstyLcFx9Q"
-      ],
-      "Intro Text": "<h3>Goals</h3>\nCreate a digital interactive that communicates incentives for travel agents to sell particular packages and join particular programs.<br>\n<h3>Contributions</h3>\nI created this in a visual-based design and interactive program using a provided branding/style concept.<br>\n<h3>Outcomes</h3>\nThis interactive gained prase within the company for its effectiveness and quality.",
-      "Published": true,
-      "Made With": [
-        "Photoshop",
-        "Ceros"
-      ],
-      "Project Title": "TL Agent Member Incentive Pack Interactive",
-      "Featured": true,
-      "Creative Discipline": [
-        "UI Design"
-      ],
-      "Date Modified": "2024-09-06T18:17:33.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "rece4aONunGbVHkHM",
     "_rawJson": {
       "id": "rece4aONunGbVHkHM",
@@ -3498,262 +2046,6 @@
         "UI Design"
       ],
       "Date Modified": "2021-02-02T17:05:10.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recep21HU6o0YsU5z",
-    "_rawJson": {
-      "id": "recep21HU6o0YsU5z",
-      "createdTime": "2020-09-30T19:34:14.000Z",
-      "fields": {
-        "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/PAp29IjwHyo' frameborder='0' allowfullscreen></iframe></div>",
-        "End Date": "2018-10-12",
-        "Featured Image URL": "geba-life-insurance/Screen_Shot_2020-10-01_at_1.49.47_PM_yeymrn",
-        "Position on Project": [
-          "Asistent"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Hide Featured Image In Body": true,
-        "Made For": [
-          "recpb5UJIS2BVD1WU"
-        ],
-        "Made With": [
-          "After Effects",
-          "Premiere Pro"
-        ],
-        "Project Title": "GEBA Life Insurance",
-        "Creative Discipline": [
-          "Motion Design"
-        ],
-        "Date Modified": "2021-01-24T22:43:34.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/PAp29IjwHyo' frameborder='0' allowfullscreen></iframe></div>",
-      "End Date": "2018-10-12",
-      "Featured Image URL": "geba-life-insurance/Screen_Shot_2020-10-01_at_1.49.47_PM_yeymrn",
-      "Position on Project": [
-        "Asistent"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Hide Featured Image In Body": true,
-      "Made For": [
-        "recpb5UJIS2BVD1WU"
-      ],
-      "Made With": [
-        "After Effects",
-        "Premiere Pro"
-      ],
-      "Project Title": "GEBA Life Insurance",
-      "Creative Discipline": [
-        "Motion Design"
-      ],
-      "Date Modified": "2021-01-24T22:43:34.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recetIkAAKR2WfPbZ",
-    "_rawJson": {
-      "id": "recetIkAAKR2WfPbZ",
-      "createdTime": "2020-08-13T20:11:28.000Z",
-      "fields": {
-        "End Date": "2013-07-01",
-        "Featured Image URL": "we-the-people/img_3735",
-        "Position on Project": [
-          "Asistent"
-        ],
-        "Job Type": [
-          "Contract"
-        ],
-        "Made For": [
-          "recv17WJxgpTxrUqJ"
-        ],
-        "Intro Text": "I worked with a team to execute Dr. Bob Hieronimus's mural design. This bright, detailed, and colorful mural helped revitalize the neighborhood, causing the team to receive the Midtown Development Award.\n",
-        "Made With": [
-          "Painting"
-        ],
-        "Project Title": "We The People",
-        "Creative Discipline": [
-          "Mural Art"
-        ],
-        "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/8\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/7img_0389001\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/1167158_10151788576241293_1935908347_o\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/1262534_10151807140101293_934665913_o\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/11img_0581\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/14img_0634\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/IMG_0360\"\n/>\n",
-        "Date Modified": "2021-02-02T17:04:47.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2013-07-01",
-      "Featured Image URL": "we-the-people/img_3735",
-      "Position on Project": [
-        "Asistent"
-      ],
-      "Job Type": [
-        "Contract"
-      ],
-      "Made For": [
-        "recv17WJxgpTxrUqJ"
-      ],
-      "Intro Text": "I worked with a team to execute Dr. Bob Hieronimus's mural design. This bright, detailed, and colorful mural helped revitalize the neighborhood, causing the team to receive the Midtown Development Award.\n",
-      "Made With": [
-        "Painting"
-      ],
-      "Project Title": "We The People",
-      "Creative Discipline": [
-        "Mural Art"
-      ],
-      "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/8\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/7img_0389001\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/1167158_10151788576241293_1935908347_o\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/1262534_10151807140101293_934665913_o\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/11img_0581\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/14img_0634\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/we-the-people/IMG_0360\"\n/>\n",
-      "Date Modified": "2021-02-02T17:04:47.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recfahloo5208nKte",
-    "_rawJson": {
-      "id": "recfahloo5208nKte",
-      "createdTime": "2020-06-24T20:23:52.000Z",
-      "fields": {
-        "End Date": "2018-11-01",
-        "Featured Image URL": "billy-is/b983ff41",
-        "GitHub URL": "https://github.com/billymitchell/billy-is",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Educational"
-        ],
-        "Live Web Project URL": "https://billy-is.billymitchell.design/",
-        "Made For": [
-          "recPO3Q68JfpY7tds"
-        ],
-        "Made With": [
-          "HTML",
-          "CSS",
-          "Javascript"
-        ],
-        "Project Title": "Billy Is",
-        "Creative Discipline": [
-          "Web Development"
-        ],
-        "Date Modified": "2024-12-13T20:45:34.000Z",
-        "Featured": true
-      }
-    },
-    "fields": {
-      "End Date": "2018-11-01",
-      "Featured Image URL": "billy-is/b983ff41",
-      "GitHub URL": "https://github.com/billymitchell/billy-is",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Educational"
-      ],
-      "Live Web Project URL": "https://billy-is.billymitchell.design/",
-      "Made For": [
-        "recPO3Q68JfpY7tds"
-      ],
-      "Made With": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ],
-      "Project Title": "Billy Is",
-      "Creative Discipline": [
-        "Web Development"
-      ],
-      "Date Modified": "2024-12-13T20:45:34.000Z",
-      "Featured": true
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recff2IKTlQnD03Hu",
-    "_rawJson": {
-      "id": "recff2IKTlQnD03Hu",
-      "createdTime": "2020-09-30T19:38:57.000Z",
-      "fields": {
-        "End Date": "2018-09-07",
-        "Featured Image URL": "anne-arundel-dermatology/Screen_Shot_2020-10-01_at_1.42.42_PM_jyzu3h",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Hide Featured Image In Body": true,
-        "Made For": [
-          "recBBFZoQoIDLoYKw",
-          "rec3YSzCNkb5JVUdN"
-        ],
-        "Made With": [
-          "After Effects",
-          "Premiere Pro"
-        ],
-        "Project Title": "Anne Arundel Dermatology",
-        "Creative Discipline": [
-          "Motion Design"
-        ],
-        "Body Text": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/KOPsu0J41Tw' frameborder='0' allowfullscreen></iframe></div>\n<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/a1dUsnTV__w' frameborder='0' allowfullscreen></iframe></div>\n<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Cd6N_8CmhBI' frameborder='0' allowfullscreen></iframe></div>",
-        "Date Modified": "2021-01-24T22:41:06.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2018-09-07",
-      "Featured Image URL": "anne-arundel-dermatology/Screen_Shot_2020-10-01_at_1.42.42_PM_jyzu3h",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Hide Featured Image In Body": true,
-      "Made For": [
-        "recBBFZoQoIDLoYKw",
-        "rec3YSzCNkb5JVUdN"
-      ],
-      "Made With": [
-        "After Effects",
-        "Premiere Pro"
-      ],
-      "Project Title": "Anne Arundel Dermatology",
-      "Creative Discipline": [
-        "Motion Design"
-      ],
-      "Body Text": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/KOPsu0J41Tw' frameborder='0' allowfullscreen></iframe></div>\n<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/a1dUsnTV__w' frameborder='0' allowfullscreen></iframe></div>\n<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Cd6N_8CmhBI' frameborder='0' allowfullscreen></iframe></div>",
-      "Date Modified": "2021-01-24T22:41:06.000Z"
     }
   },
   {
@@ -3903,71 +2195,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "recjkePOmZwqxqXA3",
-    "_rawJson": {
-      "id": "recjkePOmZwqxqXA3",
-      "createdTime": "2020-08-13T18:10:48.000Z",
-      "fields": {
-        "End Date": "2017-02-01",
-        "Featured Image URL": "admendment/Asignment1-Blackout-Web",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Educational"
-        ],
-        "Hide Featured Image In Body": true,
-        "Made For": [
-          "rec9Yv6ZVghvkMpJB"
-        ],
-        "Made With": [
-          "Indesign",
-          "Illustration"
-        ],
-        "Project Title": "Don't Expect The First Amendment To Protect The Media",
-        "Creative Discipline": [
-          "Illustration"
-        ],
-        "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/admendment/BAI_Asignment1-Blackout_And_Scissors_Page_1\n  \"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/admendment/BAI_Asignment1-Blackout_And_Scissors_Page_2\n  \"\n/>\n",
-        "Date Modified": "2024-12-13T20:45:00.000Z",
-        "Featured": true
-      }
-    },
-    "fields": {
-      "End Date": "2017-02-01",
-      "Featured Image URL": "admendment/Asignment1-Blackout-Web",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Educational"
-      ],
-      "Hide Featured Image In Body": true,
-      "Made For": [
-        "rec9Yv6ZVghvkMpJB"
-      ],
-      "Made With": [
-        "Indesign",
-        "Illustration"
-      ],
-      "Project Title": "Don't Expect The First Amendment To Protect The Media",
-      "Creative Discipline": [
-        "Illustration"
-      ],
-      "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/admendment/BAI_Asignment1-Blackout_And_Scissors_Page_1\n  \"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/admendment/BAI_Asignment1-Blackout_And_Scissors_Page_2\n  \"\n/>\n",
-      "Date Modified": "2024-12-13T20:45:00.000Z",
-      "Featured": true
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "reckbx1k6Kf9rRv5Q",
     "_rawJson": {
       "id": "reckbx1k6Kf9rRv5Q",
@@ -4065,11 +2292,11 @@
           "After Effects"
         ],
         "Project Title": "Defend Equality Love Unites",
+        "Featured": true,
         "Creative Discipline": [
           "Motion Design"
         ],
-        "Date Modified": "2024-12-13T20:43:35.000Z",
-        "Featured": true
+        "Date Modified": "2024-12-13T20:43:35.000Z"
       }
     },
     "fields": {
@@ -4090,11 +2317,11 @@
         "After Effects"
       ],
       "Project Title": "Defend Equality Love Unites",
+      "Featured": true,
       "Creative Discipline": [
         "Motion Design"
       ],
-      "Date Modified": "2024-12-13T20:43:35.000Z",
-      "Featured": true
+      "Date Modified": "2024-12-13T20:43:35.000Z"
     }
   },
   {
@@ -4177,270 +2404,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "reclussC6bue9P9Nd",
-    "_rawJson": {
-      "id": "reclussC6bue9P9Nd",
-      "createdTime": "2020-09-30T20:00:35.000Z",
-      "fields": {
-        "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/WlwQ1iDaZws' frameborder='0' allowfullscreen></iframe></div>",
-        "End Date": "2018-11-05",
-        "Featured Image URL": "affi/Screen_Shot_2020-10-01_at_1.45.39_PM_kgbrb4",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Hide Featured Image In Body": true,
-        "Made For": [
-          "rec3YSzCNkb5JVUdN",
-          "recjC274Asd2T0FJh"
-        ],
-        "Made With": [
-          "Premiere Pro"
-        ],
-        "Project Title": "American Frozen Food Institute",
-        "Creative Discipline": [
-          "Motion Design"
-        ],
-        "Body Text": "<style>\n  .embed-container {\n    position: relative;\n    padding-bottom: 56.25%;\n    height: 0;\n    overflow: hidden;\n    max-width: 100%;\n  }\n  .embed-container iframe,\n  .embed-container object,\n  .embed-container embed {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n  }\n</style>\n<div class=\"embed-container\">\n  <iframe\n    src=\"https://www.facebook.com/plugins/video.php?height=280&href=https%3A%2F%2Fwww.facebook.com%2FAmericanFrozenFoodInstitute%2Fvideos%2F317384985708712%2F&show_text=false&width=560\"\n    width=\"560\"\n    height=\"280\"\n    style=\"border: none; overflow: hidden\"\n    scrolling=\"no\"\n    frameborder=\"0\"\n    allowTransparency=\"true\"\n    allow=\"encrypted-media\"\n    allowfullscreen=\"true\"\n  ></iframe>\n</div>\n\n<style>\n  .embed-container-square {\n    position: relative;\n    padding-bottom: 100%;\n    height: 0;\n    overflow: hidden;\n    max-width: 100%;\n  }\n  .embed-container-square iframe,\n  .embed-container-square object,\n  .embed-container-square embed {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n  }\n</style>\n<div class=\"embed-container-square\">\n  <iframe\n    src=\"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FAmericanFrozenFoodInstitute%2Fvideos%2F2238427573068369%2F&show_text=false&width=476\"\n    width=\"476\"\n    height=\"476\"\n    style=\"border: none; overflow: hidden\"\n    scrolling=\"no\"\n    frameborder=\"0\"\n    allowTransparency=\"true\"\n    allow=\"encrypted-media\"\n    allowfullscreen=\"true\"\n  ></iframe>\n</div>",
-        "Date Modified": "2021-01-24T22:46:38.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/WlwQ1iDaZws' frameborder='0' allowfullscreen></iframe></div>",
-      "End Date": "2018-11-05",
-      "Featured Image URL": "affi/Screen_Shot_2020-10-01_at_1.45.39_PM_kgbrb4",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Hide Featured Image In Body": true,
-      "Made For": [
-        "rec3YSzCNkb5JVUdN",
-        "recjC274Asd2T0FJh"
-      ],
-      "Made With": [
-        "Premiere Pro"
-      ],
-      "Project Title": "American Frozen Food Institute",
-      "Creative Discipline": [
-        "Motion Design"
-      ],
-      "Body Text": "<style>\n  .embed-container {\n    position: relative;\n    padding-bottom: 56.25%;\n    height: 0;\n    overflow: hidden;\n    max-width: 100%;\n  }\n  .embed-container iframe,\n  .embed-container object,\n  .embed-container embed {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n  }\n</style>\n<div class=\"embed-container\">\n  <iframe\n    src=\"https://www.facebook.com/plugins/video.php?height=280&href=https%3A%2F%2Fwww.facebook.com%2FAmericanFrozenFoodInstitute%2Fvideos%2F317384985708712%2F&show_text=false&width=560\"\n    width=\"560\"\n    height=\"280\"\n    style=\"border: none; overflow: hidden\"\n    scrolling=\"no\"\n    frameborder=\"0\"\n    allowTransparency=\"true\"\n    allow=\"encrypted-media\"\n    allowfullscreen=\"true\"\n  ></iframe>\n</div>\n\n<style>\n  .embed-container-square {\n    position: relative;\n    padding-bottom: 100%;\n    height: 0;\n    overflow: hidden;\n    max-width: 100%;\n  }\n  .embed-container-square iframe,\n  .embed-container-square object,\n  .embed-container-square embed {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n  }\n</style>\n<div class=\"embed-container-square\">\n  <iframe\n    src=\"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FAmericanFrozenFoodInstitute%2Fvideos%2F2238427573068369%2F&show_text=false&width=476\"\n    width=\"476\"\n    height=\"476\"\n    style=\"border: none; overflow: hidden\"\n    scrolling=\"no\"\n    frameborder=\"0\"\n    allowTransparency=\"true\"\n    allow=\"encrypted-media\"\n    allowfullscreen=\"true\"\n  ></iframe>\n</div>",
-      "Date Modified": "2021-01-24T22:46:38.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recn1gsXJnbud64FE",
-    "_rawJson": {
-      "id": "recn1gsXJnbud64FE",
-      "createdTime": "2020-08-23T17:36:58.000Z",
-      "fields": {
-        "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/pbYArEDWs34' frameborder='0' allowfullscreen></iframe></div>",
-        "End Date": "2018-01-01",
-        "Featured Image URL": "slp-music-video/SLP-Mural-Crop",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Contract"
-        ],
-        "Made For": [
-          "rec4UvnGnKwCs9agu"
-        ],
-        "Made With": [
-          "Painting",
-          "Photoshop"
-        ],
-        "Project Title": "Stacked Like Pancakes Music Video",
-        "Creative Discipline": [
-          "Mural Art"
-        ],
-        "Date Modified": "2021-01-24T22:28:47.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/pbYArEDWs34' frameborder='0' allowfullscreen></iframe></div>",
-      "End Date": "2018-01-01",
-      "Featured Image URL": "slp-music-video/SLP-Mural-Crop",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Contract"
-      ],
-      "Made For": [
-        "rec4UvnGnKwCs9agu"
-      ],
-      "Made With": [
-        "Painting",
-        "Photoshop"
-      ],
-      "Project Title": "Stacked Like Pancakes Music Video",
-      "Creative Discipline": [
-        "Mural Art"
-      ],
-      "Date Modified": "2021-01-24T22:28:47.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recnym8cxma9IFC9u",
-    "_rawJson": {
-      "id": "recnym8cxma9IFC9u",
-      "createdTime": "2020-06-24T20:34:40.000Z",
-      "fields": {
-        "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/-53eLYp-CcM' frameborder='0' allowfullscreen></iframe></div>",
-        "End Date": "2018-11-01",
-        "Featured Image URL": "grains-food-foundation/Grains-Foods-Checkoff",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Live Web Project URL": "https://checkoff.grainfoodsfoundation.org/",
-        "Made For": [
-          "recIcq6PlrLhkNqKC",
-          "rec3YSzCNkb5JVUdN"
-        ],
-        "Intro Text": "In addition to designing the website in the link above, I also helped to define the checkoff brand.\n",
-        "Made With": [
-          "Wordpress",
-          "Photoshop",
-          "Adobe XD",
-          "Illustrator",
-          "CSS"
-        ],
-        "Project Title": "Grain Foods Foundation",
-        "Creative Discipline": [
-          "Branding",
-          "UI Design",
-          "Web Development"
-        ],
-        "Date Modified": "2021-02-02T17:02:36.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/-53eLYp-CcM' frameborder='0' allowfullscreen></iframe></div>",
-      "End Date": "2018-11-01",
-      "Featured Image URL": "grains-food-foundation/Grains-Foods-Checkoff",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Live Web Project URL": "https://checkoff.grainfoodsfoundation.org/",
-      "Made For": [
-        "recIcq6PlrLhkNqKC",
-        "rec3YSzCNkb5JVUdN"
-      ],
-      "Intro Text": "In addition to designing the website in the link above, I also helped to define the checkoff brand.\n",
-      "Made With": [
-        "Wordpress",
-        "Photoshop",
-        "Adobe XD",
-        "Illustrator",
-        "CSS"
-      ],
-      "Project Title": "Grain Foods Foundation",
-      "Creative Discipline": [
-        "Branding",
-        "UI Design",
-        "Web Development"
-      ],
-      "Date Modified": "2021-02-02T17:02:36.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "reco9Mp0OWWHsjekB",
-    "_rawJson": {
-      "id": "reco9Mp0OWWHsjekB",
-      "createdTime": "2020-08-18T19:22:39.000Z",
-      "fields": {
-        "End Date": "2019-06-30",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Made For": [
-          "recqb4ca8EMJFLfJf",
-          "recmefRGtse3y0DTa"
-        ],
-        "Made With": [
-          "HTML",
-          "CSS"
-        ],
-        "Project Title": "Andrew Harper Email Redesign",
-        "Creative Discipline": [
-          "UI Design",
-          "Web Development"
-        ],
-        "Date Modified": "2021-01-24T18:56:40.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2019-06-30",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Made For": [
-        "recqb4ca8EMJFLfJf",
-        "recmefRGtse3y0DTa"
-      ],
-      "Made With": [
-        "HTML",
-        "CSS"
-      ],
-      "Project Title": "Andrew Harper Email Redesign",
-      "Creative Discipline": [
-        "UI Design",
-        "Web Development"
-      ],
-      "Date Modified": "2021-01-24T18:56:40.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "recoXXXQwI9TROmV4",
     "_rawJson": {
       "id": "recoXXXQwI9TROmV4",
@@ -4512,71 +2475,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "recojLuxOBPcbFWf3",
-    "_rawJson": {
-      "id": "recojLuxOBPcbFWf3",
-      "createdTime": "2020-06-24T20:49:49.000Z",
-      "fields": {
-        "End Date": "2020-06-01",
-        "Featured Image URL": "prison-drip/PrisonDrip",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Educational"
-        ],
-        "Made For": [
-          "rec9Yv6ZVghvkMpJB"
-        ],
-        "Intro Text": "An editorial illustration assignment to illustrate the effects of lead paint on underserved Baltimore youth. \n",
-        "Made With": [
-          "Illustration",
-          "Photoshop"
-        ],
-        "Project Title": "Prison Drip",
-        "Creative Discipline": [
-          "Illustration"
-        ],
-        "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/prison-drip/Tether\"\n/>",
-        "Date Modified": "2024-12-13T20:44:52.000Z",
-        "Featured": true
-      }
-    },
-    "fields": {
-      "End Date": "2020-06-01",
-      "Featured Image URL": "prison-drip/PrisonDrip",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Educational"
-      ],
-      "Made For": [
-        "rec9Yv6ZVghvkMpJB"
-      ],
-      "Intro Text": "An editorial illustration assignment to illustrate the effects of lead paint on underserved Baltimore youth. \n",
-      "Made With": [
-        "Illustration",
-        "Photoshop"
-      ],
-      "Project Title": "Prison Drip",
-      "Creative Discipline": [
-        "Illustration"
-      ],
-      "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/prison-drip/Tether\"\n/>",
-      "Date Modified": "2024-12-13T20:44:52.000Z",
-      "Featured": true
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "recpi5sdQzMwfg2AK",
     "_rawJson": {
       "id": "recpi5sdQzMwfg2AK",
@@ -4603,12 +2501,12 @@
           "Squarespace"
         ],
         "Project Title": "Nerva",
+        "Featured": true,
         "Creative Discipline": [
           "Illustration"
         ],
         "Body Text": "<p>Concept Sketch</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Chiron-Original-Drawing\"\n/>\n<p>Digital Illustration</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/NERVAFinalColor1_sized-for-print_web\"\n/>\n<p>Screen Print</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/NERVA\"\n/>\n<p>Wall Piece</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Chiron-Nerva-web\"\n/>\n<p>Chiron Collaboration With Artist Allan Forrest</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/IMG_2343\"\n/>\n<p>Environmental Mural Collaboration With Artist Che Smith</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Enviormental\"\n/>",
-        "Date Modified": "2024-12-13T20:43:32.000Z",
-        "Featured": true
+        "Date Modified": "2024-12-13T20:43:32.000Z"
       }
     },
     "fields": {
@@ -4633,73 +2531,12 @@
         "Squarespace"
       ],
       "Project Title": "Nerva",
+      "Featured": true,
       "Creative Discipline": [
         "Illustration"
       ],
       "Body Text": "<p>Concept Sketch</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Chiron-Original-Drawing\"\n/>\n<p>Digital Illustration</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/NERVAFinalColor1_sized-for-print_web\"\n/>\n<p>Screen Print</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/NERVA\"\n/>\n<p>Wall Piece</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Chiron-Nerva-web\"\n/>\n<p>Chiron Collaboration With Artist Allan Forrest</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/IMG_2343\"\n/>\n<p>Environmental Mural Collaboration With Artist Che Smith</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Enviormental\"\n/>",
-      "Date Modified": "2024-12-13T20:43:32.000Z",
-      "Featured": true
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recqFTSG8insESxaL",
-    "_rawJson": {
-      "id": "recqFTSG8insESxaL",
-      "createdTime": "2020-08-13T19:32:43.000Z",
-      "fields": {
-        "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/7lEiPBFHJXs' frameborder='0' allowfullscreen></iframe></div>",
-        "End Date": "2018-07-02",
-        "Featured Image URL": "social-media-recap/e8887fc1",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Made For": [
-          "rec3YSzCNkb5JVUdN"
-        ],
-        "Published": true,
-        "Made With": [
-          "After Effects"
-        ],
-        "Project Title": "The Social Media Recap",
-        "Creative Discipline": [
-          "Motion Design"
-        ],
-        "Date Modified": "2020-12-31T21:25:44.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/7lEiPBFHJXs' frameborder='0' allowfullscreen></iframe></div>",
-      "End Date": "2018-07-02",
-      "Featured Image URL": "social-media-recap/e8887fc1",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Made For": [
-        "rec3YSzCNkb5JVUdN"
-      ],
-      "Published": true,
-      "Made With": [
-        "After Effects"
-      ],
-      "Project Title": "The Social Media Recap",
-      "Creative Discipline": [
-        "Motion Design"
-      ],
-      "Date Modified": "2020-12-31T21:25:44.000Z"
+      "Date Modified": "2024-12-13T20:43:32.000Z"
     }
   },
   {
@@ -4863,73 +2700,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "rect0iDLLGEDVzZhD",
-    "_rawJson": {
-      "id": "rect0iDLLGEDVzZhD",
-      "createdTime": "2020-10-07T19:33:23.000Z",
-      "fields": {
-        "End Date": "2020-10-31",
-        "Featured Image URL": "youtube-api/youtube-api",
-        "GitHub URL": "https://github.com/billymitchell/youtube-api",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Educational"
-        ],
-        "Live Web Project URL": "https://youtube-api.billymitchell.design/",
-        "Made For": [
-          "recDv0lrxfKlbejws"
-        ],
-        "Made With": [
-          "HTML",
-          "CSS",
-          "Javascript",
-          "React"
-        ],
-        "Project Title": "Youtube API",
-        "Creative Discipline": [
-          "Web Development"
-        ],
-        "Date Modified": "2021-02-15T19:24:34.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2020-10-31",
-      "Featured Image URL": "youtube-api/youtube-api",
-      "GitHub URL": "https://github.com/billymitchell/youtube-api",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Educational"
-      ],
-      "Live Web Project URL": "https://youtube-api.billymitchell.design/",
-      "Made For": [
-        "recDv0lrxfKlbejws"
-      ],
-      "Made With": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "React"
-      ],
-      "Project Title": "Youtube API",
-      "Creative Discipline": [
-        "Web Development"
-      ],
-      "Date Modified": "2021-02-15T19:24:34.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "rectEqViKNUvAQkny",
     "_rawJson": {
       "id": "rectEqViKNUvAQkny",
@@ -4955,12 +2725,12 @@
           "Indesign"
         ],
         "Project Title": "Baltimore Calendar",
+        "Featured": true,
         "Creative Discipline": [
           "Print Design"
         ],
         "Body Text": "<h2>Select Black & White Pages</h2>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/B-W_Calender_Page_04_zmc73b\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/B-W_Calender_Page_13_grf71c\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/B-W_Calender_Page_08_x94whk\"\n/>\n<a\n  href=\"https://drive.google.com/file/d/1R0mCBQf2kYNporsmYr-nt1kyoOzETt3z/view\"\n  target=\"blank\"\n>\n  <button>View Full Black & White Project</button>\n</a>\n<h2>Select Color Pages</h2>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/Color_Calander_Page_02_ofcw8i\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/Color_Calander_Page_10_uvqlwo\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/Color_Calander_Page_09_yvxnnr\"\n/>\n<a\n  href=\"https://drive.google.com/file/d/1DEr3pR4NBOxoCYUZPVIQ_fnIseLl84Ej/view\"\n  target=\"blank\"\n>\n  <button>View Full Color Project</button>\n</a>\n",
-        "Date Modified": "2024-12-13T20:43:43.000Z",
-        "Featured": true
+        "Date Modified": "2024-12-13T20:43:43.000Z"
       }
     },
     "fields": {
@@ -4984,12 +2754,12 @@
         "Indesign"
       ],
       "Project Title": "Baltimore Calendar",
+      "Featured": true,
       "Creative Discipline": [
         "Print Design"
       ],
       "Body Text": "<h2>Select Black & White Pages</h2>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/B-W_Calender_Page_04_zmc73b\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/B-W_Calender_Page_13_grf71c\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/B-W_Calender_Page_08_x94whk\"\n/>\n<a\n  href=\"https://drive.google.com/file/d/1R0mCBQf2kYNporsmYr-nt1kyoOzETt3z/view\"\n  target=\"blank\"\n>\n  <button>View Full Black & White Project</button>\n</a>\n<h2>Select Color Pages</h2>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/Color_Calander_Page_02_ofcw8i\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/Color_Calander_Page_10_uvqlwo\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/Color_Calander_Page_09_yvxnnr\"\n/>\n<a\n  href=\"https://drive.google.com/file/d/1DEr3pR4NBOxoCYUZPVIQ_fnIseLl84Ej/view\"\n  target=\"blank\"\n>\n  <button>View Full Color Project</button>\n</a>\n",
-      "Date Modified": "2024-12-13T20:43:43.000Z",
-      "Featured": true
+      "Date Modified": "2024-12-13T20:43:43.000Z"
     }
   },
   {
@@ -5129,195 +2899,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "recvG7ZowdlArIO3G",
-    "_rawJson": {
-      "id": "recvG7ZowdlArIO3G",
-      "createdTime": "2020-09-30T19:56:48.000Z",
-      "fields": {
-        "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/B9SmrDleVKU' frameborder='0' allowfullscreen></iframe></div>",
-        "End Date": "2018-11-09",
-        "Featured Image URL": "chesapeake-bay-trust/Screen_Shot_2020-10-01_at_1.47.52_PM_drqf56",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Hide Featured Image In Body": true,
-        "Made For": [
-          "rec3YSzCNkb5JVUdN",
-          "recUtgxPsOFLXUjLU"
-        ],
-        "Made With": [
-          "After Effects",
-          "Premiere Pro"
-        ],
-        "Project Title": "Chesapeake Bay Trust",
-        "Creative Discipline": [
-          "Motion Design"
-        ],
-        "Date Modified": "2021-01-24T22:43:23.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/B9SmrDleVKU' frameborder='0' allowfullscreen></iframe></div>",
-      "End Date": "2018-11-09",
-      "Featured Image URL": "chesapeake-bay-trust/Screen_Shot_2020-10-01_at_1.47.52_PM_drqf56",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Hide Featured Image In Body": true,
-      "Made For": [
-        "rec3YSzCNkb5JVUdN",
-        "recUtgxPsOFLXUjLU"
-      ],
-      "Made With": [
-        "After Effects",
-        "Premiere Pro"
-      ],
-      "Project Title": "Chesapeake Bay Trust",
-      "Creative Discipline": [
-        "Motion Design"
-      ],
-      "Date Modified": "2021-01-24T22:43:23.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recvVEhdDblcHb3Uh",
-    "_rawJson": {
-      "id": "recvVEhdDblcHb3Uh",
-      "createdTime": "2020-09-26T18:17:17.000Z",
-      "fields": {
-        "End Date": "2017-01-01",
-        "Featured Image URL": "3d-animation/giphy_copy",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Personal"
-        ],
-        "Made For": [
-          "rec4UvnGnKwCs9agu"
-        ],
-        "Intro Text": "Produced using Adobe 3D animation tools and processed using giphy.com creation tools.",
-        "Made With": [
-          "Adobe Animate"
-        ],
-        "Project Title": "3D Animation",
-        "Creative Discipline": [
-          "Motion Design"
-        ],
-        "Date Modified": "2021-02-02T17:04:00.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2017-01-01",
-      "Featured Image URL": "3d-animation/giphy_copy",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Personal"
-      ],
-      "Made For": [
-        "rec4UvnGnKwCs9agu"
-      ],
-      "Intro Text": "Produced using Adobe 3D animation tools and processed using giphy.com creation tools.",
-      "Made With": [
-        "Adobe Animate"
-      ],
-      "Project Title": "3D Animation",
-      "Creative Discipline": [
-        "Motion Design"
-      ],
-      "Date Modified": "2021-02-02T17:04:00.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recyogiNRyeSAXOdy",
-    "_rawJson": {
-      "id": "recyogiNRyeSAXOdy",
-      "createdTime": "2020-10-07T19:48:23.000Z",
-      "fields": {
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Personal"
-        ],
-        "Live Web Project URL": "https://contact-card.billymitchell.design/billymitchell.vcf",
-        "Made For": [
-          "rec4UvnGnKwCs9agu"
-        ],
-        "Made With": [
-          "HTML",
-          "CSS",
-          "Javascript",
-          "React"
-        ],
-        "Project Title": "NFC Contact",
-        "Creative Discipline": [
-          "UX Design",
-          "Web Development",
-          "UI Design"
-        ],
-        "Date Modified": "2021-02-15T19:24:51.000Z"
-      }
-    },
-    "fields": {
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Personal"
-      ],
-      "Live Web Project URL": "https://contact-card.billymitchell.design/billymitchell.vcf",
-      "Made For": [
-        "rec4UvnGnKwCs9agu"
-      ],
-      "Made With": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "React"
-      ],
-      "Project Title": "NFC Contact",
-      "Creative Discipline": [
-        "UX Design",
-        "Web Development",
-        "UI Design"
-      ],
-      "Date Modified": "2021-02-15T19:24:51.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "recz8LaZ3ffFN0SBj",
     "_rawJson": {
       "id": "recz8LaZ3ffFN0SBj",
@@ -5337,17 +2918,18 @@
           "recjuzWmD0IMOixnh"
         ],
         "Intro Text": "<h3>Goals</h3>\nConvert an existing design into functioning HTML, CSS & Javascript.<br> \n<h3>Contributions</h3> \nI developed this to be highly adaptable. Mobile responsive development considered and flexibility in terms of reusable javascript functions for optimized page load. \n<h3>Outcomes</h3>\nI refind my skills around writing functional javascript in a reusable way. The slideshow of images for each product can be imported with minimal code repetition. ",
+        "Published": true,
         "Made With": [
           "HTML",
           "CSS",
           "Javascript"
         ],
         "Project Title": "STX",
+        "Featured": true,
         "Creative Discipline": [
           "Web Development"
         ],
-        "Date Modified": "2024-12-13T20:43:11.000Z",
-        "Featured": true
+        "Date Modified": "2024-12-27T22:19:51.000Z"
       }
     },
     "fields": {
@@ -5365,17 +2947,18 @@
         "recjuzWmD0IMOixnh"
       ],
       "Intro Text": "<h3>Goals</h3>\nConvert an existing design into functioning HTML, CSS & Javascript.<br> \n<h3>Contributions</h3> \nI developed this to be highly adaptable. Mobile responsive development considered and flexibility in terms of reusable javascript functions for optimized page load. \n<h3>Outcomes</h3>\nI refind my skills around writing functional javascript in a reusable way. The slideshow of images for each product can be imported with minimal code repetition. ",
+      "Published": true,
       "Made With": [
         "HTML",
         "CSS",
         "Javascript"
       ],
       "Project Title": "STX",
+      "Featured": true,
       "Creative Discipline": [
         "Web Development"
       ],
-      "Date Modified": "2024-12-13T20:43:11.000Z",
-      "Featured": true
+      "Date Modified": "2024-12-27T22:19:51.000Z"
     }
   },
   {

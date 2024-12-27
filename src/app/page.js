@@ -50,8 +50,16 @@ export async function generateMetadata() {
 // to do:
 
 // IMPORTANT
-// add/remove featured portfolio content
+// move primary domain to vercel
 // move sub domains to vercel
+// update dns records
+// add/remove featured portfolio content
+// add/remove featured tech stack content
+// add/remove featured services content
+// add/remove featured companies content
+// add/remove featured about content
+// add/remove featured contact content
+// review each project 
 // refactor and simplify code
 
 // NICE TO HAVE

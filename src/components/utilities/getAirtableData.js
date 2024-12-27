@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const Airtable = require('airtable');
+const { log } = require('console');
 require('dotenv').config({ path: '.env.local' });
 
 // Initialize Airtable client
@@ -15,12 +16,22 @@ if (!apiKey) {
 
 const base = new Airtable({ apiKey }).base(baseId);
 
+//https://airtable.com/appvr5KrgKiJo1E7M/api/docs#javascript/table:projects:list
+
 const fetchAndSaveData = async () => {
   try {
-    const projectsData = await base('Projects').select().all();
-    const companiesData = await base('Companies').select().all();
-    const servicesData = await base('Services').select().all();
-
+    const projectsData = await base('Projects').select({
+      filterByFormula: "{Published}",
+    }).all();
+    console.log("projectsData", projectsData);
+    const companiesData = await base('Companies').select({
+        filterByFormula: "{Feature}",
+    }).all();
+    console.log("companiesData", companiesData);
+    const servicesData = await base('Services').select({
+      filterByFormula: "{Featured}",
+    }).all();
+    console.log("servicesData", servicesData);
     const projectsPath = path.join(
       __dirname,
       '../utilities/data/projectsData.json'
