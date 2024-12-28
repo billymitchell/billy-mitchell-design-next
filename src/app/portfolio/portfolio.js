@@ -6,7 +6,7 @@ import PortfolioContent from '../portfolio/PortfolioContent.js';
 import ProjectDisciplineButtons from '../portfolio/ProjectDisciplineButtons.js';
 
 const Portfolio = () => {
-  const [selectedDiscipline, setSelectedDiscipline] = useState('Featured');
+  const [selectedDiscipline, setSelectedDiscipline] = useState('All');
 
   // Handle discipline button click
   const handleDisciplineSelect = (discipline) => {
@@ -30,9 +30,9 @@ const Portfolio = () => {
         <div className="inner-width-full">
           {/* PortfolioContent now handles filtering based on selectedDiscipline */}
           <PortfolioContent selectedDiscipline={selectedDiscipline} />
-          <div className="text-center padding-top-15 padding-bottom-15">
+          {/* <div className="text-center padding-top-15 padding-bottom-15">
             <a href="/portfolio/all">View All Other Published Portfolio Work</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -2,17 +2,17 @@
 import projectsData from '../../components/utilities/data/projectsData.json';
 
 const ProjectDisciplineButtons = ({ onDisciplineSelect }) => {
-  // Step 1: Extract the 'Creative Discipline' field from each project that is published and featured, and add them to an array
+  // Create an array of all disciplines
   const allDisciplines = [];
   projectsData.forEach((project) => {
-    if (project.fields.Published && project.fields.Featured) {
+    if (project.fields.Published) {
       // Check if the project is published and featured
       const disciplines = project.fields['Creative Discipline'];
-      if (Array.isArray(disciplines)) {
+     
         disciplines.forEach((discipline) => {
           allDisciplines.push(discipline);
         });
-      }
+      
     }
   });
 
@@ -21,6 +21,11 @@ const ProjectDisciplineButtons = ({ onDisciplineSelect }) => {
 
   return (
     <>
+      {/* ALL Button */}
+      <button onClick={() => onDisciplineSelect("All")}>
+          All
+      </button>
+      {/* Dynamically Generated Buttons Based on POrtfolio Disciplines */}
       {uniqueDisciplinesArray.map((discipline, index) => (
         <button key={index} onClick={() => onDisciplineSelect(discipline)}>
           {discipline}

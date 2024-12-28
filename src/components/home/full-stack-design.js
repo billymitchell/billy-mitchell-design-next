@@ -50,7 +50,7 @@ const FullStack = () => {
                 duration="time-1000ms"
                 delay="delay-0ms"
               >
-                <h3>My Specialty</h3>
+                <h3>My Perspective</h3>
               </InViewAnimationTwo>
               <InViewAnimationTwo
                 rootMargin="-25% 0%"

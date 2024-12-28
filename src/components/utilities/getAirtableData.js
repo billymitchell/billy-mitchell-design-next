@@ -23,15 +23,15 @@ const fetchAndSaveData = async () => {
     const projectsData = await base('Projects').select({
       filterByFormula: "{Published}",
     }).all();
-    console.log("projectsData", projectsData);
+    //console.log("projectsData", projectsData);
     const companiesData = await base('Companies').select({
         filterByFormula: "{Feature}",
     }).all();
-    console.log("companiesData", companiesData);
+    //console.log("companiesData", companiesData);
     const servicesData = await base('Services').select({
       filterByFormula: "{Featured}",
     }).all();
-    console.log("servicesData", servicesData);
+    //console.log("servicesData", servicesData);
     const projectsPath = path.join(
       __dirname,
       '../utilities/data/projectsData.json'

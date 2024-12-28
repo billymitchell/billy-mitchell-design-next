@@ -175,9 +175,6 @@
         ],
         "Company Logo": "companies/Hilton_International",
         "Feature": true,
-        "Project": [
-          "rec694UxTv7qNDhEm"
-        ],
         "URL": "https://www.hilton.com"
       }
     },
@@ -188,9 +185,6 @@
       ],
       "Company Logo": "companies/Hilton_International",
       "Feature": true,
-      "Project": [
-        "rec694UxTv7qNDhEm"
-      ],
       "URL": "https://www.hilton.com"
     }
   },
@@ -215,8 +209,6 @@
         "Company Logo": "companies/Royal_Caribbean_International",
         "Feature": true,
         "Project": [
-          "rec5j4U00GqAi1Vxa",
-          "recT02UwBAVeKtkLI",
           "recTjnLKGU4V4M88Q",
           "reckbx1k6Kf9rRv5Q"
         ],
@@ -231,8 +223,6 @@
       "Company Logo": "companies/Royal_Caribbean_International",
       "Feature": true,
       "Project": [
-        "rec5j4U00GqAi1Vxa",
-        "recT02UwBAVeKtkLI",
         "recTjnLKGU4V4M88Q",
         "reckbx1k6Kf9rRv5Q"
       ],
@@ -299,20 +289,11 @@
         "Company Logo": "companies/internova-travel-group",
         "Feature": true,
         "Project": [
-          "recz9o1ezBnhQKpii",
           "recb04FcNhCqSMpvj",
           "reco9Mp0OWWHsjekB",
           "reciRAbtHO5ZV2967",
           "recGE9j6WoFTvza8X",
-          "recYVdCFSbah6tJck",
-          "recdOFhOCgc9NpEnc",
-          "rec694UxTv7qNDhEm",
-          "recWTFpFTI9FxZu4d",
-          "recbPwGq9ne9CC8cz",
-          "recT02UwBAVeKtkLI",
-          "rec0DhvDzIFlUgzk3",
-          "recaIPo9P807ovC5H",
-          "recK933n8CGrCmTzt"
+          "recYVdCFSbah6tJck"
         ],
         "URL": "https://internova.com/"
       }
@@ -325,20 +306,11 @@
       "Company Logo": "companies/internova-travel-group",
       "Feature": true,
       "Project": [
-        "recz9o1ezBnhQKpii",
         "recb04FcNhCqSMpvj",
         "reco9Mp0OWWHsjekB",
         "reciRAbtHO5ZV2967",
         "recGE9j6WoFTvza8X",
-        "recYVdCFSbah6tJck",
-        "recdOFhOCgc9NpEnc",
-        "rec694UxTv7qNDhEm",
-        "recWTFpFTI9FxZu4d",
-        "recbPwGq9ne9CC8cz",
-        "recT02UwBAVeKtkLI",
-        "rec0DhvDzIFlUgzk3",
-        "recaIPo9P807ovC5H",
-        "recK933n8CGrCmTzt"
+        "recYVdCFSbah6tJck"
       ],
       "URL": "https://internova.com/"
     }

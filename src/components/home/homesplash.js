@@ -35,7 +35,7 @@ const Homesplash = () => {
               delay="delay-250ms"
               className="init-invisible"
             >
-              <h2 className="text-center">UI/UX Designer<br />Frontend Developer</h2>
+              <h2 className="text-center">Multidisciplinary Designer & Developer</h2>
             </InViewAnimationTwo>
           </div>
         </div>

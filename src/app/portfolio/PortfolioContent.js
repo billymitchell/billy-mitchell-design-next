@@ -26,14 +26,20 @@ const IfFeaturedImage = (portfolioItem) => {
   }
 };
 
-const PortfolioContent = ({ selectedDiscipline = 'Featured' }) => {
+const PortfolioContent = ({ selectedDiscipline }) => {
+  
+  
+
   const generatePortfolioUrl = (title) => {
     return `/portfolio/${title
       .toLowerCase()
       .replace('&', 'and')
-      .replace(/\s/gi, '-')
       .replace('/', '')
-      .replace(' / ', '')}`;
+      .replace(',', '')
+      .replace(':', '')
+      .replace(/\s/gi, '-')
+      .trim()
+    }`;
   };
 
   const handleLinkClick = (item) => {
@@ -41,8 +47,7 @@ const PortfolioContent = ({ selectedDiscipline = 'Featured' }) => {
   };
 
   const selectedPortfolioContent = projectsData.filter((item) => {
-    if (!item.fields.Published) return false;
-    if (selectedDiscipline === 'Featured') return item.fields.Featured;
+    if (selectedDiscipline === 'All') return item.fields.Published;
     return item.fields['Creative Discipline']?.includes(selectedDiscipline);
   });
 

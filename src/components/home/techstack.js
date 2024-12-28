@@ -5,6 +5,10 @@ import InViewAnimationTwo from "../utilities/InViewAnimationTwo.js"
 import { Parallax } from "react-scroll-parallax"
 import SeparatorTop from "../../components/separator-top"
 import SeparatorBottom from "../../components/separator-bottom"
+import Image from 'next/image'
+import nodejs from '../../../public/techstack/nodejs.svg'
+import nextLogo from '../../../public/techstack/nextjs.svg'
+import creativeCloudLogo from '../../../public/techstack/Adobe Creative Cloud.png'
 
 const TechStack = () => {
   // Set default state of parallax to enabled / not disabled
@@ -60,7 +64,7 @@ const TechStack = () => {
               </p>
               </InViewAnimationTwo>
 
-              <div className="teck-stack-container grid-container col-7 col-gap-30 small-col-4 small-col-gap-20">
+              <div className="teck-stack-container grid-container col-6 col-gap-30 small-col-4 small-col-gap-20">
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
                   delay="delay-500ms"
@@ -90,13 +94,35 @@ const TechStack = () => {
                 >
                   <img
                     className="fluid"
+                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/sass-1_bkguwu"
+                    alt="Sass"
+                  />
+                </InViewAnimationTwo>
+                <InViewAnimationTwo
+                  rootMargin="-25% 0%"
+                  delay="delay-650ms"
+                  className="init-invisible"
+                >
+                  <img
+                    className="fluid"
                     src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Unofficial_JavaScript_logo_2_fetebo"
                     alt="Javascript"
                   />
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  delay="delay-650ms"
+                  delay="delay-700ms"
+                  className="init-invisible"
+                >
+                  <Image
+                    src={nodejs}
+                    alt="nodejs"
+                    className="fluid"
+                  />
+                </InViewAnimationTwo>
+                <InViewAnimationTwo
+                  rootMargin="-25% 0%"
+                  delay="delay-750ms"
                   className="init-invisible"
                 >
                   <img
@@ -107,29 +133,18 @@ const TechStack = () => {
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
                   rootMargin="-25% 0%"
-                  delay="delay-700ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Gatsby-Monogram_otocnt"
-                    alt="Gatsby"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-750ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/sass-1_bkguwu"
-                    alt="Sass"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
                   delay="delay-800ms"
+                  className="init-invisible"
+                >
+                  <Image
+                    src={nextLogo}
+                    alt="nextLogo"
+                    className="fluid"
+                  />
+                </InViewAnimationTwo>
+                <InViewAnimationTwo
+                  rootMargin="-25% 0%"
+                  delay="delay-850ms"
                   className="init-invisible"
                 >
                   <img
@@ -139,6 +154,54 @@ const TechStack = () => {
                   />
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
+                  rootMargin="-25% 0%"
+                  delay="delay-900ms"
+                  className="init-invisible"
+                >
+                  <Image
+                    src={creativeCloudLogo}
+                    alt="creativeCloudLogo"
+                    className="fluid"
+                  />
+                </InViewAnimationTwo>
+                <InViewAnimationTwo
+
+                  rootMargin="-25% 0%"
+                  delay="delay-1000ms"
+                  className="init-invisible"
+                >
+                  <img
+                    className="fluid"
+                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Figma-logo_hpsrgq"
+                    alt="Figma"
+                  />
+                </InViewAnimationTwo>
+                <InViewAnimationTwo
+                  // 
+                  rootMargin="-25% 0%"
+                  delay="delay-1100ms"
+                  className="init-invisible"
+                >
+                  <img
+                    className="fluid"
+                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/wordpress"
+                    alt="Wordpress"
+                  />
+                </InViewAnimationTwo>
+              </div>
+            </Parallax>
+          </div>
+        </div>
+      </section>
+      <SeparatorBottom className="bg-white" />
+    </>
+  )
+}
+
+export default TechStack
+
+
+{/* <InViewAnimationTwo
                   rootMargin="-25% 0%"
                   delay="delay-850ms"
                   className="init-invisible"
@@ -192,40 +255,4 @@ const TechStack = () => {
                     className="fluid"
                     src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/adobe-xd-logo-svg-vector-01_zw1khl"
                     alt="Adobe XD"
-                  /></InViewAnimationTwo>
-                <InViewAnimationTwo
-
-                  rootMargin="-25% 0%"
-                  delay="delay-1100ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Figma-logo_hpsrgq"
-                    alt="Figma"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  // 
-                  rootMargin="-25% 0%"
-                  delay="delay-1150ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/wordpress"
-                    alt="Wordpress"
-                  />
-                </InViewAnimationTwo>
-              </div>
-            </Parallax>
-          </div>
-        </div>
-      </section>
-      <SeparatorBottom className="bg-white" />
-    </>
-  )
-}
-
-export default TechStack
-
+                  /></InViewAnimationTwo> */}

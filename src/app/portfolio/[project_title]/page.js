@@ -1,19 +1,23 @@
 // src/app/portfolio/[project_title]/page.js
 import projectsData from '../../../components/utilities/data/projectsData.json';
 import companiesData from '../../../components/utilities/data/companiesData.json';
+import { log } from 'node:console';
 
 // Generate metadata dynamically and pass project data
 export async function generateMetadata({ params }) {
-  const projectTitle = params.project_title
-    .replace(/-/g, ' ')
-    .toLowerCase()
-    .trim();
+
+  function normalizeTitle(title) {
+    return title.toLowerCase()
+    .replace('&', 'and')
+    .replace(/\s/gi, '-')
+    .replace('/', '')
+    .replace(' / ', '')
+    .replace(':', '')
+  }
 
   // Find the project
-  const project = projectsData.find(
-    (item) =>
-      typeof item.fields['Project Title'] === 'string' &&
-      item.fields['Project Title'].toLowerCase().trim() === projectTitle
+  const project = projectsData.find((item) =>
+      normalizeTitle(item.fields['Project Title']) === params.project_title
   );
 
   if (!project) {
@@ -71,7 +75,7 @@ export async function generateStaticParams() {
   return projectsData.map((project) => ({
     project_title: String(project.fields['Project Title'])
       .toLowerCase()
-      .replace(/[\s&/]/g, '-'),
+      .replace(/[\s&/:]/g, '-'),
   }));
 }
 
@@ -175,17 +179,21 @@ const ifIntroText = (data) => {
 
 // Server Component to render the project page
 export default function PortfolioContent({ params }) {
-  // Format the project title from params to match the data
-  const projectTitle = params.project_title
-    .replace(/-/g, ' ')
-    .toLowerCase()
-    .trim();
 
-  // Use a more robust comparison to match the project title
-  const project = projectsData.find(
-    (item) =>
-      typeof item.fields['Project Title'] === 'string' &&
-      item.fields['Project Title'].toLowerCase().trim() === projectTitle
+  function normalizeTitle(title) {
+    return title
+    .toLowerCase()
+    .replace('&', 'and')
+    .replace('/', '')
+    .replace(',', '')
+    .replace(':', '')
+    .replace(/\s/gi, '-')
+    .trim()
+  }
+
+  // Find the project
+  const project = projectsData.find((item) =>
+      normalizeTitle(item.fields['Project Title']) === params.project_title
   );
 
   if (!project) {

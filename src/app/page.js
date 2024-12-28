@@ -47,34 +47,50 @@ export async function generateMetadata() {
   };
 }
 
-// to do:
+//Update Home Page
+  // create new homesplash video and fallback animation
 
-// IMPORTANT
-// move primary domain to vercel
-// move sub domains to vercel
-// update dns records
-// add/remove featured portfolio content
-// add/remove featured tech stack content
+// Update Portfolio Content
+  // Add new projects
+  // Update existing projects
+    // itravel better - add XD images
+    // travel authority - add XD images
+  // remove excessive examples
+  // add code base for projects to header 
+  // update made for from unknown to educational corse w/link
+  // create sort by priority
+  // update filter links to sort by priority first
+  // review each project and all links, where can I improve?
+
+// Update tech stack content
+  // MAC
+  // + symbol
+  // create hover text reveal
+
 // add/remove featured services content
-// add/remove featured companies content
-// add/remove featured about content
-// add/remove featured contact content
-// review each project 
-// refactor and simplify code
+  // - order services by priority
+  // - add consulting service
+  // - expand width to 1000px
 
-// NICE TO HAVE
-// evaluate use of 3rd party image hosting
-// get contact section form working
-// add portfolio all page
-// add 404 page
-// add favicon
-// add robots.txt
-// add sitemap.xml
-// add analytics
-// add gtag
-// add favicon
-// add robots.txt
-// add sitemap.xml
+// add/remove featured companies content
+  // - add centricity largest company logos 
+  // - order companies by priority
+
+// Update about content
+  // update with AI
+  // update image
+  // move to top of page
+
+// Add contact content
+  // add form and submit functionality
+
+// Refactor and simplify code
+  // dynamically call Airtable data
+  // add typescript support 
+  // Cloudinary vs NextImg component
+  // // add portfolio all page
+  // style 404 page
+  // add analytics
 
 export default function Home() {
   return (
