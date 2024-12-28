@@ -8,73 +8,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "rec0DhvDzIFlUgzk3",
-    "_rawJson": {
-      "id": "rec0DhvDzIFlUgzk3",
-      "createdTime": "2020-08-25T00:03:12.000Z",
-      "fields": {
-        "Custom HTML": "<style>\n      @media only screen and (max-width: 816px) {\n        /* Funjet */\n        #experience-5e0e5f8014913 {\n          padding: 0px 0px 153.15% !important;\n        }\n      }\n    </style>\n    <div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 75%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5e0e5f8014913\"\n      data-aspectRatio=\"1.33333333\"\n      data-mobile-aspectRatio=\"0.65296252\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/funjet-interactive\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"Funjet Interactive\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-        "End Date": "2020-09-10",
-        "Featured Image URL": "funjet-vacations/841825c6",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Made For": [
-          "recwezBDstyLcFx9Q",
-          "recqb4ca8EMJFLfJf",
-          "rec3p0XLlaOXxmx3N"
-        ],
-        "Published": true,
-        "Made With": [
-          "Illustrator",
-          "Ceros"
-        ],
-        "Project Title": "Funjet Vacations Promo Page Interactive",
-        "Creative Discipline": [
-          "UI Design"
-        ],
-        "Date Modified": "2021-01-24T18:51:00.000Z"
-      }
-    },
-    "fields": {
-      "Custom HTML": "<style>\n      @media only screen and (max-width: 816px) {\n        /* Funjet */\n        #experience-5e0e5f8014913 {\n          padding: 0px 0px 153.15% !important;\n        }\n      }\n    </style>\n    <div\n      style=\"\n        position: relative;\n        width: auto;\n        padding: 0 0 75%;\n        height: 0;\n        top: 0;\n        left: 0;\n        bottom: 0;\n        right: 0;\n        margin: 0;\n        border: 0 none;\n      \"\n      id=\"experience-5e0e5f8014913\"\n      data-aspectRatio=\"1.33333333\"\n      data-mobile-aspectRatio=\"0.65296252\"\n    >\n      <iframe\n        allowfullscreen\n        src=\"https://ceros.billymitchell.design/self-hosted/funjet-interactive\"\n        style=\"\n          position: absolute;\n          top: 0;\n          left: 0;\n          bottom: 0;\n          right: 0;\n          margin: 0;\n          padding: 0;\n          border: 0 none;\n          height: 1px;\n          width: 1px;\n          min-height: 100%;\n          min-width: 100%;\n        \"\n        frameborder=\"0\"\n        class=\"ceros-experience\"\n        title=\"Funjet Interactive\"\n        scrolling=\"no\"\n      ></iframe>\n    </div>",
-      "End Date": "2020-09-10",
-      "Featured Image URL": "funjet-vacations/841825c6",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Made For": [
-        "recwezBDstyLcFx9Q",
-        "recqb4ca8EMJFLfJf",
-        "rec3p0XLlaOXxmx3N"
-      ],
-      "Published": true,
-      "Made With": [
-        "Illustrator",
-        "Ceros"
-      ],
-      "Project Title": "Funjet Vacations Promo Page Interactive",
-      "Creative Discipline": [
-        "UI Design"
-      ],
-      "Date Modified": "2021-01-24T18:51:00.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "rec0iwpellvroblNI",
     "_rawJson": {
       "id": "rec0iwpellvroblNI",
@@ -367,79 +300,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "rec3GfyhkYPh9OHEI",
-    "_rawJson": {
-      "id": "rec3GfyhkYPh9OHEI",
-      "createdTime": "2020-06-24T20:26:55.000Z",
-      "fields": {
-        "End Date": "2018-11-01",
-        "Featured Image URL": "my-fed-data/Feddata-website-design",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Live Web Project URL": "https://www.feddata.com/",
-        "Made For": [
-          "rec0GqFfmFS63Xbct",
-          "rec3YSzCNkb5JVUdN"
-        ],
-        "Published": true,
-        "Made With": [
-          "Premiere Pro",
-          "Wordpress",
-          "HTML",
-          "CSS",
-          "Illustrator"
-        ],
-        "Project Title": "Fed Data Website",
-        "Creative Discipline": [
-          "UI Design",
-          "Web Development"
-        ],
-        "Date Modified": "2021-01-24T18:50:52.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2018-11-01",
-      "Featured Image URL": "my-fed-data/Feddata-website-design",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Live Web Project URL": "https://www.feddata.com/",
-      "Made For": [
-        "rec0GqFfmFS63Xbct",
-        "rec3YSzCNkb5JVUdN"
-      ],
-      "Published": true,
-      "Made With": [
-        "Premiere Pro",
-        "Wordpress",
-        "HTML",
-        "CSS",
-        "Illustrator"
-      ],
-      "Project Title": "Fed Data Website",
-      "Creative Discipline": [
-        "UI Design",
-        "Web Development"
-      ],
-      "Date Modified": "2021-01-24T18:50:52.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "rec3Sh8vWvpjyQ6nA",
     "_rawJson": {
       "id": "rec3Sh8vWvpjyQ6nA",
@@ -567,6 +427,75 @@
       ],
       "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards_edhbch\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards2_ozjmdd\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards3_dcu5h9\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards4_uqmvxd\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards5_ioswvg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards6_faf0w0\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards7_znfhxx\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards8_mayauh\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards9_rirpqc\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards10_lwodj1\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards11_l2kbtz\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards12_l7swoq\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards13_cmsmqo\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards14_orgzgc\"\n/>\n",
       "Date Modified": "2024-12-13T20:43:48.000Z"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Projects"
+    },
+    "id": "rec6cjvnEeR2l4wIg",
+    "_rawJson": {
+      "id": "rec6cjvnEeR2l4wIg",
+      "createdTime": "2020-08-13T19:49:04.000Z",
+      "fields": {
+        "End Date": "2014-12-01",
+        "Featured Image URL": "giometric-nudes/IMG_0899_web",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Educational"
+        ],
+        "Hide Featured Image In Body": true,
+        "Made For": [
+          "rec0QNfGozYGRt1Jm"
+        ],
+        "Published": true,
+        "Made With": [
+          "Photoshop",
+          "Illustrator",
+          "Screen Printing "
+        ],
+        "Project Title": "Geometric Nudes",
+        "Featured": true,
+        "Creative Discipline": [
+          "Print Design"
+        ],
+        "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/1-Top2_web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0899_web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0933_web.min_\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/admendment/giometric-nudes/IMG_0902_web\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0956_crop_web1\n  \"\n/>\n\n",
+        "Date Modified": "2024-12-27T23:07:25.000Z"
+      }
+    },
+    "fields": {
+      "End Date": "2014-12-01",
+      "Featured Image URL": "giometric-nudes/IMG_0899_web",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Educational"
+      ],
+      "Hide Featured Image In Body": true,
+      "Made For": [
+        "rec0QNfGozYGRt1Jm"
+      ],
+      "Published": true,
+      "Made With": [
+        "Photoshop",
+        "Illustrator",
+        "Screen Printing "
+      ],
+      "Project Title": "Geometric Nudes",
+      "Featured": true,
+      "Creative Discipline": [
+        "Print Design"
+      ],
+      "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/1-Top2_web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0899_web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0933_web.min_\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/admendment/giometric-nudes/IMG_0902_web\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0956_crop_web1\n  \"\n/>\n\n",
+      "Date Modified": "2024-12-27T23:07:25.000Z"
     }
   },
   {
@@ -722,73 +651,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "recBBx6WXoj1g3fwe",
-    "_rawJson": {
-      "id": "recBBx6WXoj1g3fwe",
-      "createdTime": "2020-06-21T22:24:43.000Z",
-      "fields": {
-        "End Date": "2017-09-01",
-        "Featured Image URL": "Daniel-Stuelpnagel/Daniel_Stuelpnagel",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Contract"
-        ],
-        "Live Web Project URL": "https://danielstuelpnagel.com/",
-        "Made For": [
-          "recADp7S4hkU7Z8Lf"
-        ],
-        "Published": true,
-        "Made With": [
-          "Illustrator",
-          "Wordpress"
-        ],
-        "Project Title": "Daniel Stuelpangel Website",
-        "Creative Discipline": [
-          "Branding",
-          "UI Design",
-          "Web Development"
-        ],
-        "Date Modified": "2021-01-24T18:50:38.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2017-09-01",
-      "Featured Image URL": "Daniel-Stuelpnagel/Daniel_Stuelpnagel",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Contract"
-      ],
-      "Live Web Project URL": "https://danielstuelpnagel.com/",
-      "Made For": [
-        "recADp7S4hkU7Z8Lf"
-      ],
-      "Published": true,
-      "Made With": [
-        "Illustrator",
-        "Wordpress"
-      ],
-      "Project Title": "Daniel Stuelpangel Website",
-      "Creative Discipline": [
-        "Branding",
-        "UI Design",
-        "Web Development"
-      ],
-      "Date Modified": "2021-01-24T18:50:38.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "recG3W8euQ422jnUa",
     "_rawJson": {
       "id": "recG3W8euQ422jnUa",
@@ -927,89 +789,6 @@
       "id": null,
       "name": "Projects"
     },
-    "id": "recGE9j6WoFTvza8X",
-    "_rawJson": {
-      "id": "recGE9j6WoFTvza8X",
-      "createdTime": "2020-08-18T21:08:18.000Z",
-      "fields": {
-        "End Date": "2020-12-01",
-        "Featured Image URL": "peak-regionals-2020/Screen_Shot_2020-10-01_at_2.23.55_PM_o6ivrt",
-        "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/peak-regionals-2020",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Full-Time"
-        ],
-        "Live Web Project URL": "https://email-design.billymitchell.design/peak-regionals-2020",
-        "Hide Featured Image In Body": true,
-        "Made For": [
-          "recwezBDstyLcFx9Q",
-          "recf0LGEUUMi4JUBp",
-          "recqb4ca8EMJFLfJf"
-        ],
-        "Intro Text": "<h3>Goals</h3>\nRedesign a national event announcement email to be more modern and represent the travel leader's brand better.<br>  \n<h3>Contributions</h3>\nI designed the email in adobe XD first before building it out in HTML/CSS. This allowed upper management to review and approve the design before investing in Development.<br> \n<h3>Outcomes</h3>\nThis email served as an updated brand guild for the event. It helped establish a baseline for quality for agent facing emails.\n",
-        "Published": true,
-        "Made With": [
-          "Adobe XD",
-          "Photoshop",
-          "HTML",
-          "CSS"
-        ],
-        "Project Title": "Peak Regionals 2020 Email",
-        "Featured": true,
-        "Creative Discipline": [
-          "UI Design",
-          "Web Development"
-        ],
-        "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_36_43_fc6pt8.png\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_37_04_tqzakd.png\"\n/>",
-        "Date Modified": "2024-09-06T18:17:43.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2020-12-01",
-      "Featured Image URL": "peak-regionals-2020/Screen_Shot_2020-10-01_at_2.23.55_PM_o6ivrt",
-      "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/peak-regionals-2020",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Full-Time"
-      ],
-      "Live Web Project URL": "https://email-design.billymitchell.design/peak-regionals-2020",
-      "Hide Featured Image In Body": true,
-      "Made For": [
-        "recwezBDstyLcFx9Q",
-        "recf0LGEUUMi4JUBp",
-        "recqb4ca8EMJFLfJf"
-      ],
-      "Intro Text": "<h3>Goals</h3>\nRedesign a national event announcement email to be more modern and represent the travel leader's brand better.<br>  \n<h3>Contributions</h3>\nI designed the email in adobe XD first before building it out in HTML/CSS. This allowed upper management to review and approve the design before investing in Development.<br> \n<h3>Outcomes</h3>\nThis email served as an updated brand guild for the event. It helped establish a baseline for quality for agent facing emails.\n",
-      "Published": true,
-      "Made With": [
-        "Adobe XD",
-        "Photoshop",
-        "HTML",
-        "CSS"
-      ],
-      "Project Title": "Peak Regionals 2020 Email",
-      "Featured": true,
-      "Creative Discipline": [
-        "UI Design",
-        "Web Development"
-      ],
-      "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_36_43_fc6pt8.png\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_37_04_tqzakd.png\"\n/>",
-      "Date Modified": "2024-09-06T18:17:43.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
     "id": "recKPuLq2WzOYPddL",
     "_rawJson": {
       "id": "recKPuLq2WzOYPddL",
@@ -1066,6 +845,67 @@
       ],
       "Body Text": "<p>When Photoshop glitches, print it anyway.</p>\n<p>Original Glitch</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/Glitch_digitalcolor_full-web-large-min\n  \"\n/>\n<p>Screenprinted Artwork</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/CMYK-Glitch\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/photo-3-web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/photo-14\n  \"\n/>\n",
       "Date Modified": "2024-12-13T20:43:45.000Z"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Projects"
+    },
+    "id": "recLLMArXaVOCsbEi",
+    "_rawJson": {
+      "id": "recLLMArXaVOCsbEi",
+      "createdTime": "2020-06-24T20:35:46.000Z",
+      "fields": {
+        "End Date": "2017-02-01",
+        "Featured Image URL": "basquiat/a113b9b2e830577cc847b5cd06ed68d5",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Personal"
+        ],
+        "Made For": [
+          "rec9Yv6ZVghvkMpJB"
+        ],
+        "Published": true,
+        "Made With": [
+          "Illustration"
+        ],
+        "Project Title": "John Michel Basquiat",
+        "Featured": true,
+        "Creative Discipline": [
+          "Illustration"
+        ],
+        "Date Modified": "2024-12-27T23:07:16.000Z"
+      }
+    },
+    "fields": {
+      "End Date": "2017-02-01",
+      "Featured Image URL": "basquiat/a113b9b2e830577cc847b5cd06ed68d5",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Personal"
+      ],
+      "Made For": [
+        "rec9Yv6ZVghvkMpJB"
+      ],
+      "Published": true,
+      "Made With": [
+        "Illustration"
+      ],
+      "Project Title": "John Michel Basquiat",
+      "Featured": true,
+      "Creative Discipline": [
+        "Illustration"
+      ],
+      "Date Modified": "2024-12-27T23:07:16.000Z"
     }
   },
   {
@@ -2057,6 +1897,75 @@
       "id": null,
       "name": "Projects"
     },
+    "id": "recfahloo5208nKte",
+    "_rawJson": {
+      "id": "recfahloo5208nKte",
+      "createdTime": "2020-06-24T20:23:52.000Z",
+      "fields": {
+        "End Date": "2018-11-01",
+        "Featured Image URL": "billy-is/b983ff41",
+        "GitHub URL": "https://github.com/billymitchell/billy-is",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Educational"
+        ],
+        "Live Web Project URL": "https://billy-is.billymitchell.design/",
+        "Made For": [
+          "recPO3Q68JfpY7tds"
+        ],
+        "Published": true,
+        "Made With": [
+          "HTML",
+          "CSS",
+          "Javascript"
+        ],
+        "Project Title": "Billy Is",
+        "Featured": true,
+        "Creative Discipline": [
+          "Web Development"
+        ],
+        "Date Modified": "2024-12-27T23:07:13.000Z"
+      }
+    },
+    "fields": {
+      "End Date": "2018-11-01",
+      "Featured Image URL": "billy-is/b983ff41",
+      "GitHub URL": "https://github.com/billymitchell/billy-is",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Educational"
+      ],
+      "Live Web Project URL": "https://billy-is.billymitchell.design/",
+      "Made For": [
+        "recPO3Q68JfpY7tds"
+      ],
+      "Published": true,
+      "Made With": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "Project Title": "Billy Is",
+      "Featured": true,
+      "Creative Discipline": [
+        "Web Development"
+      ],
+      "Date Modified": "2024-12-27T23:07:13.000Z"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Projects"
+    },
     "id": "reciRAbtHO5ZV2967",
     "_rawJson": {
       "id": "reciRAbtHO5ZV2967",
@@ -2475,6 +2384,73 @@
       "id": null,
       "name": "Projects"
     },
+    "id": "recojLuxOBPcbFWf3",
+    "_rawJson": {
+      "id": "recojLuxOBPcbFWf3",
+      "createdTime": "2020-06-24T20:49:49.000Z",
+      "fields": {
+        "End Date": "2020-06-01",
+        "Featured Image URL": "prison-drip/PrisonDrip",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Educational"
+        ],
+        "Made For": [
+          "rec9Yv6ZVghvkMpJB"
+        ],
+        "Intro Text": "An editorial illustration assignment to illustrate the effects of lead paint on underserved Baltimore youth. \n",
+        "Published": true,
+        "Made With": [
+          "Illustration",
+          "Photoshop"
+        ],
+        "Project Title": "Prison Drip",
+        "Featured": true,
+        "Creative Discipline": [
+          "Illustration"
+        ],
+        "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/prison-drip/Tether\"\n/>",
+        "Date Modified": "2024-12-27T23:07:17.000Z"
+      }
+    },
+    "fields": {
+      "End Date": "2020-06-01",
+      "Featured Image URL": "prison-drip/PrisonDrip",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Educational"
+      ],
+      "Made For": [
+        "rec9Yv6ZVghvkMpJB"
+      ],
+      "Intro Text": "An editorial illustration assignment to illustrate the effects of lead paint on underserved Baltimore youth. \n",
+      "Published": true,
+      "Made With": [
+        "Illustration",
+        "Photoshop"
+      ],
+      "Project Title": "Prison Drip",
+      "Featured": true,
+      "Creative Discipline": [
+        "Illustration"
+      ],
+      "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/prison-drip/Tether\"\n/>",
+      "Date Modified": "2024-12-27T23:07:17.000Z"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Projects"
+    },
     "id": "recpi5sdQzMwfg2AK",
     "_rawJson": {
       "id": "recpi5sdQzMwfg2AK",
@@ -2819,75 +2795,6 @@
         "Illustration"
       ],
       "Date Modified": "2021-01-19T20:35:09.000Z"
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Projects"
-    },
-    "id": "recuC0pn3ymPEX5kQ",
-    "_rawJson": {
-      "id": "recuC0pn3ymPEX5kQ",
-      "createdTime": "2021-03-16T17:17:52.000Z",
-      "fields": {
-        "End Date": "2021-03-29",
-        "Featured Image URL": "leah/leah",
-        "GitHub URL": "https://github.com/billymitchell/leah",
-        "Position on Project": [
-          "Lead"
-        ],
-        "Job Type": [
-          "Pro Bono"
-        ],
-        "Live Web Project URL": "https://leah.billymitchell.design/",
-        "Made For": [
-          "rec4UvnGnKwCs9agu"
-        ],
-        "Published": true,
-        "Made With": [
-          "HTML",
-          "CSS",
-          "Javascript"
-        ],
-        "Project Title": "Leah",
-        "Creative Discipline": [
-          "Web Development",
-          "UX Design"
-        ],
-        "Date Modified": "2024-12-13T20:43:14.000Z"
-      }
-    },
-    "fields": {
-      "End Date": "2021-03-29",
-      "Featured Image URL": "leah/leah",
-      "GitHub URL": "https://github.com/billymitchell/leah",
-      "Position on Project": [
-        "Lead"
-      ],
-      "Job Type": [
-        "Pro Bono"
-      ],
-      "Live Web Project URL": "https://leah.billymitchell.design/",
-      "Made For": [
-        "rec4UvnGnKwCs9agu"
-      ],
-      "Published": true,
-      "Made With": [
-        "HTML",
-        "CSS",
-        "Javascript"
-      ],
-      "Project Title": "Leah",
-      "Creative Discipline": [
-        "Web Development",
-        "UX Design"
-      ],
-      "Date Modified": "2024-12-13T20:43:14.000Z"
     }
   },
   {
