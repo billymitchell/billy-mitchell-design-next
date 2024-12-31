@@ -1,13 +1,29 @@
+//import React, { useEffect, useState } from 'react';
 import Link from 'next/link'
+//import { usePathname } from 'next/navigation';
 import Image from 'next/image'
 
-const Header = () => {
+const Header = ({page}) => {
+    // const [isHome, setIsHome] = useState(false);
+    // const pathname = usePathname();
+
+    // useEffect(() => {
+    //     const checkIfHome = () => {
+    //         setIsHome(pathname === '/');
+    //     };
+
+    //     // Check on initial load and whenever pathname changes
+    //     checkIfHome();
+    // }, [pathname]);
+
+
+
     return (
-        <>
-            <div className="gradient-top"></div>
-            <header>
+            <header className={page}>
                 <div className="outer-container">
+                <div className="gradient-top"></div>
                     <div className="inner-width header-main-container">
+                   
                         <Link className="logo" href="/">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +44,9 @@ const Header = () => {
                                 />
                             </svg>
                         </Link>
-                        <ul id="menu-items">
+                  
+                        <ul id="menu-items" >
+                       
                             <li>
                                 <a data-scroll href="/#contact">
                                     <small>Contact</small>
@@ -53,7 +71,7 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-        </>
+
     )
 }
 export default Header

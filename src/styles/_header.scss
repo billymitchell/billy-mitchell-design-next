@@ -1,6 +1,27 @@
 header {
-    position: relative;
-    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: linear-gradient(
+        to bottom,
+          hsl(0, 0%, 0%) 0%,
+          hsla(0, 0%, 0%, 0.987) 8.1%,
+          hsla(0, 0%, 0%, 0.951) 15.5%,
+          hsla(0, 0%, 0%, 0.896) 22.5%,
+          hsla(0, 0%, 0%, 0.825) 29%,
+          hsla(0, 0%, 0%, 0.741) 35.3%,
+          hsla(0, 0%, 0%, 0.648) 41.2%,
+          hsla(0, 0%, 0%, 0.55) 47.1%,
+          hsla(0, 0%, 0%, 0.45) 52.9%,
+          hsla(0, 0%, 0%, 0.352) 58.8%,
+          hsla(0, 0%, 0%, 0.259) 64.7%,
+          hsla(0, 0%, 0%, 0.175) 71%,
+          hsla(0, 0%, 0%, 0.104) 77.5%,
+          hsla(0, 0%, 0%, 0.049) 84.5%,
+          hsla(0, 0%, 0%, 0.013) 91.9%,
+          hsla(0, 0%, 0%, 0) 100%
+        );;
 }
 
 .logo svg {
@@ -15,12 +36,10 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    top: 0;
     width: 100%;
 }
 
 #menu-items {
-
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -52,20 +71,24 @@ header {
 }
 
 //Home Page Layout
-#home .logo {
+header.home .logo {
     display: none;
 }
 
-#home #menu-items {
-    justify-content: center;
-    padding-top: 15px;
+header.home #menu-items {
+   justify-content: center;
+   padding-top: 15px;
 }
 
-#home .header-main-container {
-    position: absolute;
-}
-
-#home #menu-items li {
+header.home #menu-items li {
     padding-left: 7px;
     padding-right: 7px;
+}
+
+#home, #portfolio , #portfolio-page {
+    position: relative;
+}
+
+#portfolio {
+    margin-top: 122px;
 }

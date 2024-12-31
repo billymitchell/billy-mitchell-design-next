@@ -9,6 +9,7 @@ import Companies from '../components/home/Companies';
 import FetchCompanies from '../components/home/getCompanies';
 import ParallaxProviderWrapper from '../components/utilities/ParallaxProviderWrapper';
 // app/page.js
+import Header from '../components/header';
 
 
 export async function generateMetadata() {
@@ -48,6 +49,7 @@ export async function generateMetadata() {
 }
 
 //Update Home Page
+  // sticky header - mobile 
   // create new homesplash video and fallback animation
 
 // Update Portfolio Content
@@ -94,6 +96,8 @@ export async function generateMetadata() {
 
 export default function Home() {
   return (
+    <>
+    <Header page={"home"}/>
     <ParallaxProviderWrapper>
       <div id="home">
         <Homesplash />
@@ -105,5 +109,7 @@ export default function Home() {
         {/* <ContactSection /> */}
       </div>
     </ParallaxProviderWrapper>
+    </>
   );
 }
+

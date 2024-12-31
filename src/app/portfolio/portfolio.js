@@ -4,6 +4,7 @@
 import React, { useState } from 'react';
 import PortfolioContent from '../portfolio/PortfolioContent.js';
 import ProjectDisciplineButtons from '../portfolio/ProjectDisciplineButtons.js';
+import Header from '../../components/header';
 
 const Portfolio = () => {
   const [selectedDiscipline, setSelectedDiscipline] = useState('All');
@@ -15,6 +16,7 @@ const Portfolio = () => {
 
   return (
     <div id="portfolio" className="bg-black">
+      <Header />
       <div className="outer-container">
         <div className="inner-width">
           <h1>Featured Work</h1>

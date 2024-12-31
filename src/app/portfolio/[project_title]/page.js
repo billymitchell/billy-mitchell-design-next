@@ -2,6 +2,7 @@
 import projectsData from '../../../components/utilities/data/projectsData.json';
 import companiesData from '../../../components/utilities/data/companiesData.json';
 import { log } from 'node:console';
+import Header from '../../../components/header';
 
 // Generate metadata dynamically and pass project data
 export async function generateMetadata({ params }) {
@@ -211,7 +212,8 @@ export default function PortfolioContent({ params }) {
     : [];
 
   return (
-    <div id="portfolio" className="bg-black">
+    <div id="portfolio-page" className="bg-black">
+      <Header />
       <div className="portfolio-header-container">
         <div className="image-container">
           <img

@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
 
         <div className="outer-wrapper">
           <div className="main-container">
-            <Header />
+            {/* <Header /> */}
             <ParallaxProvider>{children}</ParallaxProvider>
           </div>
         </div>
