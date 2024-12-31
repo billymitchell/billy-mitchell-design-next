@@ -50,7 +50,7 @@ export default function Services({ children }) {
               >
                 <h3>Services Offered</h3>
               </InViewAnimationTwo>
-              <div className="services-container grid-container col-5 small-col-2">
+              <div className="services-container grid-container col-4 small-col-2">
                 {children}
               </div>
             </ParallaxWrapper>

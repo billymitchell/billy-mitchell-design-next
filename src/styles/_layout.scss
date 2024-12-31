@@ -84,7 +84,9 @@
   width: calc(100% - 30px);
 }
 
-
+.flex {
+  display: flex;
+}
 
 .grid-container {
   display: grid;

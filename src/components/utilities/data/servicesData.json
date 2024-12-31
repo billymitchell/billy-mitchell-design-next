@@ -35,6 +35,60 @@
       "id": null,
       "name": "Services"
     },
+    "id": "rec9IPPTcSH0GbFi3",
+    "_rawJson": {
+      "id": "rec9IPPTcSH0GbFi3",
+      "createdTime": "2024-12-27T22:09:23.000Z",
+      "fields": {
+        "Services Name": "Consulting",
+        "Services Image": "services/consulting-w",
+        "Services Order": 5,
+        "Featured": true
+      }
+    },
+    "fields": {
+      "Services Name": "Consulting",
+      "Services Image": "services/consulting-w",
+      "Services Order": 5,
+      "Featured": true
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Services"
+    },
+    "id": "recD59aDmAbLTp1fC",
+    "_rawJson": {
+      "id": "recD59aDmAbLTp1fC",
+      "createdTime": "2021-01-12T21:28:03.000Z",
+      "fields": {
+        "Services Name": "Photography & Video",
+        "Services Image": "services/camera-24px-w",
+        "Services Order": 8,
+        "Featured": true
+      }
+    },
+    "fields": {
+      "Services Name": "Photography & Video",
+      "Services Image": "services/camera-24px-w",
+      "Services Order": 8,
+      "Featured": true
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Services"
+    },
     "id": "recHqd3rcTcjICxC8",
     "_rawJson": {
       "id": "recHqd3rcTcjICxC8",
@@ -42,14 +96,14 @@
       "fields": {
         "Services Name": "Illustration",
         "Services Image": "services/gesture-24px-w",
-        "Services Order": 7,
+        "Services Order": 6,
         "Featured": true
       }
     },
     "fields": {
       "Services Name": "Illustration",
       "Services Image": "services/gesture-24px-w",
-      "Services Order": 7,
+      "Services Order": 6,
       "Featured": true
     }
   },
@@ -67,16 +121,16 @@
       "id": "recSTM3QXxgswLw3t",
       "createdTime": "2021-01-12T21:22:12.000Z",
       "fields": {
-        "Services Name": "Web Development",
+        "Services Name": "Development",
         "Services Image": "services/code-24px-w",
-        "Services Order": 2,
+        "Services Order": 3,
         "Featured": true
       }
     },
     "fields": {
-      "Services Name": "Web Development",
+      "Services Name": "Development",
       "Services Image": "services/code-24px-w",
-      "Services Order": 2,
+      "Services Order": 3,
       "Featured": true
     }
   },
@@ -96,14 +150,14 @@
       "fields": {
         "Services Name": "Print Design",
         "Services Image": "services/import_contacts-24px-w",
-        "Services Order": 8,
+        "Services Order": 7,
         "Featured": true
       }
     },
     "fields": {
       "Services Name": "Print Design",
       "Services Image": "services/import_contacts-24px-w",
-      "Services Order": 8,
+      "Services Order": 7,
       "Featured": true
     }
   },
@@ -121,15 +175,42 @@
       "id": "recgQQm4a9u2qliDT",
       "createdTime": "2021-01-12T21:22:12.000Z",
       "fields": {
-        "Services Name": "Web Design",
+        "Services Name": "Design",
         "Services Image": "services/design_services-24px-w",
+        "Services Order": 2,
+        "Featured": true
+      }
+    },
+    "fields": {
+      "Services Name": "Design",
+      "Services Image": "services/design_services-24px-w",
+      "Services Order": 2,
+      "Featured": true
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Services"
+    },
+    "id": "recjwhGBt8yg29STl",
+    "_rawJson": {
+      "id": "recjwhGBt8yg29STl",
+      "createdTime": "2024-12-31T22:51:25.000Z",
+      "fields": {
+        "Services Name": "Automation",
+        "Services Image": "services/automation-w",
         "Services Order": 1,
         "Featured": true
       }
     },
     "fields": {
-      "Services Name": "Web Design",
-      "Services Image": "services/design_services-24px-w",
+      "Services Name": "Automation",
+      "Services Image": "services/automation-w",
       "Services Order": 1,
       "Featured": true
     }

@@ -9,6 +9,8 @@ import Image from 'next/image'
 import nodejs from '../../../public/techstack/nodejs.svg'
 import nextLogo from '../../../public/techstack/nextjs.svg'
 import creativeCloudLogo from '../../../public/techstack/Adobe Creative Cloud.png'
+import chatGPTLogo from '../../../public/techstack/ChatGPT-Logo.svg.png'
+import leftRightLogo from '../../../public/techstack/lef-right.svg'
 
 const TechStack = () => {
   // Set default state of parallax to enabled / not disabled
@@ -165,6 +167,17 @@ const TechStack = () => {
                   />
                 </InViewAnimationTwo>
                 <InViewAnimationTwo
+                  rootMargin="-25% 0%"
+                  delay="delay-950ms"
+                  className="init-invisible"
+                >
+                  <Image
+                    src={chatGPTLogo}
+                    alt="chatGPTLogo"
+                    className="fluid"
+                  />
+                </InViewAnimationTwo>
+                {/* <InViewAnimationTwo
 
                   rootMargin="-25% 0%"
                   delay="delay-1000ms"
@@ -175,17 +188,28 @@ const TechStack = () => {
                     src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Figma-logo_hpsrgq"
                     alt="Figma"
                   />
-                </InViewAnimationTwo>
+                </InViewAnimationTwo> */}
                 <InViewAnimationTwo
                   // 
                   rootMargin="-25% 0%"
-                  delay="delay-1100ms"
+                  delay="delay-1000ms"
                   className="init-invisible"
                 >
                   <img
                     className="fluid"
                     src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/wordpress"
                     alt="Wordpress"
+                  />
+                </InViewAnimationTwo>
+                <InViewAnimationTwo
+                  rootMargin="-25% 0%"
+                  delay="delay-1050ms"
+                  className="init-invisible"
+                >
+                  <Image
+                    src={leftRightLogo}
+                    alt="leftRightLogo"
+                    className="fluid"
                   />
                 </InViewAnimationTwo>
               </div>

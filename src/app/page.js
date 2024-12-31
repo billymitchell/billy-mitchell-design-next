@@ -49,11 +49,15 @@ export async function generateMetadata() {
 }
 
 //Update Home Page
-  // sticky header - mobile 
   // create new homesplash video and fallback animation
 
 // Update Portfolio Content
   // Add new projects
+    // forbes travel guide API 
+    // ASE API intigration
+    // Shipping API intigrations
+    // Orderdesk rule setups
+    // forms to monday.com jobs
   // Update existing projects
     // itravel better - add XD images
     // travel authority - add XD images

@@ -18,7 +18,7 @@ const FetchCompanies = function () {
         <InViewAnimationTwo
         rootMargin="-25% 0%"
         delay={`delay-${index * 50 + 200}ms`}
-        className="init-invisible"
+        className="init-invisible flex"
         >
         <img
           key={portfolio_item.id}
