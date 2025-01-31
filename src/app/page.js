@@ -48,24 +48,32 @@ export async function generateMetadata() {
   };
 }
 
+// Updates to content
+  // consider switching images to local files / links vs cloudinary
+
 //Update Home Page
   // create new homesplash video and fallback animation
+  // Order Companies by priority
+  // Link Companies to a project
+  // Sort services by priority
+  // Link services to a project
 
 // Update Portfolio Content
+  // Add flyers to portfolio
   // Add new projects
     // forbes travel guide API 
-    // ASE API intigration
-    // Shipping API intigrations
+    // ASE API integration
+    // Shipping API integration
     // Orderdesk rule setups
     // forms to monday.com jobs
   // Update existing projects
     // itravel better - add XD images
     // travel authority - add XD images
   // remove excessive examples
-  // add code base for projects to header 
+  // add code base link for projects to project header 
   // update made for from unknown to educational corse w/link
-  // create sort by priority
-  // update filter links to sort by priority first
+  // Portfolio Sort
+    // default by featured and then by date
   // review each project and all links, where can I improve?
 
 // Update tech stack content

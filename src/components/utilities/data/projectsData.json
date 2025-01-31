@@ -101,7 +101,7 @@
         "Creative Discipline": [
           "Web Development"
         ],
-        "Date Modified": "2021-02-15T19:13:10.000Z"
+        "Date Modified": "2025-01-24T19:46:00.000Z"
       }
     },
     "fields": {
@@ -128,7 +128,7 @@
       "Creative Discipline": [
         "Web Development"
       ],
-      "Date Modified": "2021-02-15T19:13:10.000Z"
+      "Date Modified": "2025-01-24T19:46:00.000Z"
     }
   },
   {
@@ -171,12 +171,13 @@
           "Wordpress"
         ],
         "Project Title": "Inteon",
+        "Featured": true,
         "Creative Discipline": [
           "Motion Design",
           "UI Design",
           "Web Development"
         ],
-        "Date Modified": "2024-12-28T21:21:21.000Z"
+        "Date Modified": "2025-01-24T20:48:18.000Z"
       }
     },
     "fields": {
@@ -206,12 +207,13 @@
         "Wordpress"
       ],
       "Project Title": "Inteon",
+      "Featured": true,
       "Creative Discipline": [
         "Motion Design",
         "UI Design",
         "Web Development"
       ],
-      "Date Modified": "2024-12-28T21:21:21.000Z"
+      "Date Modified": "2025-01-24T20:48:18.000Z"
     }
   },
   {
@@ -320,11 +322,12 @@
           "Illustrator"
         ],
         "Project Title": "Taylor Bank Branding",
+        "Featured": true,
         "Creative Discipline": [
           "Branding"
         ],
         "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_01_zkkusk\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_02_szzu1s\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_03_f5jrsb\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_04_zcpwkg\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_05_wgemux\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_06_kpxlod\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_07_oowgsb\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_08_peslip\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_09_wnneb4\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_10_umzdju\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_11_vm3v6n\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_12_y8qino\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_13_jgd4r9\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_14_ldezln\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_15_tpgb0e\"\n/>\n",
-        "Date Modified": "2024-12-28T21:21:20.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -347,11 +350,12 @@
         "Illustrator"
       ],
       "Project Title": "Taylor Bank Branding",
+      "Featured": true,
       "Creative Discipline": [
         "Branding"
       ],
       "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_01_zkkusk\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_02_szzu1s\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_03_f5jrsb\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_04_zcpwkg\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_05_wgemux\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_06_kpxlod\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_07_oowgsb\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_08_peslip\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_09_wnneb4\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_10_umzdju\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_11_vm3v6n\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_12_y8qino\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_13_jgd4r9\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_14_ldezln\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/taylor-bank-branding/Taylor-concepts-combined-outlined_Page_15_tpgb0e\"\n/>\n",
-      "Date Modified": "2024-12-28T21:21:20.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -391,7 +395,7 @@
           "Print Design"
         ],
         "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards_edhbch\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards2_ozjmdd\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards3_dcu5h9\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards4_uqmvxd\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards5_ioswvg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards6_faf0w0\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards7_znfhxx\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards8_mayauh\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards9_rirpqc\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards10_lwodj1\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards11_l2kbtz\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards12_l7swoq\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards13_cmsmqo\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards14_orgzgc\"\n/>\n",
-        "Date Modified": "2024-12-28T21:21:20.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -418,7 +422,7 @@
         "Print Design"
       ],
       "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards_edhbch\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards2_ozjmdd\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards3_dcu5h9\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards4_uqmvxd\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards5_ioswvg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards6_faf0w0\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards7_znfhxx\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards8_mayauh\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards9_rirpqc\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards10_lwodj1\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards11_l2kbtz\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards12_l7swoq\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards13_cmsmqo\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/world-spice/Recipe-Cards14_orgzgc\"\n/>\n",
-      "Date Modified": "2024-12-28T21:21:20.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -458,7 +462,7 @@
           "Print Design"
         ],
         "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/1-Top2_web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0899_web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0933_web.min_\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/admendment/giometric-nudes/IMG_0902_web\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0956_crop_web1\n  \"\n/>\n\n",
-        "Date Modified": "2024-12-28T21:21:16.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -485,7 +489,7 @@
         "Print Design"
       ],
       "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/1-Top2_web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0899_web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0933_web.min_\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/admendment/giometric-nudes/IMG_0902_web\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/giometric-nudes/IMG_0956_crop_web1\n  \"\n/>\n\n",
-      "Date Modified": "2024-12-28T21:21:16.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -524,12 +528,13 @@
           "Wordpress"
         ],
         "Project Title": "The Travel Authority",
+        "Featured": true,
         "Creative Discipline": [
           "UI Design",
           "UX Design",
           "Web Development"
         ],
-        "Date Modified": "2024-12-28T21:21:17.000Z"
+        "Date Modified": "2025-01-24T19:45:36.000Z"
       }
     },
     "fields": {
@@ -555,12 +560,13 @@
         "Wordpress"
       ],
       "Project Title": "The Travel Authority",
+      "Featured": true,
       "Creative Discipline": [
         "UI Design",
         "UX Design",
         "Web Development"
       ],
-      "Date Modified": "2024-12-28T21:21:17.000Z"
+      "Date Modified": "2025-01-24T19:45:36.000Z"
     }
   },
   {
@@ -731,11 +737,12 @@
           "Indesign"
         ],
         "Project Title": "Baltimore Love Project Book",
+        "Featured": true,
         "Creative Discipline": [
           "Print Design"
         ],
         "Body Text": "<p>\n  <b> Book Publishing Team </b><br />\n  Creative Lead: Michael Owen<br />\n  Project Manager: Scott Burkholder<br />\n  Author: Rafael Alvarez<br />\n  Photographer: Sean Scheidt<br />\n  Designer: Billy Mitchell<br />\n  Editor: Tracy Gold\n</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/LoveAsHighasaKite_Spread\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/drbob_Spread\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/Lovemuralsenatortheater_Spread\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/Hardwork_Spread\n\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/BLP-Barcode_ReduceSize\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/Sgtencil_Spread\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/IMG_0273_Web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/IMG_4618_Edit\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/BLP-releaseposter-copy-copy_Resize\n  \"\n/>\n",
-        "Date Modified": "2024-12-28T21:54:16.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -757,11 +764,12 @@
         "Indesign"
       ],
       "Project Title": "Baltimore Love Project Book",
+      "Featured": true,
       "Creative Discipline": [
         "Print Design"
       ],
       "Body Text": "<p>\n  <b> Book Publishing Team </b><br />\n  Creative Lead: Michael Owen<br />\n  Project Manager: Scott Burkholder<br />\n  Author: Rafael Alvarez<br />\n  Photographer: Sean Scheidt<br />\n  Designer: Billy Mitchell<br />\n  Editor: Tracy Gold\n</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/LoveAsHighasaKite_Spread\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/drbob_Spread\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/Lovemuralsenatortheater_Spread\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/Hardwork_Spread\n\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/BLP-Barcode_ReduceSize\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/Sgtencil_Spread\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/IMG_0273_Web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/IMG_4618_Edit\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-love-project/BLP-releaseposter-copy-copy_Resize\n  \"\n/>\n",
-      "Date Modified": "2024-12-28T21:54:16.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -800,7 +808,7 @@
           "Print Design"
         ],
         "Body Text": "<p>When Photoshop glitches, print it anyway.</p>\n<p>Original Glitch</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/Glitch_digitalcolor_full-web-large-min\n  \"\n/>\n<p>Screenprinted Artwork</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/CMYK-Glitch\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/photo-3-web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/photo-14\n  \"\n/>\n",
-        "Date Modified": "2024-12-28T21:21:16.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -826,7 +834,7 @@
         "Print Design"
       ],
       "Body Text": "<p>When Photoshop glitches, print it anyway.</p>\n<p>Original Glitch</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/Glitch_digitalcolor_full-web-large-min\n  \"\n/>\n<p>Screenprinted Artwork</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/CMYK-Glitch\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/photo-3-web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/cmyk-glitch/photo-14\n  \"\n/>\n",
-      "Date Modified": "2024-12-28T21:21:16.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -924,7 +932,7 @@
           "Illustration"
         ],
         "Body Text": "<p>Original Drawing</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/billy-mode/Billy-Mode-LOVE0001\n  \"\n/>\n<p>Digital Illustration (outline)</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/billy-mode/Screen-Shot-2015-01-17-at-4.48.46-PM.png\n  \"\n/>\n<p>Digital Illustration (filled)</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/40\n  \"\n/>\n\n<p>Stencils Produced</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_2055web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_2052web\n  \"\n/>\n<p>Production Art</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_1947\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_1952\"\n/>\n\n<p>Final Work</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_7530\n  \"\n/>\n<p>Additional Example (Mom & Dad)</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/Mom-dad-mockup.jpg\n  \"\n/>\n",
-        "Date Modified": "2024-12-28T21:21:16.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -950,7 +958,7 @@
         "Illustration"
       ],
       "Body Text": "<p>Original Drawing</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/billy-mode/Billy-Mode-LOVE0001\n  \"\n/>\n<p>Digital Illustration (outline)</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/billy-mode/Screen-Shot-2015-01-17-at-4.48.46-PM.png\n  \"\n/>\n<p>Digital Illustration (filled)</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/40\n  \"\n/>\n\n<p>Stencils Produced</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_2055web\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_2052web\n  \"\n/>\n<p>Production Art</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_1947\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_1952\"\n/>\n\n<p>Final Work</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/IMG_7530\n  \"\n/>\n<p>Additional Example (Mom & Dad)</p>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio//billy-mode/Mom-dad-mockup.jpg\n  \"\n/>\n",
-      "Date Modified": "2024-12-28T21:21:16.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -1060,7 +1068,7 @@
           "Web Development"
         ],
         "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/the-travel-collection/desktop_iyuy8o\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/the-travel-collection/mobile_kfpn7l\"\n/>\n",
-        "Date Modified": "2024-12-28T21:40:28.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -1092,7 +1100,7 @@
         "Web Development"
       ],
       "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/the-travel-collection/desktop_iyuy8o\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/the-travel-collection/mobile_kfpn7l\"\n/>\n",
-      "Date Modified": "2024-12-28T21:40:28.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -1132,7 +1140,7 @@
           "Motion Design"
         ],
         "Body Text": "<p>Warning: Jump Scare</p>\n<div style=\"width:100%;display:block;height:auto;\">\n    <div class='embed-container'>\n        <iframe src='https://www.youtube.com/embed/_Yknz4GNVLA' frameborder='0' allowfullscreen></iframe>\n    </div>\n\n    <div class='embed-container'>\n        <iframe src='https://www.youtube.com/embed/Z8hkEhnQrjw' frameborder='0' allowfullscreen></iframe>\n    </div>\n\n    <div class='embed-container'>\n        <iframe src='https://www.youtube.com/embed/gR3rBxGHqeg' frameborder='0' allowfullscreen></iframe>\n    </div>\n\n    <div class='embed-container'>\n        <iframe src='https://www.youtube.com/embed/44H9iw-iA64' frameborder='0' allowfullscreen></iframe>\n    </div>\n\n    <div class='embed-container'>\n        <iframe src='https://www.youtube.com/embed/lQmmXjJqx2g' frameborder='0' allowfullscreen></iframe>\n    </div>\n\n    <div class='embed-container'>\n        <iframe src='https://www.youtube.com/embed/MtT12rh2rbY' frameborder='0' allowfullscreen></iframe>\n    </div>\n</div>\n<style>\n    .embed-container {\n        position: relative;\n        padding-bottom: 56.25%;\n        height: 0;\n        overflow: hidden;\n        max-width: 100%;\n    }\n\n    .embed-container iframe,\n    .embed-container object,\n    .embed-container embed {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n    }\n</style>",
-        "Date Modified": "2021-01-24T18:14:34.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -1159,7 +1167,7 @@
         "Motion Design"
       ],
       "Body Text": "<p>Warning: Jump Scare</p>\n<div style=\"width:100%;display:block;height:auto;\">\n    <div class='embed-container'>\n        <iframe src='https://www.youtube.com/embed/_Yknz4GNVLA' frameborder='0' allowfullscreen></iframe>\n    </div>\n\n    <div class='embed-container'>\n        <iframe src='https://www.youtube.com/embed/Z8hkEhnQrjw' frameborder='0' allowfullscreen></iframe>\n    </div>\n\n    <div class='embed-container'>\n        <iframe src='https://www.youtube.com/embed/gR3rBxGHqeg' frameborder='0' allowfullscreen></iframe>\n    </div>\n\n    <div class='embed-container'>\n        <iframe src='https://www.youtube.com/embed/44H9iw-iA64' frameborder='0' allowfullscreen></iframe>\n    </div>\n\n    <div class='embed-container'>\n        <iframe src='https://www.youtube.com/embed/lQmmXjJqx2g' frameborder='0' allowfullscreen></iframe>\n    </div>\n\n    <div class='embed-container'>\n        <iframe src='https://www.youtube.com/embed/MtT12rh2rbY' frameborder='0' allowfullscreen></iframe>\n    </div>\n</div>\n<style>\n    .embed-container {\n        position: relative;\n        padding-bottom: 56.25%;\n        height: 0;\n        overflow: hidden;\n        max-width: 100%;\n    }\n\n    .embed-container iframe,\n    .embed-container object,\n    .embed-container embed {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%;\n    }\n</style>",
-      "Date Modified": "2021-01-24T18:14:34.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -1197,7 +1205,7 @@
           "Branding"
         ],
         "Body Text": "<p>Initial Client Requested Concept</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/IntalExample-02\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/IntalExample-01\n  \"\n/>\n\n<p>Concept Reinterpretation</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/2edlogo_Goldfoil_Web\n  \"\n/>\n<p>Final Concepts</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-01\n  \"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-02\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-03\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-04\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-05\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-06\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-07\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-08\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-09\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-10\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-11\n\n\"\n/>\n",
-        "Date Modified": "2020-12-31T21:24:26.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -1222,7 +1230,7 @@
         "Branding"
       ],
       "Body Text": "<p>Initial Client Requested Concept</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/IntalExample-02\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/IntalExample-01\n  \"\n/>\n\n<p>Concept Reinterpretation</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/2edlogo_Goldfoil_Web\n  \"\n/>\n<p>Final Concepts</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-01\n  \"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-02\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-03\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-04\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-05\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-06\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-07\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-08\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-09\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-10\n\n\"\n/><img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/habitude-studio/HabitudeStudio_3_Alt_Simplified-11\n\n\"\n/>\n",
-      "Date Modified": "2020-12-31T21:24:26.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -1266,7 +1274,7 @@
           "Web Development"
         ],
         "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-email/desktop_nulu16\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-email/mobile_sguip9\"\n/>\n\n",
-        "Date Modified": "2021-02-15T17:44:31.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -1297,7 +1305,7 @@
         "Web Development"
       ],
       "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-email/desktop_nulu16\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-email/mobile_sguip9\"\n/>\n\n",
-      "Date Modified": "2021-02-15T17:44:31.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -1341,7 +1349,7 @@
           "Web Development"
         ],
         "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/ama-waterways-email/desktop_rtpu89\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/ama-waterways-email/mobile_hdxpsp\"\n/>\n",
-        "Date Modified": "2024-12-27T22:21:44.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -1372,7 +1380,7 @@
         "Web Development"
       ],
       "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/ama-waterways-email/desktop_rtpu89\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/ama-waterways-email/mobile_hdxpsp\"\n/>\n",
-      "Date Modified": "2024-12-27T22:21:44.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -1412,7 +1420,7 @@
           "Illustration"
         ],
         "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/Screen-Shot-2015-02-08-at-11.17.04-AM\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/IMG_1855-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/MG_1859-web-spread\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/DSC_0032-web\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/001-web-620x827\"\n/>\n<p>Custom Spray-painted Version</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/DSC_0014-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/1-web\"\n/>\n<p>Inspiration was drawn from \"Afro Punk Style\" & Arabic Graffiti Lettering</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/insperation-copy\"\n/>\n",
-        "Date Modified": "2024-12-28T21:54:18.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -1439,7 +1447,7 @@
         "Illustration"
       ],
       "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/Screen-Shot-2015-02-08-at-11.17.04-AM\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/IMG_1855-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/MG_1859-web-spread\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/DSC_0032-web\"\n/>\n\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/001-web-620x827\"\n/>\n<p>Custom Spray-painted Version</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/DSC_0014-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/1-web\"\n/>\n<p>Inspiration was drawn from \"Afro Punk Style\" & Arabic Graffiti Lettering</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/urban-arts-festival/insperation-copy\"\n/>\n",
-      "Date Modified": "2024-12-28T21:54:18.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -1554,7 +1562,7 @@
           "UX Design"
         ],
         "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471280/portfolio/art-map/Art-Map-Brand-Guide44-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471270/portfolio/art-map/Art-Map-Brand-Guide410-BW.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471194/portfolio/art-map/Art-Map-Brand-Guide43-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471192/portfolio/art-map/Art-Map-Brand-Guide49-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471180/portfolio/art-map/ArtmapCoverImage.png\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471171/portfolio/art-map/Art-Map-Brand-Guide48-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471167/portfolio/art-map/Art-Map-Brand-Guide45-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471155/portfolio/art-map/Art-Map-Brand-Guide47-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471142/portfolio/art-map/Art-Map-Brand-Guide46-web.jpg\"\n/>",
-        "Date Modified": "2024-12-28T21:54:18.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -1583,7 +1591,7 @@
         "UX Design"
       ],
       "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471280/portfolio/art-map/Art-Map-Brand-Guide44-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471270/portfolio/art-map/Art-Map-Brand-Guide410-BW.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471194/portfolio/art-map/Art-Map-Brand-Guide43-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471192/portfolio/art-map/Art-Map-Brand-Guide49-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471180/portfolio/art-map/ArtmapCoverImage.png\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471171/portfolio/art-map/Art-Map-Brand-Guide48-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471167/portfolio/art-map/Art-Map-Brand-Guide45-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471155/portfolio/art-map/Art-Map-Brand-Guide47-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471142/portfolio/art-map/Art-Map-Brand-Guide46-web.jpg\"\n/>",
-      "Date Modified": "2024-12-28T21:54:18.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -1623,7 +1631,7 @@
           "Print Design"
         ],
         "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/BookGradiants5-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/BookGradiants3-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/BookGradiants2-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/BookGradiants4-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/BookGradiants1-web\"\n/>\n<p>\n  This second booklet is an academic paper that illustrates the history and\n  significance of the typeface.\n</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web3\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web4\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web5\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web6\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web7\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web8\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web9\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web10\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web11\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web12\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web13\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web14\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web15\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web16\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web17\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web18\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web19\"\n/>\n",
-        "Date Modified": "2021-02-02T17:04:22.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -1650,7 +1658,7 @@
         "Print Design"
       ],
       "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/BookGradiants5-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/BookGradiants3-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/BookGradiants2-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/BookGradiants4-web\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/BookGradiants1-web\"\n/>\n<p>\n  This second booklet is an academic paper that illustrates the history and\n  significance of the typeface.\n</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web3\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web4\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web5\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web6\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web7\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web8\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web9\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web10\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web11\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web12\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web13\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web14\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web15\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web16\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web17\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web18\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/figgens/Monograph_LayoutAdjustment_Web19\"\n/>\n",
-      "Date Modified": "2021-02-02T17:04:22.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -1863,6 +1871,79 @@
       "id": null,
       "name": "Projects"
     },
+    "id": "rechr6waKeTi7Sr55",
+    "_rawJson": {
+      "id": "rechr6waKeTi7Sr55",
+      "createdTime": "2025-01-24T19:46:20.000Z",
+      "fields": {
+        "Featured Image URL": "forbes-travel-guide/ftg-main",
+        "GitHub URL": "https://github.com/billymitchell/ftg-proxy",
+        "Position on Project": [
+          "Lead"
+        ],
+        "Job Type": [
+          "Full-Time"
+        ],
+        "Live Web Project URL": "https://redeem.forbestravelguide.com/",
+        "Made For": [
+          "rec2LPJTExlHPiePl",
+          "recbJpghbxReFGtRU"
+        ],
+        "Intro Text": "This project demonstrates my ability to develop an application for validating redemption codes and retrieving associated travel award details. When users enter a redemption code, the application verifies it and displays the award level for hotels, spas, restaurants, or cruise ships. The frontend is built on OMG's platform, using .liquid templates and JavaScript to create a dynamic user experience. Data is stored in Airtable and accessed via a custom middleware server for secure and efficient handling.",
+        "Published": true,
+        "Made With": [
+          "Javascript",
+          "Liquid"
+        ],
+        "Project Title": "Forbes Travel Guide",
+        "2nd Github URL": "https://github.com/billymitchell/ftg-redemption-clientside",
+        "Featured": true,
+        "Creative Discipline": [
+          "Web Development"
+        ],
+        "Body Text": "  <h3>Goals</h3>\n  <ul>\n    <li>Build a frontend application on OMG's platform to validate redemption codes and display award details.</li>\n    <li>Develop a secure middleware server to manage data retrieval and interactions with Airtable.</li>\n    <li>Ensure a seamless and intuitive user experience with responsive design and efficient workflows.</li>\n  </ul>\n\n<a href=\"https://www.tldraw.com/s/v2_c_oc5hu2Ul25XDC8PUVwZNE?d=v-3118.-3037.11020.6158.page\" target=\"_blank\">\n<img src='https://res.cloudinary.com/billymitchell/image/upload/v1737751499/portfolio/forbes-travel-guide/workflow-1.png' class='fluid'></img>\n</a>\n<a href=\"https://www.tldraw.com/s/v2_c_oc5hu2Ul25XDC8PUVwZNE?d=v-3118.-3037.11020.6158.page\" target=\"_blank\">\n<img src='https://res.cloudinary.com/billymitchell/image/upload/v1737751500/portfolio/forbes-travel-guide/workflow-detail.png' class='fluid'></img>\n</a>\n\n  <h3>Contributions</h3>\n  <ul>\n    <li><strong>Frontend Development:</strong> Utilized OMG's <code>.liquid</code> framework and JavaScript to create a responsive and dynamic interface.</li>\n    <li><strong>Code Validation:</strong> Implemented a system for validating redemption codes and retrieving relevant award data.</li>\n    <li><strong>Middleware Development:</strong> Built a Node.js/Express server to securely connect the application to Airtable.</li>\n    <li><strong>Data Management:</strong> Organized award-level data in Airtable for structured and efficient access.</li>\n    <li><strong>Error Handling:</strong> Added robust mechanisms to handle invalid codes and server or database issues.</li>\n  </ul>\n\n  <h3>Outcomes</h3>\n  <ul>\n    <li>Delivered a fully functional application for Forbes Travel Guide, integrating code validation and award display features.</li>\n    <li>Designed a reliable middleware solution to handle data securely and efficiently.</li>\n    <li>Enhanced expertise in working with <code>.liquid</code> templates, JavaScript, and Airtable integration.</li>\n    <li>Provided a streamlined, professional user experience aligning with the Forbes Travel Guide brand.</li>\n  </ul>",
+        "Date Modified": "2025-01-31T17:01:20.000Z"
+      }
+    },
+    "fields": {
+      "Featured Image URL": "forbes-travel-guide/ftg-main",
+      "GitHub URL": "https://github.com/billymitchell/ftg-proxy",
+      "Position on Project": [
+        "Lead"
+      ],
+      "Job Type": [
+        "Full-Time"
+      ],
+      "Live Web Project URL": "https://redeem.forbestravelguide.com/",
+      "Made For": [
+        "rec2LPJTExlHPiePl",
+        "recbJpghbxReFGtRU"
+      ],
+      "Intro Text": "This project demonstrates my ability to develop an application for validating redemption codes and retrieving associated travel award details. When users enter a redemption code, the application verifies it and displays the award level for hotels, spas, restaurants, or cruise ships. The frontend is built on OMG's platform, using .liquid templates and JavaScript to create a dynamic user experience. Data is stored in Airtable and accessed via a custom middleware server for secure and efficient handling.",
+      "Published": true,
+      "Made With": [
+        "Javascript",
+        "Liquid"
+      ],
+      "Project Title": "Forbes Travel Guide",
+      "2nd Github URL": "https://github.com/billymitchell/ftg-redemption-clientside",
+      "Featured": true,
+      "Creative Discipline": [
+        "Web Development"
+      ],
+      "Body Text": "  <h3>Goals</h3>\n  <ul>\n    <li>Build a frontend application on OMG's platform to validate redemption codes and display award details.</li>\n    <li>Develop a secure middleware server to manage data retrieval and interactions with Airtable.</li>\n    <li>Ensure a seamless and intuitive user experience with responsive design and efficient workflows.</li>\n  </ul>\n\n<a href=\"https://www.tldraw.com/s/v2_c_oc5hu2Ul25XDC8PUVwZNE?d=v-3118.-3037.11020.6158.page\" target=\"_blank\">\n<img src='https://res.cloudinary.com/billymitchell/image/upload/v1737751499/portfolio/forbes-travel-guide/workflow-1.png' class='fluid'></img>\n</a>\n<a href=\"https://www.tldraw.com/s/v2_c_oc5hu2Ul25XDC8PUVwZNE?d=v-3118.-3037.11020.6158.page\" target=\"_blank\">\n<img src='https://res.cloudinary.com/billymitchell/image/upload/v1737751500/portfolio/forbes-travel-guide/workflow-detail.png' class='fluid'></img>\n</a>\n\n  <h3>Contributions</h3>\n  <ul>\n    <li><strong>Frontend Development:</strong> Utilized OMG's <code>.liquid</code> framework and JavaScript to create a responsive and dynamic interface.</li>\n    <li><strong>Code Validation:</strong> Implemented a system for validating redemption codes and retrieving relevant award data.</li>\n    <li><strong>Middleware Development:</strong> Built a Node.js/Express server to securely connect the application to Airtable.</li>\n    <li><strong>Data Management:</strong> Organized award-level data in Airtable for structured and efficient access.</li>\n    <li><strong>Error Handling:</strong> Added robust mechanisms to handle invalid codes and server or database issues.</li>\n  </ul>\n\n  <h3>Outcomes</h3>\n  <ul>\n    <li>Delivered a fully functional application for Forbes Travel Guide, integrating code validation and award display features.</li>\n    <li>Designed a reliable middleware solution to handle data securely and efficiently.</li>\n    <li>Enhanced expertise in working with <code>.liquid</code> templates, JavaScript, and Airtable integration.</li>\n    <li>Provided a streamlined, professional user experience aligning with the Forbes Travel Guide brand.</li>\n  </ul>",
+      "Date Modified": "2025-01-31T17:01:20.000Z"
+    }
+  },
+  {
+    "_table": {
+      "_base": {
+        "_airtable": {},
+        "_id": "appvr5KrgKiJo1E7M"
+      },
+      "id": null,
+      "name": "Projects"
+    },
     "id": "reciRAbtHO5ZV2967",
     "_rawJson": {
       "id": "reciRAbtHO5ZV2967",
@@ -1888,11 +1969,12 @@
           "Photoshop"
         ],
         "Project Title": "iTravel Better Blog Redesign",
+        "Featured": true,
         "Creative Discipline": [
           "UI Design",
           "UX Design"
         ],
-        "Date Modified": "2024-12-28T21:21:19.000Z"
+        "Date Modified": "2025-01-24T19:45:34.000Z"
       }
     },
     "fields": {
@@ -1916,11 +1998,12 @@
         "Photoshop"
       ],
       "Project Title": "iTravel Better Blog Redesign",
+      "Featured": true,
       "Creative Discipline": [
         "UI Design",
         "UX Design"
       ],
-      "Date Modified": "2024-12-28T21:21:19.000Z"
+      "Date Modified": "2025-01-24T19:45:34.000Z"
     }
   },
   {
@@ -1960,7 +2043,7 @@
           "Print Design"
         ],
         "Body Text": "<p>Event Marketing</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/HULAMONSTERS_poster.jpg\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/CajunDance_poster.jpg\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/Valentines1.jpg\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/Valentines2.jpg\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/Boslypartysoloflyer-1.jpg\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/IMG_0666.jpg\n  \"\n/>\n\n<p>Neighborhood Enhancements</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/ELights1.jpg\n  \"\n/>\n",
-        "Date Modified": "2021-02-02T17:04:37.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -1987,7 +2070,7 @@
         "Print Design"
       ],
       "Body Text": "<p>Event Marketing</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/HULAMONSTERS_poster.jpg\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/CajunDance_poster.jpg\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/Valentines1.jpg\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/Valentines2.jpg\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/Boslypartysoloflyer-1.jpg\n  \"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/IMG_0666.jpg\n  \"\n/>\n\n<p>Neighborhood Enhancements</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/creative-alience/ELights1.jpg\n  \"\n/>\n",
-      "Date Modified": "2021-02-02T17:04:37.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -2031,7 +2114,7 @@
           "Web Development"
         ],
         "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-alaska-email/desktop_ogfokd\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-alaska-email/mobile_idcwrf\"\n/>\n",
-        "Date Modified": "2024-12-28T21:41:09.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -2062,7 +2145,7 @@
         "Web Development"
       ],
       "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-alaska-email/desktop_ogfokd\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/rci-alaska-email/mobile_idcwrf\"\n/>\n",
-      "Date Modified": "2024-12-28T21:41:09.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -2099,7 +2182,7 @@
         "Creative Discipline": [
           "Motion Design"
         ],
-        "Date Modified": "2024-12-28T21:21:17.000Z"
+        "Date Modified": "2025-01-24T20:48:18.000Z"
       }
     },
     "fields": {
@@ -2123,7 +2206,7 @@
       "Creative Discipline": [
         "Motion Design"
       ],
-      "Date Modified": "2024-12-28T21:21:17.000Z"
+      "Date Modified": "2025-01-24T20:48:18.000Z"
     }
   },
   {
@@ -2231,7 +2314,7 @@
           "Illustration"
         ],
         "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/prison-drip/Tether\"\n/>",
-        "Date Modified": "2024-12-28T21:54:16.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -2257,7 +2340,7 @@
         "Illustration"
       ],
       "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/prison-drip/Tether\"\n/>",
-      "Date Modified": "2024-12-28T21:54:16.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -2299,7 +2382,7 @@
           "Illustration"
         ],
         "Body Text": "<p>Concept Sketch</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Chiron-Original-Drawing\"\n/>\n<p>Digital Illustration</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/NERVAFinalColor1_sized-for-print_web\"\n/>\n<p>Screen Print</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/NERVA\"\n/>\n<p>Wall Piece</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Chiron-Nerva-web\"\n/>\n<p>Chiron Collaboration With Artist Allan Forrest</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/IMG_2343\"\n/>\n<p>Environmental Mural Collaboration With Artist Che Smith</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Enviormental\"\n/>",
-        "Date Modified": "2024-12-28T21:21:16.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -2328,7 +2411,7 @@
         "Illustration"
       ],
       "Body Text": "<p>Concept Sketch</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Chiron-Original-Drawing\"\n/>\n<p>Digital Illustration</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/NERVAFinalColor1_sized-for-print_web\"\n/>\n<p>Screen Print</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/NERVA\"\n/>\n<p>Wall Piece</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Chiron-Nerva-web\"\n/>\n<p>Chiron Collaboration With Artist Allan Forrest</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/IMG_2343\"\n/>\n<p>Environmental Mural Collaboration With Artist Che Smith</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Enviormental\"\n/>",
-      "Date Modified": "2024-12-28T21:21:16.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -2368,13 +2451,14 @@
           "CSS"
         ],
         "Project Title": "Bodhi Thai Food Websites",
+        "Featured": true,
         "Creative Discipline": [
           "Branding",
           "UX Design",
           "UI Design",
           "Web Development"
         ],
-        "Date Modified": "2024-12-28T21:54:07.000Z"
+        "Date Modified": "2025-01-24T19:45:16.000Z"
       }
     },
     "fields": {
@@ -2401,13 +2485,14 @@
         "CSS"
       ],
       "Project Title": "Bodhi Thai Food Websites",
+      "Featured": true,
       "Creative Discipline": [
         "Branding",
         "UX Design",
         "UI Design",
         "Web Development"
       ],
-      "Date Modified": "2024-12-28T21:54:07.000Z"
+      "Date Modified": "2025-01-24T19:45:16.000Z"
     }
   },
   {
@@ -2444,11 +2529,12 @@
           "Indesign"
         ],
         "Project Title": "Baltimore Calendar",
+        "Featured": true,
         "Creative Discipline": [
           "Print Design"
         ],
         "Body Text": "<h2>Select Black & White Pages</h2>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/B-W_Calender_Page_04_zmc73b\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/B-W_Calender_Page_13_grf71c\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/B-W_Calender_Page_08_x94whk\"\n/>\n<a\n  href=\"https://drive.google.com/file/d/1R0mCBQf2kYNporsmYr-nt1kyoOzETt3z/view\"\n  target=\"blank\"\n>\n  <button>View Full Black & White Project</button>\n</a>\n<h2>Select Color Pages</h2>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/Color_Calander_Page_02_ofcw8i\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/Color_Calander_Page_10_uvqlwo\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/Color_Calander_Page_09_yvxnnr\"\n/>\n<a\n  href=\"https://drive.google.com/file/d/1DEr3pR4NBOxoCYUZPVIQ_fnIseLl84Ej/view\"\n  target=\"blank\"\n>\n  <button>View Full Color Project</button>\n</a>\n",
-        "Date Modified": "2024-12-28T21:21:14.000Z"
+        "Date Modified": "2025-01-24T20:49:29.000Z"
       }
     },
     "fields": {
@@ -2472,11 +2558,12 @@
         "Indesign"
       ],
       "Project Title": "Baltimore Calendar",
+      "Featured": true,
       "Creative Discipline": [
         "Print Design"
       ],
       "Body Text": "<h2>Select Black & White Pages</h2>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/B-W_Calender_Page_04_zmc73b\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/B-W_Calender_Page_13_grf71c\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/B-W_Calender_Page_08_x94whk\"\n/>\n<a\n  href=\"https://drive.google.com/file/d/1R0mCBQf2kYNporsmYr-nt1kyoOzETt3z/view\"\n  target=\"blank\"\n>\n  <button>View Full Black & White Project</button>\n</a>\n<h2>Select Color Pages</h2>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/Color_Calander_Page_02_ofcw8i\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/Color_Calander_Page_10_uvqlwo\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_scale,f_auto,q_auto:good,w_1400/portfolio/baltimore-calender/Color_Calander_Page_09_yvxnnr\"\n/>\n<a\n  href=\"https://drive.google.com/file/d/1DEr3pR4NBOxoCYUZPVIQ_fnIseLl84Ej/view\"\n  target=\"blank\"\n>\n  <button>View Full Color Project</button>\n</a>\n",
-      "Date Modified": "2024-12-28T21:21:14.000Z"
+      "Date Modified": "2025-01-24T20:49:29.000Z"
     }
   },
   {
@@ -2573,10 +2660,11 @@
           "Javascript"
         ],
         "Project Title": "STX",
+        "Featured": true,
         "Creative Discipline": [
           "Web Development"
         ],
-        "Date Modified": "2024-12-28T21:21:22.000Z"
+        "Date Modified": "2025-01-24T19:46:01.000Z"
       }
     },
     "fields": {
@@ -2601,10 +2689,11 @@
         "Javascript"
       ],
       "Project Title": "STX",
+      "Featured": true,
       "Creative Discipline": [
         "Web Development"
       ],
-      "Date Modified": "2024-12-28T21:21:22.000Z"
+      "Date Modified": "2025-01-24T19:46:01.000Z"
     }
   }
 ]

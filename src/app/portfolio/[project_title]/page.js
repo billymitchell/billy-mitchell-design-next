@@ -3,6 +3,8 @@ import projectsData from '../../../components/utilities/data/projectsData.json';
 import companiesData from '../../../components/utilities/data/companiesData.json';
 import { log } from 'node:console';
 import Header from '../../../components/header';
+import { cleanURL } from '../../../components/utilities/cleanURL';
+
 
 // Generate metadata dynamically and pass project data
 export async function generateMetadata({ params }) {
@@ -89,7 +91,7 @@ const IfLiveURL = (data) => {
           <b>Live Project URL:</b>{' '}
         </span>
         <a target="_blank" rel="noreferrer" href={data['Live Web Project URL']}>
-          {data['Live Web Project URL']}
+          {cleanURL (data['Live Web Project URL'])}
         </a>
         <br />
       </>
@@ -99,21 +101,33 @@ const IfLiveURL = (data) => {
 };
 
 const IfGitHubURL = (data) => {
-  if (data['Github URL']) {
+  let URL = data['GitHub URL'];
+  let URL2 = data['2nd Github URL'];
+  if (data['GitHub URL'] || data['2nd Github URL']) {
     return (
       <>
         <span>
-          <b>GitHub Code Repository:</b>{' '}
+          <b>GitHub Code Repository: </b>
         </span>
-        <a target="_blank" rel="noreferrer" href={data['Github URL']}>
-          {data['Github URL']}
+
+        <a target="_blank" rel="noreferrer" href={data['GitHub URL']}>
+          {cleanURL (data['GitHub URL'])}
         </a>
+        {data['2nd Github URL'] && (
+          <>
+          <span> | </span>
+          <a href={data['2nd Github URL']}>
+            {cleanURL (data['2nd Github URL'])}
+          </a>
+          </>
+        )}
         <br />
       </>
     );
   }
   return null;
 };
+<img src='' className='fluid'></img>
 
 const IfPosition = (data) => {
   if (data['Position on Project']) {
@@ -230,7 +244,7 @@ export default function PortfolioContent({ params }) {
           <div className="portfolio-meta-data">
             <p>
               <span>
-                <b>Completed:</b> {String(data['End Date'])}
+                <b>End Date:</b> {data['End Date'] ? String(data['End Date']) : 'Ongoing'}
               </span>
               <br />
               {IfLiveURL(data)}
@@ -239,8 +253,11 @@ export default function PortfolioContent({ params }) {
                 <b>Creative Discipline:</b>{' '}
                 {Array.isArray(data['Creative Discipline']) &&
                   data['Creative Discipline'].map((discipline, index) => (
-                    <span key={index}> | {discipline}</span>
-                  ))}
+                    <span key={index}>
+                      {index > 0 && ' | '}
+                      {discipline}
+                    </span>
+                ))}
               </span>
               <br />
               <span>
@@ -251,8 +268,8 @@ export default function PortfolioContent({ params }) {
                 <b>Made for:</b>{' '}
                 {companyNames.map((name, index) => (
                   <span key={index} className="Company">
-                    {' '}
-                    | {name}
+                    {index > 0 && ' | '}
+                    {name}
                   </span>
                 ))}
               </span>
@@ -263,8 +280,8 @@ export default function PortfolioContent({ params }) {
                 {Array.isArray(data['Made With']) &&
                   data['Made With'].map((tech, index) => (
                     <span key={index} className="Company">
-                      {' '}
-                      | {tech}
+                      {index > 0 && ' | '}
+                      {tech}
                     </span>
                   ))}
               </span>
