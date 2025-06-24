@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "fetch-data": "node src/components/utilities/getAirtableData.js",
-    "predev": "npm run fetch-data",
+    "fetch-cloudinary": "node src/components/utilities/getCloudinaryData.js",
+    "predev": "npm run fetch-data && npm run fetch-cloudinary",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -21,7 +22,8 @@
     "react-obfuscate": "^3.6.9",
     "react-scroll-parallax": "^3.4.5",
     "react-tilt": "^1.0.2",
-    "sass": "^1.69.5"
+    "sass": "^1.69.5",
+    "yet-another-react-lightbox": "^3.23.3"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^15.0.3",

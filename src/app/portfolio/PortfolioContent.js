@@ -1,35 +1,73 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ClientMasonry from '../../components/utilities/clientMasonry';
 import InViewAnimationTwo from '../../components/utilities/InViewAnimationTwo.js';
 import Link from 'next/link';
 import projectsData from '../../components/utilities/data/projectsData.json';
 
-const IfFeaturedImage = (portfolioItem) => {
-  if (portfolioItem.fields['Featured Image URL']) {
+const IfFeaturedMedia = ({ portfolioItem }) => {
+  const [imageSize, setImageSize] = useState(null);
+  const imageUrl = portfolioItem.fields['Featured Image URL'];
+  const title = portfolioItem.fields['Project Title'] || 'Untitled Project';
+
+  if (!imageUrl) return null;
+
+  const isVideo = /\.(mp4|webm|mov|gif)$/i.test(imageUrl); // Include GIFs as videos
+
+  useEffect(() => {
+    if (!imageUrl || isVideo) return;
+
+    const img = new Image();
+    img.src = `https://res.cloudinary.com/billymitchell/image/upload/v1750459284/portfolio/${imageUrl}`;
+    img.onload = () => {
+      setImageSize({ width: img.naturalWidth, height: img.naturalHeight });
+    };
+  }, [imageUrl, isVideo]);
+
+  if (isVideo) {
+    const webmUrl = `https://res.cloudinary.com/billymitchell/video/upload/f_webm,q_auto:low/v1750459284/portfolio/${imageUrl}`;
+    const mp4Url = `https://res.cloudinary.com/billymitchell/video/upload/f_mp4,q_auto:low/v1750459284/portfolio/${imageUrl}`;
+
     return (
       <>
-        <img
+        <video
           className="fluid"
           id={portfolioItem.id}
-          src={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:good/portfolio/${portfolioItem.fields['Featured Image URL']}`}
-          alt={portfolioItem.fields['Project Title'] || 'Untitled Project'}
-        />
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src={webmUrl} type="video/webm" />
+          <source src={mp4Url} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <p className="title">
-          <strong>
-            {portfolioItem.fields['Project Title'] || 'Untitled Project'}
-          </strong>
+          <strong>{title}</strong>
         </p>
       </>
     );
-  } else {
-    return null;
   }
+
+  if (!imageSize) return null;
+
+  const { width, height } = imageSize;
+  const isTallerThan916 = height / width > 16 / 9;
+
+  const transformedUrl = isTallerThan916
+    ? `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:good,c_lfill,ar_9:16,g_auto/v1750459284/portfolio/${imageUrl}`
+    : `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:good/v1750459284/portfolio/${imageUrl}`;
+
+  return (
+    <>
+      <img className="fluid" id={portfolioItem.id} src={transformedUrl} alt={title} />
+      <p className="title">
+        <strong>{title}</strong>
+      </p>
+    </>
+  );
 };
 
 const PortfolioContent = ({ selectedDiscipline }) => {
-  
-  
-
   const generatePortfolioUrl = (title) => {
     return `/portfolio/${title
       .toLowerCase()
@@ -38,12 +76,15 @@ const PortfolioContent = ({ selectedDiscipline }) => {
       .replace(',', '')
       .replace(':', '')
       .replace(/\s/gi, '-')
-      .trim()
-    }`;
+      .trim()}`;
   };
 
   const handleLinkClick = (item) => {
-    console.log('Portfolio item clicked:', item);
+    // Only log critical errors or important events
+    if (!item || !item.id) {
+      console.error('Portfolio item missing or invalid:', item);
+    }
+    // Remove other non-critical logs
   };
 
   const selectedPortfolioContent = projectsData.filter((item) => {
@@ -87,7 +128,7 @@ const PortfolioContent = ({ selectedDiscipline }) => {
                   )}
                   onClick={() => handleLinkClick(portfolioItem)}
                 >
-                  {IfFeaturedImage(portfolioItem)}
+                  <IfFeaturedMedia portfolioItem={portfolioItem} />
                 </Link>
               </div>
             </InViewAnimationTwo>

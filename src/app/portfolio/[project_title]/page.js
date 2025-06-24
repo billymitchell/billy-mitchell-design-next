@@ -1,9 +1,16 @@
 // src/app/portfolio/[project_title]/page.js
 import projectsData from '../../../components/utilities/data/projectsData.json';
 import companiesData from '../../../components/utilities/data/companiesData.json';
+import cloudinaryData from '../../../components/utilities/data/cloudinaryData.json';
 import { log } from 'node:console';
 import Header from '../../../components/header';
 import { cleanURL } from '../../../components/utilities/cleanURL';
+import Lightbox from "yet-another-react-lightbox";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import Video from "yet-another-react-lightbox/plugins/video";
+import "yet-another-react-lightbox/styles.css";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
+import GalleryLightbox from '../../../components/GalleryLightbox';
 
 
 // Generate metadata dynamically and pass project data
@@ -48,7 +55,9 @@ export async function generateMetadata({ params }) {
       siteName: 'Billy Mitchell Portfolio',
       images: [
         {
-          url: `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data['Featured Image URL']}`,
+          url: isVideoFile(data['Featured Image URL']) 
+            ? 'https://billymitchell.design/files/open-graph.png' // Fallback image for videos
+            : `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data['Featured Image URL']}`,
           width: 1200,
           height: 630,
           alt: `${data['Project Title']} featured image`,
@@ -64,7 +73,9 @@ export async function generateMetadata({ params }) {
         ', '
       )}. Focused on ${data['Creative Discipline'].join(', ')}.`,
       images: [
-        `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data['Featured Image URL']}`,
+        isVideoFile(data['Featured Image URL']) 
+          ? 'https://billymitchell.design/files/open-graph.png' // Fallback image for videos
+          : `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data['Featured Image URL']}`,
       ],
     },
     icons: {
@@ -83,6 +94,12 @@ export async function generateStaticParams() {
 }
 
 // Helper functions
+const isVideoFile = (url) => {
+  if (!url) return false;
+  const videoExtensions = ['.mp4', '.webm', '.ogg', '.mov', '.avi'];
+  return videoExtensions.some(ext => url.toLowerCase().includes(ext));
+};
+
 const IfLiveURL = (data) => {
   if (data['Live Web Project URL']) {
     return (
@@ -127,7 +144,6 @@ const IfGitHubURL = (data) => {
   }
   return null;
 };
-<img src='' className='fluid'></img>
 
 const IfPosition = (data) => {
   if (data['Position on Project']) {
@@ -144,6 +160,39 @@ const IfPosition = (data) => {
   return null;
 };
 
+// Helper to get correct Cloudinary URL
+const getCloudinaryMediaUrl = (filename) => {
+  if (!filename) return '';
+  const isVideo = isVideoFile(filename);
+  const base = isVideo
+    ? 'https://res.cloudinary.com/billymitchell/video/upload'
+    : 'https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto';
+  return `${base}/portfolio/${filename}`;
+};
+
+// New helper to get Cloudinary media sources for videos
+const getCloudinaryMediaSources = (filename) => {
+  if (!filename) return [];
+  const basePath = 'https://res.cloudinary.com/billymitchell/video/upload/portfolio/';
+  const name = filename.replace(/\.(mp4|webm|ogg|mov|avi)$/i, '');
+  return [
+    { src: `${basePath}${name}.webm`, type: 'video/webm' },
+    { src: `${basePath}${name}.mp4`, type: 'video/mp4' },
+  ];
+};
+
+// Helper to get low-res Cloudinary video URL
+const getCloudinaryLowResVideoSources = (filename) => {
+  if (!filename) return [];
+  const basePath = 'https://res.cloudinary.com/billymitchell/video/upload/w_600,q_40/portfolio/';
+  const name = filename.replace(/\.(mp4|webm|ogg|mov|avi)$/i, '');
+  return [
+    { src: `${basePath}${name}.webm`, type: 'video/webm' },
+    { src: `${basePath}${name}.mp4`, type: 'video/mp4' },
+  ];
+};
+
+// Update renderHeader
 const renderHeader = (data) => {
   if (data['Custom HTML']) {
     return (
@@ -156,13 +205,31 @@ const renderHeader = (data) => {
   } else if (data['Hide Featured Image In Body'] === true) {
     return null;
   } else {
-    return (
-      <img
-        className="fetched-header"
-        src={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:best/portfolio/${data['Featured Image URL']}`}
-        alt={String(data['Project Title'])}
-      />
-    );
+    if (isVideoFile(data['Featured Image URL'])) {
+      const sources = getCloudinaryMediaSources(data['Featured Image URL']);
+      return (
+        <video
+          className="fetched-header"
+          controls
+          // no autoplay, not muted, not looped
+          playsInline
+        >
+          {sources.map((source) => (
+            <source key={source.type} src={source.src} type={source.type} />
+          ))}
+          Your browser does not support the video tag.
+        </video>
+      );
+    } else {
+      const mediaUrl = getCloudinaryMediaUrl(data['Featured Image URL']);
+      return (
+        <img
+          className="fetched-header"
+          src={mediaUrl}
+          alt={String(data['Project Title'])}
+        />
+      );
+    }
   }
 };
 
@@ -191,6 +258,8 @@ const ifIntroText = (data) => {
   }
   return null;
 };
+
+
 
 // Server Component to render the project page
 export default function PortfolioContent({ params }) {
@@ -230,12 +299,30 @@ export default function PortfolioContent({ params }) {
       <Header />
       <div className="portfolio-header-container">
         <div className="image-container">
-          <img
-            suppressHydrationWarning
-            className="portfolio-header"
-            src={`https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/portfolio/${data['Featured Image URL']}`}
-            alt={String(data['Project Title'])}
-          />
+          {isVideoFile(data['Featured Image URL']) ? (
+            <video
+              suppressHydrationWarning
+              className="portfolio-header"
+              autoPlay
+              muted
+              loop
+              playsInline
+              controls={false}
+              // no controls attribute
+            >
+              {getCloudinaryLowResVideoSources(data['Featured Image URL']).map((source) => (
+                <source key={source.type} src={source.src} type={source.type} />
+              ))}
+              Your browser does not support the video tag.
+            </video>
+          ) : (
+            <img
+              suppressHydrationWarning
+              className="portfolio-header"
+              src={getCloudinaryMediaUrl(data['Featured Image URL'])}
+              alt={String(data['Project Title'])}
+            />
+          )}
         </div>
         <h2>{String(data['Project Title'])}</h2>
       </div>
@@ -293,6 +380,11 @@ export default function PortfolioContent({ params }) {
         <div className="inner-width">{renderHeader(data)}</div>
         <div className="inner-text-width imported-text">
           {ifCustomBodyHTML(data)}
+        </div>
+        <div className="inner-width gallery-section">
+          {data['Gallery Folder Name'] && (
+            <GalleryLightbox assets={cloudinaryData[data['Gallery Folder Name']] || []} />
+          )}
         </div>
       </div>
     </div>
