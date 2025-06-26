@@ -25,6 +25,7 @@ const Portfolio = () => {
             {/* Render discipline buttons from ProjectDisciplineButtons component */}
             <ProjectDisciplineButtons
               onDisciplineSelect={handleDisciplineSelect}
+              activeDiscipline={selectedDiscipline}
             />
           </div>
         </div>

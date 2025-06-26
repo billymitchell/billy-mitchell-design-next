@@ -45,3 +45,8 @@ button a {
   text-decoration: none;
 }
 
+button.active {
+  background: #222;
+  color: #fff;
+  /* Add any other styles you want for the active button */
+}

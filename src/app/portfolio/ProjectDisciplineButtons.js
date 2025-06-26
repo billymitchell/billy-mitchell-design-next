@@ -1,7 +1,7 @@
 // src/app/portfolio/ProjectDisciplineButtons.js
 import projectsData from '../../components/utilities/data/projectsData.json';
 
-const ProjectDisciplineButtons = ({ onDisciplineSelect }) => {
+const ProjectDisciplineButtons = ({ onDisciplineSelect, activeDiscipline }) => {
   // Create an array of all disciplines
   const allDisciplines = [];
   projectsData.forEach((project) => {
@@ -22,12 +22,19 @@ const ProjectDisciplineButtons = ({ onDisciplineSelect }) => {
   return (
     <>
       {/* ALL Button */}
-      <button onClick={() => onDisciplineSelect("All")}>
+      <button 
+        onClick={() => onDisciplineSelect("All")}
+        className={activeDiscipline === "All" ? "active" : ""}
+      >
           All
       </button>
-      {/* Dynamically Generated Buttons Based on POrtfolio Disciplines */}
+      {/* Dynamically Generated Buttons Based on Portfolio Disciplines */}
       {uniqueDisciplinesArray.map((discipline, index) => (
-        <button key={index} onClick={() => onDisciplineSelect(discipline)}>
+        <button 
+          key={index} 
+          onClick={() => onDisciplineSelect(discipline)}
+          className={activeDiscipline === discipline ? "active" : ""}
+        >
           {discipline}
         </button>
       ))}
