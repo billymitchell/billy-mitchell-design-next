@@ -239,7 +239,7 @@
           "Contract",
           "Freelance"
         ],
-        "Live Web Project URL": "intel.billymitchell.design",
+        "Live Web Project URL": "https://intel.billymitchell.design/",
         "Published": true,
         "Position on Project": [
           "Lead"
@@ -256,7 +256,7 @@
           "Javascript",
           "Wordpress"
         ],
-        "Date Modified": "2025-06-26T17:33:05.000Z",
+        "Date Modified": "2025-06-26T20:57:38.000Z",
         "Intro Text": "<h3>Goals</h3>\nDesign and develop a website that matches the style of a PowerPoint presentation. Use a requested particular WordPress theme and page builder.<br>\n<br>\n<h3>Contributions</h3>\nI extracted brand assets from the PowerPoint and developed a site that matched it in style. I added additional flare by animating static assets. <br>\n<br>\n<h3>Outcomes</h3>\nThe project was delivered to Intel for review, refinements, and final development.",
         "Gallery Folder Name": "inteon",
         "Created": "2020-12-31T20:57:32.000Z"
@@ -278,7 +278,7 @@
         "Contract",
         "Freelance"
       ],
-      "Live Web Project URL": "intel.billymitchell.design",
+      "Live Web Project URL": "https://intel.billymitchell.design/",
       "Published": true,
       "Position on Project": [
         "Lead"
@@ -295,7 +295,7 @@
         "Javascript",
         "Wordpress"
       ],
-      "Date Modified": "2025-06-26T17:33:05.000Z",
+      "Date Modified": "2025-06-26T20:57:38.000Z",
       "Intro Text": "<h3>Goals</h3>\nDesign and develop a website that matches the style of a PowerPoint presentation. Use a requested particular WordPress theme and page builder.<br>\n<br>\n<h3>Contributions</h3>\nI extracted brand assets from the PowerPoint and developed a site that matched it in style. I added additional flare by animating static assets. <br>\n<br>\n<h3>Outcomes</h3>\nThe project was delivered to Intel for review, refinements, and final development.",
       "Gallery Folder Name": "inteon",
       "Created": "2020-12-31T20:57:32.000Z"
@@ -1514,7 +1514,6 @@
         "Position on Project": [
           "Lead"
         ],
-        "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_36_43_fc6pt8.png\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_37_04_tqzakd.png\"\n/>",
         "Featured Image URL": "peak-regionals-2020/Screen_Shot_2020-10-01_at_2.23.55_PM_o6ivrt",
         "Hide Featured Image In Body": true,
         "Made With": [
@@ -1523,7 +1522,7 @@
           "HTML",
           "CSS"
         ],
-        "Date Modified": "2025-06-26T17:22:50.000Z",
+        "Date Modified": "2025-06-26T18:29:41.000Z",
         "Intro Text": "<h3>Goals</h3>\nRedesign a national event announcement email to be more modern and represent the travel leader's brand better.<br>  \n<h3>Contributions</h3>\nI designed the email in adobe XD first before building it out in HTML/CSS. This allowed upper management to review and approve the design before investing in Development.<br> \n<h3>Outcomes</h3>\nThis email served as an updated brand guild for the event. It helped establish a baseline for quality for agent facing emails.\n",
         "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/peak-regionals-2020",
         "Gallery Folder Name": "peak-regionals-2020",
@@ -1550,7 +1549,6 @@
       "Position on Project": [
         "Lead"
       ],
-      "Body Text": "<style>\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n  @media only screen and (max-width: 700px) {\n    .desktop {\n      display: none;\n    }\n    .mobile {\n      display: block;\n    }\n  }\n</style>\n<img\n  class=\"desktop\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_36_43_fc6pt8.png\"\n/>\n<img\n  class=\"mobile\"\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/peak-regionals-2020/screencapture-billymitchell-design-email-design-peak-regionals-2020-2020-10-01-16_37_04_tqzakd.png\"\n/>",
       "Featured Image URL": "peak-regionals-2020/Screen_Shot_2020-10-01_at_2.23.55_PM_o6ivrt",
       "Hide Featured Image In Body": true,
       "Made With": [
@@ -1559,7 +1557,7 @@
         "HTML",
         "CSS"
       ],
-      "Date Modified": "2025-06-26T17:22:50.000Z",
+      "Date Modified": "2025-06-26T18:29:41.000Z",
       "Intro Text": "<h3>Goals</h3>\nRedesign a national event announcement email to be more modern and represent the travel leader's brand better.<br>  \n<h3>Contributions</h3>\nI designed the email in adobe XD first before building it out in HTML/CSS. This allowed upper management to review and approve the design before investing in Development.<br> \n<h3>Outcomes</h3>\nThis email served as an updated brand guild for the event. It helped establish a baseline for quality for agent facing emails.\n",
       "GitHub URL": "https://github.com/billymitchell/email-design/tree/master/peak-regionals-2020",
       "Gallery Folder Name": "peak-regionals-2020",
@@ -3529,8 +3527,6 @@
         "Position on Project": [
           "Lead"
         ],
-        "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471280/portfolio/art-map/Art-Map-Brand-Guide44-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471270/portfolio/art-map/Art-Map-Brand-Guide410-BW.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471194/portfolio/art-map/Art-Map-Brand-Guide43-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471192/portfolio/art-map/Art-Map-Brand-Guide49-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471180/portfolio/art-map/ArtmapCoverImage.png\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471171/portfolio/art-map/Art-Map-Brand-Guide48-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471167/portfolio/art-map/Art-Map-Brand-Guide45-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471155/portfolio/art-map/Art-Map-Brand-Guide47-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471142/portfolio/art-map/Art-Map-Brand-Guide46-web.jpg\"\n/>",
-        "Custom HTML": "<div style=\"margin: 0 auto; width: 100%; display: block\">\n  <iframe\n    src=\"https://projects.invisionapp.com/share/6839R8OSJ\"\n    style=\"border: 0; margin: 0 auto; display: block\"\n    width=\"396\"\n    height=\"858\"\n  ></iframe>\n</div>",
         "Featured Image URL": "art-map/ArtmapCoverImage",
         "Hide Featured Image In Body": true,
         "Made With": [
@@ -3538,7 +3534,7 @@
           "Indesign",
           "Photoshop"
         ],
-        "Date Modified": "2025-06-26T17:25:07.000Z",
+        "Date Modified": "2025-06-26T20:54:14.000Z",
         "Gallery Folder Name": "art-map",
         "Created": "2020-08-13T17:54:30.000Z"
       }
@@ -3561,8 +3557,6 @@
       "Position on Project": [
         "Lead"
       ],
-      "Body Text": "<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471280/portfolio/art-map/Art-Map-Brand-Guide44-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471270/portfolio/art-map/Art-Map-Brand-Guide410-BW.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471194/portfolio/art-map/Art-Map-Brand-Guide43-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471192/portfolio/art-map/Art-Map-Brand-Guide49-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471180/portfolio/art-map/ArtmapCoverImage.png\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471171/portfolio/art-map/Art-Map-Brand-Guide48-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471167/portfolio/art-map/Art-Map-Brand-Guide45-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471155/portfolio/art-map/Art-Map-Brand-Guide47-web.jpg\"\n/>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/v1600471142/portfolio/art-map/Art-Map-Brand-Guide46-web.jpg\"\n/>",
-      "Custom HTML": "<div style=\"margin: 0 auto; width: 100%; display: block\">\n  <iframe\n    src=\"https://projects.invisionapp.com/share/6839R8OSJ\"\n    style=\"border: 0; margin: 0 auto; display: block\"\n    width=\"396\"\n    height=\"858\"\n  ></iframe>\n</div>",
       "Featured Image URL": "art-map/ArtmapCoverImage",
       "Hide Featured Image In Body": true,
       "Made With": [
@@ -3570,7 +3564,7 @@
         "Indesign",
         "Photoshop"
       ],
-      "Date Modified": "2025-06-26T17:25:07.000Z",
+      "Date Modified": "2025-06-26T20:54:14.000Z",
       "Gallery Folder Name": "art-map",
       "Created": "2020-08-13T17:54:30.000Z"
     }
@@ -4570,7 +4564,6 @@
         "Position on Project": [
           "Lead"
         ],
-        "Body Text": "<p>Concept Sketch</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Chiron-Original-Drawing\"\n/>\n<p>Digital Illustration</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/NERVAFinalColor1_sized-for-print_web\"\n/>\n<p>Screen Print</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/NERVA\"\n/>\n<p>Wall Piece</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Chiron-Nerva-web\"\n/>\n<p>Chiron Collaboration With Artist Allan Forrest</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/IMG_2343\"\n/>\n<p>Environmental Mural Collaboration With Artist Che Smith</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Enviormental\"\n/>",
         "Featured Image URL": "nerva/NERVAFinalColor1_sized-for-print_web",
         "Hide Featured Image In Body": true,
         "Made With": [
@@ -4579,7 +4572,7 @@
           "Photoshop",
           "Squarespace"
         ],
-        "Date Modified": "2025-06-26T17:15:31.000Z",
+        "Date Modified": "2025-06-26T18:29:15.000Z",
         "Intro Text": "I've always had a love for graffiti and street art. Throughout my career, I've taken on projects that have included this often under-appreciated art form.",
         "Gallery Folder Name": "nerva",
         "Created": "2020-08-13T20:25:05.000Z"
@@ -4602,7 +4595,6 @@
       "Position on Project": [
         "Lead"
       ],
-      "Body Text": "<p>Concept Sketch</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Chiron-Original-Drawing\"\n/>\n<p>Digital Illustration</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/NERVAFinalColor1_sized-for-print_web\"\n/>\n<p>Screen Print</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/NERVA\"\n/>\n<p>Wall Piece</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Chiron-Nerva-web\"\n/>\n<p>Chiron Collaboration With Artist Allan Forrest</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/IMG_2343\"\n/>\n<p>Environmental Mural Collaboration With Artist Che Smith</p>\n<img\n  src=\"https://res.cloudinary.com/billymitchell/image/upload/c_limit,f_auto,q_auto:good,w_1400/portfolio/nerva/Enviormental\"\n/>",
       "Featured Image URL": "nerva/NERVAFinalColor1_sized-for-print_web",
       "Hide Featured Image In Body": true,
       "Made With": [
@@ -4611,7 +4603,7 @@
         "Photoshop",
         "Squarespace"
       ],
-      "Date Modified": "2025-06-26T17:15:31.000Z",
+      "Date Modified": "2025-06-26T18:29:15.000Z",
       "Intro Text": "I've always had a love for graffiti and street art. Throughout my career, I've taken on projects that have included this often under-appreciated art form.",
       "Gallery Folder Name": "nerva",
       "Created": "2020-08-13T20:25:05.000Z"
