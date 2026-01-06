@@ -8,49 +8,6 @@
       "id": null,
       "name": "Companies"
     },
-    "id": "rec2LPJTExlHPiePl",
-    "_rawJson": {
-      "id": "rec2LPJTExlHPiePl",
-      "createdTime": "2024-12-31T22:38:35.000Z",
-      "fields": {
-        "Company Name": "Forbes Travel Guide",
-        "URL": "https://www.forbestravelguide.com/",
-        "Project": [
-          "receiaq2SyhlpCAts"
-        ],
-        "Feature": true,
-        "Industry": [
-          "Travel",
-          "E-commerce"
-        ],
-        "Company Logo": "companies/ftg",
-        "Display Order": 8
-      }
-    },
-    "fields": {
-      "Company Name": "Forbes Travel Guide",
-      "URL": "https://www.forbestravelguide.com/",
-      "Project": [
-        "receiaq2SyhlpCAts"
-      ],
-      "Feature": true,
-      "Industry": [
-        "Travel",
-        "E-commerce"
-      ],
-      "Company Logo": "companies/ftg",
-      "Display Order": 8
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Companies"
-    },
     "id": "recDED2wYX8j6O1op",
     "_rawJson": {
       "id": "recDED2wYX8j6O1op",
@@ -66,7 +23,8 @@
           "Food"
         ],
         "Company Logo": "companies/seasons-pizza",
-        "Display Order": 5
+        "Display Order": 5,
+        "Render On": "billymitchell.design"
       }
     },
     "fields": {
@@ -80,7 +38,8 @@
         "Food"
       ],
       "Company Logo": "companies/seasons-pizza",
-      "Display Order": 5
+      "Display Order": 5,
+      "Render On": "billymitchell.design"
     }
   },
   {
@@ -106,7 +65,8 @@
           "Technology "
         ],
         "Company Logo": "companies/intel",
-        "Display Order": 1
+        "Display Order": 1,
+        "Render On": "Both"
       }
     },
     "fields": {
@@ -119,7 +79,8 @@
         "Technology "
       ],
       "Company Logo": "companies/intel",
-      "Display Order": 1
+      "Display Order": 1,
+      "Render On": "Both"
     }
   },
   {
@@ -146,7 +107,8 @@
           "Association "
         ],
         "Company Logo": "companies/cbt",
-        "Display Order": 6
+        "Display Order": 6,
+        "Render On": "billymitchell.design"
       }
     },
     "fields": {
@@ -160,7 +122,8 @@
         "Association "
       ],
       "Company Logo": "companies/cbt",
-      "Display Order": 6
+      "Display Order": 6,
+      "Render On": "billymitchell.design"
     }
   },
   {
@@ -188,7 +151,8 @@
           "Finance"
         ],
         "Company Logo": "companies/taylor-bank-stacked",
-        "Display Order": 4
+        "Display Order": 4,
+        "Render On": "billymitchell.design"
       }
     },
     "fields": {
@@ -203,7 +167,8 @@
         "Finance"
       ],
       "Company Logo": "companies/taylor-bank-stacked",
-      "Display Order": 4
+      "Display Order": 4,
+      "Render On": "billymitchell.design"
     }
   },
   {
@@ -227,7 +192,8 @@
           "Travel"
         ],
         "Company Logo": "companies/Hilton_International",
-        "Display Order": 3
+        "Display Order": 3,
+        "Render On": "billymitchell.design"
       }
     },
     "fields": {
@@ -238,111 +204,8 @@
         "Travel"
       ],
       "Company Logo": "companies/Hilton_International",
-      "Display Order": 3
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Companies"
-    },
-    "id": "recbJpghbxReFGtRU",
-    "_rawJson": {
-      "id": "recbJpghbxReFGtRU",
-      "createdTime": "2024-12-31T22:43:26.000Z",
-      "fields": {
-        "Company Name": "Centricity",
-        "URL": "https://centricitynow.com/",
-        "Project": [
-          "receiaq2SyhlpCAts",
-          "recgtaXV06KwtSQb4",
-          "rec0QQmhoWuOb4XIW",
-          "recn2b3QgA55baChG",
-          "recQYg9T6O3ZFov3H",
-          "recXJpe1GpwfVmSwc",
-          "recdEItiu6guC9MGo",
-          "recahbRWbun8jNdP3",
-          "recjL6PJDm5Wa6kIK",
-          "rec9JRLPHtOizesDB"
-        ],
-        "Feature": true,
-        "Industry": [
-          "Promotional Products",
-          "E-commerce"
-        ],
-        "Company Logo": "companies/Centricity",
-        "Display Order": 7
-      }
-    },
-    "fields": {
-      "Company Name": "Centricity",
-      "URL": "https://centricitynow.com/",
-      "Project": [
-        "receiaq2SyhlpCAts",
-        "recgtaXV06KwtSQb4",
-        "rec0QQmhoWuOb4XIW",
-        "recn2b3QgA55baChG",
-        "recQYg9T6O3ZFov3H",
-        "recXJpe1GpwfVmSwc",
-        "recdEItiu6guC9MGo",
-        "recahbRWbun8jNdP3",
-        "recjL6PJDm5Wa6kIK",
-        "rec9JRLPHtOizesDB"
-      ],
-      "Feature": true,
-      "Industry": [
-        "Promotional Products",
-        "E-commerce"
-      ],
-      "Company Logo": "companies/Centricity",
-      "Display Order": 7
-    }
-  },
-  {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Companies"
-    },
-    "id": "reckfqhXeqxfSHSIu",
-    "_rawJson": {
-      "id": "reckfqhXeqxfSHSIu",
-      "createdTime": "2024-12-31T22:40:38.000Z",
-      "fields": {
-        "Company Name": "Automotive Service Excellence",
-        "URL": "https://ase.com/",
-        "Project": [
-          "recgtaXV06KwtSQb4"
-        ],
-        "Feature": true,
-        "Industry": [
-          "Automotive",
-          "E-commerce"
-        ],
-        "Company Logo": "companies/ase",
-        "Display Order": 9
-      }
-    },
-    "fields": {
-      "Company Name": "Automotive Service Excellence",
-      "URL": "https://ase.com/",
-      "Project": [
-        "recgtaXV06KwtSQb4"
-      ],
-      "Feature": true,
-      "Industry": [
-        "Automotive",
-        "E-commerce"
-      ],
-      "Company Logo": "companies/ase",
-      "Display Order": 9
+      "Display Order": 3,
+      "Render On": "billymitchell.design"
     }
   },
   {
@@ -370,7 +233,8 @@
           "Travel"
         ],
         "Company Logo": "companies/Royal_Caribbean_International",
-        "Display Order": 10
+        "Display Order": 10,
+        "Render On": "Both"
       }
     },
     "fields": {
@@ -385,7 +249,8 @@
         "Travel"
       ],
       "Company Logo": "companies/Royal_Caribbean_International",
-      "Display Order": 10
+      "Display Order": 10,
+      "Render On": "Both"
     }
   },
   {
@@ -413,7 +278,8 @@
           "Travel"
         ],
         "Company Logo": "companies/american-express-1",
-        "Display Order": 2
+        "Display Order": 2,
+        "Render On": "billymitchell.design"
       }
     },
     "fields": {
@@ -428,7 +294,8 @@
         "Travel"
       ],
       "Company Logo": "companies/american-express-1",
-      "Display Order": 2
+      "Display Order": 2,
+      "Render On": "billymitchell.design"
     }
   }
 ]
