@@ -82,7 +82,7 @@ const About = () => {
                     className="init-invisible"
                   >
                      <p>
-                      I am a designer and developer with 7+ years of experience who operates the agency Billy Mitchell Design. I contract on an ongoing basis in addition to availability as a full-time employee. I've worked with everyone from small businesses to fortune 500 companies. I apply design thinking, leverage human-centered design principles, and build solutions to complex problems. In addition to numerous web development courses, I've obtained a BFA in Design from the University of Maryland, Baltimore County.<br />
+                      I am a designer with {new Date().getFullYear() - 2012}+ years of experience who operates the agency Billy Mitchell Design. I contract on an ongoing basis in addition to availability as a full-time employee. I've worked with everyone from small businesses to fortune 500 companies. I apply design thinking, leverage human-centered design principles, and build solutions to complex problems. I've obtained a BFA in Design from the University of Maryland, Baltimore County and went to Baltimore School for the Arts for high school where I studied visual arts.<br />
                       <br />
                       Accomplishments Include<br />
                       </p>

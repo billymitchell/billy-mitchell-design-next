@@ -16,8 +16,17 @@ const ProjectDisciplineButtons = ({ onDisciplineSelect, activeDiscipline }) => {
     }
   });
 
+  const excludedDisciplines = new Set([
+    'Frontend Development',
+    'Web Development',
+    'Backend Development',
+    'Email Development',
+  ]);
+
   // Step 2: Create a unique array of disciplines using a Set
-  const uniqueDisciplinesArray = Array.from(new Set(allDisciplines));
+  const uniqueDisciplinesArray = Array.from(new Set(allDisciplines))
+    .filter((discipline) => !excludedDisciplines.has(discipline))
+    .sort((a, b) => a.localeCompare(b));
 
   return (
     <>
