@@ -1,6 +1,6 @@
 import Homesplash from '../components/home/homesplash';
 import FullStack from '../components/home/full-stack-design';
-import TechStack from '../components/home/techstack';
+import Tools from '../components/home/tools';
 import About from '../components/home/about';
 import Services from '../components/home/Services';
 import FetchServices from '../components/home/getServices';
@@ -114,7 +114,7 @@ export default function Home() {
       <div id="home">
         <Homesplash />
         <FullStack />
-        <TechStack />
+        <Tools />
         <Services children={<FetchServices />} />
         <Companies children={<FetchCompanies />} />
         <About />
