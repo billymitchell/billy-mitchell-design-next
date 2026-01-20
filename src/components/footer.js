@@ -12,7 +12,7 @@ const Footer = () => {
                             <i className="fas fa-paper-plane"></i><a href="mailto:hello@billymitchell.design">hello@billymitchell.design</a>
                             <br></br>
                             <i className="fas fa-phone-alt"></i><a href="tell:4437658265">4437658265</a><br></br>
-                            <i className="fas fa-file-alt"></i><Link href="/files/Billy-Mitchell-Resume-2024-one-page.pdf">Resume</Link>
+                            <i className="fas fa-file-alt"></i><Link href="/files/Billy-Mitchell-Resume-Design-2026.pdf">Resume</Link>
                         </p>
                     </div>
                     <div className="external-social-links">
