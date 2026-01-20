@@ -58,7 +58,7 @@ const Header = ({page}) => {
                                 </Link>
                             </li>
                             <li>
-                                <a href="/files/Billy-Mitchell-Resume-2024-one-page.pdf" target='_blank'>
+                                <a href="/files/Billy-Mitchell-Resume-Design-2026.pdf" target='_blank'>
                                     <small>Resume</small>
                                 </a>
                             </li>
