@@ -1,27 +1,16 @@
-import React, { useEffect, useState } from 'react';
 import ClientMasonry from '../../components/utilities/clientMasonry';
-import InViewAnimationTwo from '../../components/utilities/InViewAnimationTwo.js';
 import Link from 'next/link';
-import projectsData from '../../components/utilities/data/projectsData.json';
 
-const IfFeaturedMedia = ({ portfolioItem }) => {
-  const [imageSize, setImageSize] = useState(null);
+const imageWidths = [320, 480, 640, 960, 1280];
+
+const IfFeaturedMedia = ({ portfolioItem, priority, loading }) => {
   const imageUrl = portfolioItem.fields['Featured Image URL'];
   const title = portfolioItem.fields['Project Title'] || 'Untitled Project';
+  const imageDimensions = portfolioItem.featuredImageDimensions;
 
   if (!imageUrl) return null;
 
   const isVideo = /\.(mp4|webm|mov|gif)$/i.test(imageUrl); // Include GIFs as videos
-
-  useEffect(() => {
-    if (!imageUrl || isVideo) return;
-
-    const img = new Image();
-    img.src = `https://res.cloudinary.com/billymitchell/image/upload/v1750459284/portfolio/${imageUrl}`;
-    img.onload = () => {
-      setImageSize({ width: img.naturalWidth, height: img.naturalHeight });
-    };
-  }, [imageUrl, isVideo]);
 
   if (isVideo) {
     const webmUrl = `https://res.cloudinary.com/billymitchell/video/upload/f_webm,q_auto:low/v1750459284/portfolio/${imageUrl}`;
@@ -48,18 +37,41 @@ const IfFeaturedMedia = ({ portfolioItem }) => {
     );
   }
 
-  if (!imageSize) return null;
+  const isTallerThan916 =
+    imageDimensions &&
+    imageDimensions.height / imageDimensions.width > 16 / 9;
+  const aspectRatio = isTallerThan916
+    ? '9:16'
+    : imageDimensions
+      ? `${imageDimensions.width}:${imageDimensions.height}`
+      : '4:3';
+  const [aspectWidth, aspectHeight] = aspectRatio.split(':');
+  const getImageUrl = (width) => {
+    const transformations =
+      isTallerThan916 || !imageDimensions
+        ? `dpr_auto,f_auto,q_auto:good,c_fill,ar_${aspectRatio},g_auto,w_${width}`
+        : `dpr_auto,f_auto,q_auto:good,c_limit,w_${width}`;
 
-  const { width, height } = imageSize;
-  const isTallerThan916 = height / width > 16 / 9;
-
-  const transformedUrl = isTallerThan916
-    ? `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:good,c_lfill,ar_9:16,g_auto/v1750459284/portfolio/${imageUrl}`
-    : `https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,f_auto,q_auto:good/v1750459284/portfolio/${imageUrl}`;
+    return `https://res.cloudinary.com/billymitchell/image/upload/${transformations}/v1750459284/portfolio/${imageUrl}`;
+  };
 
   return (
     <>
-      <img className="fluid" id={portfolioItem.id} src={transformedUrl} alt={title} />
+      <img
+        className="fluid"
+        id={portfolioItem.id}
+        src={getImageUrl(640)}
+        srcSet={imageWidths
+          .map((width) => `${getImageUrl(width)} ${width}w`)
+          .join(', ')}
+        sizes="(min-width: 700px) 33vw, (min-width: 500px) 50vw, 100vw"
+        alt={title}
+        loading={loading}
+        decoding="async"
+        fetchPriority={priority ? 'high' : 'auto'}
+        width={aspectWidth}
+        height={aspectHeight}
+      />
       <p className="title">
         <strong>{title}</strong>
       </p>
@@ -67,7 +79,7 @@ const IfFeaturedMedia = ({ portfolioItem }) => {
   );
 };
 
-const PortfolioContent = ({ selectedDiscipline }) => {
+const PortfolioContent = ({ projects, selectedDiscipline }) => {
   const generatePortfolioUrl = (title) => {
     return `/portfolio/${title
       .toLowerCase()
@@ -87,7 +99,7 @@ const PortfolioContent = ({ selectedDiscipline }) => {
     // Remove other non-critical logs
   };
 
-  const selectedPortfolioContent = projectsData.filter((item) => {
+  const selectedPortfolioContent = projects.filter((item) => {
     if (selectedDiscipline === 'All') return item.fields.Published;
     return item.fields['Creative Discipline']?.includes(selectedDiscipline);
   });
@@ -96,6 +108,10 @@ const PortfolioContent = ({ selectedDiscipline }) => {
     const dateA = new Date(a.fields['End Date'] || '1970-01-01');
     const dateB = new Date(b.fields['End Date'] || '1970-01-01');
     return dateB.getTime() - dateA.getTime();
+  });
+  const firstImageIndex = sortedPortfolioItems.findIndex((item) => {
+    const imageUrl = item.fields['Featured Image URL'];
+    return imageUrl && !/\.(mp4|webm|mov|gif)$/i.test(imageUrl);
   });
 
   const breakpointCols = {
@@ -116,22 +132,24 @@ const PortfolioContent = ({ selectedDiscipline }) => {
           columnClassName="my-masonry-grid_column"
         >
           {sortedPortfolioItems.map((portfolioItem, index) => (
-            <InViewAnimationTwo
+            <div
               key={portfolioItem.id}
-              delay={`delay-${index * 50 + 200}ms`}
-              className="init-invisible"
+              id={portfolioItem.id}
+              className="portfolio-item"
             >
-              <div id={portfolioItem.id} className="portfolio-item">
-                <Link
-                  href={generatePortfolioUrl(
-                    portfolioItem.fields['Project Title']
-                  )}
-                  onClick={() => handleLinkClick(portfolioItem)}
-                >
-                  <IfFeaturedMedia portfolioItem={portfolioItem} />
-                </Link>
-              </div>
-            </InViewAnimationTwo>
+              <Link
+                href={generatePortfolioUrl(
+                  portfolioItem.fields['Project Title']
+                )}
+                onClick={() => handleLinkClick(portfolioItem)}
+              >
+                <IfFeaturedMedia
+                  portfolioItem={portfolioItem}
+                  priority={index === firstImageIndex}
+                  loading={index < 3 ? 'eager' : 'lazy'}
+                />
+              </Link>
+            </div>
           ))}
         </ClientMasonry>
       )}

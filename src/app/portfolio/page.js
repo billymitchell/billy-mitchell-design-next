@@ -1,6 +1,41 @@
 // app/portfolio/page.tsx (Server Component)
 
 import Portfolio from '../portfolio/portfolio.js';
+import projectsData from '../../components/utilities/data/projectsData.json';
+import cloudinaryData from '../../components/utilities/data/cloudinaryData.json';
+import { SITE_URL } from '../seo';
+
+const cloudinaryAssets = new Map(
+  Object.values(cloudinaryData)
+    .flat()
+    .map((asset) => [asset.public_id, asset])
+);
+
+const portfolioProjects = projectsData.map((project) => {
+  const { fields } = project;
+  const imageUrl = fields['Featured Image URL'];
+  const imagePublicId = imageUrl
+    ? `portfolio/${decodeURIComponent(imageUrl)}`
+    : null;
+  const imageAsset =
+    (imagePublicId && cloudinaryAssets.get(imagePublicId)) ||
+    (imagePublicId &&
+      cloudinaryAssets.get(imagePublicId.replace(/\.[^.]+$/, '')));
+
+  return {
+    id: project.id,
+    fields: {
+      'Project Title': fields['Project Title'],
+      Published: fields.Published,
+      'Creative Discipline': fields['Creative Discipline'],
+      'End Date': fields['End Date'],
+      'Featured Image URL': imageUrl,
+    },
+    featuredImageDimensions: imageAsset
+      ? { width: imageAsset.width, height: imageAsset.height }
+      : null,
+  };
+});
 
 export async function generateMetadata() {
   return {
@@ -21,6 +56,9 @@ export async function generateMetadata() {
     authors: [
       { name: 'Billy Mitchell', url: 'https://billymitchell.design' },
     ],
+    alternates: {
+      canonical: `${SITE_URL}/portfolio`,
+    },
     openGraph: {
       title: 'Billy Mitchell Portfolio - Design & Development',
       description: 'Dive into the portfolio of Billy Mitchell, showcasing expertise in Motion Design, UI/UX Design, Web Development, Branding, and Print Design.',
@@ -50,5 +88,5 @@ export async function generateMetadata() {
 }
 
 export default function PortfolioPage() {
-  return <Portfolio />;
+  return <Portfolio projects={portfolioProjects} />;
 }

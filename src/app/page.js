@@ -10,6 +10,7 @@ import FetchCompanies from '../components/home/getCompanies';
 import ParallaxProviderWrapper from '../components/utilities/ParallaxProviderWrapper';
 // app/page.js
 import Header from '../components/header';
+import { SITE_URL } from './seo';
 
 
 export async function generateMetadata() {
@@ -20,6 +21,9 @@ export async function generateMetadata() {
     authors: [
       { name: 'Billy Mitchell', url: 'https://billymitchell.design' },
     ],
+    alternates: {
+      canonical: `${SITE_URL}/`,
+    },
     openGraph: {
       title: 'Billy Mitchell Design & Development',
       description: 'Explore creative web design and development solutions by Billy Mitchell. Specializing in front-end development, e-commerce platforms, and more.',
@@ -124,4 +128,3 @@ export default function Home() {
     </>
   );
 }
-

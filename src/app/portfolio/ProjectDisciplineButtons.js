@@ -1,10 +1,12 @@
 // src/app/portfolio/ProjectDisciplineButtons.js
-import projectsData from '../../components/utilities/data/projectsData.json';
-
-const ProjectDisciplineButtons = ({ onDisciplineSelect, activeDiscipline }) => {
+const ProjectDisciplineButtons = ({
+  projects,
+  onDisciplineSelect,
+  activeDiscipline,
+}) => {
   // Create an array of all disciplines
   const allDisciplines = [];
-  projectsData.forEach((project) => {
+  projects.forEach((project) => {
     if (project.fields.Published) {
       // Check if the project is published and featured
       const disciplines = project.fields['Creative Discipline'];

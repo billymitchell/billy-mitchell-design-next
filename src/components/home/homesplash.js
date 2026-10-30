@@ -1,9 +1,14 @@
 'use client';
+import Script from 'next/script';
 import InViewAnimationTwo from "../utilities/InViewAnimationTwo.js"
 
 const Homesplash = () => {
   return (
     <div className="video-wrapper-home">
+      <Script
+        src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"
+        strategy="lazyOnload"
+      />
       <video
         className="homepage-video-file"
         crossOrigin="anonymous"

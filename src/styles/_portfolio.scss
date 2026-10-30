@@ -98,16 +98,18 @@
   overflow: hidden;
 
   .portfolio-header,
-  h2 {
+  h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
-  h2 {
+  h1 {
     margin: 0;
     color: $white;
+    font-size: $h2-font-size;
+    line-height: $h2-line-height;
   }
 
   .portfolio-header {
@@ -115,6 +117,13 @@
     object-fit: cover;
     filter: blur(3px) grayscale(50%) brightness(50%);
     height: 25vh;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .portfolio-header-container h1 {
+    font-size: $h2-mobile-font-size;
+    line-height: $h2-mobile-line-height;
   }
 }
 

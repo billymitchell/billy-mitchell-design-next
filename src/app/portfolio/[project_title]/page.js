@@ -11,6 +11,7 @@ import Video from "yet-another-react-lightbox/plugins/video";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import GalleryLightbox from '../../../components/GalleryLightbox';
+import { getProjectSlug, SITE_URL } from '../../seo';
 
 
 // Generate metadata dynamically and pass project data
@@ -41,6 +42,9 @@ export async function generateMetadata({ params }) {
 
   return {
     title: `${data['Project Title']} - Billy Mitchell Portfolio`,
+    alternates: {
+      canonical: `${SITE_URL}/portfolio/${params.project_title}`,
+    },
     description: `Explore the details of ${data['Project Title']}, a ${data['Job Type'].join(
       ', '
     )} project led by Billy Mitchell. Focused on ${data['Creative Discipline'].join(
@@ -87,9 +91,7 @@ export async function generateMetadata({ params }) {
 // Function to generate static paths for all projects
 export async function generateStaticParams() {
   return projectsData.map((project) => ({
-    project_title: String(project.fields['Project Title'])
-      .toLowerCase()
-      .replace(/[\s&/:]/g, '-'),
+    project_title: getProjectSlug(project.fields['Project Title']),
   }));
 }
 
@@ -324,7 +326,7 @@ export default function PortfolioContent({ params }) {
             />
           )}
         </div>
-        <h2>{String(data['Project Title'])}</h2>
+        <h1>{String(data['Project Title'])}</h1>
       </div>
       <div className="outer-container-body">
         <div className="inner-text-width">

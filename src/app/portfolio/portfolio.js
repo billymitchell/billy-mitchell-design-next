@@ -7,7 +7,7 @@ import ProjectDisciplineButtons from '../portfolio/ProjectDisciplineButtons.js';
 import Header from '../../components/header';
 
 
-const Portfolio = () => {
+const Portfolio = ({ projects }) => {
   const [selectedDiscipline, setSelectedDiscipline] = useState('All');
 
   // Handle discipline button click
@@ -24,6 +24,7 @@ const Portfolio = () => {
           <div className="button-container">
             {/* Render discipline buttons from ProjectDisciplineButtons component */}
             <ProjectDisciplineButtons
+              projects={projects}
               onDisciplineSelect={handleDisciplineSelect}
               activeDiscipline={selectedDiscipline}
             />
@@ -33,7 +34,10 @@ const Portfolio = () => {
       <div className="outer-container">
         <div className="inner-width-full">
           {/* PortfolioContent now handles filtering based on selectedDiscipline */}
-          <PortfolioContent selectedDiscipline={selectedDiscipline} />
+          <PortfolioContent
+            projects={projects}
+            selectedDiscipline={selectedDiscipline}
+          />
           {/* <div className="text-center padding-top-15 padding-bottom-15">
             <a href="/portfolio/all">View All Other Published Portfolio Work</a>
           </div> */}
