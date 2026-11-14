@@ -1,44 +1,19 @@
 'use client';
-import React, { useEffect, useState } from "react"
+import SectionTransition from "./SectionTransition";
+import React from "react"
+import useParallaxDisabled from "../utilities/useParallaxDisabled"
 import InViewAnimationTwo from "../utilities/InViewAnimationTwo.js"
 // import InViewAnimationThree from "../utilities/InViewAnimationThree"
 import { Parallax } from "react-scroll-parallax"
-import SeparatorBottom from "../../components/separator-bottom"
 
 
 
 const FullStack = () => {
   // Set default state of parallax to enabled / not disabled
-  const [parallaxDisabledState, setparallaxDisabledState] = useState(false);
-
-  // .window is not available until after the render - useEffect needed
-  useEffect(() => {
-
-    function handleResize() {
-      // check for small windows
-      if (window.innerWidth <= 800 || window.innerHeight <= 600) {
-        // Set true for small screens
-        setparallaxDisabledState(true)
-        // log state
-        console.log("Parallax Disabled", parallaxDisabledState)
-      } else {
-        // log state
-        console.log("Parallax Disabled", parallaxDisabledState)
-      }
-    }
-
-    // Call handler right away so state gets updated with initial window size
-    handleResize();
-
-    // When the window resizes, call handleResize
-    window.addEventListener("resize", handleResize);
-
-    // Remove event listener on cleanup
-    return () => window.removeEventListener("resize", handleResize);
-
-  }, [parallaxDisabledState])
+  const parallaxDisabledState = useParallaxDisabled();
   return (
     <>
+      <SectionTransition index={1} from="services" to="approach" />
       <section id="full-stack" className="home-page-section bg-black mobile-height-fluid small-padding-top-100 small-padding-bottom-100 midsize-padding-bottom-100 midsize-padding-top-100">
         <div className="outer-container">
           <div className="inner-width-1000">
@@ -63,6 +38,11 @@ const FullStack = () => {
                 I have a breadth of design skills in many areas with a depth of skills in User Interface Design, Flier Design and Branding. 
               </p>
               </InViewAnimationTwo>
+
+              <h4>AI-assisted. Human-directed.</h4>
+              <p>
+                We use AI to explore more directions and move faster from idea to prototype. We set the creative direction, choose what’s worth developing, and refine the work before it reaches you. We make the final decisions.
+              </p>
 
               <div className="fullstack-container">
                 <div className="ux">
@@ -196,7 +176,6 @@ const FullStack = () => {
           </div>
         </div>
       </section>
-      <SeparatorBottom className="bg-black" />
     </>
   )
 }

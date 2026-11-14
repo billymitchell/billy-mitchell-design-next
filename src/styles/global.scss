@@ -42,7 +42,8 @@ body {
 }
 
 #home {
-  overflow-x: hidden;
+  // Clip sideways overflow without creating a nested scroll container.
+  overflow-x: clip;
 }
 
 footer {
@@ -52,6 +53,10 @@ footer {
   width: 100%;
   overflow-x: hidden;
   text-align: center;
+}
+
+body:has(#home) > footer {
+  margin-top: 0;
 }
 
 footer .external-social-links {

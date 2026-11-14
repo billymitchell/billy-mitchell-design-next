@@ -1,25 +1,6 @@
 [
   {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Services"
-    },
     "id": "rec0CeRAsbWQl74Tx",
-    "_rawJson": {
-      "id": "rec0CeRAsbWQl74Tx",
-      "createdTime": "2021-01-12T21:22:12.000Z",
-      "fields": {
-        "Services Name": "Branding",
-        "Services Image": "services/stars-24px-w",
-        "Services Order": 4,
-        "Featured": true,
-        "Render On": "billymitchell.design"
-      }
-    },
     "fields": {
       "Services Name": "Branding",
       "Services Image": "services/stars-24px-w",
@@ -29,26 +10,7 @@
     }
   },
   {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Services"
-    },
     "id": "rec9IPPTcSH0GbFi3",
-    "_rawJson": {
-      "id": "rec9IPPTcSH0GbFi3",
-      "createdTime": "2024-12-27T22:09:23.000Z",
-      "fields": {
-        "Services Name": "Consulting",
-        "Services Image": "services/consulting-w",
-        "Services Order": 5,
-        "Featured": true,
-        "Render On": "Both"
-      }
-    },
     "fields": {
       "Services Name": "Consulting",
       "Services Image": "services/consulting-w",
@@ -58,26 +20,7 @@
     }
   },
   {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Services"
-    },
     "id": "recD59aDmAbLTp1fC",
-    "_rawJson": {
-      "id": "recD59aDmAbLTp1fC",
-      "createdTime": "2021-01-12T21:28:03.000Z",
-      "fields": {
-        "Services Name": "Photography & Video",
-        "Services Image": "services/camera-24px-w",
-        "Services Order": 8,
-        "Featured": true,
-        "Render On": "billymitchell.design"
-      }
-    },
     "fields": {
       "Services Name": "Photography & Video",
       "Services Image": "services/camera-24px-w",
@@ -87,26 +30,7 @@
     }
   },
   {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Services"
-    },
     "id": "recHqd3rcTcjICxC8",
-    "_rawJson": {
-      "id": "recHqd3rcTcjICxC8",
-      "createdTime": "2021-01-12T21:27:55.000Z",
-      "fields": {
-        "Services Name": "Illustration",
-        "Services Image": "services/gesture-24px-w",
-        "Services Order": 6,
-        "Featured": true,
-        "Render On": "billymitchell.design"
-      }
-    },
     "fields": {
       "Services Name": "Illustration",
       "Services Image": "services/gesture-24px-w",
@@ -116,26 +40,7 @@
     }
   },
   {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Services"
-    },
     "id": "recSTM3QXxgswLw3t",
-    "_rawJson": {
-      "id": "recSTM3QXxgswLw3t",
-      "createdTime": "2021-01-12T21:22:12.000Z",
-      "fields": {
-        "Services Name": "Development",
-        "Services Image": "services/code-24px-w",
-        "Services Order": 3,
-        "Featured": true,
-        "Render On": "Both"
-      }
-    },
     "fields": {
       "Services Name": "Development",
       "Services Image": "services/code-24px-w",
@@ -145,26 +50,7 @@
     }
   },
   {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Services"
-    },
     "id": "recgNQVWEnEDQTXat",
-    "_rawJson": {
-      "id": "recgNQVWEnEDQTXat",
-      "createdTime": "2021-01-12T21:24:16.000Z",
-      "fields": {
-        "Services Name": "Print Design",
-        "Services Image": "services/import_contacts-24px-w",
-        "Services Order": 7,
-        "Featured": true,
-        "Render On": "billymitchell.design"
-      }
-    },
     "fields": {
       "Services Name": "Print Design",
       "Services Image": "services/import_contacts-24px-w",
@@ -174,26 +60,7 @@
     }
   },
   {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Services"
-    },
     "id": "recgQQm4a9u2qliDT",
-    "_rawJson": {
-      "id": "recgQQm4a9u2qliDT",
-      "createdTime": "2021-01-12T21:22:12.000Z",
-      "fields": {
-        "Services Name": "Design",
-        "Services Image": "services/design_services-24px-w",
-        "Services Order": 2,
-        "Featured": true,
-        "Render On": "Both"
-      }
-    },
     "fields": {
       "Services Name": "Design",
       "Services Image": "services/design_services-24px-w",
@@ -203,26 +70,7 @@
     }
   },
   {
-    "_table": {
-      "_base": {
-        "_airtable": {},
-        "_id": "appvr5KrgKiJo1E7M"
-      },
-      "id": null,
-      "name": "Services"
-    },
     "id": "recjwhGBt8yg29STl",
-    "_rawJson": {
-      "id": "recjwhGBt8yg29STl",
-      "createdTime": "2024-12-31T22:51:25.000Z",
-      "fields": {
-        "Services Name": "Automation",
-        "Services Image": "services/automation-w",
-        "Services Order": 1,
-        "Featured": true,
-        "Render On": "billymitchell.design"
-      }
-    },
     "fields": {
       "Services Name": "Automation",
       "Services Image": "services/automation-w",

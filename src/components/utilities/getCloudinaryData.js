@@ -3,7 +3,6 @@ require('dotenv').config({ path: '.env.local' });
 
 const fs = require('fs');
 const path = require('path');
-const axios = require('axios');
 
 // Define paths for input and output data files
 const projectsDataPath = path.join(__dirname, 'data', 'projectsData.json');
@@ -30,26 +29,31 @@ if (!CLOUD_NAME || !API_KEY || !API_SECRET) {
  */
 async function fetchFolderResources(folder) {
   const url = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/resources/search`;
-  const auth = {
-    username: API_KEY,
-    password: API_SECRET,
-  };
+  const authHeader = `Basic ${Buffer.from(`${API_KEY}:${API_SECRET}`).toString('base64')}`;
   const data = {
     expression: `folder:"portfolio/${folder}"`,
     sort_by: [{ public_id: "desc" }],
     max_results: 500,
   };
-  try {
-    const res = await axios.post(url, data, { auth, headers: { "Content-Type": "application/json" } });
-    return res.data.resources;
-  } catch (err) {
-    if (err.response) {
-      console.error(`[ERROR] Cloudinary Search API error for folder "${folder}":`, err.response.data);
-    } else {
-      console.error(`[ERROR] Network or Axios error for folder "${folder}":`, err.message);
+  // Cloudinary's Search API occasionally returns a 5xx; retry before giving up.
+  // Returns null on failure so the caller can keep the previously saved data.
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      // Built-in fetch (Node 18+), so no extra HTTP dependency is needed
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: authHeader },
+        body: JSON.stringify(data),
+      });
+      if (res.ok) return (await res.json()).resources || [];
+      console.error(`[WARN] Cloudinary ${res.status} for folder "${folder}" (attempt ${attempt}/3)`);
+      if (res.status < 500 && res.status !== 429) break;
+    } catch (err) {
+      console.error(`[WARN] Network error for folder "${folder}" (attempt ${attempt}/3):`, err.message);
     }
-    return [];
+    await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
   }
+  return null;
 }
 
 /**
@@ -66,25 +70,36 @@ async function main() {
     process.exit(1);
   }
 
+  // Previously saved data, used as a fallback for any folder that fails
+  let previous = {};
+  try {
+    previous = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+  } catch {}
+
   const result = {};
+  const failed = [];
 
   for (const project of projects) {
     // Use item.fields['Gallery Folder Name'] if your JSON structure has a 'fields' object
     const folder = project.fields ? project.fields['Gallery Folder Name'] : project['Gallery Folder Name'];
-    if (folder) {
-      try {
-        const resources = await fetchFolderResources(folder);
-        result[folder] = resources;
-      } catch (err) {
-        console.error(`[ERROR] Unexpected error fetching resources for folder "${folder}":`, err.message);
-        result[folder] = [];
-      }
+    if (!folder) continue;
+    const resources = await fetchFolderResources(folder);
+    if (resources) {
+      result[folder] = resources;
+    } else {
+      failed.push(folder);
+      result[folder] = previous[folder] || [];
     }
+  }
+
+  if (failed.length) {
+    console.error(`[ERROR] Kept previous data for ${failed.length} folder(s) that failed: ${failed.join(', ')}`);
   }
 
   try {
     // Write the fetched data to the output file
     fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
+    console.log(`[fetch-cloudinary] Saved ${Object.keys(result).length} gallery folders.`);
   } catch (err) {
     console.error(`[ERROR] Failed to write to "${outputPath}":`, err.message);
     process.exit(1);

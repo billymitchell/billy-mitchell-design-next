@@ -1,13 +1,12 @@
 "use client"
+import SectionTransition from "./SectionTransition";
 import InViewAnimationTwo from "../utilities/InViewAnimationTwo.js";
 //import { Parallax } from "react-scroll-parallax"
-import SeparatorTop from "../separator-top"
-import SeparatorBottom from "../separator-bottom"
 
 export default function Companies({ children }) {
   return (
     <>
-      <SeparatorTop className="bg-blue" />
+      <SectionTransition index={3} from="tools" to="experience" />
       <section id="companies" className="home-page-section bg-blue small-padding-top-50 small-padding-bottom-50 midsize-padding-bottom-100 midsize-padding-top-100">
         <div className="outer-container">
           <div className="inner-width-1000">
@@ -15,7 +14,7 @@ export default function Companies({ children }) {
             <InViewAnimationTwo
               rootMargin="-25% 0%"
               className="init-invisible" animation={undefined} duration={undefined} delay={undefined} fillmode={undefined} easing={undefined} iteration={undefined} threshold={undefined}            >
-              <h3 className="margin-top-0">Businesses I've Worked With</h3>
+              <h3 className="margin-top-0">Businesses I&apos;ve Worked With</h3>
             </InViewAnimationTwo>
             <InViewAnimationTwo
               rootMargin="-25% 0%"
@@ -31,7 +30,6 @@ export default function Companies({ children }) {
           </div>
         </div>
       </section>
-      <SeparatorBottom className="bg-blue" />
     </>
   )
 }

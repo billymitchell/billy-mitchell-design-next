@@ -1,26 +1,15 @@
 // app/portfolio/page.tsx (Server Component)
 
 import Portfolio from '../portfolio/portfolio.js';
-import projectsData from '../../components/utilities/data/projectsData.json';
-import cloudinaryData from '../../components/utilities/data/cloudinaryData.json';
+import {
+  publishedProjects,
+  getFeaturedImageDimensions,
+} from '../../components/utilities/projects';
 import { SITE_URL } from '../seo';
 
-const cloudinaryAssets = new Map(
-  Object.values(cloudinaryData)
-    .flat()
-    .map((asset) => [asset.public_id, asset])
-);
-
-const portfolioProjects = projectsData.map((project) => {
+// Only send the client the fields the grid actually needs.
+const portfolioProjects = publishedProjects.map((project) => {
   const { fields } = project;
-  const imageUrl = fields['Featured Image URL'];
-  const imagePublicId = imageUrl
-    ? `portfolio/${decodeURIComponent(imageUrl)}`
-    : null;
-  const imageAsset =
-    (imagePublicId && cloudinaryAssets.get(imagePublicId)) ||
-    (imagePublicId &&
-      cloudinaryAssets.get(imagePublicId.replace(/\.[^.]+$/, '')));
 
   return {
     id: project.id,
@@ -29,11 +18,9 @@ const portfolioProjects = projectsData.map((project) => {
       Published: fields.Published,
       'Creative Discipline': fields['Creative Discipline'],
       'End Date': fields['End Date'],
-      'Featured Image URL': imageUrl,
+      'Featured Image URL': fields['Featured Image URL'],
     },
-    featuredImageDimensions: imageAsset
-      ? { width: imageAsset.width, height: imageAsset.height }
-      : null,
+    featuredImageDimensions: getFeaturedImageDimensions(fields),
   };
 });
 
@@ -62,7 +49,7 @@ export async function generateMetadata() {
     openGraph: {
       title: 'Billy Mitchell Portfolio - Design & Development',
       description: 'Dive into the portfolio of Billy Mitchell, showcasing expertise in Motion Design, UI/UX Design, Web Development, Branding, and Print Design.',
-      url: 'https://billymitchell.design/portfolio',
+      url: `${SITE_URL}/portfolio`,
       siteName: 'Billy Mitchell Portfolio',
       images: [
         {

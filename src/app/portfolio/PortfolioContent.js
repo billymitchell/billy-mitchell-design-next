@@ -1,5 +1,6 @@
 import ClientMasonry from '../../components/utilities/clientMasonry';
 import Link from 'next/link';
+import { getProjectSlug } from '../seo';
 
 const imageWidths = [320, 480, 640, 960, 1280];
 
@@ -80,31 +81,15 @@ const IfFeaturedMedia = ({ portfolioItem, priority, loading }) => {
 };
 
 const PortfolioContent = ({ projects, selectedDiscipline }) => {
-  const generatePortfolioUrl = (title) => {
-    return `/portfolio/${title
-      .toLowerCase()
-      .replace('&', 'and')
-      .replace('/', '')
-      .replace(',', '')
-      .replace(':', '')
-      .replace(/\s/gi, '-')
-      .trim()}`;
-  };
-
-  const handleLinkClick = (item) => {
-    // Only log critical errors or important events
-    if (!item || !item.id) {
-      console.error('Portfolio item missing or invalid:', item);
-    }
-    // Remove other non-critical logs
-  };
+  const generatePortfolioUrl = (title) =>
+    `/portfolio/${getProjectSlug(title)}`;
 
   const selectedPortfolioContent = projects.filter((item) => {
     if (selectedDiscipline === 'All') return item.fields.Published;
     return item.fields['Creative Discipline']?.includes(selectedDiscipline);
   });
 
-  const sortedPortfolioItems = selectedPortfolioContent.sort((a, b) => {
+  const sortedPortfolioItems = [...selectedPortfolioContent].sort((a, b) => {
     const dateA = new Date(a.fields['End Date'] || '1970-01-01');
     const dateB = new Date(b.fields['End Date'] || '1970-01-01');
     return dateB.getTime() - dateA.getTime();
@@ -141,7 +126,6 @@ const PortfolioContent = ({ projects, selectedDiscipline }) => {
                 href={generatePortfolioUrl(
                   portfolioItem.fields['Project Title']
                 )}
-                onClick={() => handleLinkClick(portfolioItem)}
               >
                 <IfFeaturedMedia
                   portfolioItem={portfolioItem}

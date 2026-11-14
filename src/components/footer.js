@@ -1,5 +1,4 @@
 import GetCurrentDate from "./utilities/getcurrentdate"
-import Link from 'next/link'
 
 const Icon = ({ children }) => (
     <svg
@@ -21,7 +20,7 @@ const Icon = ({ children }) => (
 const Footer = () => {
     return (
 
-        <footer className="bg-brand-dark-5">
+        <footer id="contact" className="bg-brand-dark-5">
             <div className="outer-container">
                 <div className="inner-width">
                     <div className="primary-contact-info">
@@ -35,12 +34,12 @@ const Footer = () => {
                         <Icon>
                             <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 11.19 19a19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.09 4.18 2 2 0 0 1 4.08 2h3a2 2 0 0 1 2 1.72c.12.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.11L8.06 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.84.58 2.8.7a2 2 0 0 1 1.76 2.03Z" />
                         </Icon>
-                        <a href="tell:4437658265">4437658265</a><br></br>
+                        <a href="tel:+14437658265">443-765-8265</a><br></br>
                         <Icon>
                             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z" />
                             <path d="M14 2v6h6M8 13h8M8 17h8" />
                         </Icon>
-                        <Link href="/files/Billy-Mitchell-Resume-Design-2026.pdf">Resume</Link>
+                        <a href="/files/Billy-Mitchell-Resume-Design-2026.pdf" target="_blank" rel="noreferrer">Resume</a>
                     </p>
                 </div>
                 <div className="external-social-links">

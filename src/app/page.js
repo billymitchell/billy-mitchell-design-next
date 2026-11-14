@@ -10,7 +10,7 @@ import FetchCompanies from '../components/home/getCompanies';
 import ParallaxProviderWrapper from '../components/utilities/ParallaxProviderWrapper';
 // app/page.js
 import Header from '../components/header';
-import { SITE_URL } from './seo';
+import { jsonLd, SITE_URL } from './seo';
 
 
 export async function generateMetadata() {
@@ -27,7 +27,7 @@ export async function generateMetadata() {
     openGraph: {
       title: 'Billy Mitchell Design & Development',
       description: 'Explore creative web design and development solutions by Billy Mitchell. Specializing in front-end development, e-commerce platforms, and more.',
-      url: 'https://billymitchell.design',
+      url: `${SITE_URL}/`,
       siteName: 'Billy Mitchell Design & Development',
       images: [
         {
@@ -110,17 +110,60 @@ export async function generateMetadata() {
   // style 404 page
   // add analytics
 
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE_URL}/#website`,
+      url: `${SITE_URL}/`,
+      name: 'Billy Mitchell Design & Development',
+    },
+    {
+      '@type': 'Person',
+      '@id': `${SITE_URL}/#billy-mitchell`,
+      name: 'Billy Mitchell',
+      url: `${SITE_URL}/`,
+      jobTitle: 'Multidisciplinary Designer',
+      image:
+        'https://res.cloudinary.com/billymitchell/image/upload/f_auto,q_auto,c_limit,w_800/home/PhotoByMicahEWood-156-web.jpg',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Baltimore',
+        addressRegion: 'MD',
+        addressCountry: 'US',
+      },
+      alumniOf: 'University of Maryland, Baltimore County',
+      worksFor: { '@type': 'Organization', name: 'Billy Mitchell Design LLC' },
+      sameAs: [
+        'https://www.linkedin.com/in/billymitchelldesign/',
+        'https://github.com/billymitchell',
+        'https://twitter.com/designbilly',
+      ],
+    },
+  ],
+};
+
 export default function Home() {
   return (
     <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: jsonLd(structuredData) }}
+    />
     <Header page={"home"}/>
     <ParallaxProviderWrapper>
       <div id="home">
+        {/* Order must match the from/to pairs on each SectionTransition */}
         <Homesplash />
+        <Services>
+          <FetchServices />
+        </Services>
         <FullStack />
         <Tools />
-        <Services children={<FetchServices />} />
-        <Companies children={<FetchCompanies />} />
+        <Companies>
+          <FetchCompanies />
+        </Companies>
         <About />
         {/* <ContactSection /> */}
       </div>

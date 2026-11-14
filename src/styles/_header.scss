@@ -71,13 +71,29 @@ header {
 }
 
 //Home Page Layout
+header.home .header-main-container {
+    align-items: center;
+    gap: clamp(6px, 2vw, 24px);
+}
+
 header.home .logo {
-    display: none;
+    display: block;
+    flex: 0 0 clamp(28px, 5vw, 52px);
+}
+
+header.home .logo svg {
+    display: block;
+    pointer-events: none;
 }
 
 header.home #menu-items {
-   justify-content: center;
-   padding-top: 15px;
+    min-width: 0;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+header.home #menu-items {
+   justify-content: flex-end;
 }
 
 header.home #menu-items li {

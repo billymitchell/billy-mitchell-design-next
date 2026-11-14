@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React from 'react';
 import Lightbox from "yet-another-react-lightbox";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
@@ -6,15 +6,37 @@ import Video from "yet-another-react-lightbox/plugins/video";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
+import {
+  galleryImageUrl,
+  galleryVideoPosterUrl,
+  galleryVideoSources,
+} from './utilities/cloudinary';
 
-export default function GalleryLightbox({ assets }) {
+const THUMB_WIDTHS = [400, 800, 1200];
+const LIGHTBOX_WIDTHS = [800, 1600, 2400];
+
+const allowedExtensions = [
+  'jpg', 'jpeg', 'png', 'gif', 'webp', 'svg',
+  'mp4', 'webm', 'ogg', 'mov', 'avi'
+];
+
+// Resized copies of an image, never larger than the original upload.
+const imageSizes = (asset, widths) => {
+  if (asset.format === 'svg' || !asset.width || !asset.height) return [];
+  const usable = widths.filter((width) => width < asset.width);
+  // Always include a size at (or capped to) the original width
+  const largest = Math.min(asset.width, widths[widths.length - 1]);
+  if (!usable.includes(largest)) usable.push(largest);
+  return usable.map((width) => ({
+    src: galleryImageUrl(asset, width),
+    width,
+    height: Math.round((asset.height / asset.width) * width),
+  }));
+};
+
+export default function GalleryLightbox({ assets, title = 'Project' }) {
   const [open, setOpen] = React.useState(false);
   const [index, setIndex] = React.useState(0);
-
-  const allowedExtensions = [
-    'jpg', 'jpeg', 'png', 'gif', 'webp', 'svg',
-    'mp4', 'webm', 'ogg', 'mov', 'avi'
-  ];
 
   // Only allow images and videos
   const supportedAssets = assets.filter(asset => {
@@ -29,31 +51,34 @@ export default function GalleryLightbox({ assets }) {
 
   if (!supportedAssets.length) return <div>No gallery assets found.</div>;
 
-  const slides = supportedAssets.map((asset) => {
+  const altFor = (asset, idx) =>
+    `${title} – gallery ${asset.resource_type === 'video' ? 'video' : 'image'} ${idx + 1} of ${supportedAssets.length}`;
+
+  // Full-size slides are only requested once the lightbox is opened
+  const slides = supportedAssets.map((asset, idx) => {
     if (asset.resource_type === 'video') {
       return {
         type: 'video',
-        poster: asset.secure_url.replace(/\.(mp4|webm|ogg|mov|avi)$/i, '.jpg'),
-        sources: [
-          { src: asset.secure_url, type: `video/${asset.format}` }
-        ],
-        description: asset.public_id,
+        poster: galleryVideoPosterUrl(asset, 1280),
+        sources: galleryVideoSources(asset),
+        width: asset.width,
+        height: asset.height,
+        preload: 'none',
       };
     }
+    const sizes = imageSizes(asset, LIGHTBOX_WIDTHS);
+    const largest = sizes[sizes.length - 1];
     return {
-      src: asset.secure_url,
-      description: asset.public_id,
+      src: largest ? largest.src : galleryImageUrl(asset, 2400),
+      alt: altFor(asset, idx),
+      ...(largest ? { width: largest.width, height: largest.height, srcSet: sizes } : {}),
     };
   });
 
   // Dynamically set columns: 1 for 1 image, 2 for 2, 3 for 3 or more
   const columns = Math.min(supportedAssets.length, 3);
-  const breakpointColumnsObj = {
-    default: columns,
-    900: Math.min(columns, 2),
-    600: 1
-  };
-  const columnWidth = `${100 / columns}%`;
+
+  const openAt = (idx) => { setIndex(idx); setOpen(true); };
 
   return (
     <div>
@@ -68,44 +93,58 @@ export default function GalleryLightbox({ assets }) {
             : { columnCount: columns, columnGap: 15 }
         }
       >
-        {supportedAssets.map((asset, idx) => (
-          <div
-            key={asset.asset_id || asset.public_id || idx}
-            className={`gallery-thumb${asset.resource_type === 'video' ? ' video-thumb' : ''}`}
-            onClick={() => { setIndex(idx); setOpen(true); }}
-          >
-            {asset.resource_type === 'video' ? (
-              <>
-                <video
-                  className="gallery-thumb-media"
-                  poster={asset.secure_url.replace(/\.(mp4|webm|ogg|mov|avi)$/i, '.jpg')}
-                  muted
-                  playsInline
-                  tabIndex={-1}
-                  aria-hidden="true"
-                >
-                  {/* Try to serve webm if available */}
-                  <source src={asset.secure_url.replace(/\.mp4$/i, '.webm')} type="video/webm" />
-                  <source src={asset.secure_url} type={`video/${asset.format}`} />
-                  Your browser does not support the video tag.
-                </video>
-                <div className="gallery-thumb-overlay" />
-                <div className="gallery-thumb-play">
-                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                    <circle cx="24" cy="24" r="24" fill="rgba(0,0,0,0.6)" />
-                    <polygon points="20,16 34,24 20,32" fill="#fff" />
-                  </svg>
-                </div>
-              </>
-            ) : (
+        {supportedAssets.map((asset, idx) => {
+          const isVideo = asset.resource_type === 'video';
+          const thumbSizes = isVideo ? [] : imageSizes(asset, THUMB_WIDTHS);
+          return (
+            <div
+              key={asset.asset_id || asset.public_id || idx}
+              className={`gallery-thumb${isVideo ? ' video-thumb' : ''}`}
+              role="button"
+              tabIndex={0}
+              aria-label={`Open ${altFor(asset, idx)}`}
+              onClick={() => openAt(idx)}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                  event.preventDefault();
+                  openAt(idx);
+                }
+              }}
+            >
+              {/* Thumbnails are resized stills; originals never load in the grid */}
               <img
-                src={asset.secure_url}
-                alt={asset.public_id}
+                src={isVideo ? galleryVideoPosterUrl(asset, 800) : galleryImageUrl(asset, 800)}
+                srcSet={
+                  thumbSizes.length
+                    ? thumbSizes.map((size) => `${size.src} ${size.width}w`).join(', ')
+                    : undefined
+                }
+                sizes={
+                  thumbSizes.length
+                    ? `(max-width: 600px) 50vw, (max-width: 1230px) ${Math.round(100 / columns)}vw, ${Math.round(1200 / columns)}px`
+                    : undefined
+                }
+                alt={altFor(asset, idx)}
+                width={asset.width || undefined}
+                height={asset.height || undefined}
+                loading="lazy"
+                decoding="async"
                 className="gallery-thumb-media"
               />
-            )}
-          </div>
-        ))}
+              {isVideo && (
+                <>
+                  <div className="gallery-thumb-overlay" />
+                  <div className="gallery-thumb-play">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                      <circle cx="24" cy="24" r="24" fill="rgba(0,0,0,0.6)" />
+                      <polygon points="20,16 34,24 20,32" fill="#fff" />
+                    </svg>
+                  </div>
+                </>
+              )}
+            </div>
+          );
+        })}
       </div>
       <Lightbox
         open={open}

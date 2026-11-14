@@ -44,7 +44,7 @@ const FullStack = () => {
             <Parallax disabled={parallaxDisabledState} y={[-30, 30]} x={[0, 0]}>
               <h3>Contact</h3>
               <p>
-                Please contact me and I'll get back to you as soon as I can.
+                Please contact me and I&apos;ll get back to you as soon as I can.
             </p>
               <ContactFrom />
             </Parallax>

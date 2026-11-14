@@ -1,10 +1,10 @@
 'use client';
 
-import React, { useEffect, useState } from "react"
+import SectionTransition from "./SectionTransition";
+import React from "react"
+import useParallaxDisabled from "../utilities/useParallaxDisabled"
 import InViewAnimationTwo from "../utilities/InViewAnimationTwo.js"
 import { Parallax } from "react-scroll-parallax"
-import SeparatorTop from "../separator-top.js"
-import SeparatorBottom from "../separator-bottom.js"
 import Image from 'next/image'
 
 // Images
@@ -30,37 +30,10 @@ const toolImages = [
 
 const Tools = () => {
   // Set default state of parallax to enabled / not disabled
-  const [parallaxDisabledState, setparallaxDisabledState] = useState(false);
-
-  // .window is not available until after the render - useEffect needed
-  useEffect(() => {
-
-    function handleResize() {
-      // check for small windows
-      if (window.innerWidth <= 800 || window.innerHeight <= 600) {
-        // Set true for small screens
-        setparallaxDisabledState(true)
-        // log state
-        console.log("Parallax Disabled", parallaxDisabledState)
-      } else {
-        // log state
-        console.log("Parallax Disabled", parallaxDisabledState)
-      }
-    }
-
-    // Call handler right away so state gets updated with initial window size
-    handleResize();
-
-    // When the window resizes, call handleResize
-    window.addEventListener("resize", handleResize);
-
-    // Remove event listener on cleanup
-    return () => window.removeEventListener("resize", handleResize);
-
-  }, [parallaxDisabledState])
+  const parallaxDisabledState = useParallaxDisabled();
   return (
     <>
-      <SeparatorTop className="bg-white" />
+      <SectionTransition index={2} from="approach" to="tools" />
       <section id="tech-stack" className="home-page-section bg-white small-padding-top-50 small-padding-bottom-50 midsize-padding-bottom-100 midsize-padding-top-100">
         <div className="outer-container">
           <div className="inner-width-1000">
@@ -102,7 +75,6 @@ const Tools = () => {
           </div>
         </div>
       </section>
-      <SeparatorBottom className="bg-white" />
     </>
   )
 }

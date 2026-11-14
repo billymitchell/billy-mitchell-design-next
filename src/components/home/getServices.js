@@ -1,4 +1,3 @@
-import { fetchAirtableData } from '../utilities/getAirtableData';
 import InViewAnimationTwo from '../utilities/InViewAnimationTwo.js';
 import servicesData from '../utilities/data/servicesData.json';
 
@@ -14,8 +13,10 @@ export default function FetchServices() {
           {service.fields['Services Image'] && (
             <img
               className="block center w-25"
-              src={`https://res.cloudinary.com/billymitchell/image/upload/q_auto:best/${service.fields['Services Image']}`}
-              alt={service.fields['Services Name'] || 'Service'}
+              src={`https://res.cloudinary.com/billymitchell/image/upload/f_auto,q_auto/${service.fields['Services Image']}`}
+              alt=""
+              loading="lazy"
+              decoding="async"
             />
           )}
           <small className="text-center block margin-top-20">
