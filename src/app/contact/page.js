@@ -16,7 +16,8 @@ export const metadata = {
 export const dynamic = 'force-dynamic';
 
 export default function ContactPage() {
-  const canSaveInquiries = process.env.NODE_ENV === 'development' || Boolean(process.env.INQUIRY_DB_PATH);
+  const canReceiveInquiries = process.env.NODE_ENV === 'development' ||
+    Boolean(process.env.RESEND_API_KEY || process.env.INQUIRY_DB_PATH);
   return (
     <>
       <Header page="contact" />
@@ -29,7 +30,7 @@ export default function ContactPage() {
             <p>Billy will review your brief and follow up to discuss scope, timing, and how our team can help.</p>
             <p><a href="mailto:hello@billymitchell.design">hello@billymitchell.design</a></p>
           </div>
-          {canSaveInquiries && <ProjectInquiry />}
+          {canReceiveInquiries && <ProjectInquiry />}
         </div>
       </main>
       <SeparatorTop className="bg-brand-dark-5 contact-footer-divider" />

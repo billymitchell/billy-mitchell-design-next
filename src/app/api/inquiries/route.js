@@ -10,8 +10,8 @@ const hour = 60 * 60 * 1000;
 
 async function notifyInbox(inquiry) {
   const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.INQUIRY_TO_EMAIL;
-  if (!apiKey || !to) return;
+  const to = process.env.INQUIRY_TO_EMAIL || 'hello@billymitchell.design';
+  if (!apiKey) return;
 
   const text = [
     `Name: ${inquiry.name}`,
@@ -76,7 +76,16 @@ export async function POST(request) {
 
   const configuredPath = process.env.INQUIRY_DB_PATH;
   if (!configuredPath && process.env.NODE_ENV === 'production') {
-    return Response.json({ message: 'Inquiries are temporarily unavailable. Please email us directly.' }, { status: 503 });
+    if (!process.env.RESEND_API_KEY) {
+      return Response.json({ message: 'Inquiries are temporarily unavailable. Please email us directly.' }, { status: 503 });
+    }
+    try {
+      await notifyInbox(inquiry);
+      return Response.json({ received: true }, { status: 201 });
+    } catch {
+      console.error('Resend could not deliver the inquiry.');
+      return Response.json({ message: 'We couldn’t send your inquiry. Please try again or email us directly.' }, { status: 502 });
+    }
   }
 
   let db;
