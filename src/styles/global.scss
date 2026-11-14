@@ -55,7 +55,7 @@ footer {
   text-align: center;
 }
 
-body:has(#home) > footer {
+body:has(#home, .contact-footer-divider) > footer {
   margin-top: 0;
 }
 
@@ -104,6 +104,23 @@ section {
   align-items: center;
   overflow-x: hidden;
   overflow-y: hidden;
+}
+
+#home .home-page-section {
+  box-sizing: border-box;
+  display: flex;
+  height: auto;
+  min-height: 88svh;
+  padding-block: clamp(64px, 10svh, 110px);
+}
+
+.about-layout {
+  align-items: center;
+}
+
+.about-portrait {
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 
 section {

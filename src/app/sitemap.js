@@ -21,6 +21,7 @@ export default function sitemap() {
   return [
     { url: `${SITE_URL}/`, ...siteModified },
     { url: `${SITE_URL}/portfolio`, ...siteModified },
+    { url: `${SITE_URL}/contact` },
     ...projectUrls,
   ];
 }

@@ -14,14 +14,14 @@ export default function Companies({ children }) {
             <InViewAnimationTwo
               rootMargin="-25% 0%"
               className="init-invisible" animation={undefined} duration={undefined} delay={undefined} fillmode={undefined} easing={undefined} iteration={undefined} threshold={undefined}            >
-              <h3 className="margin-top-0">Businesses I&apos;ve Worked With</h3>
+              <h3 className="margin-top-0">Selected Experience</h3>
             </InViewAnimationTwo>
             <InViewAnimationTwo
               rootMargin="-25% 0%"
               className="init-invisible"
               delay="delay-250ms" animation={undefined} duration={undefined} fillmode={undefined} easing={undefined} iteration={undefined} threshold={undefined}            >
               <p>
-                Direct employment, agency work, contract, and B2B services.
+                Organizations Billy has supported through employment, agency work, and direct client engagements.
               </p>
             </InViewAnimationTwo>
               <div className="bg-white padding-40 border-r-7 border-width-4 border-solid border-color-gray-1 small-padding-25" >

@@ -13,11 +13,13 @@ import Header from '../components/header';
 import { jsonLd, SITE_URL } from './seo';
 
 
+const title = 'Design & Development Agency | Billy Mitchell Design';
+const description = 'Baltimore design and development agency building websites, Shopify stores, custom web applications, and workflow automations, alongside brand identity design.';
+
 export async function generateMetadata() {
   return {
-    title: 'Billy Mitchell Design & Development',
-    description: 'Creative web design, development, and digital solutions by Billy Mitchell. Specializing in front-end development, e-commerce, and graphic design.',
-    keywords: ['Billy Mitchell', 'Web Design', 'Web Development', 'E-commerce', 'Front-end Development', 'Graphic Design', 'Next.js'],
+    title,
+    description,
     authors: [
       { name: 'Billy Mitchell', url: 'https://billymitchell.design' },
     ],
@@ -25,8 +27,8 @@ export async function generateMetadata() {
       canonical: `${SITE_URL}/`,
     },
     openGraph: {
-      title: 'Billy Mitchell Design & Development',
-      description: 'Explore creative web design and development solutions by Billy Mitchell. Specializing in front-end development, e-commerce platforms, and more.',
+      title,
+      description,
       url: `${SITE_URL}/`,
       siteName: 'Billy Mitchell Design & Development',
       images: [
@@ -42,8 +44,8 @@ export async function generateMetadata() {
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Billy Mitchell Design & Development',
-      description: 'Creative web design, development, and digital solutions by Billy Mitchell.',
+      title,
+      description,
       images: ['/files/open-graph.png'], // Replace with your actual Twitter card image URL
     },
     icons: {
@@ -124,7 +126,7 @@ const structuredData = {
       '@id': `${SITE_URL}/#billy-mitchell`,
       name: 'Billy Mitchell',
       url: `${SITE_URL}/`,
-      jobTitle: 'Multidisciplinary Designer',
+      jobTitle: 'Creative Director and Technical Lead',
       image:
         'https://res.cloudinary.com/billymitchell/image/upload/f_auto,q_auto,c_limit,w_800/home/PhotoByMicahEWood-156-web.jpg',
       address: {
@@ -154,16 +156,11 @@ export default function Home() {
     <Header page={"home"}/>
     <ParallaxProviderWrapper>
       <div id="home">
-        {/* Order must match the from/to pairs on each SectionTransition */}
         <Homesplash />
-        <Services>
-          <FetchServices />
-        </Services>
+        <Services><FetchServices /></Services>
         <FullStack />
         <Tools />
-        <Companies>
-          <FetchCompanies />
-        </Companies>
+        <Companies><FetchCompanies /></Companies>
         <About />
         {/* <ContactSection /> */}
       </div>

@@ -71,6 +71,21 @@ header {
 }
 
 //Home Page Layout
+header.home {
+    background: transparent;
+    transition: background-color 240ms ease;
+}
+
+header.home[data-scrolled="true"], header.contact {
+    background: rgba(10, 16, 14, 0.93);
+}
+
+header.home #menu-items a:hover,
+header.home #menu-items a:focus-visible {
+    color: #fff;
+    text-decoration: underline;
+}
+
 header.home .header-main-container {
     align-items: center;
     gap: clamp(6px, 2vw, 24px);

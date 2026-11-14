@@ -1,25 +1,22 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import BrandMark from './BrandMark';
-//import React, { useEffect, useState } from 'react';
-import Link from 'next/link'
-//import { usePathname } from 'next/navigation';
 
-const Header = ({page}) => {
-    // const [isHome, setIsHome] = useState(false);
-    // const pathname = usePathname();
+const Header = ({ page }) => {
+    const [scrolled, setScrolled] = useState(false);
 
-    // useEffect(() => {
-    //     const checkIfHome = () => {
-    //         setIsHome(pathname === '/');
-    //     };
-
-    //     // Check on initial load and whenever pathname changes
-    //     checkIfHome();
-    // }, [pathname]);
-
-
+    useEffect(() => {
+        if (page !== 'home') return;
+        const update = () => setScrolled(window.scrollY > 24);
+        update();
+        window.addEventListener('scroll', update, { passive: true });
+        return () => window.removeEventListener('scroll', update);
+    }, [page]);
 
     return (
-            <header className={page}>
+            <header className={page} data-scrolled={scrolled}>
                 <div className="outer-container">
                 <div className="gradient-top"></div>
                     <div className="inner-width header-main-container">
@@ -28,23 +25,11 @@ const Header = ({page}) => {
                             <BrandMark />
                         </Link>
                   
-                        <ul id="menu-items" >
-                       
-                            <li>
-                                <a data-scroll href="/#contact">
-                                    <small>Contact</small>
-                                </a>
-                            </li>
-                            <li>
-                                <Link href="/portfolio">
-                                    <small>Portfolio</small>
-                                </Link>
-                            </li>
-                            <li>
-                                <a href="/files/Billy-Mitchell-Resume-Design-2026.pdf" target='_blank' rel="noreferrer">
-                                    <small>Resume</small>
-                                </a>
-                            </li>
+                        <ul id="menu-items">
+                            <li><Link href="/#services"><small>Services</small></Link></li>
+                            <li><Link href="/portfolio"><small>Work</small></Link></li>
+                            <li><Link href="/#about"><small>About</small></Link></li>
+                            <li><Link href="/contact"><small>Start a Project</small></Link></li>
                         </ul>
                     </div>
                 </div>

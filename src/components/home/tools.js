@@ -42,7 +42,7 @@ const Tools = () => {
                 rootMargin="-25% 0%"
                 className="init-invisible"
               >
-                <h3>Methods of Action</h3>
+                <h3>Design and Development Tools</h3>
               </InViewAnimationTwo>
               <InViewAnimationTwo
                 rootMargin="-25% 0%"
@@ -50,8 +50,7 @@ const Tools = () => {
                 className="init-invisible"
               >
                 <p>
-                  Here are some of the tools, technologies and applications I use to
-                  bring ideas to life.
+                  Our team uses these tools for interface design, development, and production.
               </p>
               </InViewAnimationTwo>
 

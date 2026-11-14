@@ -25,7 +25,7 @@ const FullStack = () => {
                 duration="time-1000ms"
                 delay="delay-0ms"
               >
-                <h3>My Perspective</h3>
+                <h3>Our Approach</h3>
               </InViewAnimationTwo>
               <InViewAnimationTwo
                 rootMargin="-25% 0%"
@@ -35,7 +35,7 @@ const FullStack = () => {
                 delay="delay-0ms"
               >
                 <p>
-                I have a breadth of design skills in many areas with a depth of skills in User Interface Design, Flier Design and Branding. 
+                We start by understanding what your customers and team need. That informs what we design, what we build, and how we evaluate the result.
               </p>
               </InViewAnimationTwo>
 

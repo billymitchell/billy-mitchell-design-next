@@ -3,11 +3,14 @@
 
 .video-wrapper-home {
     --hero-divider-height: clamp(104px, 19vw, 300px);
-    height: 100vh;
+    min-height: 100svh;
     width: 100%;
     overflow: hidden;
     position: relative;
-    display: block;
+    display: grid;
+    align-items: center;
+    padding-block: 85px 100px;
+    box-sizing: border-box;
     background-image: url("https://res.cloudinary.com/billymitchell/image/upload/fl_lossy,q_auto,f_auto/home/ezgif-1-4acdfd5cf4_opvc85");
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,35 +33,47 @@
 }
 
 .overlay-content {
-    top: 50%;
-    left: 50%;
-    width: 100vw;
-    position: absolute;
-    transform: translate(-50%, -35%);
+    position: relative;
+    width: 100%;
     color: #fff;
+    text-shadow: 0 2px 12px #000;
 }
 
-.scroll-down-overlay {
+
+.home-scroll-link {
     position: absolute;
-    // No fade here: the hero divider handles the transition into the next
-    // section, and a gradient this high up left a hard-edged dark band.
-    width: 100%;
     bottom: clamp(68px, 11vw, 190px);
     z-index: 1;
-    height: 75px;
-    display: flex;
-    justify-content: center;
-}
-
-.scroll-down-overlay img {
-    position: absolute;
-    width: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
 }
 
 @media (prefers-reduced-motion: reduce) {
     .home-hero-media {
         inset: 0;
     }
+}
+
+.video-wrapper-home .overlay-content h1 {
+    font-size: clamp(1.75rem, 5vw, 4rem);
+    line-height: 1.1;
+}
+
+.video-wrapper-home .overlay-content p {
+    max-width: 42rem;
+    margin-inline: auto;
+}
+
+.home-hero-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 .section-transition {
@@ -87,8 +102,6 @@
     inset: auto 0 0;
     height: var(--hero-divider-height);
     margin: 0;
-    // Sit above the video and the scroll-arrow gradient (z-index: 1)
-    z-index: 2;
 }
 
 

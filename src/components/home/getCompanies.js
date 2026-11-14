@@ -18,6 +18,9 @@ const FetchCompanies = function () {
   // Render featured companies
   return (
     <div className="companies-container grid-container col-5 col-gap-60 small-col-3 small-col-gap-25">
+      <div className="flex">
+        <img className="companies fluid justify-self-center align-self-center" src="/companies/Centricity.svg" alt="Centricity" loading="lazy" decoding="async" />
+      </div>
       {featuredCompanies.map((portfolio_item, index) => (
         <InViewAnimationTwo
         key={portfolio_item.id}

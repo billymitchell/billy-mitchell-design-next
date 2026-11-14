@@ -25,9 +25,9 @@ const About = () => {
                   rootMargin="-25% 0%"
                   className="init-invisible"
                 >
-                  <h3>I&apos;m Billy Mitchell, a multidisciplinary designer from Baltimore Maryland.</h3>
+                  <h2>About the Agency</h2>
                 </InViewAnimationTwo>
-                <div className="grid-container col-1-2 col-gap-30 small-col-1">
+                <div className="grid-container col-1-2 col-gap-30 small-col-1 about-layout">
                   <div className="align-self-center">
 
                     <InViewAnimationTwo
@@ -45,7 +45,7 @@ const About = () => {
                           reverse: true,
                         }}
                       >
-                        <img className="border-box fluid clip-circular padding-6 border-r-full bg-gradient max-width-60vw center" src="https://res.cloudinary.com/billymitchell/image/upload/f_auto,q_auto,c_limit,w_800/home/PhotoByMicahEWood-156-web.jpg" alt="Billy Mitchell headshot" loading="lazy" decoding="async" />
+                        <img className="border-box fluid about-portrait clip-circular padding-6 border-r-full bg-gradient max-width-60vw center" src="/files/billy-mitchell-portrait.jpg" alt="Billy Mitchell outdoors" loading="lazy" decoding="async" />
                       </Tilt>
                     </InViewAnimationTwo>
                   </div>
@@ -54,16 +54,18 @@ const About = () => {
                     animationdelay="delay-500ms"
                     className="init-invisible"
                   >
-                     <p>
-                      I am a designer with {new Date().getFullYear() - 2012}+ years of experience who operates the agency Billy Mitchell Design. I contract on an ongoing basis in addition to availability as a full-time employee. I&apos;ve worked with everyone from small businesses to fortune 500 companies. I apply design thinking, leverage human-centered design principles, and build solutions to complex problems. I&apos;ve obtained a BFA in Design from the University of Maryland, Baltimore County and went to Baltimore School for the Arts for high school where I studied visual arts.<br />
-                      <br />
-                      Accomplishments Include<br />
-                      </p>
-                      <ul>
-                        <li>Publication of the Baltimore Love Project Book (Layout Designer)</li>
-                        <li>Illustration published in the Baltimore City Paper</li>
-                        <li>Obtaining the Baltimore Midtown Development Award (Assistant Muralist)</li>
-                      </ul>
+                    <p>
+                      Billy Mitchell Design &amp; Development is a Baltimore-based agency. Billy leads creative direction and technical delivery, from the first conversations about what you need through design, development, and launch.
+                    </p>
+                    <p>
+                      Our team designs brand identities and builds websites, Shopify storefronts, and custom applications. We also connect the tools businesses already use through APIs and workflow automation.
+                    </p>
+                    <p>
+                      Billy brings experience in graphic design and full-stack development, including building and maintaining e-commerce stores and developing custom integrations at Centricity.
+                    </p>
+                    <p>
+                      <a href="/files/Billy-Mitchell-Resume-Design-2026.pdf">View Billy Mitchell’s résumé</a>
+                    </p>
                   </InViewAnimationTwo>
                 </div>
               </div>
