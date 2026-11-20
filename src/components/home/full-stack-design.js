@@ -14,7 +14,7 @@ const FullStack = () => {
   return (
     <>
       <SectionTransition index={1} from="services" to="approach" />
-      <section id="full-stack" className="home-page-section bg-black mobile-height-fluid small-padding-top-100 small-padding-bottom-100 midsize-padding-bottom-100 midsize-padding-top-100">
+      <section id="full-stack" className="home-page-section bg-ink mobile-height-fluid small-padding-top-100 small-padding-bottom-100 midsize-padding-bottom-100 midsize-padding-top-100">
         <div className="outer-container">
           <div className="inner-width-1000">
             <Parallax disabled={parallaxDisabledState} y={[-30, 30]} x={[0, 0]}>
@@ -25,7 +25,7 @@ const FullStack = () => {
                 duration="time-1000ms"
                 delay="delay-0ms"
               >
-                <h3>Our Approach</h3>
+                <h2 className="section-title" data-eyebrow="02 — How we work">Our Approach</h2>
               </InViewAnimationTwo>
               <InViewAnimationTwo
                 rootMargin="-25% 0%"
@@ -39,7 +39,7 @@ const FullStack = () => {
               </p>
               </InViewAnimationTwo>
 
-              <h4>AI-assisted. Human-directed.</h4>
+              <h3 className="section-subtitle">AI-assisted. Human-directed.</h3>
               <p>
                 We use AI to explore more directions and move faster from idea to prototype. We set the creative direction, choose what’s worth developing, and refine the work before it reaches you. We make the final decisions.
               </p>

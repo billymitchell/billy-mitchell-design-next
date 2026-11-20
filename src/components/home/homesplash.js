@@ -3,6 +3,7 @@ import { useEffect, useRef } from 'react';
 import Script from 'next/script';
 import BrandMark from '../BrandMark';
 import SectionTransition from './SectionTransition';
+import GrainGradient from './GrainGradient';
 import Link from 'next/link';
 
 const Homesplash = () => {
@@ -31,19 +32,7 @@ const Homesplash = () => {
         strategy="afterInteractive"
       />
       <div className="home-hero-media" ref={mediaRef}>
-        <video
-          className="homepage-video-file"
-          crossOrigin="anonymous"
-          autoPlay={true}
-          muted={true}
-          loop={true}
-          playsInline={true}
-          id="homepage-video-file"
-        >
-          <source
-            src="https://res.cloudinary.com/billymitchell/video/upload/f_auto,vc_auto/home/Billy-Mitchell-Design-Home-Video_zgl0dp"
-          ></source>
-        </video>
+        <GrainGradient />
       </div>
       <div className="overlay-content">
         <div className="outer-container">
@@ -60,7 +49,16 @@ const Homesplash = () => {
             </div>
             {/* CSS-only entrance: the LCP text never waits on JavaScript */}
             <div className="fade-in-up time-1000ms delay-0ms forwards ease-in-out-quad loop-1">
-              <h1 className="text-center">Design and development for brands, websites, and applications</h1>
+              <h1 className="text-center">
+                Design and development for{' '}
+                <span className="hero-brush">
+                  brands
+                  <svg className="hero-brush__stroke" viewBox="0 0 200 18" preserveAspectRatio="none" aria-hidden="true">
+                    <path d="M4 12 C 38 6, 82 4, 126 6 S 186 11, 196 6" pathLength="1" />
+                  </svg>
+                </span>
+                , websites, and applications
+              </h1>
             </div>
             <div className="fade-in-up time-1000ms delay-250ms forwards ease-in-out-quad loop-1">
               <p className="text-center">

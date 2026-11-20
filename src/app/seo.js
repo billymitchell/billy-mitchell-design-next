@@ -1,5 +1,6 @@
 export const SITE_URL = 'https://billymitchell.design';
-export const SITE_NAME = 'Billy Mitchell Design & Development';
+export const SITE_NAME = 'Billy Mitchell Design'; // public brand (DBA)
+export const LEGAL_NAME = 'Mitchell Design LLC';
 export const OG_IMAGE = '/files/open-graph.png';
 
 // The one and only slug function. Used for links, static params, the sitemap,

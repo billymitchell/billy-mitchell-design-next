@@ -11,7 +11,7 @@ export default function Services({ children }) {
   return (
     <section
       id="services"
-      className="home-page-section bg-green-dark-3 small-padding-top-50 small-padding-bottom-50 midsize-padding-bottom-100 midsize-padding-top-100"
+      className="home-page-section bg-bone small-padding-top-50 small-padding-bottom-50 midsize-padding-bottom-100 midsize-padding-top-100"
     >
       <div className="outer-container">
         <div className="inner-width-1000">
@@ -21,7 +21,7 @@ export default function Services({ children }) {
               delay="delay-0ms"
               className="init-invisible"
             >
-              <h2>Services</h2>
+              <h2 className="section-title" data-eyebrow="01 — What we do">Services</h2>
             </InViewAnimationTwo>
             <div className="services-container grid-container col-2 small-col-1">
               {children}

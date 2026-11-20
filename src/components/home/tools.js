@@ -8,24 +8,29 @@ import { Parallax } from "react-scroll-parallax"
 import Image from 'next/image'
 
 // Images
-import AIchip from "../../../public/tools/AIchip.svg"
+import ChatGPT from "../../../public/tools/chatgpt.svg"
+import Claude from "../../../public/tools/claude.svg"
 import AfterEffects from "../../../public/tools/AfterEffects.svg"
 import Illustrator from "../../../public/tools/Illustrator.svg"
 import InDesign from "../../../public/tools/InDesign.svg"
 import LeftRight from "../../../public/tools/lef-right.svg"
 import Photoshop from "../../../public/tools/photoshop.svg"
 import Sketching from "../../../public/tools/sketching.png"
-import XD from "../../../public/tools/xd.svg"
+import Figma from "../../../public/tools/figma.svg"
+import Canva from "../../../public/tools/canva.svg"
 
+// Ordered like the process: sketch → design → motion/UI → AI assist → the mindset tying it together
 const toolImages = [
-  { src: AIchip, alt: "AI chip" },
-  { src: AfterEffects, alt: "After Effects" },
-  { src: Illustrator, alt: "Illustrator" },
-  { src: InDesign, alt: "InDesign" },
-  { src: LeftRight, alt: "Left Right" },
-  { src: Photoshop, alt: "Photoshop" },
-  { src: Sketching, alt: "Sketching" },
-  { src: XD, alt: "XD" },
+  { src: Sketching, alt: "Hand sketching" },
+  { src: Illustrator, alt: "Adobe Illustrator" },
+  { src: Photoshop, alt: "Adobe Photoshop" },
+  { src: InDesign, alt: "Adobe InDesign" },
+  { src: AfterEffects, alt: "Adobe After Effects" },
+  { src: Figma, alt: "Figma", bright: true },
+  { src: Canva, alt: "Canva", bright: true },
+  { src: Claude, alt: "Claude", bright: true },
+  { src: ChatGPT, alt: "ChatGPT" },
+  { src: LeftRight, alt: "Creative + technical thinking" },
 ];
 
 const Tools = () => {
@@ -34,7 +39,7 @@ const Tools = () => {
   return (
     <>
       <SectionTransition index={2} from="approach" to="tools" />
-      <section id="tech-stack" className="home-page-section bg-white small-padding-top-50 small-padding-bottom-50 midsize-padding-bottom-100 midsize-padding-top-100">
+      <section id="tech-stack" className="home-page-section bg-bone small-padding-top-50 small-padding-bottom-50 midsize-padding-bottom-100 midsize-padding-top-100">
         <div className="outer-container">
           <div className="inner-width-1000">
             <Parallax disabled={parallaxDisabledState} y={[-30, 30]} x={[0, 0]}>
@@ -42,7 +47,7 @@ const Tools = () => {
                 rootMargin="-25% 0%"
                 className="init-invisible"
               >
-                <h3>Design and Development Tools</h3>
+                <h2 className="section-title" data-eyebrow="03 — Toolkit">Design and Development Tools</h2>
               </InViewAnimationTwo>
               <InViewAnimationTwo
                 rootMargin="-25% 0%"
@@ -62,11 +67,14 @@ const Tools = () => {
                     delay={`delay-${500 + index * 250}ms`}
                     className="init-invisible"
                   >
-                    <Image
-                      src={tool.src}
-                      alt={tool.alt}
-                      className="fluid"
-                    />
+                    <figure className={`tool-item${tool.bright ? ' tool-item--bright' : ''}`} tabIndex={0}>
+                      <Image
+                        src={tool.src}
+                        alt={tool.alt}
+                        className="fluid"
+                      />
+                      <figcaption className="tool-label" aria-hidden="true">{tool.alt}</figcaption>
+                    </figure>
                   </InViewAnimationTwo>
                 ))}
               </div>

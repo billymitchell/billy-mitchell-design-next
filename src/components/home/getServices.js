@@ -2,7 +2,7 @@ const services = [
   {
     title: 'Web Design & E-commerce',
     iconPath: 'M8 7l-5 5 5 5m8-10 5 5-5 5m-3-13-2 16',
-    description: 'Launch a new website, redesign an existing one, or extend your Shopify store. We design and build responsive websites, custom themes, and storefront features.',
+    description: 'Launch a new website, redesign an existing one, or extend your online store. We design and build responsive websites, custom themes, and storefront features on Shopify, BigCommerce, and specialized platforms like OrderMyGear.',
   },
   {
     title: 'Applications & Internal Tools',
@@ -23,7 +23,7 @@ const services = [
 
 export default function FetchServices() {
   return services.map(({ title, iconPath, description }) => (
-    <article key={title} className="service padding-top-30 padding-bottom-30 padding-left-20 padding-right-20 border border-solid border-width-1 border-color-white bg-green-dark-4">
+    <article key={title} className="service padding-top-30 padding-bottom-30 padding-left-20 padding-right-20 border border-solid border-width-1 bg-paper">
       <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <path d={iconPath} />
       </svg>

@@ -6,15 +6,17 @@ import Services from '../components/home/Services';
 import FetchServices from '../components/home/getServices';
 //import ContactSection from "../components/home/contact-section";
 import Companies from '../components/home/Companies';
+import Testimonials from '../components/home/Testimonials';
 import FetchCompanies from '../components/home/getCompanies';
 import ParallaxProviderWrapper from '../components/utilities/ParallaxProviderWrapper';
 // app/page.js
 import Header from '../components/header';
-import { jsonLd, SITE_URL } from './seo';
+import { jsonLd, LEGAL_NAME, OG_IMAGE, SITE_NAME, SITE_URL } from './seo';
+import { GOOGLE_BUSINESS_URL, LINKEDIN_COMPANY_URL } from '../components/utilities/siteLinks';
 
 
 const title = 'Design & Development Agency | Billy Mitchell Design';
-const description = 'Baltimore design and development agency building websites, Shopify stores, custom web applications, and workflow automations, alongside brand identity design.';
+const description = 'Baltimore design and development agency building websites, e-commerce stores, custom web applications, and workflow automations, alongside brand identity design.';
 
 export async function generateMetadata() {
   return {
@@ -30,7 +32,7 @@ export async function generateMetadata() {
       title,
       description,
       url: `${SITE_URL}/`,
-      siteName: 'Billy Mitchell Design & Development',
+      siteName: SITE_NAME,
       images: [
         {
           url: '/files/open-graph.png', // Replace with your actual Open Graph image URL
@@ -112,6 +114,28 @@ export async function generateMetadata() {
   // style 404 page
   // add analytics
 
+const BUSINESS_ID = `${SITE_URL}/#business`;
+const PERSON_ID = `${SITE_URL}/#billy-mitchell`;
+
+const services = [
+  {
+    name: 'Web Design & E-commerce',
+    description: 'Responsive websites and e-commerce storefronts on Shopify, BigCommerce, and specialized platforms like OrderMyGear (OMG), including custom themes and storefront features.',
+  },
+  {
+    name: 'Applications & Internal Tools',
+    description: 'Custom web applications and internal tools built around how a team works.',
+  },
+  {
+    name: 'Automation & API Integrations',
+    description: 'Custom APIs, microservices, and workflow automation that connect the tools a business already uses.',
+  },
+  {
+    name: 'Brand Identity',
+    description: 'Logos, color palettes, and typography that work across websites, storefronts, and marketing materials.',
+  },
+];
+
 const structuredData = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -119,11 +143,58 @@ const structuredData = {
       '@type': 'WebSite',
       '@id': `${SITE_URL}/#website`,
       url: `${SITE_URL}/`,
-      name: 'Billy Mitchell Design & Development',
+      name: SITE_NAME,
+      publisher: { '@id': BUSINESS_ID },
+    },
+    {
+      '@type': 'ProfessionalService',
+      '@id': BUSINESS_ID,
+      name: SITE_NAME,
+      legalName: LEGAL_NAME,
+      alternateName: 'Billy Mitchell Design & Development',
+      description,
+      url: `${SITE_URL}/`,
+      image: `${SITE_URL}${OG_IMAGE}`,
+      email: 'hello@billymitchell.design',
+      telephone: '+1-443-765-8265',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Baltimore',
+        addressRegion: 'MD',
+        addressCountry: 'US',
+      },
+      areaServed: [
+        { '@type': 'City', name: 'Baltimore', containedInPlace: { '@type': 'State', name: 'Maryland' } },
+        { '@type': 'State', name: 'Maryland' },
+        { '@type': 'Country', name: 'United States' },
+      ],
+      founder: { '@id': PERSON_ID },
+      knowsAbout: [
+        'Brand identity design',
+        'Web design',
+        'Shopify',
+        'BigCommerce',
+        'WooCommerce',
+        'OrderMyGear (OMG)',
+        'E-commerce development',
+        'Custom web applications',
+        'API integrations',
+        'Workflow automation',
+      ],
+      hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Design and development services',
+        itemListElement: services.map((service) => ({
+          '@type': 'Offer',
+          itemOffered: { '@type': 'Service', ...service, provider: { '@id': BUSINESS_ID } },
+        })),
+      },
+      // Profiles that belong to the business itself (personal profiles live on the Person below)
+      sameAs: [GOOGLE_BUSINESS_URL, LINKEDIN_COMPANY_URL].filter(Boolean),
     },
     {
       '@type': 'Person',
-      '@id': `${SITE_URL}/#billy-mitchell`,
+      '@id': PERSON_ID,
       name: 'Billy Mitchell',
       url: `${SITE_URL}/`,
       jobTitle: 'Creative Director and Technical Lead',
@@ -136,7 +207,7 @@ const structuredData = {
         addressCountry: 'US',
       },
       alumniOf: 'University of Maryland, Baltimore County',
-      worksFor: { '@type': 'Organization', name: 'Billy Mitchell Design LLC' },
+      worksFor: { '@id': BUSINESS_ID },
       sameAs: [
         'https://www.linkedin.com/in/billymitchelldesign/',
         'https://github.com/billymitchell',
@@ -161,6 +232,7 @@ export default function Home() {
         <FullStack />
         <Tools />
         <Companies><FetchCompanies /></Companies>
+        <Testimonials />
         <About />
         {/* <ContactSection /> */}
       </div>

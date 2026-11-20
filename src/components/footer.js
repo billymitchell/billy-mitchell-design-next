@@ -1,4 +1,5 @@
 import GetCurrentDate from "./utilities/getcurrentdate"
+import { GOOGLE_BUSINESS_URL } from './utilities/siteLinks';
 
 const Icon = ({ children }) => (
     <svg
@@ -61,6 +62,15 @@ const Footer = () => {
                         </Icon>
                     </a>
 
+                    {GOOGLE_BUSINESS_URL && (
+                        <a target="_blank" href={GOOGLE_BUSINESS_URL} rel="noreferrer" aria-label="Google Business Profile and reviews">
+                            <Icon>
+                                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </Icon>
+                        </a>
+                    )}
+
                     <a target="_blank" href="https://github.com/billymitchell" rel="noreferrer" aria-label="GitHub">
                         <Icon>
                             <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
@@ -69,10 +79,9 @@ const Footer = () => {
                     </div>
                     <div className="footer-bottom">
                         <small>
-                            Made with <span style={{ color: "red" }}>♥</span> on a rock in
-                            space
+                            Made with <span aria-label="love" role="img" style={{ color: "red" }}>♥</span> in Baltimore, Maryland, U.S.A.
                             <br />
-                            Copyright © <GetCurrentDate /> Billy Mitchell Design LLC
+                            Copyright © <GetCurrentDate /> Mitchell Design LLC
                             <br />
                         </small>
                         <span className="block padding-5">

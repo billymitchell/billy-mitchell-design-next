@@ -1,38 +1,83 @@
 @import "../styles/colors";
 
+// Refined buttons: quiet ghost by default, one confident primary.
+// Ghost uses currentColor so it adapts to dark and light sections.
 button, a.button {
-  padding: 10px 15px;
-  background-color: $transparent;
-  color: $white;
-  border-radius: 5px;
-  border: 1px solid $white;
-  font-size: 15px;
-  box-sizing: content-box;
-  transition: all 0.25s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6em;
+  padding: 0.95em 1.75em;
+  background-color: transparent;
+  color: inherit;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, currentColor 32%, transparent);
+  font-size: 0.8125rem;
+  line-height: 1;
+  box-sizing: border-box;
   text-transform: uppercase;
-  font-variation-settings: "wght"600;
-  letter-spacing: 1px;
+  font-variation-settings: "wght" 650;
+  font-weight: 650;
+  letter-spacing: 0.12em;
   text-decoration: none;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 
   &:hover {
-    background-color: $gray-1;
-    color: $white;
-    cursor: pointer;
+    background-color: color-mix(in srgb, currentColor 8%, transparent);
+    border-color: color-mix(in srgb, currentColor 70%, transparent);
+    color: inherit;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $accent-light;
+    outline-offset: 3px;
   }
 }
 
+// Primary: inverted bone pill with a small arrow that nudges on hover.
 button.primary, a.button-primary {
-  background-color: $brand;
-  border: 1px solid $white;
+  background-color: $bone;
+  border-color: $bone;
+  color: $ink;
+
+  &::after {
+    content: "→";
+    font-size: 1.15em;
+    letter-spacing: 0;
+    transition: transform 0.3s ease;
+  }
 
   &:hover {
-    background-color: $brand-dark-5;
-    color: $white;
+    background-color: #fff;
+    border-color: #fff;
+    color: $ink;
+  }
+
+  &:hover::after {
+    transform: translateX(3px);
+  }
+}
+
+// On light sections the primary flips to ink.
+.bg-bone, .bg-stone, .bg-paper, .bg-white {
+  & a.button-primary, & button.primary {
+    background-color: $ink;
+    border-color: $ink;
+    color: $bone;
+
+    &:hover {
+      background-color: $ink-3;
+      border-color: $ink-3;
+      color: $bone;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  button.primary:hover::after, a.button-primary:hover::after {
+    transform: none;
   }
 }
 
