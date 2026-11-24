@@ -301,7 +301,7 @@
 }
 
 .delay-1550ms {
-  animation-delay: 1500ms;
+  animation-delay: 1550ms;
 }
 
 .delay-1600ms {
@@ -422,4 +422,16 @@
 
 .loop-3 {
   animation-iteration-count: 3;
+}
+// Reduced motion: scroll reveals become a plain fade, with no travel.
+@media (prefers-reduced-motion: reduce) {
+  .fade-in-up,
+  .fade-in-up-small {
+    animation-name: reveal-fade;
+  }
+}
+
+@keyframes reveal-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

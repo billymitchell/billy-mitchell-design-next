@@ -5,32 +5,29 @@ import React from "react"
 import useParallaxDisabled from "../utilities/useParallaxDisabled"
 import InViewAnimationTwo from "../utilities/InViewAnimationTwo.js"
 import { Parallax } from "react-scroll-parallax"
-import Image from 'next/image'
 
-// Images
-import ChatGPT from "../../../public/tools/chatgpt.svg"
-import Claude from "../../../public/tools/claude.svg"
-import AfterEffects from "../../../public/tools/AfterEffects.svg"
-import Illustrator from "../../../public/tools/Illustrator.svg"
-import InDesign from "../../../public/tools/InDesign.svg"
-import LeftRight from "../../../public/tools/lef-right.svg"
-import Photoshop from "../../../public/tools/photoshop.svg"
-import Sketching from "../../../public/tools/sketching.png"
-import Figma from "../../../public/tools/figma.svg"
-import Canva from "../../../public/tools/canva.svg"
+// Our own marks, drawn in the same 24px line style as the Services icons.
+const SketchIcon = () => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M15 3l4 4L8.5 17.5h-4v-4z" />
+    <path d="M13 5l4 4" />
+    <path d="M4 21c2.5-1.6 4.5-1.6 6.5-.4s4 1.2 6.5-.4 3.5-1 3.5-1" />
+  </svg>
+)
 
-// Ordered like the process: sketch → design → motion/UI → AI assist → the mindset tying it together
-const toolImages = [
-  { src: Sketching, alt: "Hand sketching" },
-  { src: Illustrator, alt: "Adobe Illustrator" },
-  { src: Photoshop, alt: "Adobe Photoshop" },
-  { src: InDesign, alt: "Adobe InDesign" },
-  { src: AfterEffects, alt: "Adobe After Effects" },
-  { src: Figma, alt: "Figma", bright: true },
-  { src: Canva, alt: "Canva", bright: true },
-  { src: Claude, alt: "Claude", bright: true },
-  { src: ChatGPT, alt: "ChatGPT" },
-  { src: LeftRight, alt: "Creative + technical thinking" },
+// Brand marks are shown in one colour (their own artwork, recoloured) and
+// reveal their brand colours on hover. `scale` evens out optical size.
+const tools = [
+  { label: "Sketching", icon: <SketchIcon /> },
+  { label: "Illustrator", mono: "/tools/mono/Illustrator.svg", color: "/tools/Illustrator.svg", scale: 0.86 },
+  { label: "Photoshop", mono: "/tools/mono/photoshop.svg", color: "/tools/photoshop.svg", scale: 0.86 },
+  { label: "InDesign", mono: "/tools/mono/InDesign.svg", color: "/tools/InDesign.svg", scale: 0.86 },
+  { label: "After Effects", mono: "/tools/mono/AfterEffects.svg", color: "/tools/AfterEffects.svg", scale: 0.86 },
+  { label: "Figma", mono: "/tools/figma.svg", color: "/tools/figma.svg", scale: 1.05 },
+  { label: "Canva", mono: "/tools/canva.svg", color: "/tools/canva.svg", scale: 0.92 },
+  { label: "Claude", mono: "/tools/claude.svg", color: "/tools/claude.svg", scale: 1 },
+  { label: "ChatGPT", mono: "/tools/chatgpt.svg", color: "/tools/chatgpt.svg", scale: 1 },
+  { label: "GitHub", mono: "/tools/github.svg", color: "/tools/github.svg", scale: 0.92 },
 ];
 
 const Tools = () => {
@@ -59,25 +56,30 @@ const Tools = () => {
               </p>
               </InViewAnimationTwo>
 
-              <div className="teck-stack-container grid-container col-6 col-gap-30 small-col-4 small-col-gap-20">
-                {toolImages.map((tool, index) => (
+              <ul className="tool-grid" role="list">
+                {tools.map((tool, index) => (
                   <InViewAnimationTwo
-                    key={tool.alt}
+                    key={tool.label}
+                    as="li"
                     rootMargin="-25% 0%"
-                    delay={`delay-${500 + index * 250}ms`}
+                    // 150ms stagger keeps all ten within the delay classes (max 2250ms).
+                    delay={`delay-${500 + index * 150}ms`}
                     className="init-invisible"
                   >
-                    <figure className={`tool-item${tool.bright ? ' tool-item--bright' : ''}`} tabIndex={0}>
-                      <Image
-                        src={tool.src}
-                        alt={tool.alt}
-                        className="fluid"
-                      />
-                      <figcaption className="tool-label" aria-hidden="true">{tool.alt}</figcaption>
+                    <figure className={`tool-tile${tool.icon ? ' tool-tile--own' : ''}`}>
+                      <span className="tool-tile__box" style={{ '--mark-scale': tool.scale ?? 1 }}>
+                        {tool.icon ?? (
+                          <>
+                            <span className="tool-tile__mono" style={{ '--mark': `url(${tool.mono})` }} aria-hidden="true" />
+                            <img className="tool-tile__color" src={tool.color} alt="" loading="lazy" decoding="async" />
+                          </>
+                        )}
+                      </span>
+                      <figcaption className="tool-tile__label">{tool.label}</figcaption>
                     </figure>
                   </InViewAnimationTwo>
                 ))}
-              </div>
+              </ul>
             </Parallax>
           </div>
         </div>
@@ -87,60 +89,3 @@ const Tools = () => {
 }
 
 export default Tools
-
-
-{/* <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-850ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/photoshop-cc_tudva9"
-                    alt="Adobe PS"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-900ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Adobe_Illustrator_CC_icon_rp6dnl"
-                    alt="Adobe IL"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-950ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Adobe_After_Effects_CC_icon_ej67ez"
-                    alt="Adobe AE"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-1000ms"
-                  className="init-invisible"
-                >
-
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/Adobe_Premiere_Pro_Logo_ceowzq"
-                    alt="Adobe PP"
-                  />
-                </InViewAnimationTwo>
-                <InViewAnimationTwo
-                  rootMargin="-25% 0%"
-                  delay="delay-1050ms"
-                  className="init-invisible"
-                >
-                  <img
-                    className="fluid"
-                    src="https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/tech-stack/adobe-xd-logo-svg-vector-01_zw1khl"
-                    alt="Adobe XD"
-                  /></InViewAnimationTwo> */}

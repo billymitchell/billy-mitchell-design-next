@@ -65,12 +65,14 @@ export default function Testimonials() {
             </div>
 
             {GOOGLE_REVIEW_URL && (
-              <div className="testimonials-more">
-                <p className="testimonials-more__prompt">Worked with us? We’d love to hear how it went.</p>
-                <a className="button" href={GOOGLE_REVIEW_URL} target="_blank" rel="noopener noreferrer">
-                  Leave a Google review<span aria-hidden="true">↗</span>
-                </a>
-              </div>
+              <InViewAnimationTwo rootMargin="-25% 0%" delay="delay-250ms" className="init-invisible">
+                <div className="testimonials-more">
+                  <p className="testimonials-more__prompt">Worked with us? We’d love to hear how it went.</p>
+                  <a className="button" href={GOOGLE_REVIEW_URL} target="_blank" rel="noopener noreferrer">
+                    Leave a Google review<span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </InViewAnimationTwo>
             )}
           </div>
         </div>

@@ -11,7 +11,8 @@ const services = [
   },
   {
     title: 'Automation & API Integrations',
-    iconPath: 'M3 4h6v6H3zm12 10h6v6h-6zM9 7h5a4 4 0 0 1 4 4v3m-3-3 3 3 3-3',
+    // Cycle arrows around a lightning bolt: work that runs itself.
+    iconPath: 'M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8M21 3v5h-5M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16M8 16H3v5M13 7l-4 5.5h6L11 17',
     description: 'Connect the systems you already use and reduce manual work. We build custom APIs and microservices for tasks such as validating credentials, syncing product data, and automating order and shipping workflows.',
   },
   {
@@ -21,14 +22,23 @@ const services = [
   },
 ];
 
+import InViewAnimationTwo from '../utilities/InViewAnimationTwo.js';
+
 export default function FetchServices() {
-  return services.map(({ title, iconPath, description }) => (
-    <article key={title} className="service padding-top-30 padding-bottom-30 padding-left-20 padding-right-20 border border-solid border-width-1 bg-paper">
-      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-        <path d={iconPath} />
-      </svg>
-      <h3 className="margin-top-20">{title}</h3>
-      <p>{description}</p>
-    </article>
+  return services.map(({ title, iconPath, description }, index) => (
+    <InViewAnimationTwo
+      key={title}
+      rootMargin="-25% 0%"
+      delay={`delay-${250 + index * 150}ms`}
+      className="init-invisible service-reveal"
+    >
+      <article className="service padding-top-30 padding-bottom-30 padding-left-20 padding-right-20 border border-solid border-width-1 bg-paper">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <path d={iconPath} />
+        </svg>
+        <h3 className="margin-top-20">{title}</h3>
+        <p>{description}</p>
+      </article>
+    </InViewAnimationTwo>
   ));
 }

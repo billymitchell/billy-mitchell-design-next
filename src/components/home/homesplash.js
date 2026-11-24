@@ -10,6 +10,16 @@ const Homesplash = () => {
   const heroRef = useRef(null);
   const mediaRef = useRef(null);
   const introRef = useRef(null);
+  const scrollCueRef = useRef(null);
+
+  // The scroll cue has done its job once the visitor starts scrolling.
+  useEffect(() => {
+    const cue = scrollCueRef.current;
+    const update = () => cue.toggleAttribute('data-hidden', window.scrollY > 40);
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+    return () => window.removeEventListener('scroll', update);
+  }, []);
 
   useEffect(() => {
     const player = introRef.current;
@@ -72,8 +82,9 @@ const Homesplash = () => {
           </div>
         </div>
       </div>
-      <a className="home-scroll-link" href="#services" aria-label="Scroll to services">
-        <svg width="26" height="18" viewBox="0 0 26 18" fill="none" aria-hidden="true">
+      <a className="home-scroll-link" ref={scrollCueRef} href="#services" aria-label="Scroll to services">
+        <span className="home-scroll-link__label" aria-hidden="true">Scroll</span>
+        <svg className="home-scroll-link__chevron" width="22" height="14" viewBox="0 0 26 18" fill="none" aria-hidden="true">
           <path d="m2 3 11 11L24 3" stroke="currentColor" strokeWidth="2" />
         </svg>
       </a>

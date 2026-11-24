@@ -3,13 +3,17 @@
 
 .video-wrapper-home {
     --hero-divider-height: clamp(104px, 19vw, 300px);
+    --hero-scroll-bottom: clamp(68px, 11vw, 190px);
+    --hero-scroll-size: 48px;
     min-height: 100svh;
     width: 100%;
     overflow: hidden;
     position: relative;
     display: grid;
     align-items: center;
-    padding-block: 85px 100px;
+    // Bottom padding reserves the scroll arrow's band so the centred
+    // content (and its buttons) can never slide underneath it.
+    padding-block: 85px calc(var(--hero-scroll-bottom) + var(--hero-scroll-size) + 24px);
     box-sizing: border-box;
     // Painted fallback (and first paint) before the WebGL canvas fades in.
     background-color: $brand-dark-5;
@@ -61,15 +65,67 @@
 
 .home-scroll-link {
     position: absolute;
-    bottom: clamp(68px, 11vw, 190px);
+    bottom: var(--hero-scroll-bottom);
     z-index: 1;
     left: 50%;
     transform: translateX(-50%);
     color: #fff;
-    display: grid;
-    place-items: center;
-    width: 44px;
-    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    min-width: 44px;
+    height: var(--hero-scroll-size);
+    text-decoration: none;
+    opacity: 0.85;
+    transition: opacity 0.3s ease;
+
+    &:hover,
+    &:focus-visible {
+        opacity: 1;
+    }
+
+    &[data-hidden] {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    &__label {
+        font-size: 0.6875rem;
+        font-weight: 600;
+        line-height: 1;
+        letter-spacing: 0.22em;
+        // Balance the trailing letter-spacing so the word sits centred.
+        margin-right: -0.22em;
+        text-transform: uppercase;
+        text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    &__chevron {
+        display: block;
+        filter: drop-shadow(0 1px 6px rgba(0, 0, 0, 0.5));
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    // A slow downward drift that fades out, then resets: reads as "keep going".
+    .home-scroll-link__chevron {
+        animation: home-scroll-cue 2.2s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+    }
+
+    .home-scroll-link:hover .home-scroll-link__chevron,
+    .home-scroll-link:focus-visible .home-scroll-link__chevron {
+        animation-duration: 1.4s;
+    }
+}
+
+@keyframes home-scroll-cue {
+    // Travel stays inside the link box so it never dips toward the divider.
+    0% { transform: translateY(-6px); opacity: 0; }
+    25% { opacity: 1; }
+    70% { transform: translateY(2px); opacity: 1; }
+    100% { transform: translateY(4px); opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -96,27 +152,38 @@
 }
 
 .section-transition {
+    --transition-from: transparent;
+    --transition-to: transparent;
     display: block;
     width: 100%;
     height: clamp(90px, 14vw, 220px);
     margin-bottom: -1px;
     pointer-events: none;
+    fill: var(--transition-to);
+    // The SVG's bottom edge often lands on a fractional pixel, and the
+    // antialiased last row lets the "from" colour bleed through as a hairline.
+    // Painting the bottom 2px of the background in the "to" colour hides it.
+    background: linear-gradient(
+        to bottom,
+        var(--transition-from) calc(100% - 2px),
+        var(--transition-to) calc(100% - 2px)
+    );
 }
 
-.section-transition[data-from="services"] { background: $bone; }
-.section-transition[data-from="approach"] { background: $ink; }
-.section-transition[data-from="tools"] { background: $bone; }
-.section-transition[data-from="experience"] { background: $ink-2; }
-.section-transition[data-from="about"] { background: $stone; }
-.section-transition[data-from="testimonials"] { background: $bone; }
+.section-transition[data-from="services"] { --transition-from: #{$bone}; }
+.section-transition[data-from="approach"] { --transition-from: #{$ink}; }
+.section-transition[data-from="tools"] { --transition-from: #{$bone}; }
+.section-transition[data-from="experience"] { --transition-from: #{$ink-2}; }
+.section-transition[data-from="about"] { --transition-from: #{$stone}; }
+.section-transition[data-from="testimonials"] { --transition-from: #{$bone}; }
 
-.section-transition[data-to="services"] { fill: $bone; }
-.section-transition[data-to="approach"] { fill: $ink; }
-.section-transition[data-to="tools"] { fill: $bone; }
-.section-transition[data-to="experience"] { fill: $ink-2; }
-.section-transition[data-to="about"] { fill: $stone; }
-.section-transition[data-to="testimonials"] { fill: $bone; }
-.section-transition[data-to="contact"] { fill: $brand-dark-5; }
+.section-transition[data-to="services"] { --transition-to: #{$bone}; }
+.section-transition[data-to="approach"] { --transition-to: #{$ink}; }
+.section-transition[data-to="tools"] { --transition-to: #{$bone}; }
+.section-transition[data-to="experience"] { --transition-to: #{$ink-2}; }
+.section-transition[data-to="about"] { --transition-to: #{$stone}; }
+.section-transition[data-to="testimonials"] { --transition-to: #{$bone}; }
+.section-transition[data-to="contact"] { --transition-to: #{$brand-dark-5}; }
 
 .section-transition--hero {
     position: absolute;
@@ -204,94 +271,117 @@
     to { stroke-dashoffset: 0; }
 }
 
-// Tools: quiet monochrome icons that reveal their color on hover.
-.teck-stack-container {
-    align-items: center;
-    justify-items: center;
+// Tools: one tile per tool. Brand marks in a single ink colour, sized by eye,
+// that reveal their brand colours on hover; our own marks in line style.
+.tool-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: clamp(20px, 3vw, 32px) clamp(12px, 2.5vw, 28px);
+    margin: clamp(24px, 4vw, 40px) 0 0;
+    padding: 0;
+    list-style: none;
 
-    img {
-        width: 100%;
-        max-width: 84px;
-        height: auto;
-        filter: grayscale(100%) contrast(0.9) brightness(1.05);
-        mix-blend-mode: multiply;
-        opacity: 0.55;
-        transition: filter 0.4s ease, opacity 0.4s ease, transform 0.4s ease;
-    }
+    @media (max-width: 650px) {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
 
-    .tool-item {
-        position: relative;
-        margin: 0;
-        display: grid;
-        justify-items: center;
-        outline: none;
-        cursor: default;
-    }
-
-    // Bright, colorful marks go pale in grayscale; darken them to match the others.
-    .tool-item--bright img {
-        filter: grayscale(100%) brightness(0.55) contrast(1.15);
-    }
-
-    .tool-item:hover img,
-    .tool-item:focus-visible img {
-        filter: none;
-        opacity: 1;
-        transform: translateY(-2px);
-    }
-
-    .tool-item:focus-visible {
-        outline: 2px solid $accent-ink;
-        outline-offset: 6px;
-        border-radius: 6px;
-    }
-
-    // Small dark label that floats in above the icon.
-    .tool-label {
-        position: absolute;
-        bottom: calc(100% + 10px);
-        left: 50%;
-        z-index: 2;
-        padding: 6px 10px;
-        border-radius: 6px;
-        background: $ink;
-        color: $bone;
-        font-size: 0.8rem;
-        font-weight: 600;
-        line-height: 1.2;
-        letter-spacing: 0.01em;
-        white-space: nowrap;
-        pointer-events: none;
-        opacity: 0;
-        transform: translate(-50%, 4px);
-        transition: opacity 0.25s ease, transform 0.25s ease;
-
-        &::after {
-            content: "";
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            border: 5px solid transparent;
-            border-top-color: $ink;
+        // A lone tile on the last row sits in the middle column.
+        > li:last-child:nth-child(3n + 1) {
+            grid-column: 2;
         }
     }
 
-    .tool-item:hover .tool-label,
-    .tool-item:focus-visible .tool-label {
-        opacity: 1;
-        transform: translate(-50%, 0);
+    > li {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.tool-tile {
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+
+    &__box {
+        --tile-mark: 46%;
+        position: relative;
+        display: grid;
+        place-items: center;
+        width: 100%;
+        max-width: 96px;
+        aspect-ratio: 1;
+        box-sizing: border-box;
+        border: 1px solid $line-dark;
+        border-radius: 16px;
+        background: $paper;
+        color: color-mix(in srgb, $ink 78%, transparent);
+        transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    }
+
+    // Brand mark as a one-colour silhouette of the brand's own artwork.
+    &__mono,
+    &__color {
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        width: calc(var(--tile-mark) * var(--mark-scale, 1));
+        height: calc(var(--tile-mark) * var(--mark-scale, 1));
+        transition: opacity 0.3s ease;
+    }
+
+    &__mono {
+        background-color: currentColor;
+        -webkit-mask: var(--mark) center / contain no-repeat;
+        mask: var(--mark) center / contain no-repeat;
+    }
+
+    &__color {
+        object-fit: contain;
+        opacity: 0;
+    }
+
+    // Our own line icons.
+    &__box > svg {
+        width: calc(var(--tile-mark) * 1.12);
+        height: calc(var(--tile-mark) * 1.12);
+    }
+
+    &__label {
+        font-size: 0.75rem;
+        font-weight: 650;
+        line-height: 1.25;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: color-mix(in srgb, $ink 72%, transparent);
+    }
+
+    @media (hover: hover) {
+        &:hover &__box {
+            transform: translateY(-3px);
+            border-color: color-mix(in srgb, $ink 25%, transparent);
+            box-shadow: 0 10px 24px -12px rgba(15, 21, 18, 0.35);
+        }
+
+        &:hover &__mono {
+            opacity: 0;
+        }
+
+        &:hover &__color {
+            opacity: 1;
+        }
+
+        &--own:hover &__box {
+            color: $accent;
+        }
     }
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .teck-stack-container .tool-item img,
-    .teck-stack-container .tool-label {
-        transform: translate(-50%, 0);
-        transition: opacity 0.25s ease;
+    .tool-tile__box {
+        transition: none;
     }
 
-    .teck-stack-container .tool-item img {
+    .tool-tile:hover .tool-tile__box {
         transform: none;
     }
 }
@@ -583,5 +673,50 @@
     .testimonials-grid .testimonial__context {
         min-height: calc(3 * 1.35em);
         line-height: 1.35;
+    }
+}
+
+// ---- Services ----
+// Each card sits in a reveal wrapper; let the card fill the grid cell
+// so neighbouring cards stay equal height.
+.service-reveal {
+    display: flex;
+
+    > .service {
+        flex: 1;
+        box-sizing: border-box;
+    }
+}
+
+// A section's closing call to action
+.section-cta {
+    margin-top: clamp(32px, 5vw, 56px);
+}
+
+// ---- Selected Experience: Centricity highlight ----
+.experience-highlight {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px clamp(20px, 3vw, 32px);
+    // Centre the figure against the whole paragraph, not its first line.
+    align-items: center;
+    margin-top: clamp(24px, 4vw, 40px);
+    padding-top: clamp(24px, 4vw, 40px);
+    border-top: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+
+    @media (max-width: 600px) {
+        grid-template-columns: 1fr;
+    }
+
+    &__stat {
+        font-size: clamp(2.25rem, 5vw, 3.25rem);
+        font-weight: 800;
+        line-height: 1;
+        letter-spacing: -0.03em;
+    }
+
+    #home &__text {
+        margin: 0;
+        max-width: 56ch;
     }
 }

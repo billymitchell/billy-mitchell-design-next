@@ -29,12 +29,13 @@ const InViewAnimation = ({
   iteration = Defaults.iteration,
   rootMargin,
   threshold,
+  as = "div",
   children,
 }) => {
   return (
     // react-intersection-observer component
     <InView
-      as="div"
+      as={as}
       className={className}
       rootMargin={rootMargin}
       threshold={threshold}

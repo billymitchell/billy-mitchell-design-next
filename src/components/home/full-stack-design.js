@@ -21,7 +21,6 @@ const FullStack = () => {
               <InViewAnimationTwo
                 rootMargin="-25% 0%"
                 className="init-invisible"
-                animation="fade-in-up-small"
                 duration="time-1000ms"
                 delay="delay-0ms"
               >
@@ -30,19 +29,29 @@ const FullStack = () => {
               <InViewAnimationTwo
                 rootMargin="-25% 0%"
                 className="init-invisible"
-                animation="fade-in-up-small"
                 duration="time-1000ms"
-                delay="delay-0ms"
+                delay="delay-250ms"
               >
                 <p>
                 We start by understanding what your customers and team need. That informs what we design, what we build, and how we evaluate the result.
               </p>
               </InViewAnimationTwo>
 
-              <h3 className="section-subtitle">AI-assisted. Human-directed.</h3>
-              <p>
-                We use AI to explore more directions and move faster from idea to prototype. We set the creative direction, choose what’s worth developing, and refine the work before it reaches you. We make the final decisions.
-              </p>
+              <InViewAnimationTwo
+                rootMargin="-25% 0%"
+                className="init-invisible"
+              >
+                <h3 className="section-subtitle">Made by hand. Sharpened with AI.</h3>
+              </InViewAnimationTwo>
+              <InViewAnimationTwo
+                rootMargin="-25% 0%"
+                className="init-invisible"
+                delay="delay-250ms"
+              >
+                <p>
+                  Every project starts with people: sketches, conversations, and design decisions made by hand. Billy and our team shape the ideas, the visual direction, and the details that make the work feel like yours. AI is one of our tools. We use it to speed up repetitive tasks and test more options, but it never replaces taste, judgment, or the final call.
+                </p>
+              </InViewAnimationTwo>
 
               <div className="fullstack-container">
                 <div className="ux">
@@ -57,7 +66,6 @@ const FullStack = () => {
                   <InViewAnimationTwo
                     rootMargin="-25% 0%"
                     className="init-invisible"
-                    animation="fade-in-up-small"
                     duration="time-1000ms"
                     delay="delay-0ms"
                   >
@@ -68,14 +76,13 @@ const FullStack = () => {
                   <InViewAnimationTwo
                     rootMargin="-25% 0%"
                     className="init-invisible"
-                    animation="fade-in-up-small"
                     duration="time-1000ms"
                     delay="delay-250ms"
                   >
                     <p>
-                      Strategy<br />
+                      Conversations<br />
                       Research<br />
-                      Outcome Driven
+                      Sketching by hand
                       </p>
                   </InViewAnimationTwo>
                   <InViewAnimationTwo
@@ -99,7 +106,6 @@ const FullStack = () => {
                   <InViewAnimationTwo
                     rootMargin="-25% 0%"
                     className="init-invisible"
-                    animation="fade-in-up-small"
                     duration="time-1000ms"
                     delay="delay-1000ms"
                   >
@@ -110,7 +116,6 @@ const FullStack = () => {
                   <InViewAnimationTwo
                     rootMargin="-25% 0%"
                     className="init-invisible"
-                    animation="fade-in-up-small"
                     duration="time-1000ms"
                     delay="delay-1250ms"
                   >
@@ -141,7 +146,6 @@ const FullStack = () => {
                   <InViewAnimationTwo
                     rootMargin="-25% 0%"
                     className="init-invisible"
-                    animation="fade-in-up-small"
                     duration="time-1000ms"
                     delay="delay-2000ms"
                   >
@@ -152,13 +156,12 @@ const FullStack = () => {
                   <InViewAnimationTwo
                     rootMargin="-25% 0%"
                     className="init-invisible"
-                    animation="fade-in-up-small"
                     duration="time-1000ms"
                     delay="delay-2250ms"
                   >
                     <p>
-                      How does this make you feel?<br />
-                      What is the result?<br />
+                      Work that feels like you<br />
+                      Measurable results
                     </p>
                   </InViewAnimationTwo>
                   <InViewAnimationTwo

@@ -26,11 +26,13 @@ export default function Services({ children }) {
             <div className="services-container grid-container col-2 small-col-1">
               {children}
             </div>
-            <p className="margin-top-20">
-              <strong>Selected development experience</strong><br />
-              At Centricity, Billy helped build and maintain more than 40 active client e-commerce stores and built custom APIs for credential validation and an international redemption program.
-            </p>
-            <a href="/portfolio">View design and development work</a>
+            <InViewAnimationTwo
+              rootMargin="-25% 0%"
+              delay="delay-250ms"
+              className="init-invisible section-cta"
+            >
+              <a className="button button-primary" href="/portfolio">View Our Work</a>
+            </InViewAnimationTwo>
           </ParallaxWrapper>
         </div>
       </div>

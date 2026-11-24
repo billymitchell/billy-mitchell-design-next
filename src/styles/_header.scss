@@ -57,8 +57,10 @@ header {
     text-transform: uppercase;
 }
 
-#menu-items a:hover {
-    color: #000000;
+#menu-items a:hover,
+#menu-items a:focus-visible {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .menu-item-active {
@@ -122,4 +124,203 @@ header.home #menu-items li {
 
 #portfolio {
     margin-top: 122px;
+}
+
+// ---- Navigation, call to action and phone menu ----
+.header-main-container {
+    align-items: center;
+}
+
+.site-nav {
+    flex: 1;
+    min-width: 0;
+}
+
+// "Start a Project": an outlined pill so the main action stands apart
+// from the plain links, without competing with the hero's solid button.
+.header-cta {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-left: clamp(10px, 1.6vw, 22px);
+    padding: 0.85em 1.35em;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 999px;
+    color: #fff;
+    font-size: $small-font-size;
+    font-weight: 650;
+    font-variation-settings: "wght" 650;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+
+    &::after {
+        content: "→";
+        font-size: 1.15em;
+        letter-spacing: 0;
+        transition: transform 0.25s ease;
+    }
+
+    &:hover,
+    &:focus-visible {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.12);
+        border-color: #fff;
+    }
+
+    &:hover::after {
+        transform: translateX(3px);
+    }
+
+    &:focus-visible {
+        outline: 2px solid $accent-light;
+        outline-offset: 3px;
+    }
+
+    // Already on the contact page: fill it in to show where you are.
+    &[aria-current="page"] {
+        background-color: $bone;
+        border-color: $bone;
+        color: $ink;
+
+        &::after {
+            content: none;
+        }
+    }
+}
+
+// The menu button only appears on phones. Reset the global button styles.
+header .menu-toggle {
+    display: none;
+    flex: none;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    margin-left: 4px;
+    margin-right: -10px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: #fff;
+    letter-spacing: normal;
+
+    &:hover {
+        background: transparent;
+        color: #fff;
+    }
+
+    @media (hover: hover) {
+        &:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+    }
+
+    svg {
+        display: block;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .header-cta:hover::after {
+        transform: none;
+    }
+}
+
+@media (max-width: 640px) {
+    // Compact bar: small logo, the pill, and the menu button.
+    header[data-menu] .header-main-container {
+        gap: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    header[data-menu] .logo {
+        flex: 0 0 40px;
+        width: 40px;
+        margin-right: auto;
+    }
+
+    header[data-menu] .logo svg {
+        max-width: 40px;
+    }
+
+    header[data-menu] .site-nav {
+        flex: none;
+    }
+
+    header[data-menu] .header-cta {
+        margin-left: 0;
+        padding: 0.8em 1.1em;
+    }
+
+    header .menu-toggle {
+        display: grid;
+    }
+
+    // The panel drops down from the bar, full width.
+    header[data-menu] #menu-items {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: auto;
+        margin: 0;
+        padding: 4px 24px 20px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        background: rgba(10, 16, 14, 0.97);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    header[data-menu="open"] #menu-items {
+        display: flex;
+    }
+
+    header[data-menu] #menu-items li {
+        padding: 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+        &:first-child {
+            border-top: 0;
+        }
+    }
+
+    header[data-menu] #menu-items a {
+        display: block;
+        padding: 16px 0;
+    }
+
+    header[data-menu] #menu-items small {
+        display: block;
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.2;
+        font-weight: 650;
+        letter-spacing: 0.08em;
+    }
+
+    // Give the bar a solid background while the menu is open, even over the hero.
+    header[data-menu="open"],
+    header.home[data-menu="open"] {
+        background: rgba(10, 16, 14, 0.97);
+    }
+}
+
+@media (max-width: 640px) and (prefers-reduced-motion: no-preference) {
+    header[data-menu="open"] #menu-items {
+        animation: menu-panel-in 0.2s ease-out;
+    }
+}
+
+@keyframes menu-panel-in {
+    from { opacity: 0; transform: translateY(-6px); }
+    to { opacity: 1; transform: translateY(0); }
 }

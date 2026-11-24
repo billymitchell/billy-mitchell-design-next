@@ -104,17 +104,17 @@ const About = () => {
                   </div>
                   <InViewAnimationTwo
                     rootMargin="-25% 0%"
-                    animationdelay="delay-500ms"
+                    delay="delay-250ms"
                     className="init-invisible"
                   >
                     <p>
-                      Billy Mitchell Design is a Baltimore-based design and development agency. Billy leads creative direction and technical delivery, from the first conversations about what you need through design, development, and launch.
+                      Billy Mitchell Design is a design and development agency based in Baltimore. We help businesses plan, design, and build the brands, websites, and software they run on.
                     </p>
                     <p>
-                      Our team designs brand identities and builds websites, e-commerce storefronts, and custom applications. We also connect the tools businesses already use through APIs and workflow automation.
+                      Our team designs brand identities and builds websites, e-commerce storefronts, and custom applications. We also connect the tools you already use through APIs and workflow automation, so your systems work together instead of creating extra work.
                     </p>
                     <p>
-                      Billy brings experience in graphic design and full-stack development, including building and maintaining e-commerce stores and developing custom integrations at Centricity.
+                      Every project is led by Billy Mitchell, our creative and technical lead. Because one person guides both the design and the build, from the first conversation through launch, nothing gets lost in the handoff. Billy’s background spans graphic design and full-stack development, including building and maintaining e-commerce stores and custom integrations at Centricity.
                     </p>
                     <p>
                       <a href="/files/Billy-Mitchell-Resume-Design-2026.pdf">View Billy Mitchell’s résumé</a>

@@ -24,9 +24,22 @@ export default function Companies({ children }) {
                 Organizations Billy has supported through employment, agency work, and direct client engagements.
               </p>
             </InViewAnimationTwo>
-              <div className="bg-paper padding-40 border-r-7 small-padding-25" >
-                {children}
+            {/* The logos reveal one by one inside the panel. */}
+            <div className="bg-paper padding-40 border-r-7 small-padding-25" >
+              {children}
+            </div>
+            <InViewAnimationTwo
+              rootMargin="-25% 0%"
+              className="init-invisible"
+              delay="delay-250ms"
+            >
+              <div className="experience-highlight">
+                <span className="experience-highlight__stat">40+</span>
+                <p className="experience-highlight__text">
+                  Active client e-commerce stores Billy helped build and maintain at Centricity, alongside custom APIs for credential validation and an international redemption program.
+                </p>
               </div>
+            </InViewAnimationTwo>
           </div>
         </div>
       </section>
